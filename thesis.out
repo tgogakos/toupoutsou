@@ -1,0 +1,83 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Workload-cognizant, cross-layer impact analysis approach}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Cross-layer impact analysis methodology}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Error detection and correction for microprocessor control logic}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Weak-spot assessment and robustness resource allocation prioritization}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Parity selection for in-core memory arrays protection}{section.1.2}% 7
+\BOOKMARK [0][-]{chapter.2}{Impact analysis methodology}{}% 8
+\BOOKMARK [1][-]{section.2.1}{Introduction}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{Test Vehicle}{chapter.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.1}{Microprocessor Model and Functional Simulator}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.2}{Capabilities and Limitations}{section.2.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Enhanced Simulation Infrastructure}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.3.1}{Capabilities}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.2}{Main Components}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.3}{Simulation Flow}{section.2.3}% 16
+\BOOKMARK [1][-]{section.2.4}{Instruction Level Errors}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.4.1}{ILE Groups \046 Types}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.2}{Classification of Low-Level Faults as ILE Types}{section.2.4}% 19
+\BOOKMARK [1][-]{section.2.5}{Experiments}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.5.1}{Experimental Setup}{section.2.5}% 21
+\BOOKMARK [2][-]{subsection.2.5.2}{Results and Analysis}{section.2.5}% 22
+\BOOKMARK [1][-]{section.2.6}{Conclusions}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Error detection and correction for microprocessor control logic}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{CED for CPU controllers}{chapter.3}% 26
+\BOOKMARK [2][-]{subsection.3.2.1}{Introduction}{section.3.2}% 27
+\BOOKMARK [2][-]{subsection.3.2.2}{Related Work}{section.3.2}% 28
+\BOOKMARK [2][-]{subsection.3.2.3}{Scheduler Module}{section.3.2}% 29
+\BOOKMARK [2][-]{subsection.3.2.4}{Scheduler CED Scheme}{section.3.2}% 30
+\BOOKMARK [2][-]{subsection.3.2.5}{Results and Analysis}{section.3.2}% 31
+\BOOKMARK [2][-]{subsection.3.2.6}{Conclusion}{section.3.2}% 32
+\BOOKMARK [1][-]{section.3.3}{CED for FPU controllers}{chapter.3}% 33
+\BOOKMARK [2][-]{subsection.3.3.1}{Introduction}{section.3.3}% 34
+\BOOKMARK [2][-]{subsection.3.3.2}{Error detection in FPUs}{section.3.3}% 35
+\BOOKMARK [2][-]{subsection.3.3.3}{Floating point arithmetic}{section.3.3}% 36
+\BOOKMARK [2][-]{subsection.3.3.4}{Proposed CED Method}{section.3.3}% 37
+\BOOKMARK [2][-]{subsection.3.3.5}{FPU CED implementation}{section.3.3}% 38
+\BOOKMARK [2][-]{subsection.3.3.6}{Experimental setup}{section.3.3}% 39
+\BOOKMARK [2][-]{subsection.3.3.7}{FPU CED evaluation}{section.3.3}% 40
+\BOOKMARK [2][-]{subsection.3.3.8}{Conclusion}{section.3.3}% 41
+\BOOKMARK [0][-]{chapter.4}{Weak-spot assessment and resilience resource allocation prioritization}{}% 42
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 43
+\BOOKMARK [1][-]{section.4.2}{Ranking based on AVF}{chapter.4}% 44
+\BOOKMARK [1][-]{section.4.3}{Ranking based on GSV}{chapter.4}% 45
+\BOOKMARK [1][-]{section.4.4}{Study Infrastructure}{chapter.4}% 46
+\BOOKMARK [2][-]{subsection.4.4.1}{Microprocessor Models}{section.4.4}% 47
+\BOOKMARK [2][-]{subsection.4.4.2}{GSV Infrastructure}{section.4.4}% 48
+\BOOKMARK [2][-]{subsection.4.4.3}{Modules and workload}{section.4.4}% 49
+\BOOKMARK [2][-]{subsection.4.4.4}{Generating ranked lists}{section.4.4}% 50
+\BOOKMARK [1][-]{section.4.5}{Experimental Results}{chapter.4}% 51
+\BOOKMARK [2][-]{subsection.4.5.1}{Positional comparison of ranked lists}{section.4.5}% 52
+\BOOKMARK [2][-]{subsection.4.5.2}{Coverage comparison of ranked lists}{section.4.5}% 53
+\BOOKMARK [2][-]{subsection.4.5.3}{Simulation times}{section.4.5}% 54
+\BOOKMARK [2][-]{subsection.4.5.4}{Discussion}{section.4.5}% 55
+\BOOKMARK [1][-]{section.4.6}{Conclusion}{chapter.4}% 56
+\BOOKMARK [0][-]{chapter.5}{Selective parity for in-core memory arrays}{}% 57
+\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 58
+\BOOKMARK [1][-]{section.5.2}{Selective Parity}{chapter.5}% 59
+\BOOKMARK [2][-]{subsection.5.2.1}{Simple Algorithm}{section.5.2}% 60
+\BOOKMARK [1][-]{section.5.3}{Formulation of parity optimization ILP}{chapter.5}% 61
+\BOOKMARK [2][-]{subsection.5.3.1}{ILP formulation}{section.5.3}% 62
+\BOOKMARK [2][-]{subsection.5.3.2}{Formulating cost function}{section.5.3}% 63
+\BOOKMARK [2][-]{subsection.5.3.3}{Converting function to linear}{section.5.3}% 64
+\BOOKMARK [1][-]{section.5.4}{Experimental setup}{chapter.5}% 65
+\BOOKMARK [2][-]{subsection.5.4.1}{Modeling language}{section.5.4}% 66
+\BOOKMARK [2][-]{subsection.5.4.2}{ILP Solver}{section.5.4}% 67
+\BOOKMARK [2][-]{subsection.5.4.3}{In-core memory arrays}{section.5.4}% 68
+\BOOKMARK [2][-]{subsection.5.4.4}{MBU Fault model}{section.5.4}% 69
+\BOOKMARK [1][-]{section.5.5}{Parity optimization results}{chapter.5}% 70
+\BOOKMARK [2][-]{subsection.5.5.1}{MWVF reduction for various configurations}{section.5.5}% 71
+\BOOKMARK [2][-]{subsection.5.5.2}{Parity overhead}{section.5.5}% 72
+\BOOKMARK [2][-]{subsection.5.5.3}{Comparison to algorithm}{section.5.5}% 73
+\BOOKMARK [1][-]{section.5.6}{Vulnerability-based Interleaving}{chapter.5}% 74
+\BOOKMARK [2][-]{subsection.5.6.1}{VBI algorithm}{section.5.6}% 75
+\BOOKMARK [1][-]{section.5.7}{VBI performance and Discussion}{chapter.5}% 76
+\BOOKMARK [2][-]{subsection.5.7.1}{VBI performance}{section.5.7}% 77
+\BOOKMARK [2][-]{subsection.5.7.2}{VBI overhead}{section.5.7}% 78
+\BOOKMARK [1][-]{section.5.8}{Conclusion}{chapter.5}% 79
+\BOOKMARK [0][-]{chapter.6}{Future Directions}{}% 80
+\BOOKMARK [1][-]{section.6.1}{Robustness in the multi-core domain}{chapter.6}% 81
+\BOOKMARK [1][-]{section.6.2}{Hardware security and forensics}{chapter.6}% 82
+\BOOKMARK [1][-]{section.6.3}{Post-silicon diagnosis}{chapter.6}% 83

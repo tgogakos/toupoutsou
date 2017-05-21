@@ -1,0 +1,118 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Workload-cognizant, cross-layer impact analysis approach}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Cross-layer impact analysis methodology}{5}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Error detection and correction for microprocessor control logic}{6}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Weak-spot assessment and robustness resource allocation prioritization}{7}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Parity selection for in-core memory arrays protection}{7}{subsection.1.2.4}
+\contentsline {chapter}{\numberline {2}Impact analysis methodology}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Test Vehicle}{11}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Microprocessor Model and Functional Simulator}{11}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Capabilities and Limitations}{12}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}Enhanced Simulation Infrastructure}{13}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Capabilities}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Main Components}{14}{subsection.2.3.2}
+\contentsline {subsubsection}{Fault Injection Tools}{14}{section*.5}
+\contentsline {subsubsection}{Functional Simulator}{15}{section*.6}
+\contentsline {subsubsection}{Microprocessor Model}{16}{section*.7}
+\contentsline {subsubsection}{Fault Controller}{16}{section*.8}
+\contentsline {subsubsection}{Fault Injection}{18}{section*.9}
+\contentsline {subsection}{\numberline {2.3.3}Simulation Flow}{20}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Instruction Level Errors}{22}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}ILE Groups \& Types}{23}{subsection.2.4.1}
+\contentsline {subsubsection}{Group 1: Operation Errors}{23}{section*.10}
+\contentsline {subsubsection}{Group 2: Operand Errors}{24}{section*.11}
+\contentsline {subsubsection}{Group 3: Execution Errors}{24}{section*.12}
+\contentsline {subsubsection}{Group 4: Timing Errors}{25}{section*.13}
+\contentsline {subsubsection}{Group 5: Order Errors}{25}{section*.14}
+\contentsline {subsection}{\numberline {2.4.2}Classification of Low-Level Faults as ILE Types}{26}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Experiments}{28}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Experimental Setup}{29}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Results and Analysis}{31}{subsection.2.5.2}
+\contentsline {subsubsection}{Instruction-Level impact of RT-Level stuck-at faults}{32}{section*.15}
+\contentsline {subsubsection}{Impact comparison of RT- vs. Gate-Level faults}{38}{section*.16}
+\contentsline {subsubsection}{Impact comparison of stuck-at vs. transient faults}{42}{section*.17}
+\contentsline {section}{\numberline {2.6}Conclusions}{43}{section.2.6}
+\contentsline {chapter}{\numberline {3}Error detection and correction for microprocessor control logic}{45}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{45}{section.3.1}
+\contentsline {section}{\numberline {3.2}CED for CPU controllers}{46}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Introduction}{46}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Related Work}{47}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Scheduler Module}{49}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Scheduler CED Scheme}{50}{subsection.3.2.4}
+\contentsline {subsubsection}{Predicting Instruction Execution Time \& Place}{54}{section*.18}
+\contentsline {subsection}{\numberline {3.2.5}Results and Analysis}{57}{subsection.3.2.5}
+\contentsline {subsubsection}{Fault Activation Profile}{58}{section*.19}
+\contentsline {subsubsection}{CED Effectiveness}{59}{section*.20}
+\contentsline {subsubsection}{Impact Analysis Utility}{62}{section*.21}
+\contentsline {subsubsection}{Other CED Properties}{65}{section*.22}
+\contentsline {subsection}{\numberline {3.2.6}Conclusion}{68}{subsection.3.2.6}
+\contentsline {section}{\numberline {3.3}CED for FPU controllers}{69}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introduction}{69}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Error detection in FPUs}{71}{subsection.3.3.2}
+\contentsline {subsubsection}{Datapath}{71}{section*.23}
+\contentsline {subsubsection}{Control logic}{72}{section*.24}
+\contentsline {subsection}{\numberline {3.3.3}Floating point arithmetic}{72}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Proposed CED Method}{74}{subsection.3.3.4}
+\contentsline {subsubsection}{Calculating the exponent}{75}{section*.25}
+\contentsline {subsubsection}{Sign calculation and flags}{77}{section*.26}
+\contentsline {subsubsection}{Error recovery}{78}{section*.27}
+\contentsline {subsection}{\numberline {3.3.5}FPU CED implementation}{79}{subsection.3.3.5}
+\contentsline {subsubsection}{Test vehicle}{79}{section*.28}
+\contentsline {subsubsection}{Implementing CED}{82}{section*.29}
+\contentsline {subsection}{\numberline {3.3.6}Experimental setup}{87}{subsection.3.3.6}
+\contentsline {subsubsection}{Experiment flow}{87}{section*.30}
+\contentsline {subsubsection}{Hardware synthesis}{89}{section*.31}
+\contentsline {subsubsection}{Control duplication}{90}{section*.32}
+\contentsline {subsection}{\numberline {3.3.7}FPU CED evaluation}{92}{subsection.3.3.7}
+\contentsline {subsubsection}{FPU error impact analysis}{92}{section*.33}
+\contentsline {subsubsection}{CED fault coverage}{94}{section*.34}
+\contentsline {subsubsection}{Area and delay overhead}{95}{section*.35}
+\contentsline {subsubsection}{Power overhead}{96}{section*.36}
+\contentsline {subsubsection}{Error recovery}{97}{section*.37}
+\contentsline {subsubsection}{Cancellation}{98}{section*.38}
+\contentsline {subsubsection}{Cost-effective CED for entire FPU}{100}{section*.39}
+\contentsline {subsection}{\numberline {3.3.8}Conclusion}{101}{subsection.3.3.8}
+\contentsline {chapter}{\numberline {4}Weak-spot assessment and resilience resource allocation prioritization}{102}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{102}{section.4.1}
+\contentsline {section}{\numberline {4.2}Ranking based on AVF}{104}{section.4.2}
+\contentsline {section}{\numberline {4.3}Ranking based on GSV}{106}{section.4.3}
+\contentsline {section}{\numberline {4.4}Study Infrastructure}{109}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Microprocessor Models}{109}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}GSV Infrastructure}{110}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Modules and workload}{112}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Generating ranked lists}{113}{subsection.4.4.4}
+\contentsline {section}{\numberline {4.5}Experimental Results}{114}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Positional comparison of ranked lists}{114}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Coverage comparison of ranked lists}{114}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Simulation times}{116}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Discussion}{117}{subsection.4.5.4}
+\contentsline {section}{\numberline {4.6}Conclusion}{118}{section.4.6}
+\contentsline {chapter}{\numberline {5}Selective parity for in-core memory arrays}{121}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{121}{section.5.1}
+\contentsline {section}{\numberline {5.2}Selective Parity}{123}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Simple Algorithm}{126}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Formulation of parity optimization ILP}{128}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}ILP formulation}{128}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Formulating cost function}{129}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Converting function to linear}{132}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Experimental setup}{134}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Modeling language}{134}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}ILP Solver}{134}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}In-core memory arrays}{135}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}MBU Fault model}{137}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Parity optimization results}{139}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}MWVF reduction for various configurations}{139}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Parity overhead}{141}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}Comparison to algorithm}{142}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}Vulnerability-based Interleaving}{143}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}VBI algorithm}{144}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}VBI performance and Discussion}{145}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}VBI performance}{145}{subsection.5.7.1}
+\contentsline {subsection}{\numberline {5.7.2}VBI overhead}{147}{subsection.5.7.2}
+\contentsline {section}{\numberline {5.8}Conclusion}{148}{section.5.8}
+\contentsline {chapter}{\numberline {6}Future Directions}{156}{chapter.6}
+\contentsline {section}{\numberline {6.1}Robustness in the multi-core domain}{156}{section.6.1}
+\contentsline {section}{\numberline {6.2}Hardware security and forensics}{157}{section.6.2}
+\contentsline {section}{\numberline {6.3}Post-silicon diagnosis}{158}{section.6.3}

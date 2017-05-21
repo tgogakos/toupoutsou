@@ -1,0 +1,41 @@
+\documentclass[12pt]{rockefeller}
+\usepackage[pdftex]{graphicx}\graphicspath{{imgs/}}
+\usepackage{enumerate}
+\usepackage{threeparttable}
+\usepackage[font=footnotesize,caption=false]{subfig}
+\usepackage{multirow}
+\usepackage[algoruled,linesnumbered,lined]{algorithm2e}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage[pdftex,bookmarks=true]{hyperref}
+
+\newcommand{\snp}[1] {\noindent {\underline {#1}}}
+\newcommand{\subsubsubsection}[1] {\noindent {\underline {#1}}}
+
+
+\begin{document}
+
+\author{Michail Maniatakos}
+\advisor{Yiorgos Makris}
+\title{Enhancing modern microprocessor resiliency through workload-cognizant, cross-layer, error impact analysis}
+\date{December 2012}
+
+%\vspace{-0.2in}
+\maketitle
+
+\begin{abstract}
+
+Microprocessors are ubiquitously deployed in applications ranging from commodity devices to mission critical systems. Inevitably, frequent occurrence of malfunctions is a fact of life, instigated either by permanent failure causes (e.g., manufacturing defects, environmental wear-\&-tear) or by transient error sources (e.g., cosmic radiation). As microprocessors constitute the most complex integrated circuits, exhaustively analyzing their design and implementation in order to identify weaknesses that may jeopardize resilience is intractable. As the majority of the microprocessor revenue arises from performance, allocating area, power, and design time resources to non-performance related features, such as resilience, is an uphill battle.
+
+Toward addressing these challenges, this dissertation centers around the exploration of the various trade-offs involved in developing cost-effective resilience features, which can be realistically incorporated in modern microprocessors. Specifically, a workload-cognizant, cross-layer analysis approach is explored, in order to (i) understand the impact of various malfunctions on robust operation, (ii) develop cost-effective error detection/correction methods for robustness-sensitive structures, such as microprocessor controllers, (iii) assess weak spots, and (iv) drive parity selection methods for in-core memory arrays.  The ability to reason across layers, from transistors to architecture and from events to instructions, serves as the key to developing industrially-relevant, resilience enhancing methodologies.
+
+\end{abstract}
+
+
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\end{document}
