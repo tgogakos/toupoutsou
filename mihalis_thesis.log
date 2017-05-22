@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  20 MAY 2017 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAY 2017 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**thesis.tex
-(./thesis.tex
+**mihalis_thesis.tex
+(./mihalis_thesis.tex
 LaTeX2e <2016/03/31>
 Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
 (./yalephd.cls
@@ -339,8 +339,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip69
 )
-(./thesis.aux)
-\openout1 = `thesis.aux'.
+(./mihalis_thesis.aux)
+\openout1 = `mihalis_thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
@@ -403,9 +403,9 @@ LaTeX Info: Redefining \ref on input line 17.
 LaTeX Info: Redefining \pageref on input line 17.
 LaTeX Info: Redefining \nameref on input line 17.
 
-(./thesis.out) (./thesis.out)
+(./mihalis_thesis.out) (./mihalis_thesis.out)
 \@outlinefile=\write3
-\openout3 = `thesis.out'.
+\openout3 = `mihalis_thesis.out'.
 
  [1
 
@@ -425,7 +425,7 @@ been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.35 \makecopyright
-                    [1] (./thesis.toc
+                    [1] (./mihalis_thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -441,9 +441,9 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [3]
 [4])
 \tf@toc=\write4
-\openout4 = `thesis.toc'.
+\openout4 = `mihalis_thesis.toc'.
 
- [5] (./thesis.lof [6
+ [5] (./mihalis_thesis.lof [6
 
 ]
 
@@ -478,9 +478,9 @@ put line 62.
 
 )
 \tf@lof=\write5
-\openout5 = `thesis.lof'.
+\openout5 = `mihalis_thesis.lof'.
 
- [8] (./thesis.lot
+ [8] (./mihalis_thesis.lot
 Overfull \hbox (1.66164pt too wide) in paragraph at lines 5--5
  [][] [][]\OT1/cmr/m/n/12 ILE clas-si-fi-ca-tion in-for-ma-tion traced from var
 -i-ous mi-cro-pro-ces-sor mod- 
@@ -490,7 +490,7 @@ Overfull \hbox (1.66164pt too wide) in paragraph at lines 5--5
 
 ])
 \tf@lot=\write6
-\openout6 = `thesis.lot'.
+\openout6 = `mihalis_thesis.lot'.
 
  [10] [11
 
@@ -1968,14 +1968,14 @@ Chapter 6.
 [156
 
 ] [157] [158]
-No file thesis.bbl.
+No file mihalis_thesis.bbl.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2645.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 2645.
-(./thesis.aux)
+(./mihalis_thesis.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2645.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2645.
 
-Package rerunfilecheck Info: File `thesis.out' has not changed.
+Package rerunfilecheck Info: File `mihalis_thesis.out' has not changed.
 (rerunfilecheck)             Checksum: EE86D5FECDB0AEE6E86DE91F29C65494;6131.
 
 
@@ -1988,13 +1988,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2645.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 8712 strings out of 493014
- 128126 string characters out of 6133351
+ 8713 strings out of 493014
+ 128284 string characters out of 6133351
  243953 words of memory out of 5000000
  11619 multiletter control sequences out of 15000+600000
  14466 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,23n,49p,2089b,6263s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,23n,49p,2097b,6263s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
@@ -2014,7 +2014,7 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local
 texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on thesis.pdf (171 pages, 577457 bytes).
+Output written on mihalis_thesis.pdf (171 pages, 577457 bytes).
 PDF statistics:
  1844 PDF objects out of 2073 (max. 8388607)
  1635 compressed objects within 17 object streams

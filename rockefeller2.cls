@@ -124,20 +124,20 @@ class]
 % Slightly redefine pagestyle headings from standard book class.
 %--------------------------------------------------------------------
 
-\ifdraft
-  \markboth{Draft of \today}{Draft of \today}
-\else
-  \def\ps@headings{%
-    \let\@oddfoot\@empty
-    \def\@oddhead{\MakeUppercase{\rightmark}\hfil\thepage}%
-    \let\@mkboth\markboth
-    \def\chaptermark##1{%
-      \markright {%
-        \ifnum \c@secnumdepth >\m@ne
-            \@chapapp\ \thechapter. \ %
-        \fi
-        ##1}}}
-\fi
+%\ifdraft
+%  \markboth{Draft of \today}{Draft of \today}
+%\else
+%  \def\ps@headings{%
+%    \let\@oddfoot\@empty
+%    \def\@oddhead{\MakeUppercase{\rightmark}\hfil\thepage}%
+%    \let\@mkboth\markboth
+%    \def\chaptermark##1{%
+%      \markright {%
+%        \ifnum \c@secnumdepth >\m@ne
+%            \@chapapp\ \thechapter. \ %
+%        \fi
+%        ##1}}}
+%\fi
 
 %--------------------------------------------------------------------
 % Define abstract environment, because book class doesn't have one.
@@ -149,11 +149,13 @@ class]
     \begin{center}
       {\bf Abstract}\par\bigskip
       {\Large \bf \@title}\par\bigskip
-      \@author, Ph.D.\\
-       The Rockefeller University \the\year \\
+      \@author \\
+%       Rockefeller University \\
+      \the\year
       \end{center}%
   }{\end{titlepage}}%
-  
+
+
 %--------------------------------------------------------------------
 % \advisor{}
 %--------------------------------------------------------------------
@@ -204,8 +206,9 @@ class]
 %--------------------------------------------------------------------
 
 \newcommand{\makecopyright}{%
-  \hbox{\hfil}\vspace{5in}\begin{center}
-  \copyright Copyright \ by  \@author\ \the\year\ \\
+  \hbox{\hfil}\vspace{4in}\begin{center}
+  Copyright \copyright\ \the\year\ by \@author \\
+  All rights reserved.
   \end{center}
   \clearpage
 }%

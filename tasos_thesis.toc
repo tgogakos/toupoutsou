@@ -1,0 +1,6 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Sample Chapter}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}New section}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}woohooo}{4}{chapter.2}
+\contentsline {chapter}{Terms and abbreviations}{6}{section*.6}
+\contentsline {chapter}{References}{7}{chapter*.8}

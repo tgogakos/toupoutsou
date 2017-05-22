@@ -1,41 +1,115 @@
 \documentclass[12pt]{rockefeller}
+\usepackage[english]{babel}
 \usepackage[pdftex]{graphicx}\graphicspath{{imgs/}}
-\usepackage{enumerate}
-\usepackage{threeparttable}
-\usepackage[font=footnotesize,caption=false]{subfig}
-\usepackage{multirow}
-\usepackage[algoruled,linesnumbered,lined]{algorithm2e}
-\usepackage{amssymb}
-\usepackage{amsmath}
-\usepackage[pdftex,bookmarks=true]{hyperref}
+\usepackage{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage{fancyhdr}
+\usepackage[utf8x]{inputenc}
+\usepackage[LGR,T1]{fontenc}
+\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}
+\usepackage{hyperref} 
+\usepackage[acronym,xindy,toc]{glossaries} % nomain, if you define glossaries in a file, and you use \include{INP-00-glossary}
+\makeglossaries
+\usepackage[xindy]{imakeidx}
+\makeindex
 
-\newcommand{\snp}[1] {\noindent {\underline {#1}}}
-\newcommand{\subsubsubsection}[1] {\noindent {\underline {#1}}}
 
+
+%\usepackage{enumerate}
+%\usepackage{threeparttable}
+%\usepackage{multirow}
+%\usepackage[algoruled,linesnumbered,lined]{algorithm2e}
+%\usepackage[font=footnotesize,caption=false]{subfig}
+%\usepackage{amssymb}
+%\usepackage{amsmath}
+%\usepackage[pdftex,bookmarks=true]{hyperref}
+%\newcommand{\subsubsubsection}[1] {\noindent {\underline {#1}}}
+	\newcommand{\snp}[1] {\noindent {\underline {#1}}}
 
 \begin{document}
 
-\author{Michail Maniatakos}
-\advisor{Yiorgos Makris}
-\title{Enhancing modern microprocessor resiliency through workload-cognizant, cross-layer, error impact analysis}
-\date{December 2012}
+\author{Tasos Gogakos}
+\title{\MakeUppercase{Characterizing human transfer rnas by hydro-trnaseq and par-clip}}
+\date{June 2017}
 
-%\vspace{-0.2in}
 \maketitle
 
 \begin{abstract}
 
-Microprocessors are ubiquitously deployed in applications ranging from commodity devices to mission critical systems. Inevitably, frequent occurrence of malfunctions is a fact of life, instigated either by permanent failure causes (e.g., manufacturing defects, environmental wear-\&-tear) or by transient error sources (e.g., cosmic radiation). As microprocessors constitute the most complex integrated circuits, exhaustively analyzing their design and implementation in order to identify weaknesses that may jeopardize resilience is intractable. As the majority of the microprocessor revenue arises from performance, allocating area, power, and design time resources to non-performance related features, such as resilience, is an uphill battle.
-
-Toward addressing these challenges, this dissertation centers around the exploration of the various trade-offs involved in developing cost-effective resilience features, which can be realistically incorporated in modern microprocessors. Specifically, a workload-cognizant, cross-layer analysis approach is explored, in order to (i) understand the impact of various malfunctions on robust operation, (ii) develop cost-effective error detection/correction methods for robustness-sensitive structures, such as microprocessor controllers, (iii) assess weak spots, and (iv) drive parity selection methods for in-core memory arrays.  The ability to reason across layers, from transistors to architecture and from events to instructions, serves as the key to developing industrially-relevant, resilience enhancing methodologies.
-
+The participation of transfer RNAs (tRNAs) in fundamental aspects of biology and disease necessitates an accurate, experimentally confirmed annotation of tRNA genes, and curation of precursor and mature tRNA sequences. This has been challenging, mainly because RNA secondary structure and nucleotide modifications, together with tRNA gene multiplicity, complicate sequencing and sequencing read mapping efforts. To address these issues, we developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates fragments amenable for sequencing. To identify transcribed tRNA genes, we further complemented this approach with Photoactivatable Crosslinking and Immunoprecipitation (PAR-CLIP) of SSB/La, a conserved protein involved in pre-tRNA processing. Our results show that approximately half of all predicted tRNA genes are transcribed in human cells. We also report predominant nucleotide modification sites, their order of introduction, and identify tRNA leader, trailer and intron sequences. By using complementary sequencing-based methodologies we present a human tRNA atlas, and determine expression levels of mature and processing intermediates of tRNAs in human cells.
 \end{abstract}
 
+\thispagestyle{empty}
+\makecopyright
+
+%Dedication
+\chapter*{} %blank chapter, no title, not included in table of contents
+%\thispagestyle{empty} %no page number
+\addtocounter{page}{1} %ignore this page when counting
+\vspace{1.5in} %start the dedication halfway down
+\begin{flushright} %center everything
+\emph{\textgreek{stous goneis}} %the wonderful words
+\end{flushright}
+
+\chapter*{Acknowledgments}
+
+First, I would like to thank my 
 
 \tableofcontents
 
 \listoffigures
 
 \listoftables
+
+
+
+    
+%\chapter*{Glossary}
+
+
+\mainmatter
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\chaptername\ \thechapter}
+\rhead{\thesection}
+\rfoot{\thepage}
+
+\chapter{Sample Chapter}
+\section{New section}
+\newacronym[longplural={Frames per Second}]{fpsLabel}{FPS}{Frame per Second}
+\newglossaryentry{computer}
+{
+  name=computer,
+  description={is a programmable machine that receives input,
+               stores and manipulates data, and provides
+               output in a useful format}
+}
+\newacronym{lvm}{LVM}{Logical Volume Manager}
+\newglossaryentry{naiive}
+{
+  name=na\"{\i}ve,
+  description={is a French loanword (adjective, form of naïf)
+               indicating having or showing a lack of experience,
+               understanding or sophistication}
+}
+
+Introduction
+Microprocessors are ubiquitously deployed in applications ranging from commodity devices to mission critical systems, and while malfunctions in the former may cause no \newpage harm other than inconvenience, the slightest malfunction in the latter may have catastrophic consequences. \gls{computer}, \glsreset{lvm}
+
+this is \acrshort{lvm}
+\newpage
+
+\cite{Arimbasseri:2016ey}
+\chapter{woohooo}
+this is a new chapter\newpage
+this is pager 2
+\printglossary[title=List of Terms,toctitle=Terms and abbreviations]
+
+\newpage
+\renewcommand{\bibname}{References}
+\bibliographystyle{IEEEtran}
+\bibliography{/Users/tasos/work/thesis/toupoutsou/tasos_v1.bib}
+
+\addcontentsline{toc}{chapter}{References}
 
 \end{document}
