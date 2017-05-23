@@ -21,6 +21,14 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{Woese:1967}
+C.~Woese, \emph{{The Genetic Code. The Molecular basis for Genetic
+  Expression}}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax Harper, 1967.
+
+\bibitem{Soll:1995}
+D.~Soll and U.~RajBhandary, \emph{{tRNA: Structure, Biosynthesis and
+  Function}}, 1st~ed.\hskip 1em plus 0.5em minus 0.4em\relax ASM press, 1995.
+
 \bibitem{Arimbasseri:2016ey}
 A.~G. Arimbasseri and R.~J. Maraia, ``{RNA Polymerase III Advances: Structural
   and tRNA Functional Views},'' \emph{Trends in Biochemical Sciences}, pp.
