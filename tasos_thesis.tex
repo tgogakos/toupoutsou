@@ -1,17 +1,18 @@
 \documentclass[12pt]{rockefeller}
-\usepackage[english]{babel}
-\usepackage[pdftex]{graphicx}\graphicspath{{imgs/}}
-\usepackage{helvet}
-\renewcommand\familydefault{\sfdefault} 
-\usepackage{fancyhdr}
-\usepackage[utf8x]{inputenc}
-\usepackage[LGR,T1]{fontenc}
-\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup}
-\usepackage{hyperref} 
-\usepackage[acronym,xindy,toc]{glossaries} % nomain, if you define glossaries in a file, and you use \include{INP-00-glossary}
-\makeglossaries
-\usepackage[xindy]{imakeidx}
-\makeindex
+\usepackage[pdftex]{graphicx} 
+\graphicspath{{/Users/tasos/Desktop/strasbourg_05_2017/}} %directory of figures
+\usepackage[english]{babel} %set language
+\usepackage{helvet} %set font to Helvetica
+\renewcommand\familydefault{\sfdefault} %set font to Helvetica
+\usepackage{fancyhdr} %header and footer
+\usepackage[utf8x]{inputenc} %allow greek input
+\usepackage[LGR,T1]{fontenc} %allow greek input
+\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup} %allow greek input
+\usepackage{hyperref} %allow hypertexting
+\usepackage[acronym,xindy,toc]{glossaries} %glossary 
+\makeglossaries %glossary 
+\usepackage[xindy]{imakeidx} %glossary 
+\makeindex %glossary 
 
 
 
@@ -24,7 +25,7 @@
 %\usepackage{amsmath}
 %\usepackage[pdftex,bookmarks=true]{hyperref}
 %\newcommand{\subsubsubsection}[1] {\noindent {\underline {#1}}}
-	\newcommand{\snp}[1] {\noindent {\underline {#1}}}
+\newcommand{\snp}[1] {\noindent {\underline {#1}}}
 
 \begin{document}
 
@@ -34,39 +35,46 @@
 
 \maketitle
 
-\begin{abstract}
-
-The participation of transfer RNAs (tRNAs) in fundamental aspects of biology and disease necessitates an accurate, experimentally confirmed annotation of tRNA genes, and curation of precursor and mature tRNA sequences. This has been challenging, mainly because RNA secondary structure and nucleotide modifications, together with tRNA gene multiplicity, complicate sequencing and sequencing read mapping efforts. To address these issues, we developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates fragments amenable for sequencing. To identify transcribed tRNA genes, we further complemented this approach with Photoactivatable Crosslinking and Immunoprecipitation (PAR-CLIP) of SSB/La, a conserved protein involved in pre-tRNA processing. Our results show that approximately half of all predicted tRNA genes are transcribed in human cells. We also report predominant nucleotide modification sites, their order of introduction, and identify tRNA leader, trailer and intron sequences. By using complementary sequencing-based methodologies we present a human tRNA atlas, and determine expression levels of mature and processing intermediates of tRNAs in human cells.
-\end{abstract}
-
 \thispagestyle{empty}
 \makecopyright
 
+
+\begin{abstract}
+
+The participation of \glspl{trna} in fundamental aspects of biology and disease necessitates an accurate, experimentally confirmed annotation of tRNA genes, and curation of precursor and mature tRNA sequences. This has been challenging, mainly because RNA secondary structure and nucleotide modifications, together with tRNA gene multiplicity, complicate sequencing and sequencing read mapping efforts. To address these issues, we developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates fragments amenable for sequencing. To identify transcribed tRNA genes, we further complemented this approach with Photoactivatable Crosslinking and Immunoprecipitation (PAR-CLIP) of SSB/La, a conserved protein involved in pre-tRNA processing. Our results show that approximately half of all predicted tRNA genes are transcribed in human cells. We also report predominant nucleotide modification sites, their order of introduction, and identify tRNA leader, trailer and intron sequences. By using complementary sequencing-based methodologies we present a human tRNA atlas, and determine expression levels of mature and processing intermediates of tRNAs in human cells.
+\end{abstract}
+
+
 %Dedication
 \chapter*{} %blank chapter, no title, not included in table of contents
-%\thispagestyle{empty} %no page number
-\addtocounter{page}{1} %ignore this page when counting
-\vspace{1.5in} %start the dedication halfway down
+\addtocounter{page}{2} %fix numbering
+\vspace{3in} %start the dedication close to the bottom of page
 \begin{flushright} %center everything
-\emph{\textgreek{stous goneis}} %the wonderful words
+\emph{\textgreek{Stous gone'is kai ton aderf'o mou}}
 \end{flushright}
 
-\chapter*{Acknowledgments}
+\chapter*{Acknowledgments} %uncounted chapter
 
-First, I would like to thank my 
+First, I would like to thank my  
 
+\renewcommand\contentsname{Table of Contents}
 \tableofcontents
-
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
-
+\cleardoublepage
+\phantomsection
+\addcontentsline{toc}{chapter}{List of Tables}
 \listoftables
 
+%glossary
+\newacronym[plural=tRNAs, firstplural=transfer RNAs]{trna}{tRNA}{transfer RNA}
+\printglossary[type=\acronymtype,nonumberlist,title={List of Abbreviations}]
 
-
-    
-%\chapter*{Glossary}
-
-
+%----------
+%mainmatter
+%----------
 \mainmatter
 \pagestyle{fancy}
 \fancyhf{}
@@ -74,42 +82,28 @@ First, I would like to thank my
 \rhead{\thesection}
 \rfoot{\thepage}
 
-\chapter{Sample Chapter}
+\chapter{Introduction}
 \section{New section}
-\newacronym[longplural={Frames per Second}]{fpsLabel}{FPS}{Frame per Second}
-\newglossaryentry{computer}
-{
-  name=computer,
-  description={is a programmable machine that receives input,
-               stores and manipulates data, and provides
-               output in a useful format}
-}
-\newacronym{lvm}{LVM}{Logical Volume Manager}
-\newglossaryentry{naiive}
-{
-  name=na\"{\i}ve,
-  description={is a French loanword (adjective, form of naïf)
-               indicating having or showing a lack of experience,
-               understanding or sophistication}
-}
 
-Introduction
-Microprocessors are ubiquitously deployed in applications ranging from commodity devices to mission critical systems, and while malfunctions in the former may cause no \newpage harm other than inconvenience, the slightest malfunction in the latter may have catastrophic consequences. \gls{computer}, \glsreset{lvm}
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{venn_bars.png}%
+\caption{Venn Bars}%
+\label{fVenn}%
+\end{figure}
 
-this is \acrshort{lvm}
 \newpage
 
 \cite{Arimbasseri:2016ey}
 \chapter{woohooo}
 this is a new chapter\newpage
 this is pager 2
-\printglossary[title=List of Terms,toctitle=Terms and abbreviations]
 
 \newpage
 \renewcommand{\bibname}{References}
 \bibliographystyle{IEEEtran}
-\bibliography{/Users/tasos/work/thesis/toupoutsou/tasos_v1.bib}
-
-\addcontentsline{toc}{chapter}{References}
+\bibliography{./tasos_v1.bib}
+\phantomsection
+\addcontentsline{toc}{chapter}{References} %rename references
 
 \end{document}

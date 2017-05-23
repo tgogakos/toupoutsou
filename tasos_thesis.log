@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAY 2017 17:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 MAY 2017 20:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -29,21 +29,6 @@ File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
 ))
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2012/08/20 v3.3p English support from the babel system
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
-\babel@savecnt=\count88
-\U@D=\dimen103
-)
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -71,11 +56,26 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count89
+\Gread@gobject=\count88
 ))
-\Gin@req@height=\dimen104
-\Gin@req@width=\dimen105
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
 )
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2016/04/23 3.9r The Babel package
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2012/08/20 v3.3p English support from the babel system
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2016/04/23 3.9r Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen105
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
@@ -485,12 +485,12 @@ Package: glossary-tree 2016/04/30 v4.23 (NLCT)
 \openout4 = `tasos_thesis.glo'.
 
 Package glossaries Info: Writing glossary file tasos_thesis.glo on input line 1
-2.
+3.
 \glo@acronym@file=\write5
 \openout5 = `tasos_thesis.acn'.
 
 Package glossaries Info: Writing glossary file tasos_thesis.acn on input line 1
-2.
+3.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/imakeidx/imakeidx.sty
 Package: imakeidx 2016/05/16 v1.3c Package for typesetting indices in a synchro
 nous mode
@@ -552,28 +552,28 @@ Writing index file tasos_thesis.idx
 (./tasos_thesis.aux)
 \openout1 = `tasos_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 30.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 30.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 29.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 30.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -687,7 +687,7 @@ LGR\textaristerikeraia already defined.
 fontencoding LGR patched
 )
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring OFF on input line 29.
+Package hyperref Info: Link coloring OFF on input line 30.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -696,9 +696,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count156
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
 
 (./tasos_thesis.out) (./tasos_thesis.out)
 \@outlinefile=\write7
@@ -706,44 +706,39 @@ LaTeX Info: Redefining \nameref on input line 29.
 
  (./tasos_thesis.glsdefs)
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 36.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 37.
  [1
 
 \openout3 = `tasos_thesis.xdy'.
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 37.
- [1
-
-]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 43.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 39.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 43.
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.43 \makecopyright
-                    [1]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+ [2]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 42.
+ [1
+
+
+]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 46.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 49.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 51.
-LaTeX Font Info:    Try loading font information for LGR+phv on input line 51.
-LaTeX Font Info:    No file LGRphv.fd. on input line 51.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 53.
+LaTeX Font Info:    Try loading font information for LGR+phv on input line 53.
+LaTeX Font Info:    No file LGRphv.fd. on input line 53.
 
 
 LaTeX Font Warning: Font shape `LGR/phv/m/it' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 51.
+(Font)              using `LGR/cmr/m/n' instead on input line 53.
 
 [3
-
 
 ] [4
 
@@ -759,76 +754,89 @@ LaTeX Font Warning: Font shape `LGR/phv/m/it' undefined
 
  [6
 
+
 ] (./tasos_thesis.lot)
 \tf@lot=\write10
 \openout10 = `tasos_thesis.lot'.
 
-
-[7
-
-]
-Chapter 1.
 \@gls@deffile=\write11
 \openout11 = `tasos_thesis.glsdefs'.
 
+
+(./tasos_thesis.acr [7
+
+
+]) [8
+
+
+]
+Chapter 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.97 ...ctions in the former may cause no \newpage
+l.93 ...ctions in the former may cause no \newpage
                                                    harm other than inconveni...
 [1
 
 
-]
+] <venn_bars.png, id=95, 272.6988pt x 195.129pt>
+File: venn_bars.png Graphic file (type png)
+ <use venn_bars.png>
+Package pdftex.def Info: venn_bars.png used on input line 97.
+(pdftex.def)             Requested size: 252.94499pt x 181.00063pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]
+[2 <./venn_bars.png (PNG copy)>] [3]
 Chapter 2.
 [4
 
-] (./tasos_thesis.gls [5]) [6
-
-
-] (./tasos_thesis.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 115.
- [7
+] [5] (./tasos_thesis.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 116.
+ [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 115.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 116.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 115.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 115.
-Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: F5928B709259EC1CAFE26E31D8FF70AF;253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 116.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 116.
 
+
+Package rerunfilecheck Warning: File `tasos_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tasos_thesis.out':
+(rerunfilecheck)             Before: D499FA6D92DBEC3EE6FC5E2BF801032F;353
+(rerunfilecheck)             After:  10CA9209C3B6419DDF79A9D427815E2C;351.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 115.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 116.
  ) 
 Here is how much of TeX's memory you used:
- 12444 strings out of 493014
- 192928 string characters out of 6133351
- 359364 words of memory out of 5000000
- 15697 multiletter control sequences out of 15000+600000
+ 12368 strings out of 493014
+ 191456 string characters out of 6133351
+ 356431 words of memory out of 5000000
+ 15615 multiletter control sequences out of 15000+600000
  26069 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,10n,43p,1940b,447s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,10n,43p,1950b,503s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
 xlive/2016/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (15 pages, 50776 bytes).
+Output written on tasos_thesis.pdf (15 pages, 64857 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 113 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 32 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
