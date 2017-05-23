@@ -24,6 +24,8 @@
 \providecommand*\glsXpageXglsignore[2]{\setentrycounter[#1]{page}\glsignore{#2}}
 \begin{theglossary}\glossaryheader
 \glsgroupheading{T}\relax\glsresetentrylist
+\glossentry{test}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{i}}}\relax\glsresetentrylist
 \glossentry{trna}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{i}}}%
 \end{theglossary}\glossarypostamble

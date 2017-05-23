@@ -28,3 +28,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{test}{}%
+{%
+\gls@defglossaryentry{test}%
+{%
+name={tEsT},%
+sort={tEsT},%
+type={acronym},%
+first={test2\glsspace (tEsT)},%
+firstplural={test2s\glsspace (tEsTs)},%
+text={tEsT},%
+plural={tEsTs},%
+description={test2},%
+descriptionplural={test2\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={test2},%
+longplural={test2s},%
+short={tEsT},%
+shortplural={tEsTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
