@@ -3,6 +3,10 @@
 \contentsline {chapter}{List of Tables}{vii}{section*.6}
 \contentsline {chapter}{List of Abbreviations}{viii}{section*.8}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+<<<<<<< HEAD
 \contentsline {section}{\numberline {1.1}New section}{1}{section.1.1}
+=======
+\contentsline {section}{\numberline {1.1}tRNA biology}{1}{section.1.1}
+>>>>>>> 7ec9a0ae18419f80013c6ed0d0915ab223f03c72
 \contentsline {chapter}{\numberline {2}woohooo}{3}{chapter.2}
 \contentsline {chapter}{References}{5}{section*.11}

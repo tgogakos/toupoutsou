@@ -106,22 +106,6 @@ series = {Progress in Molecular Biology and Translational Science},
 edition = {1}
 }
 
-@book{Woese:1967,
-author = {Woese, Carl},
-title = {{The Genetic Code. The Molecular basis for Genetic Expression}},
-publisher = {Harper},
-year = {1967},
-edition = {1}
-}
-
-@book{Soll:1995,
-author = {Soll, Dieter and RajBhandary, Uttam},
-title = {{tRNA: Structure, Biosynthesis and Function}},
-publisher = {ASM press},
-year = {1995},
-edition = {1}
-}
-
 @article{Namavar:2011ew,
 author = {Namavar, Yasmin and Barth, Peter G and Poll-The, Bwee Tien and Baas, Frank},
 title = {{Classification, diagnosis and potential mechanisms in Pontocerebellar Hypoplasia}},
