@@ -1,11 +1,11 @@
 \documentclass[12pt]{rockefeller}
 \usepackage[pdftex]{graphicx} 
-\graphicspath{{/Users/tasos/Desktop/strasbourg_05_2017/}} %directory of figures
+\graphicspath{{./figures/}} %directory of figures
 \usepackage[english]{babel} %set language
 \usepackage{helvet} %set font to Helvetica
 \renewcommand\familydefault{\sfdefault} %set font to Helvetica
 \usepackage{fancyhdr} %header and footer
-\usepackage[utf8x]{inputenc} %allow greek input
+\usepackage[utf8]{inputenc} %allow greek input
 \usepackage[LGR,T1]{fontenc} %allow greek input
 \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup} %allow greek input
 \usepackage{hyperref} %allow hypertexting
@@ -13,6 +13,8 @@
 \makeglossaries %glossary 
 \usepackage[xindy]{imakeidx} %glossary 
 \makeindex %glossary 
+\usepackage[backend=biber,style=nature,]{biblatex}
+\bibliography{./tasos_v2.bib}
 
 
 
@@ -71,6 +73,7 @@ First, I would like to thank my
 %glossary
 \newacronym[plural=tRNAs, firstplural=transfer RNAs]{trna}{tRNA}{transfer RNA}
 \newacronym{test}{tEsT}{test2}
+\newacronym{ncrna}{ncRNA}{noncoding RNA}
 \printglossary[type=\acronymtype,nonumberlist,title={List of Abbreviations}]
 
 %----------
@@ -85,7 +88,7 @@ First, I would like to thank my
 
 \chapter{Introduction}
 \section{tRNA biology}
-tRNAs have been among the earliest studied non-coding RNA molecules \cite{Woese:1967, Soll:1995}. Yet, in recent years tRNAs received new attention in the context of codon-resolved translational control 
+tRNAs have been among the earliest studied \gls{ncrna} non-coding RNA molecules \cite{Woese:1967, Soll:1995}. Yet, in recent years tRNAs received new attention in the context of codon-resolved translational control
 
 \begin{figure}[!ht]%
 \centering
@@ -103,9 +106,10 @@ this is pager 2
 
 \newpage
 \renewcommand{\bibname}{References}
-\bibliographystyle{IEEEtran}
-\bibliography{./tasos_v2.bib}
+%\bibliographystyle{IEEEtran}
 \phantomsection
+\printbibliography
 \addcontentsline{toc}{chapter}{References} %rename references
+
 
 \end{document}

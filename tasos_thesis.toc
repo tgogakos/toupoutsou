@@ -1,12 +1,17 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
 \select@language {english}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{vi}{section*.4}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Tables}{vii}{section*.6}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Abbreviations}{viii}{section*.8}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-<<<<<<< HEAD
-\contentsline {section}{\numberline {1.1}New section}{1}{section.1.1}
-=======
+\defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}tRNA biology}{1}{section.1.1}
->>>>>>> 7ec9a0ae18419f80013c6ed0d0915ab223f03c72
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}woohooo}{3}{chapter.2}
-\contentsline {chapter}{References}{5}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{5}{chapter*.11}

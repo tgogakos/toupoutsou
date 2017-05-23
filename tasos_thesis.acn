@@ -1,2 +1,3 @@
 (indexentry :tkey (("tRNA" "\\glossentry{trna}") ) :locref "{}{i}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("tEsT" "\\glossentry{test}") ) :locref "{}{i}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("ncRNA" "\\glossentry{ncrna}") ) :locref "{}{1}" :attr "pageglsnumberformat" ) 

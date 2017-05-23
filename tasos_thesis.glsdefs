@@ -58,3 +58,33 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{ncrna}{}%
+{%
+\gls@defglossaryentry{ncrna}%
+{%
+name={ncRNA},%
+sort={ncRNA},%
+type={acronym},%
+first={noncoding RNA\glsspace (ncRNA)},%
+firstplural={noncoding RNAs\glsspace (ncRNAs)},%
+text={ncRNA},%
+plural={ncRNAs},%
+description={noncoding RNA},%
+descriptionplural={noncoding RNA\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={noncoding RNA},%
+longplural={noncoding RNAs},%
+short={ncRNA},%
+shortplural={ncRNAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,56 +1,15 @@
-This is BibTeX, Version 0.99d (TeX Live 2016)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: tasos_thesis.aux
-The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: ./tasos_v2.bib.bib
--- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
--- http://www.michaelshell.org/tex/ieeetran/bibtex/
--- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
-
-Done.
-You've used 3 entries,
-            4087 wiz_defined-function locations,
-            840 strings with 7710 characters,
-and the built_in function-call counts, 1615 in all, are:
-= -- 107
-> -- 31
-< -- 10
-+ -- 13
-- -- 5
-* -- 84
-:= -- 262
-add.period$ -- 6
-call.type$ -- 3
-change.case$ -- 3
-chr.to.int$ -- 27
-cite$ -- 3
-duplicate$ -- 123
-empty$ -- 156
-format.name$ -- 7
-if$ -- 359
-int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 18
-newline$ -- 32
-num.names$ -- 3
-pop$ -- 54
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 115
-stack$ -- 0
-substring$ -- 45
-swap$ -- 76
-text.length$ -- 1
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 3
-warning$ -- 0
-while$ -- 9
-width$ -- 4
-write$ -- 45
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'tasos_thesis.blg'
+[49] biber-darwin:290> INFO - === Tue May 23, 2017, 16:23:43
+[70] Biber.pm:351> INFO - Reading 'tasos_thesis.bcf'
+[164] Biber.pm:776> INFO - Found 3 citekeys in bib section 0
+[178] Biber.pm:3493> INFO - Processing section 0
+[192] Biber.pm:3657> INFO - Looking for bibtex format file './tasos_v2.bib' for section 0
+[196] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[201] bibtex.pm:1048> INFO - Found BibTeX data source './tasos_v2.bib'
+[223] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[223] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[223] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[223] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[225] bbl.pm:526> INFO - Writing 'tasos_thesis.bbl' with encoding 'UTF-8'
+[226] bbl.pm:619> INFO - Output to tasos_thesis.bbl
