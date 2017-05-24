@@ -66,6 +66,439 @@
       \field{title}{{tRNA: Structure, Biosynthesis and Function}}
       \field{year}{1995}
     \endentry
+    \entry{Dana:2012kq}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b8e109c7a43ee69b1025e19a4dd5c477}{%
+           family={Dana},
+           family_i={D\bibinitperiod},
+           given={Alexandra},
+           given_i={A\bibinitperiod}}}%
+        {{hash=dafdeec80abc6ac761ccf4b407acfe83}{%
+           family={Tuller},
+           family_i={T\bibinitperiod},
+           given={Tamir},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{efd98af2a583e2c57b95b2a981a6013d}
+      \strng{fullhash}{efd98af2a583e2c57b95b2a981a6013d}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLoS Computational Biology}
+      \field{month}{11}
+      \field{number}{11}
+      \field{title}{{Determinants of Translation Elongation Speed and Ribosomal Profiling Biases in Mouse Embryonic Stem Cells}}
+      \field{volume}{8}
+      \field{year}{2012}
+      \field{pages}{e1002755\bibrangedash 11}
+      \range{pages}{-1}
+    \endentry
+    \entry{Dana:2014bs}{article}{}
+      \name{author}{2}{}{%
+        {{hash=b8e109c7a43ee69b1025e19a4dd5c477}{%
+           family={Dana},
+           family_i={D\bibinitperiod},
+           given={Alexandra},
+           given_i={A\bibinitperiod}}}%
+        {{hash=dafdeec80abc6ac761ccf4b407acfe83}{%
+           family={Tuller},
+           family_i={T\bibinitperiod},
+           given={Tamir},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{efd98af2a583e2c57b95b2a981a6013d}
+      \strng{fullhash}{efd98af2a583e2c57b95b2a981a6013d}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{G3 (Bethesda, Md.)}
+      \field{month}{12}
+      \field{number}{1}
+      \field{title}{{Mean of the typical decoding rates: a new translation efficiency index based on the analysis of ribosome profiling data.}}
+      \field{volume}{5}
+      \field{year}{2014}
+      \field{pages}{73\bibrangedash 80}
+      \range{pages}{8}
+    \endentry
+    \entry{Mahlab:2012dg}{article}{}
+      \name{author}{3}{}{%
+        {{hash=fc4731ce1ae850cee0f3a756df29acd4}{%
+           family={Mahlab},
+           family_i={M\bibinitperiod},
+           given={S},
+           given_i={S\bibinitperiod}}}%
+        {{hash=14594de342cb67ed9c8e70147e287d8b}{%
+           family={Tuller},
+           family_i={T\bibinitperiod},
+           given={T},
+           given_i={T\bibinitperiod}}}%
+        {{hash=e85e5af12e61eeee14a742c296c36364}{%
+           family={Linial},
+           family_i={L\bibinitperiod},
+           given={M},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a590200c3206493b0a5c74cd7a0c920b}
+      \strng{fullhash}{d7c59126fd600608197088c6eaf0dd43}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RNA}
+      \field{month}{03}
+      \field{number}{4}
+      \field{title}{{Conservation of the relative tRNA composition in healthy and cancerous tissues}}
+      \field{volume}{18}
+      \field{year}{2012}
+      \field{pages}{640\bibrangedash 652}
+      \range{pages}{13}
+    \endentry
+    \entry{Plotkin:2010fu}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c1f3525fb354c2dd4bee7d444fd3d64f}{%
+           family={Plotkin},
+           family_i={P\bibinitperiod},
+           given={Joshua\bibnamedelima B},
+           given_i={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=98f48ef446d985699fa73561cd727e97}{%
+           family={Kudla},
+           family_i={K\bibinitperiod},
+           given={Grzegorz},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1e2aa0433bd7a3fcba21fd11f41abb8}
+      \strng{fullhash}{a1e2aa0433bd7a3fcba21fd11f41abb8}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Genetics}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Synonymous but not the same: the causes and consequences of codon bias.}}
+      \field{volume}{12}
+      \field{year}{2011}
+      \field{pages}{32\bibrangedash 42}
+      \range{pages}{11}
+    \endentry
+    \entry{Tuller:2010ge}{article}{}
+      \name{author}{10}{}{%
+        {{hash=dafdeec80abc6ac761ccf4b407acfe83}{%
+           family={Tuller},
+           family_i={T\bibinitperiod},
+           given={Tamir},
+           given_i={T\bibinitperiod}}}%
+        {{hash=9ec60ca6ca604354199b0736ac5c5173}{%
+           family={Carmi},
+           family_i={C\bibinitperiod},
+           given={Asaf},
+           given_i={A\bibinitperiod}}}%
+        {{hash=4290f936482554f3a35604d054a0b9e3}{%
+           family={Vestsigian},
+           family_i={V\bibinitperiod},
+           given={Kalin},
+           given_i={K\bibinitperiod}}}%
+        {{hash=a659bb2b78c1fc5ac8c5a10d1f0b1824}{%
+           family={Navon},
+           family_i={N\bibinitperiod},
+           given={Sivan},
+           given_i={S\bibinitperiod}}}%
+        {{hash=3fe136b69e6b67e3b6433150d17a4aeb}{%
+           family={Dorfan},
+           family_i={D\bibinitperiod},
+           given={Yuval},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=009b0a19056538627f7f37d57f2062d3}{%
+           family={Zaborske},
+           family_i={Z\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+        {{hash=af6e3e5bed38c9ce5a0946719815ceff}{%
+           family={Pan},
+           family_i={P\bibinitperiod},
+           given={Tao},
+           given_i={T\bibinitperiod}}}%
+        {{hash=455eeab716277f9dbfa9d949ece764b5}{%
+           family={Dahan},
+           family_i={D\bibinitperiod},
+           given={Orna},
+           given_i={O\bibinitperiod}}}%
+        {{hash=03fd73484d39c103c9e30aaf37eaaab5}{%
+           family={Furman},
+           family_i={F\bibinitperiod},
+           given={Itay},
+           given_i={I\bibinitperiod}}}%
+        {{hash=0e91542761ef0149d1b3d0c3550f698b}{%
+           family={Pilpel},
+           family_i={P\bibinitperiod},
+           given={Yitzhak},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{16c3a1ed8e4eb77cb2aa8a383fea1500}
+      \strng{fullhash}{ceb8c9519382e323c950cc1fa582b681}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{month}{04}
+      \field{number}{2}
+      \field{title}{{An Evolutionarily Conserved Mechanism for Controlling the Efficiency of Protein Translation}}
+      \field{volume}{141}
+      \field{year}{2010}
+      \field{pages}{344\bibrangedash 354}
+      \range{pages}{11}
+    \endentry
+    \entry{Weinberg:2016kh}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a654af2ee2c7f652a04725f5c9b1f669}{%
+           family={Weinberg},
+           family_i={W\bibinitperiod},
+           given={David\bibnamedelima E},
+           given_i={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=ab7538570da1c191077e5ccd926984f8}{%
+           family={Shah},
+           family_i={S\bibinitperiod},
+           given={Premal},
+           given_i={P\bibinitperiod}}}%
+        {{hash=35eb8f2950132c3507e8e1017d8cb917}{%
+           family={Eichhorn},
+           family_i={E\bibinitperiod},
+           given={Stephen\bibnamedelima W},
+           given_i={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=1eaec901751a77894dbee93523f05501}{%
+           family={Hussmann},
+           family_i={H\bibinitperiod},
+           given={Jeffrey\bibnamedelima A},
+           given_i={J\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=c1f3525fb354c2dd4bee7d444fd3d64f}{%
+           family={Plotkin},
+           family_i={P\bibinitperiod},
+           given={Joshua\bibnamedelima B},
+           given_i={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=9c46efbc4c863808dae8d8fccdca6ebc}{%
+           family={Bartel},
+           family_i={B\bibinitperiod},
+           given={David\bibnamedelima P},
+           given_i={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{260332d94aca5e7bdca0d0f3a7382a9e}
+      \strng{fullhash}{f9e6b7acb49eecb2464da0bee3bfa9fc}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CellReports}
+      \field{month}{02}
+      \field{number}{7}
+      \field{title}{{Improved Ribosome-Footprint and mRNA Measurements Provide Insights into Dynamics and Regulation of Yeast Translation}}
+      \field{volume}{14}
+      \field{year}{2016}
+      \field{pages}{1787\bibrangedash 1799}
+      \range{pages}{13}
+    \endentry
+    \entry{Hasler:2016ce}{article}{}
+      \name{author}{9}{}{%
+        {{hash=664574f2927dc38906ff668cd4660fa7}{%
+           family={Hasler},
+           family_i={H\bibinitperiod},
+           given={Daniele},
+           given_i={D\bibinitperiod}}}%
+        {{hash=08312598376c6b7b7f6e64c0f7e932a6}{%
+           family={Lehmann},
+           family_i={L\bibinitperiod},
+           given={Gerhard},
+           given_i={G\bibinitperiod}}}%
+        {{hash=2d51892f1be65dda9f1935ac1f56959d}{%
+           family={Murakawa},
+           family_i={M\bibinitperiod},
+           given={Yasuhiro},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=f023143ba1afea420bdfcfa337ff8b63}{%
+           family={Klironomos},
+           family_i={K\bibinitperiod},
+           given={Filippos},
+           given_i={F\bibinitperiod}}}%
+        {{hash=1741b9ef66099555c1749a33dc097610}{%
+           family={Jakob},
+           family_i={J\bibinitperiod},
+           given={Leonhard},
+           given_i={L\bibinitperiod}}}%
+        {{hash=a336985fc82529a72306eee73cff5d5b}{%
+           family={Grässer},
+           family_i={G\bibinitperiod},
+           given={Friedrich\bibnamedelima A},
+           given_i={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=cdd7e837c470b8e117d6bd42d0f276bd}{%
+           family={Rajewsky},
+           family_i={R\bibinitperiod},
+           given={Nikolaus},
+           given_i={N\bibinitperiod}}}%
+        {{hash=0f679c5f54af4880886223f1cede2089}{%
+           family={Landthaler},
+           family_i={L\bibinitperiod},
+           given={Markus},
+           given_i={M\bibinitperiod}}}%
+        {{hash=8bd7b44f959059f13fd90a5cbb1451cf}{%
+           family={Meister},
+           family_i={M\bibinitperiod},
+           given={Gunter},
+           given_i={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{bb76b9eac40b23a15a19a3e5ec32ddb1}
+      \strng{fullhash}{3096b63dfa309dd8a5ac654ae98bfa71}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Cell}
+      \field{month}{07}
+      \field{number}{1}
+      \field{title}{{The Lupus Autoantigen La Prevents Mis-channeling of tRNA Fragments into the Human MicroRNA Pathway.}}
+      \field{volume}{63}
+      \field{year}{2016}
+      \field{pages}{110\bibrangedash 124}
+      \range{pages}{15}
+    \endentry
+    \entry{Ivanov:2011iu}{article}{}
+      \name{author}{5}{}{%
+        {{hash=a7dcd4581dfbd51287552515e0322a67}{%
+           family={Ivanov},
+           family_i={I\bibinitperiod},
+           given={Pavel},
+           given_i={P\bibinitperiod}}}%
+        {{hash=ec2b0cff3f98b26b4ec35c22d4ba9b9f}{%
+           family={Emara},
+           family_i={E\bibinitperiod},
+           given={Mohamed\bibnamedelima M},
+           given_i={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=f48dc213433242f802e54c92fa3bec86}{%
+           family={Villen},
+           family_i={V\bibinitperiod},
+           given={Judit},
+           given_i={J\bibinitperiod}}}%
+        {{hash=d54d697e6f8fb099ea1a4f31c5833c32}{%
+           family={Gygi},
+           family_i={G\bibinitperiod},
+           given={Steven\bibnamedelima P},
+           given_i={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=a5ef2c988eb50a049dd4ec8176f589d4}{%
+           family={Anderson},
+           family_i={A\bibinitperiod},
+           given={Paul},
+           given_i={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7544e7d97e50cfb50b9c10f75f68bc7f}
+      \strng{fullhash}{45f950fbe93507c338b56d2e92334915}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Cell}
+      \field{month}{08}
+      \field{number}{4}
+      \field{title}{{Angiogenin-Induced tRNA Fragments Inhibit Translation Initiation}}
+      \field{volume}{43}
+      \field{year}{2011}
+      \field{pages}{613\bibrangedash 623}
+      \range{pages}{11}
+    \endentry
+    \entry{Lee:2009fb}{article}{}
+      \name{author}{4}{}{%
+        {{hash=554a753b0ad7a64639ab5c1e0f571beb}{%
+           family={Lee},
+           family_i={L\bibinitperiod},
+           given={Yong\bibnamedelima Sun},
+           given_i={Y\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=733675df9603a0341ecb1816f2e561c2}{%
+           family={Shibata},
+           family_i={S\bibinitperiod},
+           given={Yoshiyuki},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=9aa29d126c936f66456efd8c7b73cb6f}{%
+           family={Malhotra},
+           family_i={M\bibinitperiod},
+           given={Ankit},
+           given_i={A\bibinitperiod}}}%
+        {{hash=5e7db7473c340247e680a79bb2035fd1}{%
+           family={Dutta},
+           family_i={D\bibinitperiod},
+           given={Anindya},
+           given_i={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c80e780a7551ff4ea3b0103624f03201}
+      \strng{fullhash}{12f6a89c4f2466cc0ab798f8965435f8}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genes {\&} Development}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{{A novel class of small RNAs: tRNA-derived RNA fragments (tRFs).}}
+      \field{volume}{23}
+      \field{year}{2009}
+      \field{pages}{2639\bibrangedash 2649}
+      \range{pages}{11}
+    \endentry
+    \entry{Iben:2014dt}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f18dc37b12b3a335d8aa1d33695992a7}{%
+           family={Iben},
+           family_i={I\bibinitperiod},
+           given={James\bibnamedelima R},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=76359867365be6a144ebc1e827569b79}{%
+           family={Maraia},
+           family_i={M\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f651e9abf9b2e30b21b437ae8919b083}
+      \strng{fullhash}{f651e9abf9b2e30b21b437ae8919b083}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Gene}
+      \field{month}{02}
+      \field{number}{2}
+      \field{title}{{tRNA gene copy number variation in humans}}
+      \field{volume}{536}
+      \field{year}{2014}
+      \field{pages}{376\bibrangedash 384}
+      \range{pages}{9}
+    \endentry
+    \entry{Pechmann:2012ey}{article}{}
+      \name{author}{2}{}{%
+        {{hash=a8a2506ba69e6aa62a51db70c80ccdd4}{%
+           family={Pechmann},
+           family_i={P\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{hash=b7c54fff1fa967120f7ed7c83403aa11}{%
+           family={Frydman},
+           family_i={F\bibinitperiod},
+           given={Judith},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{15f316b1bf2081200c801c4b60271adf}
+      \strng{fullhash}{15f316b1bf2081200c801c4b60271adf}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Publishing Group}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{{Evolutionary conservation of codon optimality reveals hidden signatures of cotranslational folding}}
+      \field{volume}{20}
+      \field{year}{2012}
+      \field{pages}{237\bibrangedash 243}
+      \range{pages}{7}
+    \endentry
     \entry{Arimbasseri:2016ey}{article}{}
       \name{author}{2}{}{%
         {{hash=16e2a66a1db02c846ca0dea842fbff22}{%

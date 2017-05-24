@@ -8,6 +8,8 @@
 \usepackage[utf8]{inputenc} %allow greek input
 \usepackage[LGR,T1]{fontenc} %allow greek input
 \newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup} %allow greek input
+\usepackage{color,soul}
+\usepackage[labelfont=bf]{caption} 
 \usepackage{hyperref} %allow hypertexting
 \usepackage[acronym,xindy,toc]{glossaries} %glossary 
 \makeglossaries %glossary 
@@ -15,8 +17,6 @@
 \makeindex %glossary 
 \usepackage[backend=biber,style=nature,]{biblatex}
 \bibliography{./tasos_v2.bib}
-
-
 
 %\usepackage{enumerate}
 %\usepackage{threeparttable}
@@ -28,6 +28,7 @@
 %\usepackage[pdftex,bookmarks=true]{hyperref}
 %\newcommand{\subsubsubsection}[1] {\noindent {\underline {#1}}}
 \newcommand{\snp}[1] {\noindent {\underline {#1}}}
+\newcommand{\cyan}[1]{\colorbox{cyan}{#1}}
 
 \begin{document}
 
@@ -59,6 +60,7 @@ The participation of \glspl{trna} in \gls{test} fundamental aspects of biology a
 
 First, I would like to thank my  
 
+\chapter*{contents}
 \renewcommand\contentsname{Table of Contents}
 \tableofcontents
 \cleardoublepage
@@ -74,6 +76,7 @@ First, I would like to thank my
 \newacronym[plural=tRNAs, firstplural=transfer RNAs]{trna}{tRNA}{transfer RNA}
 \newacronym{test}{tEsT}{test2}
 \newacronym{ncrna}{ncRNA}{noncoding RNA}
+\chapter*{Glossary}
 \printglossary[type=\acronymtype,nonumberlist,title={List of Abbreviations}]
 
 %----------
@@ -88,7 +91,28 @@ First, I would like to thank my
 
 \chapter{Introduction}
 \section{tRNA biology}
-tRNAs have been among the earliest studied \gls{ncrna} non-coding RNA molecules \cite{Woese:1967, Soll:1995}. Yet, in recent years tRNAs received new attention in the context of codon-resolved translational control
+tRNAs have been among the earliest studied \gls{ncrna} non-coding RNA molecules \cite{Woese:1967, Soll:1995}, established as the adaptor molecules responsible for translating the genetic code during protein synthesis \hl{cite Crick tie club letter}.
+Yet, in recent years tRNAs received new attention in the context of codon-resolved translational control \cite{Dana:2012kq,Dana:2014bs,Mahlab:2012dg,Plotkin:2010fu,Tuller:2010ge,Weinberg:2016kh}, and due to the involvement of their metabolic byproducts in regulation and cross-talk with processing and effector functions of other classes of non-coding RNAs (ncRNAs) \cite{Hasler:2016ce,Ivanov:2011iu,Lee:2009fb}. Nevertheless, the lack of reliable methods for tRNA quantification has hampered such analyses, and necessitated the use of predicted tRNA gene copy number as a surrogate index of expression \cite{Iben:2014dt,Pechmann:2012ey,Tuller:2010ge}. This hinged on the assumption that predicted tRNA gene loci are all expressed constitutively and equally, even though there has been experimental evidence against it \cite{Gingold:2014iz}. Similarly, experimental tRNA gene annotation in the past had to focus on RNA polymerase III (POLR3) ChIP-seq \cite{Kutter:2011ff} \cite{Moqtaderi:2010hc} \cite{Oler:2010fb} or hybridization-based approaches \cite{Dittmar:2004fb} \cite{Goodarzi:2016gd}. The former, however, were impeded by their restricted genomic resolution and the assumption that POLR3 binding always leads to productive tRNA expression followed by complete processing, while the latter fell short of providing absolute counts and did not address the discovery of new transcripts and genes, assuming also normal hybridization rules for modified nucleosides.
+
+An improvement in tRNA quantification has arisen from recent efforts that employed modification-reverting enzymes prior to sequencing, in order to minimize stalling of reverse transcriptase at modified sites \cite{Cozen:2015ds} \cite{Zheng:2015dw}. However, an extensive annotation of human genes and transcripts was foregone because the focus was either on mature tRNAs only \cite{Zheng:2015dw} or on tRNA fragments not inclusive of full-length precursor tRNA (pre-tRNA) transcripts \cite{Cozen:2015ds}. Thus, to-date an experimentally validated list of curated mature and pre-tRNA sequences and annotating tRNA genes in human is still missing.
+
+We have combined complementary high-throughput techniques for obtaining the sequence composition and abundance of tRNAs in human embryonic kidney cells (HEK293). We developed hydro-tRNAseq, a modified small RNA sequencing protocol based on partial alkaline hydrolysis of input RNA, in order to identify and quantify tRNAs, and provided evidence for the validity of this approach when determining the accumulation of disease-associated tRNA intron fragments caused by mutations in the tRNA splicing machinery \cite{Karaca:2014em}. Here we extend this approach by applying it to tRNA-enriched size fragments with the aim to annotate and curate all tRNAs. Since tRNA processing, such as precursor trimming and intron removal, is a fast process\cite{Foretek:2016ea}, we also aimed to enrich specifically for pre-tRNAs in order to identify and annotate the corresponding unique tRNA gene template. Thus, we performed PAR-CLIP on SSB, a conserved and ubiquitous protein involved in 3’ tRNA processing \cite{Bayfield:2009cx} \cite{Bayfield:2010cs} \cite{Stefano:1984wp}. 
+
+\subsection{tRNA biogenesis}
+tRNA genes are transcribed by RNA polymerase III \cyan{(POLR3)} that uses promoters internal to the DNA sequence of the tRNA gene (tDNA). In humans, a minority of tRNA transcripts \hl{(see section XXX)} harbor introns. A dedicated tRNA splicing complex composed fo core and accessory proteins carries out tRNA splicing \hl{cite references}. Precursor tRNA \colorbox{cyan}{(pre-tRNAs)} comprise the mature tRNA sequence, and 5' leader and 3' trailer extensions, which are trimmed in a coordinated manner by endonucleases and other processing factors. The ribonucleoprotein \cyan{(RNP)} complex RNase P removes the 5' leaders, and ELAC2, the human homolog of tRNase Z trims the 3' trailer. Next, the universally conserved 3' terminal CCA tail is added by TRNT1, the tRNA nucleotidyll transferase 1 \cyan{(TRNT1)}, and acts as the acceptor of the amino acid. tRNAs are further modified by chemical nucleotide modifications \hl{(see section XXX)}, exported from the nucleus to the cytoplasm where they can undergo further modifcations, are aminoacylated with their cognate amino acid by aminoacyl tRNA synthetases, and are finally presented to the ribosome by translation factors to participate in protein synthesis Fig. \ref{biogenesis}.
+
+
+\newline
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{biogenesis.png}%
+\caption[tRNA biogensis]{\textbf{Overview of tRNA biogenesis and processing.} thththt}
+%\textbf{\caption{tRNA biogenesis}} 
+\label{biogenesis}%
+\end{figure}
+
+
+\chapter{Results}
 
 \begin{figure}[!ht]%
 \centering
