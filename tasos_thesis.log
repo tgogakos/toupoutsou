@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAY 2017 08:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAY 2017 11:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,6 +863,18 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@uldp=\dimen127
 \SOUL@ulht=\dimen128
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
+\ttl@box=\box31
+\beforetitleunit=\skip56
+\aftertitleunit=\skip57
+\ttl@plus=\dimen129
+\ttl@minus=\dimen130
+\ttl@toksa=\toks26
+\titlewidth=\dimen131
+\titlewidthlast=\dimen132
+\titlewidthfirst=\dimen133
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2016/05/05 v6.83n Hypertext links for LaTeX
 
@@ -919,7 +931,7 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
-\@linkdim=\dimen129
+\@linkdim=\dimen134
 \Hy@linkcounter=\count100
 \Hy@pagecounter=\count101
 
@@ -947,10 +959,10 @@ Package hyperref Info: Bookmarks ON on input line 4691.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5044.
-\XeTeXLinkMargin=\dimen130
+\XeTeXLinkMargin=\dimen135
 \Fld@menulength=\count104
-\Field@Width=\dimen131
-\Fld@charsize=\dimen132
+\Field@Width=\dimen136
+\Fld@charsize=\dimen137
 Package hyperref Info: Hyper figures OFF on input line 6298.
 Package hyperref Info: Link nesting OFF on input line 6303.
 Package hyperref Info: Hyper index ON on input line 6306.
@@ -977,7 +989,7 @@ Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip56
+\Hy@SectionHShift=\skip58
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/base/glossaries.sty
 Package: glossaries 2016/04/30 v4.23 (NLCT)
@@ -990,8 +1002,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
 )
 \XKV@depth=\count110
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -1003,8 +1015,8 @@ Package: mfirstuc 2015/12/17 v2.02 (NLCT)
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count111
 )
-\@glsmfirst=\toks28
-\@glsmrest=\toks29
+\@glsmfirst=\toks29
+\@glsmrest=\toks30
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1017,7 +1029,7 @@ Package: datatool-base 2016/01/18 v2.25 (NLCT)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/03/10 v2.15b AMS math features
-\@mathmargin=\skip57
+\@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1025,12 +1037,12 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
-\ex@=\dimen133
+\@emptytoks=\toks31
+\ex@=\dimen138
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen134
+\pmbraise@=\dimen139
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -1045,9 +1057,9 @@ LaTeX Info: Redefining \overline on input line 297.
 LaTeX Info: Redefining \ldots on input line 394.
 LaTeX Info: Redefining \dots on input line 397.
 LaTeX Info: Redefining \cdots on input line 518.
-\Mathstrutbox@=\box31
-\strutbox@=\box32
-\big@size=\dimen135
+\Mathstrutbox@=\box32
+\strutbox@=\box33
+\big@size=\dimen140
 LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count117
@@ -1055,21 +1067,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \dotsspace@=\muskip11
 \c@parentequation=\count119
 \dspbrk@lvl=\count120
-\tag@help=\toks31
+\tag@help=\toks32
 \row@=\count121
 \column@=\count122
 \maxfields@=\count123
-\andhelp@=\toks32
-\eqnshift@=\dimen136
-\alignsep@=\dimen137
-\tagshift@=\dimen138
-\tagwidth@=\dimen139
-\totwidth@=\dimen140
-\lineht@=\dimen141
-\@envbody=\toks33
-\multlinegap=\skip58
-\multlinetaggap=\skip59
-\mathdisplay@stack=\toks34
+\andhelp@=\toks33
+\eqnshift@=\dimen141
+\alignsep@=\dimen142
+\tagshift@=\dimen143
+\tagwidth@=\dimen144
+\totwidth@=\dimen145
+\lineht@=\dimen146
+\@envbody=\toks34
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -1128,9 +1140,9 @@ Package: fp-upn 1996/10/21
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks35
+\@dtl@toks=\toks36
 \@dtl@tmpcount=\count136
-\dtl@tmplength=\skip60
+\dtl@tmplength=\skip62
 \dtl@sortresult=\count137
 \@dtl@numgrpsepcount=\count138
 \@dtl@datatype=\count139
@@ -1156,12 +1168,12 @@ lish.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
 \gls@level=\count143
-\@gls@tmpb=\toks36
-\gls@tmplen=\skip61
-\glskeylisttok=\toks37
-\glslabeltok=\toks38
-\glsshorttok=\toks39
-\glslongtok=\toks40
+\@gls@tmpb=\toks37
+\gls@tmplen=\skip63
+\glskeylisttok=\toks38
+\glslabeltok=\toks39
+\glsshorttok=\toks40
+\glslongtok=\toks41
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -1170,31 +1182,31 @@ Package: glossary-hypernav 2016/04/30 v4.23 (NLCT)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-list.s
 ty
 Package: glossary-list 2016/04/30 v4.23 (NLCT)
-\glslistdottedwidth=\skip62
+\glslistdottedwidth=\skip64
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-long.s
 ty
 Package: glossary-long 2016/04/30 v4.23 (NLCT)
  (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip63
-\LTright=\skip64
-\LTpre=\skip65
-\LTpost=\skip66
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
 \LTchunksize=\count144
-\LTcapwidth=\dimen142
-\LT@head=\box33
-\LT@firsthead=\box34
-\LT@foot=\box35
-\LT@lastfoot=\box36
+\LTcapwidth=\dimen147
+\LT@head=\box34
+\LT@firsthead=\box35
+\LT@foot=\box36
+\LT@lastfoot=\box37
 \LT@cols=\count145
 \LT@rows=\count146
 \c@LT@tables=\count147
 \c@LT@chunks=\count148
-\LT@p@ftn=\toks41
+\LT@p@ftn=\toks42
 )
-\glsdescwidth=\skip67
-\glspagelistwidth=\skip68
+\glsdescwidth=\skip69
+\glspagelistwidth=\skip70
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-super.
 sty
@@ -1202,38 +1214,38 @@ Package: glossary-super 2016/04/30 v4.23 (NLCT)
  (/usr/local/texlive/2016/texmf-dist/tex/latex/supertabular/supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
 \c@tracingst=\count149
-\ST@wd=\dimen143
-\ST@rightskip=\skip69
-\ST@leftskip=\skip70
-\ST@parfillskip=\skip71
-\ST@pageleft=\dimen144
-\ST@headht=\dimen145
-\ST@tailht=\dimen146
-\ST@pagesofar=\dimen147
-\ST@pboxht=\dimen148
-\ST@lineht=\dimen149
-\ST@stretchht=\dimen150
-\ST@prevht=\dimen151
-\ST@toadd=\dimen152
-\ST@dimen=\dimen153
-\ST@pbox=\box37
+\ST@wd=\dimen148
+\ST@rightskip=\skip71
+\ST@leftskip=\skip72
+\ST@parfillskip=\skip73
+\ST@pageleft=\dimen149
+\ST@headht=\dimen150
+\ST@tailht=\dimen151
+\ST@pagesofar=\dimen152
+\ST@pboxht=\dimen153
+\ST@lineht=\dimen154
+\ST@stretchht=\dimen155
+\ST@prevht=\dimen156
+\ST@toadd=\dimen157
+\ST@dimen=\dimen158
+\ST@pbox=\box38
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-tree.s
 ty
 Package: glossary-tree 2016/04/30 v4.23 (NLCT)
-\glstreeindent=\skip72
+\glstreeindent=\skip74
 ))
 \glswrite=\write3
 \glo@main@file=\write4
 \openout4 = `tasos_thesis.glo'.
 
-Package glossaries Info: Writing glossary file tasos_thesis.glo on input line 1
-9.
+Package glossaries Info: Writing glossary file tasos_thesis.glo on input line 2
+0.
 \glo@acronym@file=\write5
 \openout5 = `tasos_thesis.acn'.
 
-Package glossaries Info: Writing glossary file tasos_thesis.acn on input line 1
-9.
+Package glossaries Info: Writing glossary file tasos_thesis.acn on input line 2
+0.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/imakeidx/imakeidx.sty
 Package: imakeidx 2016/05/16 v1.3c Package for typesetting indices in a synchro
 nous mode
@@ -1241,27 +1253,26 @@ nous mode
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
 Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \c@tracingmulticols=\count150
-\mult@box=\box38
-\multicol@leftmargin=\dimen154
+\mult@box=\box39
+\multicol@leftmargin=\dimen159
 \c@unbalance=\count151
 \c@collectmore=\count152
 \doublecol@number=\count153
 \multicoltolerance=\count154
 \multicolpretolerance=\count155
-\full@width=\dimen155
-\page@free=\dimen156
-\premulticols=\dimen157
-\postmulticols=\dimen158
-\multicolsep=\skip73
-\multicolbaselineskip=\skip74
-\partial@page=\box39
-\last@line=\box40
-\maxbalancingoverflow=\dimen159
-\mult@rightbox=\box41
-\mult@grightbox=\box42
-\mult@gfirstbox=\box43
-\mult@firstbox=\box44
-\@tempa=\box45
+\full@width=\dimen160
+\page@free=\dimen161
+\premulticols=\dimen162
+\postmulticols=\dimen163
+\multicolsep=\skip75
+\multicolbaselineskip=\skip76
+\partial@page=\box40
+\last@line=\box41
+\maxbalancingoverflow=\dimen164
+\mult@rightbox=\box42
+\mult@grightbox=\box43
+\mult@gfirstbox=\box44
+\mult@firstbox=\box45
 \@tempa=\box46
 \@tempa=\box47
 \@tempa=\box48
@@ -1278,13 +1289,14 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 \@tempa=\box59
 \@tempa=\box60
 \@tempa=\box61
+\@tempa=\box62
 \c@columnbadness=\count156
 \c@finalcolumnbadness=\count157
-\last@try=\dimen160
-\multicolovershoot=\dimen161
-\multicolundershoot=\dimen162
-\mult@nat@firstbox=\box62
-\colbreak@box=\box63
+\last@try=\dimen165
+\multicolovershoot=\dimen166
+\multicolundershoot=\dimen167
+\mult@nat@firstbox=\box63
+\colbreak@box=\box64
 \mc@col@check@num=\count158
 ))
 \tasos_thesis@idxfile=\write6
@@ -1352,14 +1364,14 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 \blx@parenlevel@text=\count197
 \blx@parenlevel@foot=\count198
 \blx@sectionciteorder@0=\count199
-\labelnumberwidth=\skip75
-\labelalphawidth=\skip76
-\biblabelsep=\skip77
-\bibitemsep=\skip78
-\bibnamesep=\skip79
-\bibinitsep=\skip80
-\bibparsep=\skip81
-\bibhang=\skip82
+\labelnumberwidth=\skip77
+\labelalphawidth=\skip78
+\biblabelsep=\skip79
+\bibitemsep=\skip80
+\bibnamesep=\skip81
+\bibinitsep=\skip82
+\bibparsep=\skip83
+\bibhang=\skip84
 \blx@bcfin=\read1
 \blx@bcfout=\write8
 \c@mincomprange=\count266
@@ -1439,12 +1451,12 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedlanguage=\count332
 \c@pageref=\count333
 \c@savedpageref=\count334
-\shorthandwidth=\skip83
-\shortjournalwidth=\skip84
-\shortserieswidth=\skip85
-\shorttitlewidth=\skip86
-\shortauthorwidth=\skip87
-\shorteditorwidth=\skip88
+\shorthandwidth=\skip85
+\shortjournalwidth=\skip86
+\shortserieswidth=\skip87
+\shorttitlewidth=\skip88
+\shortauthorwidth=\skip89
+\shorteditorwidth=\skip90
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
@@ -1532,28 +1544,28 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./tasos_thesis.aux)
 \openout1 = `tasos_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 37.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 38.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 38.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/cbfonts-fd/lgrcmr.fd
 File: lgrcmr.fd 2016/03/04 v1.1 Greek European Computer Regular
 )
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 37.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 38.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1561,16 +1573,16 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count348
-\scratchdimen=\dimen163
-\scratchbox=\box64
+\scratchdimen=\dimen168
+\scratchbox=\box65
 \nofMPsegments=\count349
 \nofMParguments=\count350
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks43
 \MPscratchCnt=\count351
-\MPscratchDim=\dimen164
+\MPscratchDim=\dimen169
 \MPnumerator=\count352
 \makeMPintoPDFobject=\count353
-\everyMPtoPDFconversion=\toks43
+\everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1595,8 +1607,8 @@ Package: ltcaption 2013/06/09 v1.4-94 longtable captions (AR)
 )
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 37.
+\AtBeginShipoutBox=\box66
+Package hyperref Info: Link coloring OFF on input line 38.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1606,9 +1618,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count354
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 38.
+LaTeX Info: Redefining \pageref on input line 38.
+LaTeX Info: Redefining \nameref on input line 38.
 
 (./tasos_thesis.out) (./tasos_thesis.out)
 \@outlinefile=\write9
@@ -1624,39 +1636,39 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tasos_thesis.bbl' found.
 
 (./tasos_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 37.
-Package biblatex Info: Reference segment=0 on input line 37.
+Package biblatex Info: Reference section=0 on input line 38.
+Package biblatex Info: Reference segment=0 on input line 38.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 45.
  [1
 
 \openout3 = `tasos_thesis.xdy'.
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 46.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 47.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 46.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
 [2]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 49.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 50.
  [1
 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 56.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
-LaTeX Font Info:    Try loading font information for LGR+phv on input line 60.
-LaTeX Font Info:    No file LGRphv.fd. on input line 60.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 61.
+LaTeX Font Info:    Try loading font information for LGR+phv on input line 61.
+LaTeX Font Info:    No file LGRphv.fd. on input line 61.
 
 
 LaTeX Font Warning: Font shape `LGR/phv/m/it' undefined
-(Font)              using `LGR/cmr/m/n' instead on input line 60.
+(Font)              using `LGR/cmr/m/n' instead on input line 61.
 
 [3
 
@@ -1664,146 +1676,109 @@ LaTeX Font Warning: Font shape `LGR/phv/m/it' undefined
 
 ] [5
 
-] (./tasos_thesis.toc
-! Missing number, treated as zero.
-<to be read again> 
-                   \kern 
-l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
+] (./tasos_thesis.toc [6
 
-! Color stack action is missing.
-<to be read again> 
-                   \kern 
-l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
-                                                  
-The expected actions for \pdfcolorstack:
-    set, push, pop, current
-I'll ignore the color stack command.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \box 
-l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Color stack action is missing.
-<to be read again> 
-                   \box 
-l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
-                                                  
-The expected actions for \pdfcolorstack:
-    set, push, pop, current
-I'll ignore the color stack command.
-
-)
+])
 \tf@toc=\write10
 \openout10 = `tasos_thesis.toc'.
 
- [6
-
-] (./tasos_thesis.lof)
+ [7] (./tasos_thesis.lof)
 \tf@lof=\write11
 \openout11 = `tasos_thesis.lof'.
 
- [7
+ [8
 
 
-] (./tasos_thesis.lot)
+]
+(./tasos_thesis.lot)
 \tf@lot=\write12
 \openout12 = `tasos_thesis.lot'.
 
 \@gls@deffile=\write13
 \openout13 = `tasos_thesis.glsdefs'.
 
- [8
+ [9
 
 
-] (./tasos_thesis.acr
-[9
+] (./tasos_thesis.acr [10
 
-]) [10
+]) [11
 
 
 ]
 Chapter 1.
 
-LaTeX Warning: Citation 'Gingold:2014iz' on page 1 undefined on input line 102.
+LaTeX Warning: Citation 'Gingold:2014iz' on page 1 undefined on input line 103.
 
 
 
-LaTeX Warning: Citation 'Kutter:2011ff' on page 1 undefined on input line 102.
+LaTeX Warning: Citation 'Kutter:2011ff' on page 1 undefined on input line 103.
 
 
 LaTeX Warning: Citation 'Moqtaderi:2010hc' on page 1 undefined on input line 10
-2.
+3.
 
 
-LaTeX Warning: Citation 'Oler:2010fb' on page 1 undefined on input line 102.
+LaTeX Warning: Citation 'Oler:2010fb' on page 1 undefined on input line 103.
 
 
-LaTeX Warning: Citation 'Dittmar:2004fb' on page 1 undefined on input line 102.
+LaTeX Warning: Citation 'Dittmar:2004fb' on page 1 undefined on input line 103.
 
 
 
-LaTeX Warning: Citation 'Goodarzi:2016gd' on page 1 undefined on input line 102
+LaTeX Warning: Citation 'Goodarzi:2016gd' on page 1 undefined on input line 103
 .
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 
+l.104 
        [1
 
 
 ]
 
-LaTeX Warning: Citation 'Cozen:2015ds' on page 2 undefined on input line 104.
+LaTeX Warning: Citation 'Cozen:2015ds' on page 2 undefined on input line 105.
 
 
-LaTeX Warning: Citation 'Zheng:2015dw' on page 2 undefined on input line 104.
+LaTeX Warning: Citation 'Zheng:2015dw' on page 2 undefined on input line 105.
 
 
-LaTeX Warning: Citation 'Zheng:2015dw' on page 2 undefined on input line 104.
+LaTeX Warning: Citation 'Zheng:2015dw' on page 2 undefined on input line 105.
 
 
-LaTeX Warning: Citation 'Cozen:2015ds' on page 2 undefined on input line 104.
+LaTeX Warning: Citation 'Cozen:2015ds' on page 2 undefined on input line 105.
 
 
-Overfull \hbox (6.4772pt too wide) in paragraph at lines 104--105
+Overfull \hbox (6.4772pt too wide) in paragraph at lines 105--106
 \T1/phv/m/n/12 stalling of re-verse tran-scrip-tase at mod-i-fied sites [[]] [[
 ]].
  []
 
 
-Overfull \hbox (54.09067pt too wide) in paragraph at lines 104--105
+Overfull \hbox (54.09067pt too wide) in paragraph at lines 105--106
 \T1/phv/m/n/12 frag-ments not in-clu-sive of full-length pre-cur-sor tRNA (pre-
 tRNA) tran-scripts [[]].
  []
 
 
-LaTeX Warning: Citation 'Karaca:2014em' on page 2 undefined on input line 106.
+LaTeX Warning: Citation 'Karaca:2014em' on page 2 undefined on input line 107.
 
 
-LaTeX Warning: Citation 'Foretek:2016ea' on page 2 undefined on input line 106.
+LaTeX Warning: Citation 'Foretek:2016ea' on page 2 undefined on input line 107.
 
 
 
-LaTeX Warning: Citation 'Bayfield:2009cx' on page 2 undefined on input line 106
+LaTeX Warning: Citation 'Bayfield:2009cx' on page 2 undefined on input line 107
 .
 
 
-LaTeX Warning: Citation 'Bayfield:2010cs' on page 2 undefined on input line 106
+LaTeX Warning: Citation 'Bayfield:2010cs' on page 2 undefined on input line 107
 .
 
 
-LaTeX Warning: Citation 'Stefano:1984wp' on page 2 undefined on input line 106.
+LaTeX Warning: Citation 'Stefano:1984wp' on page 2 undefined on input line 107.
 
 
 
@@ -1814,237 +1789,85 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 108.
- [3] <./figures/biogenesis.png, id=167, 734.5041pt x 386.8854pt>
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 109.
+ [3] <./figures/biogenesis.png, id=217, 734.5041pt x 386.8854pt>
 File: ./figures/biogenesis.png Graphic file (type png)
 
 <use ./figures/biogenesis.png>
-Package pdftex.def Info: ./figures/biogenesis.png used on input line 115.
+Package pdftex.def Info: ./figures/biogenesis.png used on input line 116.
 (pdftex.def)             Requested size: 430.00627pt x 226.4953pt.
  [4 <./figures/biogenesis.png (PNG copy)>]
 [5] [6]
 
-LaTeX Warning: Citation 'Hafner:2012eaa' on page 7 undefined on input line 147.
+LaTeX Warning: Citation 'Hafner:2012eaa' on page 7 undefined on input line 148.
 
 
-[7] <./figures/sRNA.png, id=188, 244.0317pt x 328.1058pt>
+[7] <./figures/sRNA.png, id=239, 244.0317pt x 328.1058pt>
 File: ./figures/sRNA.png Graphic file (type png)
 
 <use ./figures/sRNA.png>
-Package pdftex.def Info: ./figures/sRNA.png used on input line 151.
+Package pdftex.def Info: ./figures/sRNA.png used on input line 152.
 (pdftex.def)             Requested size: 252.94499pt x 340.11053pt.
  [8 <./figures/sRNA.png (PNG copy)>] [9]
 Chapter 2.
-
-Overfull \hbox (48.45888pt too wide) in paragraph at lines 186--186
-[]\T1/phv/b/n/17.28 Hydrolysis-based tRNA se-quenc-ing [][][][][][] 
- []
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\setbox' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 3.0pt
-(hyperref)                removed on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\main@pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\aftergroup' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\main@pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                \kern 3.0pt
-(hyperref)                removed on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dimen@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ht' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\advance' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dimen@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\fboxsep' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ht' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dimen@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dimen@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dp' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\advance' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dimen@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\fboxsep' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dp' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dimen@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@ifnextchar' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\main@pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\aftergroup' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\main@pdfcolorstack' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hbox' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\vrule' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\wd' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\ht' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\dp' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\hss' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\box' on input line 186.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\z@' on input line 186.
-
 [10
 
-]
-Overfull \hbox (2.60893pt too wide) in paragraph at lines 194--194
+] <./figures/paper1.png, id=255, 566.8377pt x 443.9787pt>
+File: ./figures/paper1.png Graphic file (type png)
+
+<use ./figures/paper1.png>
+Package pdftex.def Info: ./figures/paper1.png used on input line 192.
+(pdftex.def)             Requested size: 252.94499pt x 198.12202pt.
+
+Overfull \hbox (3.29518pt too wide) in paragraph at lines 202--203
+[]\T1/phv/m/n/12 We mapped the reads to ref-er-ence tRNA genes (hg19, http://gt
+rnadb.ucsc.edu/)
+ []
+
+[11 <./figures/paper1.png (PNG copy)>] [12] [13]
+<./figures/mature.png, id=270, 1314.1095pt x 1034.9064pt>
+File: ./figures/mature.png Graphic file (type png)
+
+<use ./figures/mature.png>
+Package pdftex.def Info: ./figures/mature.png used on input line 226.
+(pdftex.def)             Requested size: 252.94499pt x 199.19246pt.
+ [14]
+<./figures/pre.png, id=276, 854.2314pt x 510.4671pt>
+File: ./figures/pre.png Graphic file (type png)
+ <use ./figures/pre.png>
+Package pdftex.def Info: ./figures/pre.png used on input line 237.
+(pdftex.def)             Requested size: 252.94499pt x 151.15509pt.
+
+<./figures/supp1.png, id=278, 564.1878pt x 475.5366pt>
+File: ./figures/supp1.png Graphic file (type png)
+
+<use ./figures/supp1.png>
+Package pdftex.def Info: ./figures/supp1.png used on input line 249.
+(pdftex.def)             Requested size: 252.94499pt x 213.19858pt.
+ [15 <./figures/mature.png (PNG copy)> <./figures/pre.png (PNG copy)>] <./figur
+es/paper2a.png, id=285, 270.7716pt x 203.3196pt>
+File: ./figures/paper2a.png Graphic file (type png)
+
+<use ./figures/paper2a.png>
+Package pdftex.def Info: ./figures/paper2a.png used on input line 262.
+(pdftex.def)             Requested size: 252.94499pt x 189.93532pt.
+ [16 <./figures/supp1.png (PNG copy)>] [17 <./figures/paper2a.png (PNG copy)>]
+Overfull \hbox (2.60893pt too wide) in paragraph at lines 278--278
 []\T1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \T1/phv/m/sl/12 tRNA: Struc-ture,
  Biosyn-the-sis and Func-tion \T1/phv/m/n/12 1st ed.
  []
 
-[11
+[18
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
- [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 280.
+ [19]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 280.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 280.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 280.
 Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 564B776F59CED8CCCD1D807D1C881828;817.
+(rerunfilecheck)             Checksum: B5F0EDAAFA335C48B0F8E10846C76261;1301.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2060,26 +1883,28 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tasos_thesis.run.xml'.
 \openout1 = `tasos_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 280.
  ) 
 Here is how much of TeX's memory you used:
- 20413 strings out of 493014
- 327017 string characters out of 6133351
- 835562 words of memory out of 5000000
- 23531 multiletter control sequences out of 15000+600000
+ 20731 strings out of 493014
+ 331260 string characters out of 6133351
+ 841306 words of memory out of 5000000
+ 23821 multiletter control sequences out of 15000+600000
  30848 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,11n,77p,2464b,1541s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,11n,77p,2464b,1796s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-
-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (23 pages, 233686 bytes).
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/local/texlive/
+2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on tasos_thesis.pdf (31 pages, 1122504 bytes).
 PDF statistics:
- 255 PDF objects out of 1000 (max. 8388607)
- 220 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 359 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
+ 87 named destinations out of 1000 (max. 500000)
+ 188 words of extra memory for PDF output out of 10000 (max. 10000000)
 

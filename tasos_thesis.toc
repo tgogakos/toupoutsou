@@ -2,11 +2,11 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{vii}{section*.5}
+\contentsline {chapter}{List of Figures}{viii}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{viii}{section*.7}
+\contentsline {chapter}{List of Tables}{ix}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Abbreviations}{x}{section*.10}
+\contentsline {chapter}{List of Abbreviations}{xi}{section*.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -22,6 +22,20 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Results}{10}{chapter.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Hydrolysis-based tRNA sequencing \unhbox \voidb@x \setbox \z@ \hbox {\kern \fboxsep {\pdfcolorstack \main@pdfcolorstack push{0 g 0 G}\aftergroup \pdfcolorstack \main@pdfcolorstack pop\relax (hydro-tRNAseq)}\kern \fboxsep }\dimen@ \ht \z@ \advance \dimen@ \fboxsep \ht \z@ \dimen@ \dimen@ \dp \z@ \advance \dimen@ \fboxsep \dp \z@ \dimen@ {\relax {\color {cyan}{\pdfcolorstack \main@pdfcolorstack push{0 g 0 G}\aftergroup \pdfcolorstack \main@pdfcolorstack pop\relax \hbox to\z@ {\vrule width\wd \z@ height\ht \z@ depth\dp \z@ \hss }}\box \z@ }}}{10}{section.2.1}
+\contentsline {section}{\numberline {2.1}Hydrolysis-based tRNA sequencing}{10}{section.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{12}{chapter*.16}
+\contentsline {section}{\numberline {2.2}Hierarchical sequence read mapping}{11}{section.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Iterative manual tRNA curation}{13}{section.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.4}Protocol and pipeline outputs}{14}{section.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.1}Mature tRNA alignment}{14}{subsection.2.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4.2}Pre-tRNA alignment}{14}{subsection.2.4.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.5}Justification for using precursor reads}{15}{section.2.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.6}Composition of hydro-tRNAseq libraries}{16}{section.2.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{19}{chapter*.21}

@@ -14,6 +14,7 @@
 \renewcommand\thesubfigure{\alph{subfigure}}
 \usepackage{color,soul}
 \usepackage[labelfont=bf]{caption} 
+\usepackage{titlesec}
 \usepackage{hyperref} %allow hypertexting
 \usepackage[acronym,xindy,toc]{glossaries} %glossary 
 \makeglossaries %glossary 
@@ -183,8 +184,91 @@ The application of this protocol for tRNA sequencing, though, resulting in \cyan
 
 \chapter{Results}
 
-\section{Hydrolysis-based tRNA sequencing \cyan{(hydro-tRNAseq)}}
-In order to overcome the problems associated with tRNA sequencing, we tried to identify the minimal number of simplest steps that could tackle the maximal number of problems. Thus, to curate 
+\section{Hydrolysis-based tRNA sequencing}
+In order to overcome the problems associated with tRNA sequencing, we tried to identify the minimal number of simplest steps that could tackle the maximal number of problems. Thus, to curate and quantify human tRNAs, we isolated 60-100 nt-sized total RNA from \cyan{HEK293} cells comprising both precursor and mature tRNAs, but being devoid of most other abundant RNAs and short tRNA turnover products \cite{Lee:2009fb}. Full-length tRNAs have thermodynamically stable secondary and tertiary structures and are heavily modified by RNA editing, all of which compromise reverse transcription (RT) and RNAseq analysis. To overcome these problems, we implemented a limited alkaline hydrolysis step, which generates shorter RNA fragments with less structure and fewer modifications per fragment, and consequently more amenable to small RNA cDNA library preparation and deep sequencing. Furthermore, basic conditions also cleave the aminoacyl-tRNA bond, freeing the 3’ terminal hydroxyl group required for 3’ adapter ligation during RNA cDNA library preparation. This approach increased the tRNA read content to >40\% in our deepest dataset \hl{Table S1}. We named this procedure \cyan{hydro-tRNAseq} (\textbf{Fig. \ref{paper1}}).  In summary, partial hydrolysis of tRNAs overcame technical limitations of suboptimal adapter ligation and RT and albeit this resulted in shorter reads, it also resulted in fewer errors at sites of modification per sequenced read, which ultimately improved the performance of the mapping algorithm.
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{paper1.png}%
+\caption[Experimental and bioinformatic pipeline for tRNA annotation and reference transcript curation by hydro-tRNAseq]{\textbf{Experimental and bioinformatic pipeline for tRNA annotation and reference transcript curation by hydro-tRNAseq.}(A) tRNAs and pre-tRNAs were size-selected from HEK293 total RNA and subjected to limited alkaline hydrolysis, followed by dephosphorylation, rephosphorylation and conventional small RNA sequencing as described previously (Hafner et al., 2012). (B) An iterative mapping and annotation protocol was used to first annotate and curate fully processed and nucleotide-modified mature tRNAs. Leftover reads that spanned the mature-precursor junctions were used to identify transcribed tRNA genes.}
+\centering
+\label{paper1}%
+\end{figure}
+
+\section{Hierarchical sequence read mapping}
+In parallel with the tRNA annotation procedure, we had to build a bioinfroamtic pipeline for processing the obtained sequence information.
+We developed an iterative, hierarchical approach for mapping and annotating our sequence reads. 
+
+We mapped the reads to reference tRNA genes (hg19, http://gtrnadb.ucsc.edu/) using an iterative and hierarchical protocol (Fig. 1B). We started by mapping only to mature tRNAs, which included the 3’ CCA aminoacyl acceptor terminus introduced posttranscriptionally by tRNA nucleotidyl transferase, and the G-1 nucleotide added posttranscriptionally to histidine tRNAs (Gu, 2003; Juhling et al., 2009), but excluded tRNA introns. Starting with two most abundant tRNA transcripts per isotype (tRNAs encoding the same amino acid) as indicated after the first mapping round, except for selenocysteine, where only one mature tRNA sequence could be identified, we performed iterative rounds of mapping and manual reference transcript selection, focusing in every step on transcripts that collected more reads with an error distance of 1-2 than 0. If these reads with mismatches could be assigned to other tRNA isoacceptors (tRNA accepting the same amino acid), these were included in our candidate reference set. Otherwise, we reasoned that the mismatches were the results of nucleotide-modification-induced errors of RT. In those cases, we accounted for the modified nucleoside signatures by introducing a new, edited reference transcript in our set. For tRNAs that exhibited multiple positions with high modification rates (>10\% compared to reference), we compiled reference sequences with all possible combinations of modified signatures at all detectably modified positions, aiming to account for the maximum possible number of mapped sequence reads. We ended the curation cycles when there was no observed modified position that exhibited a mismatch frequency greater than or equal to 10\% compared to the reference. By performing this iterative process of curation, we obtained an experimentally validated reference set of mature tRNAs accounting for modified-nucleotide-induced sequence variation upon reverse transcription (Table S2).
+
+
+Now, I can automatically and fast obtain relative read counts for all classes of ncRNAs in one experiment. 
+Applying this pipeline to the tRNA-seq experimental resutls shows that indeed the majority of reads map to tRNAs. The depth of the library is extensive and thus allows for a reliable annotation of tRNA genes and transcripts. 
+
+\section{Iterative manual tRNA curation}
+In order to identify possible tRNA gene loci, we mapped the curated tRNA sequences back to the genome, allowing for gaps to accommodate tRNA introns, as well as up to 7 mismatches to accommodate terminal and internal RNA editing events. By appending 40 nt 5’ and 3’ of the location of genomic mapping, we obtained a candidate pre-tRNA gene set. We mapped non-annotated residual reads to these candidates to identify 5’ leader- and 3’ trailer-comprising pre-tRNA reads, which also distinguished actively transcribed tRNA genes from silent ones or pseudogenes. Leader- and trailer-comprising tRNA genes show higher sequence variation, as evidence by higher information entropy values, across the leader and trailer nucleotides than internal sequences within the mature tRNA suggesting that even short precursor sequences with read coverage are sufficient for the annotation of non-redundant tRNA genes (Fig. S1). At the end of our analysis we accounted for 93\% of the 114,367,140 reads in our deepest library (Table S1). Given the depth of sequencing, we are confident that we accounted for the vast majority of precursor and mature tRNAs. Indeed, a posteriori we looked for genomic regions that collected at least 50 overlapping reads throughout their whole length, fell within the 60- to 100-nt size window, and adopted a cloverleaf structure, in an effort to detect any tRNAs that might have been overlooked by our approach or in prior literature. The only sequences that we identified were U1 snRNA (pseudo)genes (Fig. S2), suggesting that our analysis was exhaustive, at least for tRNAs in HEK293 cells. 
+
+\section{Protocol and pipeline outputs}
+\subsection{Mature tRNA alignment}
+
+Representative alignment of reads to a mature tRNA reference., where the reference is shown at the bottom, the reads that map to it, and the depth of read abundance, as well as the reference locations at which its read maps. 
+
+Due to the intentional fragmentation of input RNA, we observe that the majority of reads were shorter than the full length tRNA, but there were enough long reads (like the one shown here in red) to bridge together separate segments of the obtained sequence . 
+
+Figure X. Alignmnent of tRNA-seq reads from HEK293 to mature tRNA transcript TRNAE5. Shorter reads are shown in black; a longer read, bridging 
+the two halves of the tRNAs is shown in red. The frequency of each read (count) and the number of locations that it maps within the tRNA reference with
+no mismatches are indicated.  Vertical lines represent the relative frequency of binned, normalized read count in log4 increments.
+
+(\textbf{Fig. \ref{mature}})
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{mature.png}%
+\caption[Mature tRNA alignment]{\textbf{Mature tRNA alignmentl.} thththtfahflahflahdflahdflahdfladfladhflasdhfladhfladhfladhfladhfaldjsfhaldskfjaldsfhalsdfhasdf}
+\centering
+\label{mature}%
+\end{figure}
+
+\subsection{Pre-tRNA alignment}
+The reads that after a first pass were mapped to a mature tRNA were set aside, and the leftover reads were then mapped to tRNA genomic locations that were extended 40 nts up- and downstream from all mature tRNA boundaries. The reads that mapped to such tRNA precursors (that I wil refer to as pre-tRNAs) were used to identify actively transcribed tRNA loci in our cell system of HEK293 cells (\textbf{Fig. \ref{pre}})
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{pre.png}%
+\caption[Pre-tRNA alignment]{\textbf{Pre-tRNA alignmentl.} \hl{Placeholder}}
+\centering
+\label{pre}%
+\end{figure}
+
+\section{Justification for using precursor reads}
+
+Entropy (\textbf{Fig. \ref{supp1}})
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{supp1.png}%
+\caption[Information entropy in pre-tRNA segments and mature body]{\textbf{Information entropy in pre-tRNA segments and mature body}
+(A,B) Information entropy $H = -\Sigma(p*log(p))$, ), where p is the frequency of each nucleotide at a given position) was calculated using read evidence from hydro-tRNAseq (four replicates) for the 5’ leader and 3’ trailers of all pre-tRNAs with positions centered at the 5’ and 3’ ends of mature tRNAs. (C,D) Same as before, but using the reference sequence of mature tRNAs.}
+\centering
+\label{supp1}%
+\end{figure}
+
+\section{Composition of hydro-tRNAseq libraries}
+The majority of our reads obtained from 60-100 nt size-fractionated total RNA were assigned to mature tRNAs.
+The improvement we observed in recovering tRNA reads was considerable, as 2/3 of our reads mapped to either mature or pre-tRNAs or mitochondrial tRNAs (\textbf{Fig. \ref{paper2a}}). 
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{paper2a.png}%
+\caption[Composition of hydro-tRNAseq libraries]{\textbf{Composition of hydro-tRNAseq libraries.} Total RNA composition of the 60-100 nt size fraction from hydro-tRNAseq according to RNA classes.}
+\centering
+\label{paper2a}%
+\end{figure}
+
+
+
+
+
 
 
 \renewcommand{\bibname}{References}
