@@ -421,9 +421,7 @@ placeholder}
 
 Besides tRNA gene annotation and quantification, our approach yielded insights about pre-tRNA 3’ trailer sequences. Based on hydro-tRNAseq, we determined the median 5’ leader and 3’ trailer lengths to be 6 and 10 nt, respectively, with the trailer lengths showing a broader distribution (\textbf{Fig. \ref{paper6}A,B}). Interestingly, SSB PAR-CLIP revealed a subset of much longer trailers (\textbf{Fig. \ref{paper6}C}), suggesting that SSB PAR-CLIP captured the very initial steps of precursor tRNA processing, and accordingly that hydro-tRNAseq captures pre-tRNAs partially trimmed, either by ELAC2 (tRNase Z) or some other nuclease \cite{Phizicky:2010jf}.
 
-We next focused on the POLR3 oligoU termination signals. Various reports in the past have focused on the oligoU requirements for transcription termination in different species \cite{Arimbasseri:2014hj}
-
- 
+We next focused on the POLR3 oligoU termination signals. Various reports in the past have focused on the oligoU requirements for transcription termination in different species \cite{Arimbasseri:2014hj,Nielsen:2013be}. SSB protected consistently a 3’ 4 to 5 nt oligoU stretch, which was also confirmed by hydro-tRNAseq (\textbf{Fig. \ref{paper6de}}). This is in agreement with previous \textit{in vitro} results \cite{Bayfield:2009cx,Stefano:1984wp,Teplova:2006dv}. We also addressed the proposed requirement for a stem-loop immediately upstream of the oligoU termination signal \cite{Nielsen:2013be}. Secondary structure predictions for the trailer sequences with documented sequence evidence in hydro-tRNAseq and SSB PAR-CLIP did not detect predicted stable stem-loop structures for approximately half of all pre-tRNAs (\textbf{Fig. \ref{supp5}}). This argued against a formal requirement for a stem-loop in the termination process of POLR3, at least on tRNA genes, in accordance with previous biochemical evidence \cite{Arimbasseri:2014hj}.
 
 \begin{figure}[!ht]%
 \centering
@@ -435,9 +433,59 @@ placeholder}
 \label{paper6}%
 \end{figure}
 
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{paper6de.png}%
+\caption[figure6de]
+{\textbf{figure6de.}
+placeholder}
+\centering
+\label{paper6de}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{supp5.png}%
+\caption[supp5]
+{\textbf{supp5.}
+placeholder}
+\centering
+\label{supp5}%
+\end{figure}
+
+\section{Ribonucleotide modifications}
+
+RT across modified nucleotide-containing RNA leads to errors in cognate deoxynucleotide incorporation, revealed by mismatches in sequence reads upon mapping to reference genomic sequence. Read coverage across regions with a high degree of modifications may result in incomplete or largely uneven coverage. Therefore, we included in our mature tRNA reference the combination of all frequent mismatch signatures in all heavily modified positions. We reported the most frequently modified positions per tRNA gene \hl{(Table S5)}, and computed the frequencies of every nucleoside change per position across all tRNA genes (\textbf{Fig. \ref{paper7a}}). 
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{paper7a.png}%
+\caption[paper7a]
+{\textbf{paper7a.}
+placeholder}
+\centering
+\label{paper7a}%
+\end{figure}
+
+The majority of editing events were A-to-G transitions at the first position of the anticodon and at the position 3’ to the anticodon (usually position 37). Both positions are known to be heavily modified, the former being deaminated to inosine, and the latter further modified (e.g. 1-methylinosine) \cite{Machnicka:2013ky}. In our data the majority of the reads that mapped to the anticodon of the modified tRNAs contained the mismatches. To a lesser extent we could also detect 1-methyladenosine in the pseudouridine loop (returned as A-to-T or A-to-G), and various guanosine modifications at positions 9, 26, and 45, which most likely correspond to 1-methyl-, N2,N2-dimethyl-, and 7-methyl-guanosine, respectively \cite{Machnicka:2013ky}.
+
+The temporal resolution of tRNA modifications by RNAseq has begun to be addressed recently  \cite{Torres:2015ed}, however at a single modification level (inosine 34), and by using libraries relative poor in tRNA reads (<1\% of total reads). We were appropriately poised to address this issue since our very deep sequencing set, in combination with our hierarchical annotation pipeline, offered the advantage of dissecting multiple modifications simultaneously. We focused on the inosine modifications, since they represented the majority of modified nucleosides. By inspecting read alignments with error distance 1 to the reference pre-tRNA, we noticed A-to-G transition mismatches at position 34 in reads that retained the leader and trailer sequences of the precursor tRNA (\textbf{Fig. \ref{paper7b}, top}). 
+This confirmed that A34 deamination takes place at the precursor level, and therefore is a nuclear modification, as it has been previously reported \cite{Torres:2015ed}. 
+Next, we noticed that 1-methyl-inosine at position 37 also appears at the precursor stage. Of note the A37 modification became apparent prior to A34, as the majority of the error distance 1 reads contained a mismatch at A37. Reads with two mismatches contained both modifications (\textbf{Fig. \ref{paper7b}, bottom})
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{paper7b.png}%
+\caption[paper7b]
+{\textbf{paper7b.}
+placeholder}
+\centering
+\label{paper7b}%
+\end{figure}
+
 \section{Annotation of intron-containing tRNA genes}
 
-Intron-containing tRNAs represent a particularly interesting set of tRNA genes, as mutations in their evolutionarily conserved, yet distinct, processing machinery have emerged recently as causes of severe neurodevelopmental syndromes, such as pontocerebellar hypoplasia \cite{Namavar:2011ew}. Therefore, there is documented need for a comprehensive annotation of human intron-containing tRNAs, which should be revisited as markers or disease-causing candidates in phenotypically similar conditions. We confirmed 26 out of 32 predicted intron-containing tRNAs by hydro-tRNAseq (\textbf{Fig. \ref{paper5}A}. Excluding any unknown biologically redundant mechanism, this suggests that the integrity of the tRNA splicing complex is essential for survival. To further confirm our observations, we coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, we identified a crosslinked read peak at the anticodon loop of all intron-containing tRNAs annotated by our approaches (\textbf{Fig. \ref{paper5}B,C}.
+Intron-containing tRNAs represent a particularly interesting set of tRNA genes, as mutations in their evolutionarily conserved, yet distinct, processing machinery have emerged recently as causes of severe neurodevelopmental syndromes, such as pontocerebellar hypoplasia \cite{Namavar:2011ew}. Therefore, there is documented need for a comprehensive annotation of human intron-containing tRNAs, which should be revisited as markers or disease-causing candidates in phenotypically similar conditions. We confirmed 26 out of 32 predicted intron-containing tRNAs by hydro-tRNAseq (\textbf{Fig. \ref{paper5}A}. Excluding any unknown biologically redundant mechanism, this suggests that the integrity of the tRNA splicing complex is essential for survival. To further confirm our observations, we coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, we identified a crosslinked read peak at the anticodon loop of all intron-containing tRNAs annotated by our approaches (\textbf{Fig. \ref{paper5}B,C}. 
 
 \begin{figure}[!ht]%
 \centering
@@ -448,6 +496,7 @@ placeholder}
 \centering
 \label{paper5}%
 \end{figure}
+
 
 \chapter{CLP1}
 \chapter{C3PO}

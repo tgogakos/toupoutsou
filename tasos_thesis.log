@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAY 2017 16:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAY 2017 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -961,14 +961,14 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
 \tf@toc=\write10
 \openout10 = `tasos_thesis.toc'.
 
- [7] (./tasos_thesis.lof)
+ [7] (./tasos_thesis.lof [8
+
+
+])
 \tf@lof=\write11
 \openout11 = `tasos_thesis.lof'.
 
- [8
 
-
-]
 [9] (./tasos_thesis.lot)
 \tf@lot=\write12
 \openout12 = `tasos_thesis.lot'.
@@ -1008,7 +1008,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/phv/b/n' tried instead on input line 113.
- [3] <./figures/biogenesis.png, id=323, 734.5041pt x 386.8854pt>
+ [3] <./figures/biogenesis.png, id=334, 734.5041pt x 386.8854pt>
 File: ./figures/biogenesis.png Graphic file (type png)
 
 <use ./figures/biogenesis.png>
@@ -1028,7 +1028,7 @@ Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no ™ in font phvr7t!
 
-[5] [6] [7] <./figures/sRNA.png, id=347, 244.0317pt x 328.1058pt>
+[5] [6] [7] <./figures/sRNA.png, id=358, 244.0317pt x 328.1058pt>
 File: ./figures/sRNA.png Graphic file (type png)
 
 <use ./figures/sRNA.png>
@@ -1044,7 +1044,7 @@ Missing character: There is no € in font phvr7t!
 Missing character: There is no ™ in font phvr7t!
 [10
 
-] <./figures/paper1.png, id=363, 566.8377pt x 443.9787pt>
+] <./figures/paper1.png, id=374, 566.8377pt x 443.9787pt>
 File: ./figures/paper1.png Graphic file (type png)
 
 <use ./figures/paper1.png>
@@ -1073,20 +1073,20 @@ Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no ™ in font phvr7t!
  [13]
-<./figures/mature.png, id=378, 1314.1095pt x 1034.9064pt>
+<./figures/mature.png, id=389, 1314.1095pt x 1034.9064pt>
 File: ./figures/mature.png Graphic file (type png)
 
 <use ./figures/mature.png>
 Package pdftex.def Info: ./figures/mature.png used on input line 230.
 (pdftex.def)             Requested size: 252.94499pt x 199.19246pt.
  [14]
-<./figures/pre.png, id=384, 854.2314pt x 510.4671pt>
+<./figures/pre.png, id=395, 854.2314pt x 510.4671pt>
 File: ./figures/pre.png Graphic file (type png)
  <use ./figures/pre.png>
 Package pdftex.def Info: ./figures/pre.png used on input line 241.
 (pdftex.def)             Requested size: 252.94499pt x 151.15509pt.
 
-<./figures/supp1.png, id=386, 564.1878pt x 475.5366pt>
+<./figures/supp1.png, id=397, 564.1878pt x 475.5366pt>
 File: ./figures/supp1.png Graphic file (type png)
 
 <use ./figures/supp1.png>
@@ -1117,7 +1117,7 @@ Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no ™ in font phvr7t!
  [15 <./figures/mature.png (PNG copy)> <./figures/pre.png (PNG copy)>] <./figur
-es/paper2a.png, id=392, 270.7716pt x 203.3196pt>
+es/paper2a.png, id=403, 270.7716pt x 203.3196pt>
 File: ./figures/paper2a.png Graphic file (type png)
 
 <use ./figures/paper2a.png>
@@ -1129,7 +1129,7 @@ Overfull \hbox (7.78125pt too wide) in paragraph at lines 276--277
 cleoside-enhanced
  []
 
-<./figures/paper2b.png, id=403, 341.8371pt x 292.9344pt>
+<./figures/paper2b.png, id=414, 341.8371pt x 292.9344pt>
 File: ./figures/paper2b.png Graphic file (type png)
 
 <use ./figures/paper2b.png>
@@ -1142,7 +1142,7 @@ tion (PAR-CLIP), cou-
  []
 
 [17 <./figures/paper2a.png (PNG copy)>]
-<./figures/parclip.png, id=409, 283.0575pt x 420.6114pt>
+<./figures/parclip.png, id=420, 283.0575pt x 420.6114pt>
 File: ./figures/parclip.png Graphic file (type png)
 
 <use ./figures/parclip.png>
@@ -1166,7 +1166,7 @@ Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no ™ in font phvr7t!
 
-<./figures/paper2cd.png, id=427, 501.7947pt x 218.9781pt>
+<./figures/paper2cd.png, id=438, 501.7947pt x 218.9781pt>
 File: ./figures/paper2cd.png Graphic file (type png)
 
 <use ./figures/paper2cd.png>
@@ -1182,7 +1182,7 @@ Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no ™ in font phvr7t!
 
-<./figures/paper2ef.png, id=431, 582.0144pt x 267.399pt>
+<./figures/paper2ef.png, id=442, 582.0144pt x 267.399pt>
 File: ./figures/paper2ef.png Graphic file (type png)
 
 <use ./figures/paper2ef.png>
@@ -1190,21 +1190,21 @@ Package pdftex.def Info: ./figures/paper2ef.png used on input line 322.
 (pdftex.def)             Requested size: 252.94499pt x 116.21153pt.
  [20 <./figures/paper2cd.png (PNG copy)>] [21 <./figures/paper2ef.png (PNG copy
 )>]
-<./figures/paper3.png, id=447, 581.7735pt x 460.119pt>
+<./figures/paper3.png, id=458, 581.7735pt x 460.119pt>
 File: ./figures/paper3.png Graphic file (type png)
 
 <use ./figures/paper3.png>
 Package pdftex.def Info: ./figures/paper3.png used on input line 335.
 (pdftex.def)             Requested size: 252.94499pt x 200.05185pt.
 
-<./figures/paper4_two.png, id=448, 570.6921pt x 559.8516pt>
+<./figures/paper4_two.png, id=459, 570.6921pt x 559.8516pt>
 File: ./figures/paper4_two.png Graphic file (type png)
 
 <use ./figures/paper4_two.png>
 Package pdftex.def Info: ./figures/paper4_two.png used on input line 346.
 (pdftex.def)             Requested size: 430.00627pt x 421.83537pt.
 
-<./figures/paper4A.png, id=449, 302.8113pt x 244.7544pt>
+<./figures/paper4A.png, id=460, 302.8113pt x 244.7544pt>
 File: ./figures/paper4A.png Graphic file (type png)
 
 <use ./figures/paper4A.png>
@@ -1212,14 +1212,14 @@ Package pdftex.def Info: ./figures/paper4A.png used on input line 366.
 (pdftex.def)             Requested size: 252.94499pt x 204.45694pt.
  [22 <./figures/paper3.png (PNG copy)>] [23 <./figures/paper4_two.png (PNG copy
 )>]
-<./figures/paper4D.png, id=462, 621.0402pt x 172.4844pt>
+<./figures/paper4D.png, id=473, 621.0402pt x 172.4844pt>
 File: ./figures/paper4D.png Graphic file (type png)
 
 <use ./figures/paper4D.png>
 Package pdftex.def Info: ./figures/paper4D.png used on input line 389.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
-<./figures/paper4Drot.png, id=463, 621.0402pt x 172.4844pt>
+<./figures/paper4Drot.png, id=474, 621.0402pt x 172.4844pt>
 File: ./figures/paper4Drot.png Graphic file (type png)
 
 <use ./figures/paper4Drot.png>
@@ -1230,7 +1230,7 @@ Overfull \hbox (8.33067pt too wide) in paragraph at lines 407--407
 |[]\OT1/phv/b/n/17.28 Mature tRNA abun-dance does not cor-re-late with
  []
 
-<./figures/supp4.png, id=465, 589.0005pt x 259.9311pt>
+<./figures/supp4.png, id=476, 589.0005pt x 259.9311pt>
 File: ./figures/supp4.png Graphic file (type png)
 
 <use ./figures/supp4.png>
@@ -1251,54 +1251,133 @@ Missing character: There is no â in font phvr7t!
 Missing character: There is no € in font phvr7t!
 Missing character: There is no ™ in font phvr7t!
 
+
+LaTeX Warning: Citation 'Nielsen:2013be' on page 26 undefined on input line 424
+.
+
+Missing character: There is no â in font phvr7t!
+Missing character: There is no € in font phvr7t!
+Missing character: There is no ™ in font phvr7t!
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 424.
+
+LaTeX Warning: Citation 'Teplova:2006dv' on page 26 undefined on input line 424
+.
+
+
+LaTeX Warning: Citation 'Nielsen:2013be' on page 26 undefined on input line 424
+.
+
 [26 <./figures/supp4.png (PNG copy)>]
-<./figures/paper6.png, id=485, 794.97pt x 214.8828pt>
+<./figures/paper6.png, id=501, 794.97pt x 214.8828pt>
 File: ./figures/paper6.png Graphic file (type png)
 
 <use ./figures/paper6.png>
-Package pdftex.def Info: ./figures/paper6.png used on input line 430.
+Package pdftex.def Info: ./figures/paper6.png used on input line 428.
 (pdftex.def)             Requested size: 430.00627pt x 116.23499pt.
 
+<./figures/paper6de.png, id=502, 560.0925pt x 209.583pt>
+File: ./figures/paper6de.png Graphic file (type png)
 
-LaTeX Warning: Citation 'Baltz:2012bh' on page 27 undefined on input line 440.
+<use ./figures/paper6de.png>
+Package pdftex.def Info: ./figures/paper6de.png used on input line 438.
+(pdftex.def)             Requested size: 430.00627pt x 160.91249pt.
 
-<./figures/paper5.png, id=489, 532.1481pt x 595.2639pt>
+<./figures/supp5.png, id=503, 315.579pt x 161.403pt>
+File: ./figures/supp5.png Graphic file (type png)
+ <use ./figures/supp5.png>
+Package pdftex.def Info: ./figures/supp5.png used on input line 448.
+(pdftex.def)             Requested size: 430.00627pt x 219.93616pt.
+
+
+LaTeX Warning: Reference `paper7a' on page 27 undefined on input line 458.
+
+[27 <./figures/paper6.png (PNG copy)>]
+<./figures/paper7a.png, id=510, 245.2362pt x 270.5307pt>
+File: ./figures/paper7a.png Graphic file (type png)
+
+<use ./figures/paper7a.png>
+Package pdftex.def Info: ./figures/paper7a.png used on input line 462.
+(pdftex.def)             Requested size: 430.00627pt x 474.38936pt.
+Missing character: There is no â in font phvr7t!
+Missing character: There is no € in font phvr7t!
+Missing character: There is no ™ in font phvr7t!
+
+
+LaTeX Warning: Citation 'Machnicka:2013ky' on page 28 undefined on input line 4
+70.
+
+
+LaTeX Warning: Citation 'Machnicka:2013ky' on page 28 undefined on input line 4
+70.
+
+[28 <./figures/paper6de.png (PNG copy)> <./figures/supp5.png (PNG copy)>]
+[29 <./figures/paper7a.png (PNG copy)>]
+
+LaTeX Warning: Citation 'Torres:2015ed' on page 30 undefined on input line 472.
+
+
+
+LaTeX Warning: Reference `paper7b' on page 30 undefined on input line 472.
+
+
+LaTeX Warning: Citation 'Torres:2015ed' on page 30 undefined on input line 473.
+
+
+
+LaTeX Warning: Reference `paper7b' on page 30 undefined on input line 474.
+
+<./figures/paper7b.png, id=519, 341.3553pt x 362.3136pt>
+File: ./figures/paper7b.png Graphic file (type png)
+
+<use ./figures/paper7b.png>
+Package pdftex.def Info: ./figures/paper7b.png used on input line 478.
+(pdftex.def)             Requested size: 430.00627pt x 456.41805pt.
+
+
+LaTeX Warning: Citation 'Baltz:2012bh' on page 30 undefined on input line 488.
+
+[30] [31 <./figures/paper7b.png (PNG copy)>]
+<./figures/paper5.png, id=533, 532.1481pt x 595.2639pt>
 File: ./figures/paper5.png Graphic file (type png)
 
 <use ./figures/paper5.png>
-Package pdftex.def Info: ./figures/paper5.png used on input line 444.
+Package pdftex.def Info: ./figures/paper5.png used on input line 492.
 (pdftex.def)             Requested size: 430.00627pt x 481.02576pt.
- [27 <./figures/paper6.png (PNG copy)>] [28 <./figures/paper5.png (PNG copy)>]
+ [32 <./figures/paper5.png (PNG copy)>]
 Chapter 3.
-[29
+[33
 
 ]
 Chapter 4.
-[30
+[34
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 458.
-
-Overfull \hbox (2.60893pt too wide) in paragraph at lines 459--459
+Overfull \hbox (2.60893pt too wide) in paragraph at lines 508--508
 []\OT1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \OT1/phv/m/sl/12 tRNA: Struc-tur
 e, Biosyn-the-sis and Func-tion \OT1/phv/m/n/12 1st ed.
  []
 
-[31
+[35
 
-] [32] [33]
+] [36] [37]
 Missing character: There is no Â in font phvr7t!
 Missing character: There is no ´ in font phvr7t!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 461.
- [34]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 461.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 510.
+ [38]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 510.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 461.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 461.
-Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 828383BB8A0898F78F6AA387B2006B69;2067.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 510.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 510.
 
+
+Package rerunfilecheck Warning: File `tasos_thesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `tasos_thesis.out':
+(rerunfilecheck)             Before: 6AC5C9CAE8B3E72E562D4EE86BF1CD06;2143
+(rerunfilecheck)             After:  44E44C1FE88807853C50415577D89E25;2143.
 
 LaTeX Warning: There were undefined references.
 
@@ -1313,30 +1392,33 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tasos_thesis.run.xml'.
 \openout1 = `tasos_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 461.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 510.
  ) 
 Here is how much of TeX's memory you used:
- 18517 strings out of 493014
- 299979 string characters out of 6133351
- 803907 words of memory out of 5000000
- 21600 multiletter control sequences out of 15000+600000
+ 18553 strings out of 493014
+ 300606 string characters out of 6133351
+ 803250 words of memory out of 5000000
+ 21622 multiletter control sequences out of 15000+600000
  21119 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,12n,77p,2446b,1131s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (47 pages, 2843215 bytes).
+pdfTeX warning (dest): name{chapter*.38} has been referenced but does not exi
+st, replaced by a fixed one
+
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
+ts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on tasos_thesis.pdf (51 pages, 3233252 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
- 514 compressed objects within 6 object streams
- 144 named destinations out of 1000 (max. 500000)
- 328 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 639 PDF objects out of 1000 (max. 8388607)
+ 548 compressed objects within 6 object streams
+ 154 named destinations out of 1000 (max. 500000)
+ 356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
