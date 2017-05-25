@@ -499,31 +499,1048 @@
       \field{pages}{237\bibrangedash 243}
       \range{pages}{7}
     \endentry
-    \entry{Arimbasseri:2016ey}{article}{}
-      \name{author}{2}{}{%
-        {{hash=16e2a66a1db02c846ca0dea842fbff22}{%
-           family={Arimbasseri},
+    \entry{Gingold:2014iz}{article}{}
+      \name{author}{23}{}{%
+        {{hash=ce12cd4bb8c854cc8ecdd91e14165d76}{%
+           family={Gingold},
+           family_i={G\bibinitperiod},
+           given={Hila},
+           given_i={H\bibinitperiod}}}%
+        {{hash=a45d4b89ad1353772736df8e3cc5dd46}{%
+           family={Tehler},
+           family_i={T\bibinitperiod},
+           given={Disa},
+           given_i={D\bibinitperiod}}}%
+        {{hash=4961d38f33573d49f4cd023289a02e65}{%
+           family={Christoffersen},
+           family_i={C\bibinitperiod},
+           given={Nanna\bibnamedelima R},
+           given_i={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=273a1d56fc830c1e35eb4d053bb93740}{%
+           family={Nielsen},
+           family_i={N\bibinitperiod},
+           given={Morten\bibnamedelima M},
+           given_i={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=51c770967880c400e0035af4c122dbda}{%
+           family={Asmar},
            family_i={A\bibinitperiod},
-           given={Aneeshkumar\bibnamedelima G},
-           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+           given={Fazila},
+           given_i={F\bibinitperiod}}}%
+        {{hash=3d84234bbda3517679c99f74b91ae12c}{%
+           family={Kooistra},
+           family_i={K\bibinitperiod},
+           given={Susanne\bibnamedelima M},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=71096661f9af94cf7bee22df8f20bd23}{%
+           family={Christophersen},
+           family_i={C\bibinitperiod},
+           given={Nicolaj\bibnamedelima S},
+           given_i={N\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=6167d6dee8af227fb203e4fffb89157e}{%
+           family={Christensen},
+           family_i={C\bibinitperiod},
+           given={Lise\bibnamedelima Lotte},
+           given_i={L\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=8d09d6eda9f661012d46717bd16887a8}{%
+           family={Borre},
+           family_i={B\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+        {{hash=acaf84ffecb09c03752bc05e1ddc1989}{%
+           family={S{ø}rensen},
+           family_i={S\bibinitperiod},
+           given={Karina\bibnamedelima D},
+           given_i={K\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=92cd6647837bc033ecd77824d19b32a9}{%
+           family={Andersen},
+           family_i={A\bibinitperiod},
+           given={Lars\bibnamedelima D},
+           given_i={L\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=ef0f2369a6c1a0acfa01b9e79382ebc6}{%
+           family={Andersen},
+           family_i={A\bibinitperiod},
+           given={Claus\bibnamedelima L},
+           given_i={C\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=1fa19c0fc95cdab378dabf8e094b2f08}{%
+           family={Hulleman},
+           family_i={H\bibinitperiod},
+           given={Esther},
+           given_i={E\bibinitperiod}}}%
+        {{hash=3fa539645e8f900aba187aa0a4e9ce09}{%
+           family={Wurdinger},
+           family_i={W\bibinitperiod},
+           given={Tom},
+           given_i={T\bibinitperiod}}}%
+        {{hash=2219342dbc0967bd95dccca9fa2c726f}{%
+           family={Ralfki{æ}r},
+           family_i={R\bibinitperiod},
+           given={Elisabeth},
+           given_i={E\bibinitperiod}}}%
+        {{hash=e9fca5869cf0e886f043889d298d9816}{%
+           family={Helin},
+           family_i={H\bibinitperiod},
+           given={Kristian},
+           given_i={K\bibinitperiod}}}%
+        {{hash=3dd14742c09d5e2e452d43ae07c6cb05}{%
+           family={Gr{ø}nb{æ}k},
+           family_i={G\bibinitperiod},
+           given={Kirsten},
+           given_i={K\bibinitperiod}}}%
+        {{hash=9d95a4c48b4528470dbad23787387151}{%
+           family={{Ø}rntoft},
+           family_i={Ø\bibinitperiod},
+           given={Torben},
+           given_i={T\bibinitperiod}}}%
+        {{hash=42d23642d777baf438f9547b9dc789f8}{%
+           family={Waszak},
+           family_i={W\bibinitperiod},
+           given={Sebastian\bibnamedelima M},
+           given_i={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=455eeab716277f9dbfa9d949ece764b5}{%
+           family={Dahan},
+           family_i={D\bibinitperiod},
+           given={Orna},
+           given_i={O\bibinitperiod}}}%
+        {{hash=48ac329039f7865ca95a35ae1abfb0ce}{%
+           family={Pedersen},
+           family_i={P\bibinitperiod},
+           given={Jakob\bibnamedelima Skou},
+           given_i={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=23be02c7ee5ce04512c5d0a61ad9b2e3}{%
+           family={Lund},
+           family_i={L\bibinitperiod},
+           given={Anders\bibnamedelima H},
+           given_i={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0e91542761ef0149d1b3d0c3550f698b}{%
+           family={Pilpel},
+           family_i={P\bibinitperiod},
+           given={Yitzhak},
+           given_i={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{77a66eef4304326ce93c6012035e7074}
+      \strng{fullhash}{cd676bde1528a5644828f673de15f661}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{month}{09}
+      \field{number}{6}
+      \field{title}{{A Dual Programfor Translation Regulationin Cellular Proliferation and Differentiation}}
+      \field{volume}{158}
+      \field{year}{2014}
+      \field{pages}{1281\bibrangedash 1292}
+      \range{pages}{12}
+    \endentry
+    \entry{Kutter:2011ff}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e0fbcd87413046682602a6f0be9eaabe}{%
+           family={Kutter},
+           family_i={K\bibinitperiod},
+           given={Claudia},
+           given_i={C\bibinitperiod}}}%
+        {{hash=61856b5daa99c488c822c8f3759b2153}{%
+           family={Brown},
+           family_i={B\bibinitperiod},
+           given={Gordon\bibnamedelima D},
+           given_i={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4f30085b6762ee51367a0b579e861983}{%
+           family={Gonçalves},
+           family_i={G\bibinitperiod},
+           given={Ângela},
+           given_i={Â\bibinitperiod}}}%
+        {{hash=fc8fe452e5bf6c7c68ae9aaa9b5b2d4b}{%
+           family={Wilson},
+           family_i={W\bibinitperiod},
+           given={Michael\bibnamedelima D},
+           given_i={M\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=13daf87381f6a1394097a2198cc80b1d}{%
+           family={Watt},
+           family_i={W\bibinitperiod},
+           given={Stephen},
+           given_i={S\bibinitperiod}}}%
+        {{hash=8b485461f66a187d9987f2a51838fc86}{%
+           family={Brazma},
+           family_i={B\bibinitperiod},
+           given={Alvis},
+           given_i={A\bibinitperiod}}}%
+        {{hash=27bb6d9c6200bb5d3f47ed3112170a9e}{%
+           family={White},
+           family_i={W\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2ee5bbb5ce3f64bb666e36ade70d5786}{%
+           family={Odom},
+           family_i={O\bibinitperiod},
+           given={Duncan\bibnamedelima T},
+           given_i={D\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \strng{namehash}{c79b8070b71d085260d13f099c526726}
+      \strng{fullhash}{fbae04bda212aec3c8952581cedd3af5}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Genetics}
+      \field{month}{08}
+      \field{number}{10}
+      \field{title}{{Pol III binding in six mammals shows conservation among amino acid isotypes despite divergence among tRNA genes}}
+      \field{volume}{43}
+      \field{year}{2011}
+      \field{pages}{948\bibrangedash 955}
+      \range{pages}{8}
+    \endentry
+    \entry{Moqtaderi:2010hc}{article}{}
+      \name{author}{7}{}{%
+        {{hash=14998e5c49977d9e79f3595e82acc1ef}{%
+           family={Moqtaderi},
+           family_i={M\bibinitperiod},
+           given={Zarmik},
+           given_i={Z\bibinitperiod}}}%
+        {{hash=fcd6114a30fda9801eef65b9d374f56b}{%
+           family={Wang},
+           family_i={W\bibinitperiod},
+           given={Jie},
+           given_i={J\bibinitperiod}}}%
+        {{hash=e4c39f21804af5165bb521efd84fb7ee}{%
+           family={Raha},
+           family_i={R\bibinitperiod},
+           given={Debasish},
+           given_i={D\bibinitperiod}}}%
+        {{hash=27bb6d9c6200bb5d3f47ed3112170a9e}{%
+           family={White},
+           family_i={W\bibinitperiod},
+           given={Robert\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=7d041659633e29317689385f227d3173}{%
+           family={Snyder},
+           family_i={S\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+        {{hash=3f25b743e7a9e726ca9c3be8b66859d6}{%
+           family={Weng},
+           family_i={W\bibinitperiod},
+           given={Zhiping},
+           given_i={Z\bibinitperiod}}}%
+        {{hash=2bdacebae4df7ae834eb24e2a08714ba}{%
+           family={Struhl},
+           family_i={S\bibinitperiod},
+           given={Kevin},
+           given_i={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{a77811560cb86a6c9e9f4de6ec0d698a}
+      \strng{fullhash}{0e2a27e62c4e6e90e7ecbab2ba1f80d5}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Structural {\&} Molecular Biology}
+      \field{month}{04}
+      \field{number}{5}
+      \field{title}{{Genomic binding profiles of functionally distinct RNA polymerase III transcription complexes in human cells}}
+      \field{volume}{17}
+      \field{year}{2010}
+      \field{pages}{635\bibrangedash 640}
+      \range{pages}{6}
+    \endentry
+    \entry{Oler:2010fb}{article}{}
+      \name{author}{11}{}{%
+        {{hash=33cf73dfc30455e551ef9a12ae60b7e1}{%
+           family={Oler},
+           family_i={O\bibinitperiod},
+           given={Andrew\bibnamedelima J},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6d7d5348a9a04eeb869b5e80ea089b43}{%
+           family={Alla},
+           family_i={A\bibinitperiod},
+           given={Ravi\bibnamedelima K},
+           given_i={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=83b8ed69f287dac530cc07eb56a412f0}{%
+           family={Roberts},
+           family_i={R\bibinitperiod},
+           given={Douglas\bibnamedelima N},
+           given_i={D\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=323f171aa619b4a38b71f29bc7608261}{%
+           family={Wong},
+           family_i={W\bibinitperiod},
+           given={Alexander},
+           given_i={A\bibinitperiod}}}%
+        {{hash=5777670475b3aa25272683bf42404a32}{%
+           family={Hollenhorst},
+           family_i={H\bibinitperiod},
+           given={Peter\bibnamedelima C},
+           given_i={P\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=4cae13f3c71a16e5d801c7d9fd2dd0db}{%
+           family={Chandler},
+           family_i={C\bibinitperiod},
+           given={Katherine\bibnamedelima J},
+           given_i={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=6b8cce24a58df04bcb6378b3b05743cf}{%
+           family={Cassiday},
+           family_i={C\bibinitperiod},
+           given={Patrick\bibnamedelima A},
+           given_i={P\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1785ded4cf45ad8a752be048ec81c3ec}{%
+           family={Nelson},
+           family_i={N\bibinitperiod},
+           given={Cassie\bibnamedelima A},
+           given_i={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1e4a191da29adbb7e4ddea29ab0e9a80}{%
+           family={Hagedorn},
+           family_i={H\bibinitperiod},
+           given={Curt\bibnamedelima H},
+           given_i={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=2b890a8d61db7b0abeaf86f534792b42}{%
+           family={Graves},
+           family_i={G\bibinitperiod},
+           given={Barbara\bibnamedelima J},
+           given_i={B\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e684245fc2ec8c740b8af6058cd6d78b}{%
+           family={Cairns},
+           family_i={C\bibinitperiod},
+           given={Bradley\bibnamedelima R},
+           given_i={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{2cb9ffc4bb9d2b86cae6e60f2b1d47b7}
+      \strng{fullhash}{89f5a90ee34af9bd39e2b1ab9757515e}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Structural {\&} Molecular Biology}
+      \field{month}{04}
+      \field{number}{5}
+      \field{title}{{nsmb.1801}}
+      \field{volume}{17}
+      \field{year}{2010}
+      \field{pages}{620\bibrangedash 628}
+      \range{pages}{9}
+    \endentry
+    \entry{Dittmar:2004fb}{article}{}
+      \name{author}{4}{}{%
+        {{hash=087d2f7462741c0cfdaa601e1dca8528}{%
+           family={Dittmar},
+           family_i={D\bibinitperiod},
+           given={Kimberly\bibnamedelima A},
+           given_i={K\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=53e1a8219554df84a34c42f151cf2edb}{%
+           family={Mobley},
+           family_i={M\bibinitperiod},
+           given={Evelyn\bibnamedelima M},
+           given_i={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=6c96fc67c73f330c0d96340781e03c7b}{%
+           family={Radek},
+           family_i={R\bibinitperiod},
+           given={Agnes\bibnamedelima Jancso},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=af6e3e5bed38c9ce5a0946719815ceff}{%
+           family={Pan},
+           family_i={P\bibinitperiod},
+           given={Tao},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca572f9a505632553488e7e2e1664886}
+      \strng{fullhash}{221fa24559cf62fa5d843bd670b02e1a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Molecular Biology}
+      \field{month}{03}
+      \field{number}{1}
+      \field{title}{{Exploring the Regulation of tRNA Distribution on the Genomic Scale}}
+      \field{volume}{337}
+      \field{year}{2004}
+      \field{pages}{31\bibrangedash 47}
+      \range{pages}{17}
+    \endentry
+    \entry{Goodarzi:2016gd}{article}{}
+      \name{author}{6}{}{%
+        {{hash=3cedce9af0af3cf5a4eb96b95bbf4506}{%
+           family={Goodarzi},
+           family_i={G\bibinitperiod},
+           given={Hani},
+           given_i={H\bibinitperiod}}}%
+        {{hash=3da09273d9c2b6e9a640d73b3943fa6e}{%
+           family={Nguyen},
+           family_i={N\bibinitperiod},
+           given={Hoang\bibnamedelimb C\bibnamedelima B},
+           given_i={H\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=136f3469531c160d60f20c564791800f}{%
+           family={Zhang},
+           family_i={Z\bibinitperiod},
+           given={Steven},
+           given_i={S\bibinitperiod}}}%
+        {{hash=b354db1461059195dac3b99dd0b82875}{%
+           family={Dill},
+           family_i={D\bibinitperiod},
+           given={Brian\bibnamedelima D},
+           given_i={B\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cbfc5b2b6f4c2b5752f81350c5bc6ca0}{%
+           family={Molina},
+           family_i={M\bibinitperiod},
+           given={Henrik},
+           given_i={H\bibinitperiod}}}%
+        {{hash=4ec697b2eb8b6c8ac9e56b8b7f8137ea}{%
+           family={Tavazoie},
+           family_i={T\bibinitperiod},
+           given={Sohail\bibnamedelima F},
+           given_i={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d99105ec723455d461cffb3550fbd9e9}
+      \strng{fullhash}{fc84210cb9b7f9b1688a8fdce2bc1af5}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{month}{06}
+      \field{number}{6}
+      \field{title}{{Modulated Expression of Specific tRNAs Drives Gene Expression and Cancer Progression}}
+      \field{volume}{165}
+      \field{year}{2016}
+      \field{pages}{1416\bibrangedash 1427}
+      \range{pages}{12}
+    \endentry
+    \entry{Cozen:2015ds}{article}{}
+      \name{author}{6}{}{%
+        {{hash=80e98fd0bdef70150e71168f11816b6f}{%
+           family={Cozen},
+           family_i={C\bibinitperiod},
+           given={Aaron\bibnamedelima E},
+           given_i={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6727528dcaa01ea154ae7e0aa73daaf}{%
+           family={Quartley},
+           family_i={Q\bibinitperiod},
+           given={Erin},
+           given_i={E\bibinitperiod}}}%
+        {{hash=5636a558a3455d20c7281ff645c16582}{%
+           family={Holmes},
+           family_i={H\bibinitperiod},
+           given={Andrew\bibnamedelima D},
+           given_i={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=15ee8d1bb0d2035d4474b66de6ce4780}{%
+           family={Hrabeta-Robinson},
+           family_i={H\bibinithyphendelim R\bibinitperiod},
+           given={Eva},
+           given_i={E\bibinitperiod}}}%
+        {{hash=2cf747eb48a140cb95fbbebf8726e02b}{%
+           family={Phizicky},
+           family_i={P\bibinitperiod},
+           given={Eric\bibnamedelima M},
+           given_i={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=bd39b135d2b634890516b99ebfe6a06c}{%
+           family={Lowe},
+           family_i={L\bibinitperiod},
+           given={Todd\bibnamedelima M},
+           given_i={T\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8a35aae48112e9435a1a972bb1204d5c}
+      \strng{fullhash}{22606b00fc617848d962fc767d548fc3}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{09}
+      \field{number}{9}
+      \field{title}{{ARM-seq: AlkB-facilitated RNA methylation sequencing reveals a complex landscape of modified tRNA fragments.}}
+      \field{volume}{12}
+      \field{year}{2015}
+      \field{pages}{879\bibrangedash 884}
+      \range{pages}{6}
+    \endentry
+    \entry{Zheng:2015dw}{article}{}
+      \name{author}{8}{}{%
+        {{hash=40a1cb7af409611ecf07c634cabb8ff4}{%
+           family={Zheng},
+           family_i={Z\bibinitperiod},
+           given={Guanqun},
+           given_i={G\bibinitperiod}}}%
+        {{hash=1b901f9fd68169bc77deb06deccafd9d}{%
+           family={Qin},
+           family_i={Q\bibinitperiod},
+           given={Yidan},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=d5adcec0ab1a4a9554510e0c91148d6a}{%
+           family={Clark},
+           family_i={C\bibinitperiod},
+           given={Wesley\bibnamedelima C},
+           given_i={W\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=96f945cf1fd4b20120f2e08de9d111bb}{%
+           family={Dai},
+           family_i={D\bibinitperiod},
+           given={Qing},
+           given_i={Q\bibinitperiod}}}%
+        {{hash=fbf2a7de2b42d7f835bdba6185b779f3}{%
+           family={Yi},
+           family_i={Y\bibinitperiod},
+           given={Chengqi},
+           given_i={C\bibinitperiod}}}%
+        {{hash=67558ea1e1244442a0fd2c3479440f4c}{%
+           family={He},
+           family_i={H\bibinitperiod},
+           given={Chuan},
+           given_i={C\bibinitperiod}}}%
+        {{hash=0693685d007f59ee35247f7da1df8587}{%
+           family={Lambowitz},
+           family_i={L\bibinitperiod},
+           given={Alan\bibnamedelima M},
+           given_i={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=af6e3e5bed38c9ce5a0946719815ceff}{%
+           family={Pan},
+           family_i={P\bibinitperiod},
+           given={Tao},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{96ed8aec63282fff4aa57024661623e2}
+      \strng{fullhash}{d587abf9cea6faf72f05ae6a084bdabe}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Methods}
+      \field{month}{07}
+      \field{title}{{Efficient and quantitative high-throughput tRNA sequencing}}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+    \endentry
+    \entry{Karaca:2014em}{article}{}
+      \name{author}{45}{}{%
+        {{hash=9972a6159089ff96869ec153f7bf9202}{%
+           family={Karaca},
+           family_i={K\bibinitperiod},
+           given={Ender},
+           given_i={E\bibinitperiod}}}%
+        {{hash=fc70e6911f43039c364157af3bcb8245}{%
+           family={Weitzer},
+           family_i={W\bibinitperiod},
+           given={Stefan},
+           given_i={S\bibinitperiod}}}%
+        {{hash=1dd5050cb2790ebac15fafdacf8ca5d4}{%
+           family={Pehlivan},
+           family_i={P\bibinitperiod},
+           given={Davut},
+           given_i={D\bibinitperiod}}}%
+        {{hash=45186f2cc23e5e3c2ed6c51bacdcc218}{%
+           family={Shiraishi},
+           family_i={S\bibinitperiod},
+           given={Hiroshi},
+           given_i={H\bibinitperiod}}}%
+        {{hash=0c4304b11b92fea22f64543d5ee640c8}{%
+           family={Gogakos},
+           family_i={G\bibinitperiod},
+           given={Tasos},
+           given_i={T\bibinitperiod}}}%
+        {{hash=115aad9718c9c2404ce0f071522a39a9}{%
+           family={Hanada},
+           family_i={H\bibinitperiod},
+           given={Toshikatsu},
+           given_i={T\bibinitperiod}}}%
+        {{hash=99d4992067b4937e8d72f98ad29ff107}{%
+           family={Jhangiani},
+           family_i={J\bibinitperiod},
+           given={Shalini\bibnamedelima N},
+           given_i={S\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=561c437b6cfcaa1e776671a71fe5a1c5}{%
+           family={Wiszniewski},
+           family_i={W\bibinitperiod},
+           given={Wojciech},
+           given_i={W\bibinitperiod}}}%
+        {{hash=4bd75a32ba9f75fcca2975c412b926f6}{%
+           family={Withers},
+           family_i={W\bibinitperiod},
+           given={Marjorie},
+           given_i={M\bibinitperiod}}}%
+        {{hash=424c7577f7632d3a65007f0411522609}{%
+           family={Campbell},
+           family_i={C\bibinitperiod},
+           given={Ian\bibnamedelima M},
+           given_i={I\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=900aba1a40c81712dafdeca398678b92}{%
+           family={Erdin},
+           family_i={E\bibinitperiod},
+           given={Serkan},
+           given_i={S\bibinitperiod}}}%
+        {{hash=821ab7c97f98c4f644a2861348a7004f}{%
+           family={Isikay},
+           family_i={I\bibinitperiod},
+           given={Sedat},
+           given_i={S\bibinitperiod}}}%
+        {{hash=38e465cd5dbb28606237f3b268fc36c2}{%
+           family={Franco},
+           family_i={F\bibinitperiod},
+           given={Luis\bibnamedelima M},
+           given_i={L\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=10f0a916c9ad76262a877faffc29c2fd}{%
+           family={Gonzaga-Jauregui},
+           family_i={G\bibinithyphendelim J\bibinitperiod},
+           given={Claudia},
+           given_i={C\bibinitperiod}}}%
+        {{hash=d7f91cae291ab155d386e64d8f4f9008}{%
+           family={Gambin},
+           family_i={G\bibinitperiod},
+           given={Tomasz},
+           given_i={T\bibinitperiod}}}%
+        {{hash=b2a7a3638c563781df777e16c296acf3}{%
+           family={Gelowani},
+           family_i={G\bibinitperiod},
+           given={Violet},
+           given_i={V\bibinitperiod}}}%
+        {{hash=269c8faf04a33c2bcf9a9cbab07fdbe1}{%
+           family={Hunter},
+           family_i={H\bibinitperiod},
+           given={Jill\bibnamedelima V},
+           given_i={J\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=bef51607beb82d1740778965cd4f2cee}{%
+           family={Yesil},
+           family_i={Y\bibinitperiod},
+           given={Gozde},
+           given_i={G\bibinitperiod}}}%
+        {{hash=cb5837b8f0772cad52aaf390de91d910}{%
+           family={Koparir},
+           family_i={K\bibinitperiod},
+           given={Erkan},
+           given_i={E\bibinitperiod}}}%
+        {{hash=096b7653d8913fa6884712c0ca53e138}{%
+           family={Yilmaz},
+           family_i={Y\bibinitperiod},
+           given={Sarenur},
+           given_i={S\bibinitperiod}}}%
+        {{hash=99ac86878e5ce046a216365be427b121}{%
+           family={Brown},
+           family_i={B\bibinitperiod},
+           given={Miguel},
+           given_i={M\bibinitperiod}}}%
+        {{hash=828982e0402755cadadc511606eec19e}{%
+           family={Briskin},
+           family_i={B\bibinitperiod},
+           given={Daniel},
+           given_i={D\bibinitperiod}}}%
+        {{hash=59b0b0060b97064626be5286d058c298}{%
+           family={Hafner},
+           family_i={H\bibinitperiod},
+           given={Markus},
+           given_i={M\bibinitperiod}}}%
+        {{hash=81add1252eab01e198e59de455635911}{%
+           family={Morozov},
+           family_i={M\bibinitperiod},
+           given={Pavel},
+           given_i={P\bibinitperiod}}}%
+        {{hash=88f833a203022d12144c51bcb1983a50}{%
+           family={Farazi},
+           family_i={F\bibinitperiod},
+           given={Thalia\bibnamedelima A},
+           given_i={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ffbd58286a527351a1317a7dfe21e7f4}{%
+           family={Bernreuther},
+           family_i={B\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+        {{hash=e27c2e61129ce66c393ce47c9f4f3b26}{%
+           family={Glatzel},
+           family_i={G\bibinitperiod},
+           given={Markus},
+           given_i={M\bibinitperiod}}}%
+        {{hash=9297f482b3388e0135c706d3d380360f}{%
+           family={Trattnig},
+           family_i={T\bibinitperiod},
+           given={Siegfried},
+           given_i={S\bibinitperiod}}}%
+        {{hash=cafad1c25e9764bdefdea04cc624077a}{%
+           family={Friske},
+           family_i={F\bibinitperiod},
+           given={Joachim},
+           given_i={J\bibinitperiod}}}%
+        {{hash=1f034ed6b74eb034f50cfad5fb17af2d}{%
+           family={Kronnerwetter},
+           family_i={K\bibinitperiod},
+           given={Claudia},
+           given_i={C\bibinitperiod}}}%
+        {{hash=0fa35c5fcac7c060a6d44a9fbeb24519}{%
+           family={Bainbridge},
+           family_i={B\bibinitperiod},
+           given={Matthew\bibnamedelima N},
+           given_i={M\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=cef7604fd5b4ebb5ff9a2cdd31a332f3}{%
+           family={Gezdirici},
+           family_i={G\bibinitperiod},
+           given={Alper},
+           given_i={A\bibinitperiod}}}%
+        {{hash=aa7accc672b18d8d1a2f7192573a3921}{%
+           family={Seven},
+           family_i={S\bibinitperiod},
+           given={Mehmet},
+           given_i={M\bibinitperiod}}}%
+        {{hash=48373b0ca9a7fc90bd855cbb0ae4214a}{%
+           family={Muzny},
+           family_i={M\bibinitperiod},
+           given={Donna\bibnamedelima M},
+           given_i={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=1c6c0ce900767f7f080474955c969ccf}{%
+           family={Boerwinkle},
+           family_i={B\bibinitperiod},
+           given={Eric},
+           given_i={E\bibinitperiod}}}%
+        {{hash=c7942210a5165c95366ab01517385222}{%
+           family={Ozen},
+           family_i={O\bibinitperiod},
+           given={Mustafa},
+           given_i={M\bibinitperiod}}}%
+        {{hash=7a37c663bfce7dd69e1b63f871b8dae7}{%
+           family={{Baylor Hopkins Center for Mendelian Genomics}},
+           family_i={B\bibinitperiod}}}%
+        {{hash=772c21f65e35d10189e7ad4f0b818307}{%
+           family={Clausen},
+           family_i={C\bibinitperiod},
+           given={Tim},
+           given_i={T\bibinitperiod}}}%
+        {{hash=ac3ff74f7b6e35a8be01a24fd8e0eb6b}{%
+           family={Tuschl},
+           family_i={T\bibinitperiod},
+           given={Thomas},
+           given_i={T\bibinitperiod}}}%
+        {{hash=e27767bad65c56ad6376b8e6f6515dc2}{%
+           family={Yuksel},
+           family_i={Y\bibinitperiod},
+           given={Adnan},
+           given_i={A\bibinitperiod}}}%
+        {{hash=52a8b512c944ace59db3ebe93fb4bd30}{%
+           family={Hess},
+           family_i={H\bibinitperiod},
+           given={Andreas},
+           given_i={A\bibinitperiod}}}%
+        {{hash=5f777f976e17e626cf38e929f90319b1}{%
+           family={Gibbs},
+           family_i={G\bibinitperiod},
+           given={Richard\bibnamedelima A},
+           given_i={R\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=1fdf7011480c07b5c3293dea0c3d98d3}{%
+           family={Martinez},
+           family_i={M\bibinitperiod},
+           given={Javier},
+           given_i={J\bibinitperiod}}}%
+        {{hash=a6de8f128f94f3bbce44521aa1bc6ffd}{%
+           family={Penninger},
+           family_i={P\bibinitperiod},
+           given={Josef\bibnamedelima M},
+           given_i={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=e2a12134e0e719ed1f6bd6be343fadca}{%
+           family={Lupski},
+           family_i={L\bibinitperiod},
+           given={James\bibnamedelima R},
+           given_i={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{36970cbc0874bf95837fa95508eccf9a}
+      \strng{fullhash}{3d4ea30d70b70aa2f96231630895aeab}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{month}{04}
+      \field{number}{3}
+      \field{title}{{Human CLP1 Mutations Alter tRNA Biogenesis, Affecting Both Peripheral and Central Nervous System Function}}
+      \field{volume}{157}
+      \field{year}{2014}
+      \field{pages}{636\bibrangedash 650}
+      \range{pages}{15}
+    \endentry
+    \entry{Foretek:2016ea}{article}{}
+      \name{author}{4}{}{%
+        {{hash=c5cd7bd3cda81a264a53240210b8cbb7}{%
+           family={Foretek},
+           family_i={F\bibinitperiod},
+           given={Dominika},
+           given_i={D\bibinitperiod}}}%
+        {{hash=21f50c471e6ce53795fbafc53407b841}{%
+           family={Wu},
+           family_i={W\bibinitperiod},
+           given={Jingyan},
+           given_i={J\bibinitperiod}}}%
+        {{hash=3b954762905245f82467ad50e29e5a9a}{%
+           family={Hopper},
+           family_i={H\bibinitperiod},
+           given={Anita\bibnamedelima K},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=078aa8fbd7038403b4719eb2c4da9ef2}{%
+           family={Boguta},
+           family_i={B\bibinitperiod},
+           given={Magdalena},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{142fc7f79883b35cf095d5a6caa2a79a}
+      \strng{fullhash}{68017a9439ab8fc314a28ce14181f305}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{RNA}
+      \field{month}{01}
+      \field{title}{{Control of Saccharomyces cerevisiae pre-tRNA processing by environmental conditions.}}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+    \endentry
+    \entry{Bayfield:2009cx}{article}{}
+      \name{author}{2}{}{%
+        {{hash=bf03fd8dad49d6e6216a670cd8c2ec68}{%
+           family={Bayfield},
+           family_i={B\bibinitperiod},
+           given={Mark\bibnamedelima A},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
         {{hash=76359867365be6a144ebc1e827569b79}{%
            family={Maraia},
            family_i={M\bibinitperiod},
            given={Richard\bibnamedelima J},
            given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
-      \strng{namehash}{372db76e06f40d006986d9802e95c800}
-      \strng{fullhash}{372db76e06f40d006986d9802e95c800}
+      \strng{namehash}{1d32f3d77223e159be87c7f751848896}
+      \strng{fullhash}{1d32f3d77223e159be87c7f751848896}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Trends in Biochemical Sciences}
-      \field{month}{04}
-      \field{title}{{RNA Polymerase III Advances: Structural and tRNA Functional Views}}
-      \field{year}{2016}
-      \field{pages}{1\bibrangedash 14}
+      \field{journaltitle}{Nature Structural {\&} Molecular Biology}
+      \field{month}{03}
+      \field{number}{4}
+      \field{title}{{Precursor-product discrimination by La protein during tRNA metabolism}}
+      \field{volume}{16}
+      \field{year}{2009}
+      \field{pages}{430\bibrangedash 437}
+      \range{pages}{8}
+    \endentry
+    \entry{Bayfield:2010cs}{article}{}
+      \name{author}{3}{}{%
+        {{hash=bf03fd8dad49d6e6216a670cd8c2ec68}{%
+           family={Bayfield},
+           family_i={B\bibinitperiod},
+           given={Mark\bibnamedelima A},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f38bbe374842e14dc679debe427d71b4}{%
+           family={Yang},
+           family_i={Y\bibinitperiod},
+           given={Ruiqing},
+           given_i={R\bibinitperiod}}}%
+        {{hash=76359867365be6a144ebc1e827569b79}{%
+           family={Maraia},
+           family_i={M\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2ed4bc0d3b8d9a46ced30ca685f6ef9b}
+      \strng{fullhash}{bc24db8490350ac3e3fb8bc34be6ebbe}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{BBA - Gene Regulatory Mechanisms}
+      \field{month}{05}
+      \field{number}{5-6}
+      \field{title}{{Conserved and divergent features of the structure and function of La and La-related proteins (LARPs)}}
+      \field{volume}{1799}
+      \field{year}{2010}
+      \field{pages}{365\bibrangedash 378}
       \range{pages}{14}
+    \endentry
+    \entry{Stefano:1984wp}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a640e058e634c1f8a8eb1574cb56655}{%
+           family={Stefano},
+           family_i={S\bibinitperiod},
+           given={J\bibnamedelima E},
+           given_i={J\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{5a640e058e634c1f8a8eb1574cb56655}
+      \strng{fullhash}{5a640e058e634c1f8a8eb1574cb56655}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Cell}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Purified lupus antigen La recognizes an oligouridylate stretch common to the 3' termini of RNA polymerase III transcripts.}}
+      \field{volume}{36}
+      \field{year}{1984}
+      \field{pages}{145\bibrangedash 154}
+      \range{pages}{10}
+    \endentry
+    \entry{Hafner:2012eaa}{article}{}
+      \name{author}{6}{}{%
+        {{hash=59b0b0060b97064626be5286d058c298}{%
+           family={Hafner},
+           family_i={H\bibinitperiod},
+           given={Markus},
+           given_i={M\bibinitperiod}}}%
+        {{hash=743530b7eef81b71eff9806265a81391}{%
+           family={Renwick},
+           family_i={R\bibinitperiod},
+           given={Neil},
+           given_i={N\bibinitperiod}}}%
+        {{hash=88f833a203022d12144c51bcb1983a50}{%
+           family={Farazi},
+           family_i={F\bibinitperiod},
+           given={Thalia\bibnamedelima A},
+           given_i={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=492fe4869576d1699056a48fdec3190b}{%
+           family={Mihailović},
+           family_i={M\bibinitperiod},
+           given={Aleksandra},
+           given_i={A\bibinitperiod}}}%
+        {{hash=b441a4962614b1e6b957cfe7b49d4565}{%
+           family={Pena},
+           family_i={P\bibinitperiod},
+           given={John\bibnamedelimb T\bibnamedelima G},
+           given_i={J\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=ac3ff74f7b6e35a8be01a24fd8e0eb6b}{%
+           family={Tuschl},
+           family_i={T\bibinitperiod},
+           given={Thomas},
+           given_i={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{dcb2c281424dff6f50558a40910e0938}
+      \strng{fullhash}{900fa75f9fc92f687a9ca6197566a56e}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Methods}
+      \field{month}{10}
+      \field{number}{2}
+      \field{title}{{Barcoded cDNA library preparation for small RNA profiling by next-generation sequencing}}
+      \field{volume}{58}
+      \field{year}{2012}
+      \field{pages}{164\bibrangedash 170}
+      \range{pages}{7}
+    \endentry
+    \entry{Maraia:2010kx}{article}{}
+      \name{author}{2}{}{%
+        {{hash=76359867365be6a144ebc1e827569b79}{%
+           family={Maraia},
+           family_i={M\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=cd7cc4c49a5719b37295fbb4a99c4497}{%
+           family={Lamichhane},
+           family_i={L\bibinitperiod},
+           given={Tek\bibnamedelima N},
+           given_i={T\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{da1c98df2c408be9daca1c21a3deb699}
+      \strng{fullhash}{da1c98df2c408be9daca1c21a3deb699}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wiley Interdisciplinary Reviews: RNA}
+      \field{month}{11}
+      \field{number}{3}
+      \field{title}{{3{´} processing of eukaryotic precursor tRNAs}}
+      \field{volume}{2}
+      \field{year}{2010}
+      \field{pages}{362\bibrangedash 375}
+      \range{pages}{14}
+    \endentry
+    \entry{Phizicky:2010jf}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2cf747eb48a140cb95fbbebf8726e02b}{%
+           family={Phizicky},
+           family_i={P\bibinitperiod},
+           given={Eric\bibnamedelima M},
+           given_i={E\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=3b954762905245f82467ad50e29e5a9a}{%
+           family={Hopper},
+           family_i={H\bibinitperiod},
+           given={Anita\bibnamedelima K},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{65027aa2a417324dd1fa282c640e72d1}
+      \strng{fullhash}{65027aa2a417324dd1fa282c640e72d1}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genes {\&} Development}
+      \field{month}{09}
+      \field{number}{17}
+      \field{title}{{tRNA biology charges to the front.}}
+      \field{volume}{24}
+      \field{year}{2010}
+      \field{pages}{1832\bibrangedash 1860}
+      \range{pages}{29}
+    \endentry
+    \entry{Arimbasseri:2014hj}{article}{}
+      \name{author}{3}{}{%
+        {{hash=16e2a66a1db02c846ca0dea842fbff22}{%
+           family={Arimbasseri},
+           family_i={A\bibinitperiod},
+           given={Aneeshkumar\bibnamedelima G},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=91a18adc2a942e3da8437365efe54b81}{%
+           family={Kassavetis},
+           family_i={K\bibinitperiod},
+           given={George\bibnamedelima A},
+           given_i={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=76359867365be6a144ebc1e827569b79}{%
+           family={Maraia},
+           family_i={M\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{39801710da71c33fa1aedb85bd479313}
+      \strng{fullhash}{f3bf9cade8eaf1a5bfdf02996fd34a7e}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{month}{08}
+      \field{number}{6196}
+      \field{title}{{Transcription. Comment on "Mechanism of eukaryotic RNA polymerase III transcription termination".}}
+      \field{volume}{345}
+      \field{year}{2014}
+      \field{pages}{524\bibrangedash 524}
+      \range{pages}{1}
+    \endentry
+    \entry{Namavar:2011ew}{article}{}
+      \name{author}{4}{}{%
+        {{hash=ac72982cfe12c5443f83f52d78f44174}{%
+           family={Namavar},
+           family_i={N\bibinitperiod},
+           given={Yasmin},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=80f7641e79cfc1592a6cb997e322aad5}{%
+           family={Barth},
+           family_i={B\bibinitperiod},
+           given={Peter\bibnamedelima G},
+           given_i={P\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=6da381c73be235b2b392616ba9249664}{%
+           family={Poll-The},
+           family_i={P\bibinithyphendelim T\bibinitperiod},
+           given={Bwee\bibnamedelima Tien},
+           given_i={B\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=94ac033f87fca84ad9a24a8a95dffd72}{%
+           family={Baas},
+           family_i={B\bibinitperiod},
+           given={Frank},
+           given_i={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a56d0e70e201776ccfdf6359aaa24ca}
+      \strng{fullhash}{9a512c035ef072be56cc0266bf73dc20}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Orphanet Journal of Rare Diseases}
+      \field{month}{07}
+      \field{number}{1}
+      \field{title}{{Classification, diagnosis and potential mechanisms in Pontocerebellar Hypoplasia}}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{50}
+      \range{pages}{1}
     \endentry
   \endsortlist
 \endrefsection

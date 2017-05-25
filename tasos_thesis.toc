@@ -4,9 +4,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Figures}{viii}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{ix}{section*.7}
+\contentsline {chapter}{List of Tables}{x}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Abbreviations}{xi}{section*.10}
+\contentsline {chapter}{List of Abbreviations}{xii}{section*.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -38,4 +38,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.6}Composition of hydro-tRNAseq libraries}{16}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{19}{chapter*.21}
+\contentsline {section}{\numberline {2.7}Need for pre-tRNA enrichment}{16}{section.2.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.8}PAR-CLIP methodology for the study or RNA-RBP interactions}{17}{section.2.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.9}SSB PAR-CLIP}{19}{section.2.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.10}tRNA gene annotation}{21}{section.2.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.11}Applications and biological insights}{22}{section.2.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}{22}{subsubsection*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor (same amino acid, different anticodon) level}{24}{subsubsection*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.12}Mature tRNA abundance does not correlate with pre-tRNA abundance}{26}{section.2.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.13}tRNA transcription initiation and termination}{26}{section.2.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.14}Annotation of intron-containing tRNA genes}{27}{section.2.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}CLP1}{29}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}C3PO}{30}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{34}{chapter*.35}
