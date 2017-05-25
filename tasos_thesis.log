@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  24 MAY 2017 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAY 2017 08:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1664,7 +1664,44 @@ LaTeX Font Warning: Font shape `LGR/phv/m/it' undefined
 
 ] [5
 
-] (./tasos_thesis.toc)
+] (./tasos_thesis.toc
+! Missing number, treated as zero.
+<to be read again> 
+                   \kern 
+l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Color stack action is missing.
+<to be read again> 
+                   \kern 
+l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
+                                                  
+The expected actions for \pdfcolorstack:
+    set, push, pop, current
+I'll ignore the color stack command.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \box 
+l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Color stack action is missing.
+<to be read again> 
+                   \box 
+l.25 ...p \z@ \hss }}\box \z@ }}}{10}{section.2.1}
+                                                  
+The expected actions for \pdfcolorstack:
+    set, push, pop, current
+I'll ignore the color stack command.
+
+)
 \tf@toc=\write10
 \openout10 = `tasos_thesis.toc'.
 
@@ -1677,8 +1714,7 @@ LaTeX Font Warning: Font shape `LGR/phv/m/it' undefined
  [7
 
 
-]
-(./tasos_thesis.lot)
+] (./tasos_thesis.lot)
 \tf@lot=\write12
 \openout12 = `tasos_thesis.lot'.
 
@@ -1688,7 +1724,8 @@ LaTeX Font Warning: Font shape `LGR/phv/m/it' undefined
  [8
 
 
-] (./tasos_thesis.acr [9
+] (./tasos_thesis.acr
+[9
 
 ]) [10
 
@@ -1778,45 +1815,236 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 108.
- [3] <./figures/biogenesis.png, id=157, 734.5041pt x 386.8854pt>
+ [3] <./figures/biogenesis.png, id=167, 734.5041pt x 386.8854pt>
 File: ./figures/biogenesis.png Graphic file (type png)
 
 <use ./figures/biogenesis.png>
 Package pdftex.def Info: ./figures/biogenesis.png used on input line 115.
 (pdftex.def)             Requested size: 430.00627pt x 226.4953pt.
  [4 <./figures/biogenesis.png (PNG copy)>]
-[5]
+[5] [6]
 
-LaTeX Warning: Citation 'Hafner:2012eaa' on page 6 undefined on input line 141.
+LaTeX Warning: Citation 'Hafner:2012eaa' on page 7 undefined on input line 147.
 
 
-[6] <./figures/sRNA.png, id=174, 244.0317pt x 328.1058pt>
+[7] <./figures/sRNA.png, id=188, 244.0317pt x 328.1058pt>
 File: ./figures/sRNA.png Graphic file (type png)
 
 <use ./figures/sRNA.png>
-Package pdftex.def Info: ./figures/sRNA.png used on input line 145.
+Package pdftex.def Info: ./figures/sRNA.png used on input line 151.
 (pdftex.def)             Requested size: 252.94499pt x 340.11053pt.
- [7 <./figures/sRNA.png (PNG copy)>] [8]
+ [8 <./figures/sRNA.png (PNG copy)>] [9]
 Chapter 2.
-[9
 
-]
-Overfull \hbox (2.60893pt too wide) in paragraph at lines 209--209
-[]\T1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \T1/phv/m/sl/12 tRNA: Struc-ture,
- Biosyn-the-sis and Func-tion \T1/phv/m/n/12 1st ed.
+Overfull \hbox (48.45888pt too wide) in paragraph at lines 186--186
+[]\T1/phv/b/n/17.28 Hydrolysis-based tRNA se-quenc-ing [][][][][][] 
  []
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\setbox' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 3.0pt
+(hyperref)                removed on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\main@pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\aftergroup' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\main@pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                \kern 3.0pt
+(hyperref)                removed on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dimen@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ht' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\advance' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dimen@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\fboxsep' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ht' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dimen@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dimen@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dp' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\advance' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dimen@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\fboxsep' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dp' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dimen@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\main@pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\aftergroup' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\main@pdfcolorstack' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hbox' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\vrule' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\wd' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ht' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\dp' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\hss' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\box' on input line 186.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\z@' on input line 186.
 
 [10
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 211.
- [11]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 211.
+Overfull \hbox (2.60893pt too wide) in paragraph at lines 194--194
+[]\T1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \T1/phv/m/sl/12 tRNA: Struc-ture,
+ Biosyn-the-sis and Func-tion \T1/phv/m/n/12 1st ed.
+ []
+
+[11
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+ [12]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 211.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 211.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
 Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 2DA08C885AFC35F0F87D3C42199FA5BD;568.
+(rerunfilecheck)             Checksum: 564B776F59CED8CCCD1D807D1C881828;817.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -1832,13 +2060,13 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tasos_thesis.run.xml'.
 \openout1 = `tasos_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 211.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 20407 strings out of 493014
- 326937 string characters out of 6133351
- 835559 words of memory out of 5000000
- 23528 multiletter control sequences out of 15000+600000
+ 20413 strings out of 493014
+ 327017 string characters out of 6133351
+ 835562 words of memory out of 5000000
+ 23531 multiletter control sequences out of 15000+600000
  30848 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,11n,77p,2464b,1541s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1848,10 +2076,10 @@ xlive/2016/texmf-dist/fonts/type1/public/cbfonts/grmn1200.pfb></usr/local/texli
 ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (22 pages, 230938 bytes).
+Output written on tasos_thesis.pdf (23 pages, 233686 bytes).
 PDF statistics:
- 240 PDF objects out of 1000 (max. 8388607)
- 206 compressed objects within 3 object streams
- 64 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 255 PDF objects out of 1000 (max. 8388607)
+ 220 compressed objects within 3 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
