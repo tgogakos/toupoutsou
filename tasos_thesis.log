@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2017 08:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2017 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -396,6 +396,164 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+   defining Unicode char U+00B4 (decimal 180)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks17
@@ -920,7 +1078,6 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 
 
 Writing index file tasos_thesis.idx
-   defining Unicode char U+00B4 (decimal 180)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
 
@@ -1162,22 +1319,29 @@ LaTeX Warning: Label `paper4' multiply defined.
 )
 \openout1 = `tasos_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 46.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 48.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 48.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1219,7 +1383,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring OFF on input line 46.
+Package hyperref Info: Link coloring OFF on input line 48.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1229,9 +1393,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count354
 )
-LaTeX Info: Redefining \ref on input line 46.
-LaTeX Info: Redefining \pageref on input line 46.
-LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
 
 (./tasos_thesis.out) (./tasos_thesis.out)
 \@outlinefile=\write9
@@ -1247,31 +1411,28 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tasos_thesis.bbl' found.
 
 (./tasos_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 46.
-Package biblatex Info: Reference segment=0 on input line 46.
+Package biblatex Info: Reference section=0 on input line 48.
+Package biblatex Info: Reference segment=0 on input line 48.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 53.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
  [1
 
 \openout3 = `tasos_thesis.xdy'.
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 55.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
-File: omsphv.fd 
-)
-LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
-[2]
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 57.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+) [2]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 59.
  [1
 
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 64.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
  [3
 
 ] [4
@@ -1280,31 +1441,31 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 
 ] (./tasos_thesis.toc [6
 
-])
+] [7])
 \tf@toc=\write10
 \openout10 = `tasos_thesis.toc'.
 
- [7] (./tasos_thesis.lof [8
+ [8] (./tasos_thesis.lof
+[9
 
 
 ])
 \tf@lof=\write11
 \openout11 = `tasos_thesis.lof'.
 
-
-[9] (./tasos_thesis.lot)
+ [10] (./tasos_thesis.lot)
 \tf@lot=\write12
 \openout12 = `tasos_thesis.lot'.
 
 \@gls@deffile=\write13
 \openout13 = `tasos_thesis.glsdefs'.
 
- [10
+ [11
 
 
-] (./tasos_thesis.acr [11
+] (./tasos_thesis.acr [12
 
-]) [12
+]) [13
 
 
 ]
@@ -1313,7 +1474,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.111 
+l.113 
        [1
 
 
@@ -1324,241 +1485,403 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 116.
- [3] <./figures/biogenesis.png, id=336, 734.5041pt x 386.8854pt>
-File: ./figures/biogenesis.png Graphic file (type png)
+[2] <./figures/tRNA_general_structure.png, id=465, 697.8873pt x 307.1475pt>
+File: ./figures/tRNA_general_structure.png Graphic file (type png)
 
-<use ./figures/biogenesis.png>
-Package pdftex.def Info: ./figures/biogenesis.png used on input line 123.
-(pdftex.def)             Requested size: 430.00627pt x 226.4953pt.
- [4 <./figures/biogenesis.png (PNG copy)>]
-[5] [6] [7] <./figures/sRNA.png, id=360, 244.0317pt x 328.1058pt>
+<use ./figures/tRNA_general_structure.png>
+Package pdftex.def Info: ./figures/tRNA_general_structure.png used on input lin
+e 120.
+(pdftex.def)             Requested size: 430.00627pt x 189.25311pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 127.
+ [3 <./figures/tRNA_general_structure.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+ []
+
+<./figures/biogenesis2.png, id=476, 734.5041pt x 536.9661pt>
+File: ./figures/biogenesis2.png Graphic file (type png)
+
+<use ./figures/biogenesis2.png>
+Package pdftex.def Info: ./figures/biogenesis2.png used on input line 138.
+(pdftex.def)             Requested size: 430.00627pt x 314.3574pt.
+ [4] [5 <./figures/biogenesis2.png (PNG copy)>]
+[6] [7] <./figures/sRNA.png, id=500, 244.0317pt x 328.1058pt>
 File: ./figures/sRNA.png Graphic file (type png)
 
 <use ./figures/sRNA.png>
-Package pdftex.def Info: ./figures/sRNA.png used on input line 159.
+Package pdftex.def Info: ./figures/sRNA.png used on input line 174.
 (pdftex.def)             Requested size: 252.94499pt x 340.11053pt.
- [8 <./figures/sRNA.png (PNG copy)>] [9]
+ [8] [9 <./figures/sRNA.png (PNG copy)>] [10]
 Chapter 2.
-[10
+[11
 
-] <./figures/paper1.png, id=376, 566.8377pt x 443.9787pt>
+] <./figures/paper1.png, id=522, 566.8377pt x 443.9787pt>
 File: ./figures/paper1.png Graphic file (type png)
 
 <use ./figures/paper1.png>
-Package pdftex.def Info: ./figures/paper1.png used on input line 199.
+Package pdftex.def Info: ./figures/paper1.png used on input line 214.
 (pdftex.def)             Requested size: 252.94499pt x 198.12202pt.
 
-Overfull \hbox (3.29518pt too wide) in paragraph at lines 209--210
+Overfull \hbox (3.29518pt too wide) in paragraph at lines 224--225
 []\T1/phv/m/n/12 We mapped the reads to ref-er-ence tRNA genes (hg19, http://gt
 rnadb.ucsc.edu/)
  []
 
-[11 <./figures/paper1.png (PNG copy)>] [12] [13]
-<./figures/mature.png, id=391, 1314.1095pt x 1034.9064pt>
+[12 <./figures/paper1.png (PNG copy)>] [13] [14]
+<./figures/mature.png, id=536, 1314.1095pt x 1034.9064pt>
 File: ./figures/mature.png Graphic file (type png)
 
 <use ./figures/mature.png>
-Package pdftex.def Info: ./figures/mature.png used on input line 233.
+Package pdftex.def Info: ./figures/mature.png used on input line 248.
 (pdftex.def)             Requested size: 252.94499pt x 199.19246pt.
- [14]
-<./figures/pre.png, id=397, 854.2314pt x 510.4671pt>
+ [15]
+<./figures/pre.png, id=542, 854.2314pt x 510.4671pt>
 File: ./figures/pre.png Graphic file (type png)
  <use ./figures/pre.png>
-Package pdftex.def Info: ./figures/pre.png used on input line 244.
+Package pdftex.def Info: ./figures/pre.png used on input line 259.
 (pdftex.def)             Requested size: 252.94499pt x 151.15509pt.
 
-<./figures/supp1.png, id=399, 564.1878pt x 475.5366pt>
+<./figures/supp1.png, id=544, 564.1878pt x 475.5366pt>
 File: ./figures/supp1.png Graphic file (type png)
 
 <use ./figures/supp1.png>
-Package pdftex.def Info: ./figures/supp1.png used on input line 256.
+Package pdftex.def Info: ./figures/supp1.png used on input line 271.
 (pdftex.def)             Requested size: 252.94499pt x 213.19858pt.
- [15 <./figures/mature.png (PNG copy)> <./figures/pre.png (PNG copy)>] <./figur
-es/paper2a.png, id=405, 270.7716pt x 203.3196pt>
+ [16 <./figures/mature.png (PNG copy)> <./figures/pre.png (PNG copy)>] <./figur
+es/paper2a.png, id=550, 270.7716pt x 203.3196pt>
 File: ./figures/paper2a.png Graphic file (type png)
 
 <use ./figures/paper2a.png>
-Package pdftex.def Info: ./figures/paper2a.png used on input line 269.
+Package pdftex.def Info: ./figures/paper2a.png used on input line 284.
 (pdftex.def)             Requested size: 252.94499pt x 189.93532pt.
- [16 <./figures/supp1.png (PNG copy)>]
-Overfull \hbox (7.78125pt too wide) in paragraph at lines 279--280
+ [17 <./figures/supp1.png (PNG copy)>]
+Overfull \hbox (7.78125pt too wide) in paragraph at lines 294--295
 []\T1/phv/m/n/12 We did this by per-form-ing PAR-CLIP (photoactivatable-ribonuc
 leoside-enhanced
  []
 
-<./figures/paper2b.png, id=416, 341.8371pt x 292.9344pt>
+<./figures/paper2b.png, id=563, 341.8371pt x 292.9344pt>
 File: ./figures/paper2b.png Graphic file (type png)
 
 <use ./figures/paper2b.png>
-Package pdftex.def Info: ./figures/paper2b.png used on input line 283.
+Package pdftex.def Info: ./figures/paper2b.png used on input line 298.
 (pdftex.def)             Requested size: 252.94499pt x 216.7636pt.
 
-Overfull \hbox (4.49721pt too wide) in paragraph at lines 293--294
+Overfull \hbox (4.49721pt too wide) in paragraph at lines 308--309
 \T1/phv/m/n/12 Ribonucleoside-Enhanced Crosslink-ing and Im-muno-pre-cip-i-ta-t
 ion (PAR-CLIP), cou-
  []
 
-[17 <./figures/paper2a.png (PNG copy)>]
-<./figures/parclip.png, id=422, 283.0575pt x 420.6114pt>
+[18 <./figures/paper2a.png (PNG copy)>]
+<./figures/parclip.png, id=569, 283.0575pt x 420.6114pt>
 File: ./figures/parclip.png Graphic file (type png)
 
 <use ./figures/parclip.png>
-Package pdftex.def Info: ./figures/parclip.png used on input line 297.
+Package pdftex.def Info: ./figures/parclip.png used on input line 312.
 (pdftex.def)             Requested size: 252.94499pt x 375.87688pt.
- [18 <./figures/paper2b.png (PNG copy)>] [19 <./figures/parclip.png (PNG copy)>
+ [19 <./figures/paper2b.png (PNG copy)>] [20 <./figures/parclip.png (PNG copy)>
 ]
-<./figures/paper2cd.png, id=440, 501.7947pt x 218.9781pt>
+<./figures/paper2cd.png, id=586, 501.7947pt x 218.9781pt>
 File: ./figures/paper2cd.png Graphic file (type png)
 
 <use ./figures/paper2cd.png>
-Package pdftex.def Info: ./figures/paper2cd.png used on input line 313.
+Package pdftex.def Info: ./figures/paper2cd.png used on input line 328.
 (pdftex.def)             Requested size: 252.94499pt x 110.38425pt.
 
-<./figures/paper2ef.png, id=444, 582.0144pt x 267.399pt>
+<./figures/paper2ef.png, id=590, 582.0144pt x 267.399pt>
 File: ./figures/paper2ef.png Graphic file (type png)
 
 <use ./figures/paper2ef.png>
-Package pdftex.def Info: ./figures/paper2ef.png used on input line 325.
+Package pdftex.def Info: ./figures/paper2ef.png used on input line 340.
 (pdftex.def)             Requested size: 252.94499pt x 116.21153pt.
- [20 <./figures/paper2cd.png (PNG copy)>] [21 <./figures/paper2ef.png (PNG copy
+ [21 <./figures/paper2cd.png (PNG copy)>] [22 <./figures/paper2ef.png (PNG copy
 )>]
-<./figures/paper3.png, id=460, 581.7735pt x 460.119pt>
+<./figures/paper3.png, id=606, 581.7735pt x 460.119pt>
 File: ./figures/paper3.png Graphic file (type png)
 
 <use ./figures/paper3.png>
-Package pdftex.def Info: ./figures/paper3.png used on input line 338.
+Package pdftex.def Info: ./figures/paper3.png used on input line 353.
 (pdftex.def)             Requested size: 252.94499pt x 200.05185pt.
 
-<./figures/paper4_two.png, id=461, 570.6921pt x 559.8516pt>
+<./figures/paper4_two.png, id=607, 570.6921pt x 559.8516pt>
 File: ./figures/paper4_two.png Graphic file (type png)
 
 <use ./figures/paper4_two.png>
-Package pdftex.def Info: ./figures/paper4_two.png used on input line 349.
+Package pdftex.def Info: ./figures/paper4_two.png used on input line 364.
 (pdftex.def)             Requested size: 430.00627pt x 421.83537pt.
+ [23 <./figures/paper3.png (PNG copy)>]
+<./figures/supp6.png, id=618, 351.714pt x 227.6505pt>
+File: ./figures/supp6.png Graphic file (type png)
 
-<./figures/paper4A.png, id=462, 302.8113pt x 244.7544pt>
+<use ./figures/supp6.png>
+Package pdftex.def Info: ./figures/supp6.png used on input line 378.
+(pdftex.def)             Requested size: 351.71315pt x 227.64993pt.
+ [24 <./figures/paper4_two.png (PNG copy)>]
+<./figures/supp7.png, id=624, 340.1508pt x 251.4996pt>
+File: ./figures/supp7.png Graphic file (type png)
+
+<use ./figures/supp7.png>
+Package pdftex.def Info: ./figures/supp7.png used on input line 390.
+(pdftex.def)             Requested size: 340.14996pt x 251.49898pt.
+ [25 <./figures/supp6.png (PNG copy)>]
+<./figures/paper4A.png, id=630, 302.8113pt x 244.7544pt>
 File: ./figures/paper4A.png Graphic file (type png)
 
 <use ./figures/paper4A.png>
-Package pdftex.def Info: ./figures/paper4A.png used on input line 369.
+Package pdftex.def Info: ./figures/paper4A.png used on input line 410.
 (pdftex.def)             Requested size: 252.94499pt x 204.45694pt.
- [22 <./figures/paper3.png (PNG copy)>] [23 <./figures/paper4_two.png (PNG copy
-)>]
-<./figures/paper4D.png, id=475, 621.0402pt x 172.4844pt>
+ [26 <./figures/supp7.png (PNG copy)> <./figures/paper4A.png (PNG copy)>] <./fi
+gures/paper4D.png, id=638, 621.0402pt x 172.4844pt>
 File: ./figures/paper4D.png Graphic file (type png)
 
 <use ./figures/paper4D.png>
-Package pdftex.def Info: ./figures/paper4D.png used on input line 392.
+Package pdftex.def Info: ./figures/paper4D.png used on input line 433.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
-<./figures/paper4Drot.png, id=476, 621.0402pt x 172.4844pt>
+<./figures/paper4Drot.png, id=639, 621.0402pt x 172.4844pt>
 File: ./figures/paper4Drot.png Graphic file (type png)
 
 <use ./figures/paper4Drot.png>
-Package pdftex.def Info: ./figures/paper4Drot.png used on input line 402.
+Package pdftex.def Info: ./figures/paper4Drot.png used on input line 443.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
-Overfull \hbox (8.33067pt too wide) in paragraph at lines 410--410
+Overfull \hbox (8.33067pt too wide) in paragraph at lines 451--451
 |[]\T1/phv/b/n/17.28 Mature tRNA abun-dance does not cor-re-late with
  []
 
-<./figures/supp4.png, id=478, 589.0005pt x 259.9311pt>
+<./figures/supp4.png, id=641, 589.0005pt x 259.9311pt>
 File: ./figures/supp4.png Graphic file (type png)
 
 <use ./figures/supp4.png>
-Package pdftex.def Info: ./figures/supp4.png used on input line 415.
+Package pdftex.def Info: ./figures/supp4.png used on input line 456.
 (pdftex.def)             Requested size: 430.00627pt x 189.77191pt.
- [24 <./figures/paper4A.png (PNG copy)>]
+ [27]
 
-LaTeX Warning: Text page 25 contains only floats.
+LaTeX Warning: Text page 28 contains only floats.
 
-[25 <./figures/paper4D.png (PNG copy)> <./figures/paper4Drot.png (PNG copy)>]
+[28 <./figures/paper4D.png (PNG copy)> <./figures/paper4Drot.png (PNG copy)>]
+<./figures/hierarchical_mapping.png, id=651, 1227.3855pt x 511.1898pt>
+File: ./figures/hierarchical_mapping.png Graphic file (type png)
+
+<use ./figures/hierarchical_mapping.png>
+Package pdftex.def Info: ./figures/hierarchical_mapping.png used on input line 
+466.
+(pdftex.def)             Requested size: 430.00627pt x 179.09071pt.
+ [29 <./figures/supp4.png (PNG copy)> <./figures/hierarchical_mapping.png (PNG 
+copy)>]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 427.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 479.
 
-[26 <./figures/supp4.png (PNG copy)>]
-<./figures/paper6.png, id=506, 794.97pt x 214.8828pt>
+<./figures/paper6.png, id=669, 794.97pt x 214.8828pt>
 File: ./figures/paper6.png Graphic file (type png)
 
 <use ./figures/paper6.png>
-Package pdftex.def Info: ./figures/paper6.png used on input line 431.
+Package pdftex.def Info: ./figures/paper6.png used on input line 483.
 (pdftex.def)             Requested size: 430.00627pt x 116.23499pt.
 
-<./figures/paper6de.png, id=507, 560.0925pt x 209.583pt>
+<./figures/paper6de.png, id=670, 560.0925pt x 209.583pt>
 File: ./figures/paper6de.png Graphic file (type png)
 
 <use ./figures/paper6de.png>
-Package pdftex.def Info: ./figures/paper6de.png used on input line 441.
+Package pdftex.def Info: ./figures/paper6de.png used on input line 493.
 (pdftex.def)             Requested size: 430.00627pt x 160.91249pt.
 
-<./figures/supp5.png, id=508, 315.579pt x 161.403pt>
+<./figures/supp5.png, id=671, 315.579pt x 161.403pt>
 File: ./figures/supp5.png Graphic file (type png)
  <use ./figures/supp5.png>
-Package pdftex.def Info: ./figures/supp5.png used on input line 451.
+Package pdftex.def Info: ./figures/supp5.png used on input line 503.
 (pdftex.def)             Requested size: 430.00627pt x 219.93616pt.
 
-[27 <./figures/paper6.png (PNG copy)>]
-<./figures/paper7a.png, id=518, 245.2362pt x 270.5307pt>
+[30]
+
+LaTeX Warning: Text page 31 contains only floats.
+
+[31 <./figures/paper6.png (PNG copy)> <./figures/paper6de.png (PNG copy)> <./fi
+gures/supp5.png (PNG copy)>]
+<./figures/paper7a.png, id=686, 245.2362pt x 270.5307pt>
 File: ./figures/paper7a.png Graphic file (type png)
 
 <use ./figures/paper7a.png>
-Package pdftex.def Info: ./figures/paper7a.png used on input line 465.
+Package pdftex.def Info: ./figures/paper7a.png used on input line 517.
 (pdftex.def)             Requested size: 245.2356pt x 270.53003pt.
- [28 <./figures/paper6de.png (PNG copy)> <./figures/supp5.png (PNG copy)>] [29 
-<./figures/paper7a.png (PNG copy)>] [30]
-<./figures/paper7b.png, id=540, 341.3553pt x 362.3136pt>
+ [32 <./figures/paper7a.png (PNG copy)>] [33]
+<./figures/paper7b.png, id=703, 341.3553pt x 362.3136pt>
 File: ./figures/paper7b.png Graphic file (type png)
 
 <use ./figures/paper7b.png>
-Package pdftex.def Info: ./figures/paper7b.png used on input line 497.
+Package pdftex.def Info: ./figures/paper7b.png used on input line 549.
 (pdftex.def)             Requested size: 361.34999pt x 383.5475pt.
- [31 <./figures/paper7b.png (PNG copy)>]
-<./figures/paper5.png, id=549, 532.1481pt x 595.2639pt>
+ [34] [35 <./figures/paper7b.png (PNG copy)>]
+<./figures/paper5.png, id=720, 532.1481pt x 595.2639pt>
 File: ./figures/paper5.png Graphic file (type png)
 
 <use ./figures/paper5.png>
-Package pdftex.def Info: ./figures/paper5.png used on input line 511.
+Package pdftex.def Info: ./figures/paper5.png used on input line 563.
 (pdftex.def)             Requested size: 430.00627pt x 481.02576pt.
- [32] [33 <./figures/paper5.png (PNG copy)>]
+ [36 <./figures/paper5.png (PNG copy)>]
+<./figures/intron_trna.png, id=725, 1132.23pt x 527.571pt>
+File: ./figures/intron_trna.png Graphic file (type png)
+
+<use ./figures/intron_trna.png>
+Package pdftex.def Info: ./figures/intron_trna.png used on input line 583.
+(pdftex.def)             Requested size: 430.00627pt x 200.3583pt.
+
+<./figures/clp1align.png, id=726, 587.0733pt x 418.2024pt>
+File: ./figures/clp1align.png Graphic file (type png)
+
+<use ./figures/clp1align.png>
+Package pdftex.def Info: ./figures/clp1align.png used on input line 593.
+(pdftex.def)             Requested size: 430.00627pt x 306.31897pt.
+
+<./figures/clp1bars.png, id=727, 721.69624pt x 497.86pt>
+File: ./figures/clp1bars.png Graphic file (type png)
+
+<use ./figures/clp1bars.png>
+Package pdftex.def Info: ./figures/clp1bars.png used on input line 603.
+(pdftex.def)             Requested size: 430.00627pt x 296.6368pt.
+
+<./figures/clp1bars2.png, id=729, 755.9442pt x 225.0006pt>
+File: ./figures/clp1bars2.png Graphic file (type png)
+
+<use ./figures/clp1bars2.png>
+Package pdftex.def Info: ./figures/clp1bars2.png used on input line 613.
+(pdftex.def)             Requested size: 430.00627pt x 127.9873pt.
+
+<./figures/nb.png, id=730, 572.8602pt x 341.3553pt>
+File: ./figures/nb.png Graphic file (type png)
+ <use ./figures/nb.png>
+Package pdftex.def Info: ./figures/nb.png used on input line 623.
+(pdftex.def)             Requested size: 430.00627pt x 256.23459pt.
+
+[37 <./figures/intron_trna.png (PNG copy)>]
+<./figures/splicing2_v2.png, id=737, 599.6001pt x 390.9807pt>
+File: ./figures/splicing2_v2.png Graphic file (type png)
+
+<use ./figures/splicing2_v2.png>
+Package pdftex.def Info: ./figures/splicing2_v2.png used on input line 640.
+(pdftex.def)             Requested size: 430.00627pt x 280.39026pt.
+ [38 <./figures/clp1align.png (PNG copy)>]
+[39 <./figures/clp1bars.png> <./figures/clp1bars2.png (PNG copy)>]
+
+LaTeX Warning: Text page 40 contains only floats.
+
+[40 <./figures/nb.png (PNG copy)> <./figures/splicing2_v2.png (PNG copy)>]
+[41]
+
+LaTeX Warning: Citation 'Maraia:2006in' on page 42 undefined on input line 663.
+
+
+
+LaTeX Warning: Citation 'Arimbasseri:2015jg' on page 42 undefined on input line
+ 667.
+
+
+LaTeX Warning: Citation 'Arimbasseri:2013by' on page 42 undefined on input line
+ 667.
+
+
+LaTeX Warning: Citation 'Iben:2012cy' on page 42 undefined on input line 667.
+
+
+LaTeX Warning: Citation 'Arimbasseri:2015jg' on page 42 undefined on input line
+ 667.
+
+[42] [43] [44]
 Chapter 3.
-[34
+
+Overfull \hbox (11.20323pt too wide) in paragraph at lines 693--694
+\T1/phv/m/n/12 (http://journal.embnet.org/index.php/embnetjournal/article/view/
+200/458). Se-quenc-
+ []
+
+
+Overfull \hbox (18.36786pt too wide) in paragraph at lines 693--694
+\T1/phv/m/n/12 pre-dicted tRNA se-quences for hu-man genome ver-sion hg19 (http
+://gtrnadb.ucsc.edu).
+ []
+
+[45
 
 ]
+
+LaTeX Warning: Citation 'Spitzer:2013fk' on page 46 undefined on input line 696
+.
+
+
+LaTeX Warning: Citation 'Garzia:2016cx' on page 46 undefined on input line 696.
+
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 696.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+) [46] [47]
+[48]
 Chapter 4.
-[35
+[49
 
-]
-Overfull \hbox (2.60893pt too wide) in paragraph at lines 527--527
+] [50]
+Overfull \hbox (12.48717pt too wide) in paragraph at lines 728--729
+\T1/phv/m/n/12 C3PO is an RNA/DNA-binding pro-tein com-plex of TRANSLIN (TSN) a
+nd TRANSLIN-
+ []
+
+[51] [52] [53]
+Overfull \hbox (30.96727pt too wide) in paragraph at lines 735--735
+|[]\T1/phv/b/n/17.28 C3PO pos-sesses a length- and structure-dependent
+ []
+
+
+Overfull \hbox (16.74524pt too wide) in paragraph at lines 738--738
+|[]\T1/phv/b/n/17.28 Biochemical char-ac-ter-i-za-tion of C3PO's tRNA pro-
+ []
+
+[54] [55] [56] [57]
+Overfull \hbox (1.4608pt too wide) in paragraph at lines 759--760
+\T1/phv/m/n/12 (5'-GUAUAGUGGUUAGUAC) that be-long to two dif-fer-ent space grou
+ps. The struc-
+ []
+
+[58]
+Overfull \hbox (5.50096pt too wide) in paragraph at lines 765--766
+[]\T1/phv/m/n/12 Although pre-vi-ous at-tempts to co-immunoprecipitate (co-IP) 
+in-ter-ac-tors of C3PO
+ []
+
+[59] [60]
+Chapter 5.
+[61
+
+] [62] [63]
+Overfull \hbox (2.60893pt too wide) in paragraph at lines 783--783
 []\T1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \T1/phv/m/sl/12 tRNA: Struc-ture,
  Biosyn-the-sis and Func-tion \T1/phv/m/n/12 1st ed.
  []
 
-[36
+[64
 
-] [37] [38]
-Overfull \hbox (2.47385pt too wide) in paragraph at lines 527--527
-\T1/phv/m/n/12 UOH 3  Tem-ini of Nascent RNA Poly-merase III Tran-scripts by La
-, a Rheumatic
+] [65] [66]
+Overfull \hbox (3.92581pt too wide) in paragraph at lines 783--783
+\T1/phv/m/n/12 UOH 3\TS1/phv/m/n/12 ´ \T1/phv/m/n/12 Tem-ini of Nascent RNA Pol
+y-merase III Tran-scripts by La, a Rheumatic
  []
 
 
-Overfull \hbox (17.1013pt too wide) in paragraph at lines 527--527
+Overfull \hbox (17.1013pt too wide) in paragraph at lines 783--783
 []\T1/phv/m/n/12 Machnicka, M. A. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 MOD-OMI
 CS: a database of RNA mod-i-fi-ca-tion pathways--
  []
 
-[39]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
- [40]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
+[67]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 785.
+ [68]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 785.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 785.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 785.
 Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 44E44C1FE88807853C50415577D89E25;2143.
+(rerunfilecheck)             Checksum: 2866CFDB1F47AD131D9F6F51A2FC17A7;3819.
 
 
 LaTeX Warning: There were undefined references.
@@ -1574,30 +1897,32 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tasos_thesis.run.xml'.
 \openout1 = `tasos_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 529.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 785.
  ) 
 Here is how much of TeX's memory you used:
- 19054 strings out of 493014
- 305010 string characters out of 6133351
- 806948 words of memory out of 5000000
- 22095 multiletter control sequences out of 15000+600000
- 33051 words of font info for 45 fonts, out of 8000000 for 9000
+ 19733 strings out of 493014
+ 315427 string characters out of 6133351
+ 811454 words of memory out of 5000000
+ 22677 multiletter control sequences out of 15000+600000
+ 33677 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,77p,2464b,1131s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
-xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
-16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
-6/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf
--dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/f
-onts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (53 pages, 3235927 bytes).
+ 46i,12n,77p,2464b,1133s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
+ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/
+texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/te
+xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dis
+t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
+/type1/urw/helvetic/uhvro8a.pfb>
+Output written on tasos_thesis.pdf (82 pages, 5166039 bytes).
 PDF statistics:
- 665 PDF objects out of 1000 (max. 8388607)
- 572 compressed objects within 6 object streams
- 161 named destinations out of 1000 (max. 500000)
- 356 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 985 PDF objects out of 1000 (max. 8388607)
+ 848 compressed objects within 9 object streams
+ 232 named destinations out of 1000 (max. 500000)
+ 590 words of extra memory for PDF output out of 10000 (max. 10000000)
 

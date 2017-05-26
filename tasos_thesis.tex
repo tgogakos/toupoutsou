@@ -10,6 +10,7 @@
 \usepackage[utf8]{inputenc}    % utf8 support
 \usepackage[T1]{fontenc}       % code for pdf file
 \DeclareUnicodeCharacter{00B4}{~} % fixes encoding error for acute accent characters in bibliography titles
+\usepackage{textcomp}
 \usepackage{enumerate}
 \usepackage{subcaption}
 \usepackage{rotating}
@@ -40,6 +41,9 @@
 %\newcommand{\subsubsubsection}[1] {\noindent {\underline {#1}}}
 \newcommand{\snp}[1] {\noindent {\underline {#1}}}
 \newcommand{\cyan}[1]{\colorbox{cyan}{#1}}
+\newcommand{\sub}[1]{\textsubscript{#1}}
+\newcommand{\super}[1]{\textsuperscript{#1}}
+\renewcommand{\deg}{\textdegree}
 
 \begin{document}
 
@@ -111,14 +115,27 @@ An improvement in tRNA quantification has arisen from recent efforts that employ
 
 We have combined complementary high-throughput techniques for obtaining the sequence composition and abundance of tRNAs in human embryonic kidney cells (HEK293). We developed hydro-tRNAseq, a modified small RNA sequencing protocol based on partial alkaline hydrolysis of input RNA, in order to identify and quantify tRNAs, and provided evidence for the validity of this approach when determining the accumulation of disease-associated tRNA intron fragments caused by mutations in the tRNA splicing machinery \cite{Karaca:2014em}. Here we extend this approach by applying it to tRNA-enriched size fragments with the aim to annotate and curate all tRNAs. Since tRNA processing, such as precursor trimming and intron removal, is a fast process\cite{Foretek:2016ea}, we also aimed to enrich specifically for pre-tRNAs in order to identify and annotate the corresponding unique tRNA gene template. Thus, we performed PAR-CLIP on SSB, a conserved and ubiquitous protein involved in 3’ tRNA processing \cite{Bayfield:2009cx} \cite{Bayfield:2010cs} \cite{Stefano:1984wp}. 
 
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{tRNA_general_structure.png}%
+\caption[tRNA structure]{\textbf{Structure.} Yeast tRNAPhe, PDB 1EHZ
+}
+%\textbf{\caption{tRNA biogenesis}} 
+\label{tRNAstructure}%
+\end{figure}
+
+\subsection{tRNA and disease} 
+talk about javier's papers, schimmel and dreyfuss review
+
 \subsection{tRNA biogenesis}
 tRNA genes are transcribed by RNA polymerase III \cyan{(POLR3)} that uses promoters internal to the DNA sequence of the tRNA gene (tDNA). The primary transcript is a precursor tRNAs \cyan{(pre-tRNA)} with a 5' triphosphate. In humans, a minority of tRNA transcripts \hl{(see section XXX)} harbor introns. A dedicated tRNA splicing complex composed fo core and accessory proteins carries out tRNA splicing \hl{cite references}. Pre-tRNAs comprise the mature tRNA sequence, and 5' leader and 3' trailer extensions, which are trimmed in a coordinated manner by endonucleases and other processing factors. The ribonucleoprotein \cyan{(RNP)} complex RNase P removes the 5' leaders, leaving a 5' monophospahte, and ELAC2, the human homolog of tRNase Z trims the 3' trailer, leaving a 3' hydroxyl \cyan{(OH)}. Next, the universally conserved 3' terminal CCA tail is added by TRNT1, the tRNA nucleotidyll transferase 1 \cyan{(TRNT1)}, and acts as the acceptor of the amino acid. tRNAs are further modified by chemical nucleotide modifications \hl{(see section XXX)}, exported from the nucleus to the cytoplasm where they can undergo further modifcations, are aminoacylated with their cognate amino acid by aminoacyl tRNA synthetases, and are finally presented to the ribosome by translation factors to participate in protein synthesis Fig. \ref{biogenesis}. \hl{cite 16,17 from TRP}
 
 Although these processes allow for multiple levels of regulation, variation in tRNA expression across tissues or between normal and pathologic conditions has not been studied extensively, mainly for two reasons. First, until recently there was the assumption that their essentiality obviated a need for any specialized transcriptional or post-transcriptional control. Second, the lack of an extensively curated and experimentally validated tRNA profile prevented quantitative and systematic studies. Nevertheless, it is now clear that the expression of tRNAs can be dynamic and can indeed exhibit tissue specificity1 \hl{18 from TRP}. Importantly, abnormal tRNA expression levels have been correlated and causally associated with pathologic conditions, such as cancer \hl{14 from TRP}.
 \newline
+
 \begin{figure}[!ht]%
 \centering
-\includegraphics[width=\textwidth]{biogenesis.png}%
+\includegraphics[width=\textwidth]{biogenesis2.png}%
 \caption[tRNA biogensis]{\textbf{Overview of tRNA biogenesis and processing.} thththt}
 %\textbf{\caption{tRNA biogenesis}} 
 \label{biogenesis}%
@@ -352,6 +369,32 @@ placeholder}
 \label{paper4}%
 \end{figure}
 
+\section{Comparison with other methods}
+
+Recently tRNA sequencing methods have been developed that employ dealkylating enzymes and/or highly thermostable reverse transcriptase to overcome respectively the hurdles of modifications and stable structures that impede tRNA sequencing \cite{Cozen:2015ds, Zheng:2015dw}. However, they both have specific limitations that we tried to address. We size-selected at a higher size window to avoid contamination by tRNA-derived fragments (as compared to \cite{Cozen:2015ds}). Also, we used two sequential adapter ligation methods to make sure that only full-length fragments were sequenced and the sequencing reads were not results of blocks during RT (as compared to \cite{Zheng:2015dw}), which allowed us to differentiate RT stops from fragment ends. Additionally, we did not bias our sequencing protocol towards mature tRNAs, but instead we captured more precursors by both RNAseq and more importantly PAR-CLIP methods, allowing us to perform a deeper precursor tRNA curation. Importantly, despite the reportedly high processivity conferred by dealkylating methyl modifications, in the previous studies only a small fraction of reads mapped at a given transcript were full-length reads (<1\% of all reads), with a marginal increase compared to untreated controls (\textbf{Fig. \ref{supp6}}). 
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics{supp6.png}%
+\caption[supp6]
+{\textbf{supp6.}
+placeholder}
+\centering
+\label{supp6}%
+\end{figure}
+
+In contrast, hydro-tRNAseq yielded a higher cumulative fraction of mature tRNAs with read evidence across their whole length with a mean read coverage of 0.99 of the full length (compared to 0.95 and 0.87 in previous studies; \textbf{Fig. \ref{supp7}}). Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics{supp7.png}%
+\caption[supp7]
+{\textbf{supp7.}
+placeholder}
+\centering
+\label{supp7}%
+\end{figure}
+
 \section{Applications and biological insights}
 
 %check if following parts should be subsections (numbered) or subsubsections (not numbered)
@@ -417,6 +460,17 @@ placeholder}
 \centering
 \label{supp4}%
 \end{figure}	
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{hierarchical_mapping.png}%
+\caption[clp1 bar]
+{\textbf{clp1 bar.}
+placeholder}
+\centering
+\label{hierarchical}%
+\end{figure}
+
 
 \section{tRNA transcription initiation and termination}
 
@@ -514,11 +568,213 @@ placeholder}
 \label{paper5}%
 \end{figure}
 
-\chapter{CLP1}
+\section{CLP1}
+This came at an opportune moment because of the studies of CLP1 
+\begin{itemize}
+\item Recessive mutations in children with neurodevelopmental disorders were localized to tRNA splicing factor CLP1 
+\item Exome sequencing identified R140H recessive mutation
+\item R140H reduced interaction between CLP1 and the TSEN splicing complex
+\end{itemize}
+
+\section{CLP1 figures}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{intron_trna.png}%
+\caption[intrno-containing tRNA]
+{\textbf{intron-containing tRNA.}
+placeholder}
+\centering
+\label{introntrna}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{clp1align.png}%
+\caption[clp1 alignments]
+{\textbf{clp1 alignments.}
+placeholder}
+\centering
+\label{clp1align}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{clp1bars.png}%
+\caption[clp1 bar]
+{\textbf{clp1 bar.}
+placeholder}
+\centering
+\label{clp1bars}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{clp1bars2.png}%
+\caption[clp1 bar]
+{\textbf{clp1 bar.}
+placeholder}
+\centering
+\label{clp1bars2}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{nb.png}%
+\caption[NB]
+{\textbf{NB.}
+placeholder}
+\centering
+\label{nb}%
+\end{figure}
+
+\subsection{Plausible pathomechanisms of CLP1 mutations}
+\begin{enumerate}[i)]
+\item Reduced tRNA splicing in sensitive tissues (e.g. neurons)
+\item Innate immunity activation by tRNA intron accumulation
+\item tRNA-unrelated effects (e.g. CLP1 participates in mRNA polyadenylation)
+\end{enumerate}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{splicing2_v2.png}%
+\caption[spliciing]
+{\textbf{splicing.}
+placeholder}
+\centering
+\label{splicing}%
+\end{figure}
 
 
+
+\subsection{hydro-tRNAseq on CLP1}
+tRNA intron accumulation in patient with CLP1 recessive mutation compared to heterozygous parent
+
+\section{tRNA enzyme screen}
+With respect to more functional aspects of tRNA biology, I focused on the results from knockdowns from a series of tRNA modifying and processing enzymes. Surprisingly, even though I targeted key components of the tRNA biogenesis and processing pathway, I could not observe major defects in tRNA processing or abundance patterns with the exception of the tRNA ligase (RTCB) that led to a very modest accumulation of 5’ end tRNA halves. This suggested either that the residual enzymatic activity after knockdown is sufficient for proper tRNA processing or that there is unknown redundancy in several steps of tRNA biogenesis. 
+
+This publication steered interest in the connection of tRNA and disease, a link that was previously not well examined. To further showcase the utility and usefulness of my method in this field I decided to use it in a proof of principle example. I have carried out an siRNA-mediated gene silencing screen targeting a series of tRNA processing and modifying enzymes (i.e. the CCA terminal transferase, the tRNA methyltransferase TRMT10A, the tRNA splicing ligase HSPC117, a member of the RNase P complex, and also TRANSLIN, a putatively novel tRNA processing enzyme – see aim 2). In the cases where a reliable antibody was available, the knockdowns were validated by western blot analysis. In all other cases, knockdowns are currently being validated by mRNAseq. RNA from the validated knockdowns will be subjected to tRNAseq, with the expectation to identify tRNA processing defects that prior to our method would have been overlooked. In addition, I have performed tRNAseq from spinal cord-derived fibroblasts of knockout mice for the tRNA ligase. There I was already able to show tRNA processing is affected characterized by an accumulation of unspliced tRNA halves. 
+
+\section{Discussion}
+We have combined two complementary transcriptome-wide approaches to provide experimentally validated annotation for mature and pre-tRNA transcripts and their respective genes, in addition to furnishing an accurate quantification of tRNA abundance in human cells.
+
+First, we developed hydro-tRNAseq, a fragmentation-based protocol for overcoming hurdles of tRNA sequencing, and obtained deep sequencing sets that enabled the annotation of tRNA genes and derivation of mature tRNA reference sequences for accurately assigning sequence reads to the otherwise edited and nucleotide-modified original tRNA. Alkaline hydrolysis of the tRNA-containing pool relieved thermodynamically stable structural constraints that impair ligation steps in the cDNA library preparations, reduced the number of modified nucleosides per sequenced fragment, resulting in high read-through in the RT step, and release of the 3’ hydroxyl group of the otherwise aminoacylated tRNA 3’ end. 
+
+Then, we took advantage of the pre-tRNA binding properties of SSB protein, which coordinates posttranscriptional processing and maturation of tRNAs \cite{Maraia:2010kx}, to enrich for tRNA precursors and allow for a comprehensive curation of pre-tRNA transcripts and annotation of tRNA genes. Of note, since SSB interacts with pre-tRNAs and other small nuclear RNA U-rich 3’ ends in all organisms examined so far \cite{Maraia:2006in,Teplova:2006dv}, our approach can be adapted towards tRNA annotation in other species.
+
+Our data suggest that, at least in our experimental system, the tRNA gene space is considerably more contracted than it has been previously predicted by bioinformatics, evidenced by the fact that almost half of the predicted tRNA loci were transcriptionally silent, presumably representing retrointegrated tRNA pseudogenes. It would be interesting to examine whether such an observation holds for various cell types and at different stages of development or disease, in order to confirm the differential expression and regulation of tRNA gene expression that has been reported before \cite{Gingold:2014iz,Goodarzi:2016gd}. Our analysis shows that selenocysteine seems to be the only monogenic tRNA species, suggesting an increased sensitivity to mutations due to the lack of functional redundancy.
+
+Our approach allowed the elucidation of relevant issues regarding POLR3 transcription such as the length of pre-tRNA leaders and trailers, the length of oligoU required for recognition by SSB, both of which have shown species specificity \cite{Arimbasseri:2015jg}. We also detected that 4 sequential Us act as the transcription termination signal for POLR3, confirming similar predictions based on genomic sequences that suggested a requirement for 4 Us for efficient termination in vertebrates \cite{Arimbasseri:2013by,Iben:2012cy} as well as structural data documenting the capacity of SSB to accommodate 4 Us in its binding site \cite{Stefano:1984wp,Teplova:2006dv}. At the same time, the length distribution of the oligoU tract identified in our experiments reflects the heterogeneity of termination signal lengths that has been noted as an intrinsic property of pol III \textit{in vitro} \cite{Arimbasseri:2015jg}.
+
+We could also confirm a second binding site of SSB in the 5’ half of the mature tRNA sequence, in support of previous observations proposing the presence of additional pre-tRNA binding sites besides the 3’ tail \cite{Bayfield:2009cx,Stefano:1984wp}. It has been previously noted that the binding mode of SSB to tRNA is more complex than the recognition alone of the 3’ tails, and that one of the RNA recognition motifs present in SSB, RRM1, could bind elsewhere in the tRNA. This stems from two observations:
+\begin{enumerate}[i)]
+\item SSB has a higher affinity for precursor over mature tRNAs, 
+\item structural data show that RRM1 is unoccupied when SSB is bound to UUU-3’-OH substrate.
+\end{enumerate}
+Our data seem to validate this observation, and could shed light into new modes of SSB-mediated processing of pre-tRNAs into either mature tRNAs or other kinds of ncRNAs \cite{Hasler:2016ce}. 
+
+Moreover, we were able to carry out a careful overview and tRNA modifications that result in characteristic mismatch signatures. We introduced all possible combinations of all “mutated” nucleotides at the most prominently modified positions in every tRNA in order to collect as many reads that could be having RT misincorporations at the modified positions. This created a large number of similar tRNA sequences, and therefore we allowed for extensive multimapping, but split the read counts in order to avoid artificial read count inflation. By making use of our hierarchical annotation pipeline, we were able to dissect the temporal order of inosine modifications at the tRNA anticodon, confirming that A34 deamination occurs in the nucleus prior to the nucleolytic processing of the pre-tRNA, and establishing that the same holds true for A37 modifications, which in fact precede A34 deamination. 
+	Accounting for modification signatures was also important for the reason that CLIP-seq, and especially PAR-CLIP, depends on apparent mismatches (in the case of PAR-CLIP, T-to-C conversions) for the identification of RBP binding sites on target RNAs. Since we used PAR-CLIP of SSB for the annotation of pre-tRNAs and tRNA genes, we first examined uridine modifications that result in T-to-C conversions. Only a small minority of modification signatures were T-to-C transitions, suggesting that it is highly unlikely that our PAR-CLIP data were artificially inflated. 
+	Collectively, our results give a census of the tRNA transcriptome in human cells. We provide a method and computational flowchart for the analysis of tRNAs. We expect that these results will inform studies of tRNA-related human disease. 
+
+\section{Summary}
+\begin{enumerate}[i)]
+\item Hydro-tRNAseq is a facile and efficient method for sequencing tRNAs
+\item PAR-CLIP of SSB/La informs the annotation tRNA genes and curation of pre-tRNAs
+\item Combined together, they can be used to probe long-standing questions of tRNA biogenesis, processing and function
+\item Hydro-tRNAseq can be applied for studies of human genetic diseases
+\end{enumerate}
+
+\chapter{Materials and methods}
+
+\section{Hydro-tRNAseq}
+Total RNA from HEK293 (Flp-In T-REx, Invitrogen) was isolated using TRIzol (Invitrogen). For each sample 20 $\mu$g of total RNA were resolved on 12\% urea-polyacrylamide gels and recovered within a size window of 60-100 nt. The eluted fraction was subjected to limited alkaline hydrolysis in a 15 $\mu$L buffer of 10 mM Na\textsubscript{2}CO\textsubscript{3} and 10 mM NaHCO\textsubscript{3} at pH 9.7 either at 65 \deg C for 10 min (replicate 1) or 1 h (replicates 2-4).
+
+The partially hydrolyzed RNA was dephosphorylated with 10 U of calf intestinal phosphatase (NEB) in a 50 $\mu$L reaction of 100 mM NaCl, 50 mM Tris-HCl, pH 7.9 at 25 \deg C, 10 mM MgCl2, 1 mM DTT, 3 mM Na\sub{2}CO\sub{3} and 3 mM NaHCO\sub{3}, at 37 \deg C for 1 h. The resulting RNA was re-phosphorylated with 10 U of T4 polynucleotide kinase (NEB) in a 20 µL reaction of 70 mM Tris-HCl, pH 7.6, 10 mM MgCl\sub{2}, 5 mM DTT and 1 mM ATP, at 37 \deg C for 1 h. Fragments of 19-35 nt were converted into barcoded small RNA cDNA libraries, as previously described \cite{Hafner:2012eaa}, and sequenced on an Illumina HiSeq 2500 instrument. Adapters were trimmed using cutadapt (http://journal.embnet.org/index.php/embnetjournal/article/view/200/458). Sequencing read alignments were performed using the Burrows-Wheeler aligner against an in-house curated and annotated list of mature and precursor tRNAs containing predicted tRNA sequences for human genome version hg19 (http://gtrnadb.ucsc.edu). Sequencing reads were first mapped against mature tRNAs. Remaining reads were mapped against genomic tRNA sequences that included 5’ leader and 3’ trailer sequences, as well as tRNA introns.
+
+\section{SSB PAR-CLIP}
+Flp-In T-REx HEK293 cells (Invitrogen) were grown in high glucose DMEM supplemented with 10\% (v/v) FBS, 1 mM sodium pyruvate, 100 U/mL penicillin, 100 $\mu$g/mL streptomycin, 100 $\mu$g/mL zeocin and 15 $\mu$g/mL blasticidin. Cell lines stably expressing FLAG/HA- (FH-) SSB were generated as described previously \cite{Spitzer:2013fk}. Expression of FH-SSB was induced by addition of 1 $\mu$g /mL doxycycline for 24 h. 4SU PAR-CLIP was performed as described previously, using either RNase T1 or RNase A \cite{Garzia:2016cx}. PAR-CLIP cDNA libraries were sequenced on an Illumina HiSeq 2500 instrument. Adapter extracted reads were aligned against an in-house curated and annotated list of mature and precursor mRNAs and ncRNAs. Bioinformatic analysis was performed using a analysis pipeline based on a curated and annotated reference RNA collection, which we organized into categories, such as rRNA, tRNA, snoRNA, mRNAs, etc. This pipeline is available at \url{https://rnaworld.rockefeller.edu/PARCLIP_suite/}. T-to-C conversion frequency, indicative of binding, was calculated for each annotated category of RNA. 
+
+\section{Bioinformatic analysis}
+Reads were mapped to our transcriptomic database with error distance 0 (d0), 1 (d1) or 2 (d2), allowing mismatches, insertions and deletions. Assignment of reads with more than one mapping locations that belong to different RNA classes followed a hierarchical procedure reflective of the cellular abundance of each RNA class. Mature RNA sequences (e.g. fully processed tRNAs) received priority compared to precursors (e.g. pre-tRNAs), thus minimizing multimapping events. A tRNA gene was considered to be expressed when there were reads spanning the precursor/mature junctions, including exon/intron junctions for intron-containing tRNAs. For abundance reports, multimapping reads were split equally over the number of their mapping locations, and all reads mapping to edited and non-edited versions of the same tRNA transcript were summed for quantification of a given tRNA. Naming of tRNAs followed HUGO guidelines, with edited variants of reference tRNAs exhibiting the edited position and the identity of induced mismatch in their naming. The same analysis pipeline was applied to mitochondrial tRNAs, with the exception that no tRNA precursors were annotated due to continuous transcription of the mitochondrial genome. Remaining reads that did not map to any annotated transcript were mapped to the human genome. The mapped read annotation process was based on a hierarchical procedure that assigned priority to reads mapping in their entirety to mature sequences, followed by reads that spanned the precursor-mature junctions. Bioinformatic analysis was performed by custom Perl and Python scripts, all available upon request. Graphs were created in R and Prism (Graphpad).
+
+\section{Accession codes}
+The RNAseq and PAR-CLIP sequence data have been deposited in the National Center for Biotechnology Information (NCBI) Sequence Read Archive under accession numbers GSE95683.
 
 \chapter{C3PO}
+%begin from TRP
+\section{Introduction}
+Finally, recent studies provide growing evidence for the participation of a novel endoribonuclease complex in the lifecycle of tRNAs. C3PO (component 3 promoter of RISC) is a multimeric complex of the RNA-binding protein TRANSLIN (TSN) and the nuclease TRANSLIN-ASSOCIATED PROTEIN X (TSNAX), originally shown to localize to DNA break points36,37. Recently, however, it was shown to promote the activity of the RNA-induced silencing complex in drosophila. Simultaneously, it was reported that TSNAX possesses RNA endonucleolytic activity both in vitro and in vivo, and the crystal structure of the C3PO apo-complex from various organisms was reported38-40. Its biological importance is underscored by the severe neurodegenerative phenotypes observed in mice lacking components of the complex41. Interestingly, it has also been observed that C3PO mutations in the fungus N.crassa and in mouse fibroblasts result in accumulation of tRNA fragments (tRFs), elevated levels of mature tRNAs and protein translation, and increased resistance to cell death-inducing agents10. This unexpected finding suggests that C3PO might be a novel tRNA processing enzyme. Despite these studies, though, the biological targets and the details of the C3PO’s biochemical activity remain elusive. Moreover, it is not yet clear whether C3PO is important for the biogenesis of tRNAs, the generation of competent stress or non-stress related tRNA fragments or if it is simply involved in tRNA turnover. 
+
+Recent work from our group and others suggests that C3PO, a multimeric complex of TRANSLIN (TSN) and the nuclease TRANSLIN-ASSOCIATED PROTEIN X (TSNAX), apart from its previously known roles in DNA-damage response and enhancement of RISC activity, possesses also a tRNA processing activity. In agreement with these observations, mutations in the components of C3PO phenocopy mutations in other tRNA processing enzymes by resulting in neurological and behavioral phenotypes54. Also, lack of C3PO activity is associated with accumulation of tRFs10. Thus, it is possible that C3PO might be a regulator of gene expression that could bridge tRNA processing with PTGR. In this aim, I plan to apply the annotated list of tRNAs from aim 1 and the experimental framework for the study of tRNA-tRBP interactions from aim 2 to the study of C3PO, a regulator of gene expression that could possibly provide a new bridge between tRNA processing and PTGR. 
+
+C3PO notes. TRANSLIN (TSN) was initially described as a protein that would bind DNA breakpoint junctions at conserved sequences. Initial studies identified that TSN was specifically localized in the nucleus of lymphoid cell lines, suggesting that it might play a role in DNA repair, replication or recombination (Aoki et al. 1994, 1995). 
+
+TSN contains five potential protein kinase C phosphorylation sites, three tyrosine kinase phosphorylation sites (Aoki et al. 1995).
+TSN was detected in the cytosolic fraction of nonlymphoid and lymphoid cells, and in the nuclear extract of lymphoid cells. It was also detected with a slightly faster mobility in non-hematopoetic cells (e.g. HeLa). 
+In conclusion, the nuclear relocalization of TSN is “selectively controlledin lymphoid lineage cells”. 
+
+In this study, TSN was identified as a ssDNA binding protein that binds conserved sequences at the breakpoint junctions in lymphoid cells that have undergone DNA translocations. A proposed role for TSN binding of these DNA loci was “DNA-unwinding, which makes these regions more susceptible to nuclease cleavage.”
+
+“Since DNase I or S1 nuclease hypersensitive sites were observed near these breakpoints, and potential Z-DNA elements have been shown to be important in homologous recombination, it is conceivable that the above DNA structures influence chromatin structure and render a localized region of DNA more accessible to recombinase.”
+
+“These results raise the intriguing possibility that a mechanism of active nuclear transport for TSN exists and that TSN might be associated with lymphoid specific processes, such as Ig/TCR rearrangement.”
+
+Regarding the cytosolic function of TSN in non-lymphoid cells “one possibility is that, analogous to RecA protein, TSN may be required for repair of DNA damage caused by radiation or chemicals.”
+
+The high expression pattern of TSN in testes, a tissue that is know to undergo extensive DNA rearrangements provides further evidence that the protein may be involved in DNA damage control. 
+
+\section{From manny}
+C3PO is an RNA/DNA-binding protein complex of TRANSLIN (TSN) and TRANSLIN-ASSOCIATED FACTOR X (TSNAX), which was originally reported to co-localize with breakpoint junctions of chromosomal translocations. Tsn-/- mice were created with the hypothesis that its absence would affect genome stability. Interestingly, mice lacking Tsn exhibited learning and memory defects indicating that it is necessary for brain development or neurological maintenance. C3PO was recently reported to enhance RNAi activity in Drosophila and humans, wherein TSNAX possessed a novel and highly conserved ribonucleolytic activity. In collaboration with Dinshaw Patel’s group (MSKCC), I biochemically characterized its nuclease activity and we solved the structure of Drosophila C3PO. Concurrently, the Liu laboratory (UTSW) crystallized human C3PO. Despite these recent efforts, neither the endogenous targets nor the mechanism of C3PO assembly and nuclease activity are well understood. Given the positions of the nuclease catalytic sites, it is not clear if C3PO dynamically assembles onto its substrates, or if RNA molecules are fed inside the structure.
+
+I have biochemical data showing that human and Drosophila C3PO possess a length-dependent ribonuclease activity (Fig. 4). C3PO nuclease activity is much reduced for RNA substrates >80 nt. The physiological importance of the length-dependent activity is not known, though one clue may come from a recent publication on a newly reported function of C3PO regarding maturation of tRNAs, which are typically between 70 and 90 nt in length. Independently, Andrew Fire and colleagues recently described small RNAs derived from tRNAs as a potential class of non-coding RNA regulators of RNA-induced silencing complex (RISC) activity. Given its purported roles in RNAi and tRNA maturation, it is tempting to hypothesize that C3PO fulfills aspects of both independently described mechanisms. Consistent with this working hypothesis, I find high crosslink evidence within the D-arm of tRNAs from a TSN PAR-CLIP (Fig. 5). These results indicate that TSN associates with specific tRNA hairpin loops containing an invariant sequence, a sequence I also find in the mRNAs that TSN binds. I plan to determine and characterize the endogenous RNA substrates of TSN and C3PO. Since TSN can form multimeric complexes without TSNAX it is plausible that specific RNAs are binding targets of only TSN, as opposed to the C3PO complex. As the relationship between TSN-only vs. C3PO complexes is not well characterized, I have created stable cell lines that express TSN, TSNAX, or the entire C3PO complex in an effort to determine whether there are target overlaps between the two types of TSN complexes. I will biochemically validate the RNA-protein interactions identified, prioritize these targets by determining TSN or C3PO enrichment with RNAs and develop assays that, depending on the RNA category, functionally define the role of TSN and/or TSNAX. I will initially focus on assays that investigate RNA stability, RISC-dependence, and tRNA involvement, since these areas reflect the current understanding in the field. In future studies, I plan to characterize C3PO-containing mRNP and tRNP complexes in order to better understand its role among other PTGR components and processes.
+
+\section{TSN binds tRNAs}
+Our laboratory has identified a limited set of the RNA targets of human C3PO by performing PAR-CLIP analysis of its components. Expression of TSNAX alone did not yield any crosslinked RNAs – presumably due to its nuclease activity. However, PAR-CLIP with TSN did yield crosslinked RNAs. Preliminary analysis of this dataset shows that TSN exhibits high crosslinking efficiency to tRNAs, as well as mRNAs. In particular its consensus targets include the conserved UGGU motif of the dihydrouracil (DHU) stem-loop of tRNAs. A similar motif is also observed in the most prominent mRNA targets of TSN (Figure 5).
+
+\section{C3PO possesses a length- and structure-dependent endonucleolytic activity}
+%We have previously observed that the endonucleolytic activity of C3PO is much reduced for RNA substrates longer than 80-nt (unpublished data). This cutoff is very close to the average length of a mature human tRNA ( 75 nts). The length cut-off of C3PO’s activity along with the presence of tRNAs in its PAR-CLIP target list prompted the in vitro study of C3PO’s nuclease activity on tRNAs. I performed cleavage assays on 5’ or 3’ labeled, in vitro transcribed histidyl-tRNA (tRNAHis, 76 nts) and seryl-tRNA (tRNASer, 85 nts) (Figure 6). These substrates were chosen because of their confirmed presence in the TSN PAR-CLIP dataset, and because they lie inside and outside the length-dependent window of optimum nuclease activity respectively. My data suggest that tRNAHis is a favored substrate, consistent with the length preference of C3PO. More importantly I have noticed that C3PO possesses a structure-dependent cleavage pattern with respect to tRNAs. C3PO activity does not lead to processive degradation of the tRNA substrates (see H in figure 6), but rather results in products of specific length (\leq 9 nts). This suggests that C3PO cleaves preferentially at the shoulders of the acceptor stem of tRNAs, providing a possible cleavage site for the production of tRFs. 
+
+\section{Biochemical characterization of C3PO’s tRNA processing activity}
+I plan to repeat the PAR-CLIP analysis of TSN, using the tools and expertise obtained from aims 1 and 2 in order to validate its interaction with tRNAs. At the same time, in order to gain insight into the substrates of the full complex, I plan to perform PAR-CLIP studies after co-expression of TSN with a catalytically inactive form of TSNAX, due to a single amino acid mutation at its active site40. Based on structural studies, a catalytically inactive TSNAX is expected to form a similar stoichiometric complex with TSN as its wild-type form and bind its natural RNA targets, without being able to cleave them, thereby allowing their identification by PAR-CLIP. The targets identified by PAR-CLIP will be validated, in part, by in vitro nuclease assays so as to determine the details of the catalytic mechanism of C3PO on its substrates. 
+
+\section{Functional validation of C3PO’s targets}
+The impact of C3PO’s activity on its targets will be examined in over-expression and knockdown experiments. I plan to perform HydroRNAseq and RIP-Seq studies to investigate the impact of C3PO expression levels on the stability of its RNA targets, and to further dissect its biological function. Lack of C3PO activity has been linked with elevated levels of mature tRNAs and pre-tRNA fragments10. At the same time, C3PO activity is suggested to promote activity of RISC leading to enhanced RNA silencing38. If the former in the true, I expect to observe an accumulation of pre-tRFs and mature tRNAs in knockdown versus control or over-expression. If the latter holds, then I expect a change in the stability of the mRNA targets of C3PO. Finally, if time permits, I intend to study the effect of C3PO’s activity on the protein level, by performing western blot and mass-spectrometry studies of the proteins whose mRNAs will be validated targets. 
+
+\section{C3PO sumary report 2014}
+Performing PAR-CLIP on C3PO confirmed its role as a bona fide tRNA binding protein. The evidence for this is twofold: a) tRNAs collect the largest number of sequenced reads, 31\%, with the 2nd most represented class, mRNAs, collecting only 9\% (table 1), b) tRNAs represent the largest percentage of PAR-CLIP clusters both within the total number of clusters, as well as within the top 100 clusters (ranked by read abundance) (figures 1, 2, table 2). Of note, my PAR-CLIP results seem to bring into question previous reports that implicated C3PO in enhancing RISC activity and promoting miRNA-mediated gene silencing, since only 4\% of the total clusters map to miRNA and 3’ UTRs, respectively (table 2). However, 5’ UTRs represent 22\% of all clusters, a result that comes as a surprise, as C3PO has not been reported to interact with 5’ UTRs before. I have also determined the tRNA binding motif of C3PO (figure 3), using motif prediction algorithms (GIMSAN and MEME). Currently I am carrying out RIP-seq experiments in order to validate and rank the targets of C3PO.
+
+In order to investigate the biochemical function of C3PO, I am trying to identify other interacting proteins. A preliminary co-immunoprecipitation analysis yielded no clear candidates, which suggests that either C3PO functions in no close association with any other protein or that the conditions of immunoprecipitation were not appropriate. At the moment, I am repeating the experiment at different salt concentrations, as well as in the presence of a cell-permeable crosslinking agent (DSP). I hope that in this way I will be able to stabilize the possible interactions of C3PO with other proteins, which I will then identify by using the mass-spectrometry core facility. Moreover, I have already carried out in vitro endonuclease cleavage assays, using recombinant C3PO. These experiments confirmed that C3PO cleaves in vitro transcribed tRNAs in a length- and structure-dependent manner. I will carry out similar studies using tRNA targets predicted from PAR-CLIP and confirmed by RIP-seq. 
+
+Since C3PO has been previously implicated in a plethora of biological processes, I am interested in elucidating the processes in which it partakes. For this purpose, I am carrying out a gene ontology analysis of the PAR-CLIP targets. Also, I have performed siRNA knockdown experiments against the two components of the C3PO complex, TSN and TSNAX. I have validated commercially available antibodies, designed siRNAs, and have successfully knocked down C3PO in HEK293 cells by 3- to 5-fold. As the next step, I will perform two series of RNA-sequencing experiments in the context of C3PO knockdown: mRNA-seq (poly A selection) and HydroRNAseq, to determine the effect of C3PO expression on the mRNA and tRNA population, respectively. 
+
+Finally, a series of reports implicate tRNA metabolism in stress responses. Specifically, it has been suggested that upon cellular damage, tRNA endonucleolytic cleavage leads to translational arrest via the accumulation of tRNA halves. I subjected HEK293 cells to treatment with sodium arsenite (an inducer of oxidative stress), isolated RNA, and then performed small RNA sequencing that confirmed the accumulation of stable 5’ tRNA fragments. As a control, the miRNA or snRNA population remained largely unchanged. I confirmed these results by northern blots. Stress-induced endonucleolytic cleavage of tRNAs has been reported to be a function of the nuclease angiogenin. Nevertheless, angiogenin is not appreciably expressed in our cell culture system, neither in normal growth conditions nor upon oxidative stress. Therefore, it is intriguing to assume that C3PO might play a previously uncharacterized role in the metabolism of tRNAs during stress. For this purpose, I have carried out a PAR-CLIP experiment under conditions of oxidative stress and I am currently awaiting the sequencing results. 
+
+\section{C3PO summary from annual report 2015}
+C3PO is a multimeric complex of the RNA binding protein TRANSLIN and the RNA endonuclease TRAX. A plethora of functions have been assigned to this complex, such as a role in the repair of DNA breaks, enhancement of RNAi activity, and tRNA processing. By performing PAR-CLIP I had previously identified C3PO as a tRNA binding protein, and showed that it does not bind to miRNAs or 3’UTRs of mRNAs, arguing against a role in RNAi. Except for tRNAs, the other main target of C3PO was 5’ UTRs, something unusual for mRNA binding proteins apart from translation initiation factors. 
+
+In order to investigate the effect of C3PO in mRNA and tRNA stability, I performed mRNA and tRNAseq upon knockdown as well as induction of C3PO. To my surprise no significant effect was observed in either class of RNAs. There results can be interpreted in two ways. First, since C3PO is an enzymatic complex, perhaps partial loss of function conferred by siRNA knockdown is not sufficient to yield an observable phenotype, at least under the tested experimental conditions. Second, C3PO has an effect on translation rather than on mRNA or tRNA stability. I am testing the former hypothesis, by performing sequencing on RNA isolated from Translin and Trax knockout flies, and the latter by performing polysome analysis and mRNA reporter translation assays. Finally, in order to elucidate the molecular mechanism of action by C3PO, I have engaged in a collaboration with the lab of Dinshaw Patel at MSK, trying to obtain a crystal structure of C3PO with a minimal or full-length RNA target identified in my PAR-CLIP analysis. 
+
+\section{C3PO summary from annual report 2016}
+Despite extensive efforts in collaboration with the Patel lab (MSK), we have not been able to obtain a crystal structure of C3PO (complex of TRANSLIN and TRAX) bound to its RNA targets, which I have previously identified by PAR-CLIP. I have performed extensive electrophoretic mobility shift assays that have specified optimal substrates (e.g. full length tRNA, single stranded GGU repeats of various lengths, short RNA stemloops containing C3PO’s putative binding motif TGGW - W= A or T). Using these substrates, the Patel group obtained well-diffracted crystals of TRANSLIN crystallized in presence of ether single stranded RNA sequence 5’-(UG)3U(UG) or the tRNA dihydrouridine stem loop sequence (5’-GUAUAGUGGUUAGUAC) that belong to two different space groups. The structures were solved at 2.2 Å and 2.74 Å resolutions, respectively, and revealed minor differences in the arrangement of octameric TRANSLIN, but no bound RNA substrate in the expanded hollow interior of the closed-barrel structures. They have also obtained small crystals of the truncated wild-type C3PO in the RNA-free state, which are currently being optimized to attain diffraction quality.
+	
+In parallel, I have been characterizing the in vivo effects of C3PO, by loss-of-function studies. Unexpectedly, I observed that siRNA knockdowns of TRANSLIN led to increased translation of mRNA targets identified by PAR-CLIP. At the same time, more than 30 ribosomal proteins were upregulated upon TRANSLIN knockdown. Therefore, there is evidence that C3PO has a role in regulating translational efficiency. I have confirmed by RNAseq that C3PO is ubiquitously expressed at moderate to high levels. Therefore, there are reasons to think that C3PO might be involved in fundamental and global regulation of translation, either by acting directly at the translational process or indirectly, by modulating tRNA levels. In fact, the binding properties of C3PO towards specific 5’ UTRs of some mRNAs reflect those of known translational factors, inasmuch as they are usually single, short binding sites with GC-content significantly higher than randomly sampled, size-matched sequences from the 5’ UTR background context19.
+
+Since TRANSLIN knockdowns did not have a global pronounced effect on tRNA levels, I reasoned that the depletion achieved by the siRNA methodology (~70\% reduction in protein level) was not impactful enough to result in an observable effect on global tRNA levels. Therefore, I am obtaining CRIPSR knockouts20 of TRANSLIN and TRAX, which I will start characterizing after the submission of my tRNA manuscript.
+
+Although previous attempts to co-immunoprecipitate (co-IP) interactors of C3PO had been fruitless, I have optimized the IP conditions, managing to observe stoichiometric interactors. By western blot analysis of the interactors I identified a component of the RNase P complex, which renders further validation in the involvement of C3PO in tRNA processing. Having established appropriate IP conditions, I am scaling up and preparing for proteomic analysis of the C3PO interactors. Finally, I am setting up stable isotope labeling by amino acids in cell culture (SILAC21) experiments for C3PO wild-type versus C3PO knockout cell lines in order to confirm C3PO’s involvement in the regulation of translation.	
+
+Finally, recent publications have provided evidence for abundant stable tRNA fragments with various functions, but to date no factor has been identified as responsible for the biogenesis of these fragments22. To examine whether C3PO is involved I have prepared small RNA sequencing datasets upon gain- and loss-function of C3PO, by enriching for 5’-end phosphate containing small RNAs in the appropriate size range of 19-35 nts, such as tRNA fragments and miRNAs. 
+
+\chapter{Things that didn't work}
+As I had proposed last year, I am ultimately interested in applying the expertise and data obtained form tRNA sequencing towards understanding the interdependence (if any) between tRNA and mRNA abundance on a codon-by-codon level, as well as determine whether the balance between the two affects translational rates and mRNA stability. First, I retrieved all annotated isoforms of human mRNA transcripts, and obtained computationally an expression-weighted frequency table for all codons, by multiplying the incidence of every codon per every transcript with the abundance of each transcript. After accounting for wobble effects, I examined the relationship between codon and respective anticodon abundance. Interestingly, even though for the majority of codons, an increase in their abundance is mirrored by an increase in their cognate anticodon, there are outlier codons for which there is a discrepancy, with the codon being unusually more or less abundant than its anticodon. This led to the idea that the codon-anticodon abundance imbalance might have an observable effect on the translational efficiency of mRNA harboring such codon-anticodon pairs. To investigate this possibility I focused on ribosome profiling, a technique that determines the translational efficiency of mRNAs into proteins by quantifying the number of ribosome-protected mRNA fragments by RNAseq following isolation of actively translating ribosomes12. Recently, a very deep ribosome profiling dataset in HEK293 was published13. I started performing analysis using this dataset. At a first step, I created scripts that allow for general quality control of the data. With these I confirmed the read length distribution as well as the characteristic phasing of the 5’ ends of ribosome profiling reads with respect to the first translation frame12,14. At the same time, I was able to quantify ribosome protected fragments per every single codon. This now allows me to correlate translational efficiency with the relationship between codon and anticodon abundance. 
+	Finally, I am investigating whether there is a connection between the translational efficiency of an mRNA and its stability, since it has been previously postulated that stalled ribosomes on inefficiently translated messages can trigger mRNA degradation resulting in decreased mRNA abundance15-18. 
+
+Finally, recognizing that I can obtain tRNA expression and abundance profiles in a more reliable manner than previously published ones, such as tRNA arrays, I decided to approach long-standing fundamental questions about the nature of the genetic code. Particularly, I was interested in combining mRNA abundance data, and translational efficiency data obtained by ribosome profiling, with tRNA abundance data in order to understand translational dynamics better. The hypothesis behind this work was that codon biases observed in specific contexts could be directed by the availability of tRNAs. 
+
+For this reason, I turned my attention towards ribosome profiling. Since our lab is still in the process of establishing this methodology, I focused on already published data about our cell culture system. I developed a series of scripts that allow me to perform tailored analysis of the data. Although this analysis is far from complete, there have been some important observations already. First, as previously shown by other groups, I showed (using our own RNAseq data) that although highly expressed mRNAs are also highly occupied by ribosomes, there are indeed cases where transcripts are efficienytly transcribed but inefficiently translated and vice versa.  
+This led to the hypothesis that specific tRNA availability may be the bottleneck in the translation of some transcripts. Using my tRNA abundance data, and after accounting for wobble effects, I computed an anticodon scoring index, which is essentially the weighted sum of the relative frequency of all anticodons required to decode a given open reading frame. Traditionally, it has been postulated that efficiently translated messages harbor common codons, reflecting codon optimization. Surprisingly, my preliminary data indicate that the most highly represented genes in ribosome profiling (top 10\%) rank in the bottom 10\% in anticodon score index. At the same time, these genes are highly transcribed, as evidenced by mRNAseq data. If these results are true (and not an experimental artifact, which I will validate by performing further replicates), then this would argue towards a lack of selective pressure for optimized codons in highly translated genes. One could then argue that increasing transcription rates for these genes leads to high protein expression levels, obviating the need for codon optimization at the DNA level. 
+
 
 \renewcommand{\bibname}{References}
 %\bibliographystyle{IEEEtran}
