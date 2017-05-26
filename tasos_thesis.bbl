@@ -1504,6 +1504,236 @@
       \field{pages}{524\bibrangedash 524}
       \range{pages}{1}
     \endentry
+    \entry{Nielsen:2013be}{article}{}
+      \name{author}{3}{}{%
+        {{hash=7d7760f55230eabffd00101e927f66c4}{%
+           family={Nielsen},
+           family_i={N\bibinitperiod},
+           given={Soren},
+           given_i={S\bibinitperiod}}}%
+        {{hash=f1d69961759c015cc3fda7bd88ce972c}{%
+           family={Yuzenkova},
+           family_i={Y\bibinitperiod},
+           given={Yulia},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=527e9d7639ac57b3e073f5351821a3e9}{%
+           family={Zenkin},
+           family_i={Z\bibinitperiod},
+           given={Nikolay},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{b50fe97c0181f9bc4967e0b03af9801d}
+      \strng{fullhash}{6c7b00969ce2d9a3822969b16d2bd70c}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{month}{06}
+      \field{number}{6140}
+      \field{title}{{Mechanism of eukaryotic RNA polymerase III transcription termination.}}
+      \field{volume}{340}
+      \field{year}{2013}
+      \field{pages}{1577\bibrangedash 1580}
+      \range{pages}{4}
+    \endentry
+    \entry{Teplova:2006dv}{article}{}
+      \name{author}{7}{}{%
+        {{hash=66d97066e7f4b13ec8cac098faa803c2}{%
+           family={Teplova},
+           family_i={T\bibinitperiod},
+           given={Marianna},
+           given_i={M\bibinitperiod}}}%
+        {{hash=c72ef31e04b338ee2d441f2df23941b7}{%
+           family={Yuan},
+           family_i={Y\bibinitperiod},
+           given={Yu-Ren},
+           given_i={Y\bibinithyphendelim R\bibinitperiod}}}%
+        {{hash=156f579531ff04d5e565cc99cc041fb7}{%
+           family={Phan},
+           family_i={P\bibinitperiod},
+           given={Anh\bibnamedelima Tuân},
+           given_i={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=77d66df819b819ddfc5e6ab53dda8752}{%
+           family={Malinina},
+           family_i={M\bibinitperiod},
+           given={Lucy},
+           given_i={L\bibinitperiod}}}%
+        {{hash=71ed3a0577a786efb5e588eebce3e174}{%
+           family={Ilin},
+           family_i={I\bibinitperiod},
+           given={Serge},
+           given_i={S\bibinitperiod}}}%
+        {{hash=ce650abda513a982367dbd734e54d406}{%
+           family={Teplov},
+           family_i={T\bibinitperiod},
+           given={Alexei},
+           given_i={A\bibinitperiod}}}%
+        {{hash=755def23108b2fb4a38cc2085a9eaa3d}{%
+           family={Patel},
+           family_i={P\bibinitperiod},
+           given={Dinshaw\bibnamedelima J},
+           given_i={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{5ae05d71773b074440398111d7b0a47c}
+      \strng{fullhash}{1fac1b3e673b76ae366d101e25157150}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Cell}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{{Structural Basis for Recognition and Sequestration of UUUOH 3{´} Temini of Nascent RNA Polymerase III Transcripts by La, a Rheumatic Disease Autoantigen}}
+      \field{volume}{21}
+      \field{year}{2006}
+      \field{pages}{75\bibrangedash 85}
+      \range{pages}{11}
+    \endentry
+    \entry{Machnicka:2013ky}{article}{}
+      \name{author}{13}{}{%
+        {{hash=a72300e11fe185cde8c08a7717734560}{%
+           family={Machnicka},
+           family_i={M\bibinitperiod},
+           given={Magdalena\bibnamedelima A},
+           given_i={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d8d47a7847c7ae98fd80e86e1eb29853}{%
+           family={Milanowska},
+           family_i={M\bibinitperiod},
+           given={Kaja},
+           given_i={K\bibinitperiod}}}%
+        {{hash=c1da1b7434e83664a3a91b39a3a104de}{%
+           family={Osman\bibnamedelima Oglou},
+           family_i={O\bibinitperiod\bibinitdelim O\bibinitperiod},
+           given={Okan},
+           given_i={O\bibinitperiod}}}%
+        {{hash=55572622ec886e9c4924e0dae66f1b79}{%
+           family={Purta},
+           family_i={P\bibinitperiod},
+           given={Elzbieta},
+           given_i={E\bibinitperiod}}}%
+        {{hash=25eb458494ecaa5473176252093e9f18}{%
+           family={Kurkowska},
+           family_i={K\bibinitperiod},
+           given={Malgorzata},
+           given_i={M\bibinitperiod}}}%
+        {{hash=6243428664efef1e075216d8009b3da7}{%
+           family={Olchowik},
+           family_i={O\bibinitperiod},
+           given={Anna},
+           given_i={A\bibinitperiod}}}%
+        {{hash=610af266cf12016ded7860dda7231a67}{%
+           family={Januszewski},
+           family_i={J\bibinitperiod},
+           given={Witold},
+           given_i={W\bibinitperiod}}}%
+        {{hash=a513a1b7d8074cb2a23e6bc98692a081}{%
+           family={Kalinowski},
+           family_i={K\bibinitperiod},
+           given={Sebastian},
+           given_i={S\bibinitperiod}}}%
+        {{hash=d5b6a3fa8f1645a7e4987e7374c78500}{%
+           family={Dunin-Horkawicz},
+           family_i={D\bibinithyphendelim H\bibinitperiod},
+           given={Stanislaw},
+           given_i={S\bibinitperiod}}}%
+        {{hash=8568994f54814fa76b5670214aae9b6d}{%
+           family={Rother},
+           family_i={R\bibinitperiod},
+           given={Kristian\bibnamedelima M},
+           given_i={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=fb010d99f7bfa542f1de2e1a2b8c3e04}{%
+           family={Helm},
+           family_i={H\bibinitperiod},
+           given={Mark},
+           given_i={M\bibinitperiod}}}%
+        {{hash=29b6c92db9eb89f37c09d2d4fb791e9f}{%
+           family={Bujnicki},
+           family_i={B\bibinitperiod},
+           given={Janusz\bibnamedelima M},
+           given_i={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=2db4e9f0d13f73d83908d795ce37996b}{%
+           family={Grosjean},
+           family_i={G\bibinitperiod},
+           given={Henri},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{c2fef4037eb0418fa1cc1418f337893b}
+      \strng{fullhash}{602ad756d8d3c424e73d4a67b5577e10}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{01}
+      \field{number}{Database issue}
+      \field{title}{{MODOMICS: a database of RNA modification pathways--2013 update.}}
+      \field{volume}{41}
+      \field{year}{2013}
+      \field{pages}{D262\bibrangedash 7}
+      \range{pages}{-1}
+    \endentry
+    \entry{Torres:2015ed}{article}{}
+      \name{author}{9}{}{%
+        {{hash=0a35ba2a44e14f1c3f9709321687cced}{%
+           family={Torres},
+           family_i={T\bibinitperiod},
+           given={A\bibnamedelima G},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=bd108fc8b58c85eb4e9d08eb79a2db93}{%
+           family={Pineyro},
+           family_i={P\bibinitperiod},
+           given={D},
+           given_i={D\bibinitperiod}}}%
+        {{hash=592e94c6ab7c68e753cea83f503089d2}{%
+           family={Rodriguez-Escriba},
+           family_i={R\bibinithyphendelim E\bibinitperiod},
+           given={M},
+           given_i={M\bibinitperiod}}}%
+        {{hash=6253def36b200b03d926f1e297ee1fe3}{%
+           family={Camacho},
+           family_i={C\bibinitperiod},
+           given={N},
+           given_i={N\bibinitperiod}}}%
+        {{hash=88c4242254f80bb3d14581fba024bfcc}{%
+           family={Reina},
+           family_i={R\bibinitperiod},
+           given={O},
+           given_i={O\bibinitperiod}}}%
+        {{hash=bb76a560c42d7609ad66525dcdf25a41}{%
+           family={Saint-Leger},
+           family_i={S\bibinithyphendelim L\bibinitperiod},
+           given={A},
+           given_i={A\bibinitperiod}}}%
+        {{hash=9602d95fde6c3df53d5cd6acb012b40c}{%
+           family={Filonava},
+           family_i={F\bibinitperiod},
+           given={L},
+           given_i={L\bibinitperiod}}}%
+        {{hash=2ac5a5ed88ffb69b2a4c08bc0637d892}{%
+           family={Batlle},
+           family_i={B\bibinitperiod},
+           given={E},
+           given_i={E\bibinitperiod}}}%
+        {{hash=8fddf625090150451c0324ba1fdfd7ea}{%
+           family={Ribas\bibnamedelimb de\bibnamedelima Pouplana},
+           family_i={R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={L},
+           given_i={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c2c52dd2ddbc63e40ca805a022da09e}
+      \strng{fullhash}{7d2ab3208c651987e8b5b38d99d5794f}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucleic Acids Research}
+      \field{month}{04}
+      \field{title}{{Inosine modifications in human tRNAs are incorporated at the precursor tRNA level}}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 13}
+      \range{pages}{13}
+    \endentry
     \entry{Namavar:2011ew}{article}{}
       \name{author}{4}{}{%
         {{hash=ac72982cfe12c5443f83f52d78f44174}{%
@@ -1541,6 +1771,127 @@
       \field{year}{2011}
       \field{pages}{50}
       \range{pages}{1}
+    \endentry
+    \entry{Baltz:2012bh}{article}{}
+      \name{author}{15}{}{%
+        {{hash=36baf47d73941d31f0c4f5a73d9e1f0a}{%
+           family={Baltz},
+           family_i={B\bibinitperiod},
+           given={Alexander\bibnamedelima G},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=05d8d72556d16194ee2738e027a85ded}{%
+           family={Munschauer},
+           family_i={M\bibinitperiod},
+           given={Mathias},
+           given_i={M\bibinitperiod}}}%
+        {{hash=fb22bfc9e70edde10457f43523db4b70}{%
+           family={Schwanhäusser},
+           family_i={S\bibinitperiod},
+           given={Björn},
+           given_i={B\bibinitperiod}}}%
+        {{hash=a9b0f1658a8a53ed58a1289ed2b70d3a}{%
+           family={Vasile},
+           family_i={V\bibinitperiod},
+           given={Alexandra},
+           given_i={A\bibinitperiod}}}%
+        {{hash=2d51892f1be65dda9f1935ac1f56959d}{%
+           family={Murakawa},
+           family_i={M\bibinitperiod},
+           given={Yasuhiro},
+           given_i={Y\bibinitperiod}}}%
+        {{hash=22378fda1b3e9da4e87a65e5a3869dad}{%
+           family={Schueler},
+           family_i={S\bibinitperiod},
+           given={Markus},
+           given_i={M\bibinitperiod}}}%
+        {{hash=2c29613e201ce4a9d4c33244149d803d}{%
+           family={Youngs},
+           family_i={Y\bibinitperiod},
+           given={Noah},
+           given_i={N\bibinitperiod}}}%
+        {{hash=d3c712ff17ded29f0ee37f15bd127971}{%
+           family={Penfold-Brown},
+           family_i={P\bibinithyphendelim B\bibinitperiod},
+           given={Duncan},
+           given_i={D\bibinitperiod}}}%
+        {{hash=92132f4550ecca93eea535565ae62df9}{%
+           family={Drew},
+           family_i={D\bibinitperiod},
+           given={Kevin},
+           given_i={K\bibinitperiod}}}%
+        {{hash=9848fffe935d82894d799f04e5093229}{%
+           family={Milek},
+           family_i={M\bibinitperiod},
+           given={Miha},
+           given_i={M\bibinitperiod}}}%
+        {{hash=484c16f2f1196e0fab684d795a9b908f}{%
+           family={Wyler},
+           family_i={W\bibinitperiod},
+           given={Emanuel},
+           given_i={E\bibinitperiod}}}%
+        {{hash=371fcb8879619e36e49d026d0e692c12}{%
+           family={Bonneau},
+           family_i={B\bibinitperiod},
+           given={Richard},
+           given_i={R\bibinitperiod}}}%
+        {{hash=c19f3bd21f1dfbe7a68db7ddd6d4cbd0}{%
+           family={Selbach},
+           family_i={S\bibinitperiod},
+           given={Matthias},
+           given_i={M\bibinitperiod}}}%
+        {{hash=ceb7f7b72c75dac2c24c2289964e501a}{%
+           family={Dieterich},
+           family_i={D\bibinitperiod},
+           given={Christoph},
+           given_i={C\bibinitperiod}}}%
+        {{hash=0f679c5f54af4880886223f1cede2089}{%
+           family={Landthaler},
+           family_i={L\bibinitperiod},
+           given={Markus},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{06f1fe959483a55f11733a055b4e6865}
+      \strng{fullhash}{adabb8b3ae4012f68a7ce2cb6ba37d92}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Cell}
+      \field{month}{06}
+      \field{number}{5}
+      \field{title}{{The mRNA-Bound Proteome and Its Global Occupancy Profile on Protein-Coding Transcripts}}
+      \field{volume}{46}
+      \field{year}{2012}
+      \field{pages}{674\bibrangedash 690}
+      \range{pages}{17}
+    \endentry
+    \entry{Dhungel:2012dc}{article}{}
+      \name{author}{2}{}{%
+        {{hash=fcbc7c0ac903dc6ca0f79376d566a2d1}{%
+           family={Dhungel},
+           family_i={D\bibinitperiod},
+           given={N},
+           given_i={N\bibinitperiod}}}%
+        {{hash=4b690add7f71b5539e2b88469f41c177}{%
+           family={Hopper},
+           family_i={H\bibinitperiod},
+           given={A\bibnamedelima K},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{82886a7e4849b55941882ed9aef18cdd}
+      \strng{fullhash}{82886a7e4849b55941882ed9aef18cdd}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genes {\&} Development}
+      \field{month}{03}
+      \field{number}{5}
+      \field{title}{{Beyond tRNA cleavage: novel essential function for yeast tRNA splicing endonuclease unrelated to tRNA processing}}
+      \field{volume}{26}
+      \field{year}{2012}
+      \field{pages}{503\bibrangedash 514}
+      \range{pages}{12}
     \endentry
   \endsortlist
 \endrefsection

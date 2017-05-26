@@ -5,9 +5,11 @@
 \usepackage{helvet} %set font to Helvetica
 \renewcommand\familydefault{\sfdefault} %set font to Helvetica
 \usepackage{fancyhdr} %header and footer
-%\usepackage[utf8]{inputenc} %allow greek input
 %\usepackage[LGR,T1]{fontenc} %allow greek input
 %\newcommand{\textgreek}[1]{\begingroup\fontencoding{LGR}\selectfont#1\endgroup} %allow greek input
+\usepackage[utf8]{inputenc}    % utf8 support
+\usepackage[T1]{fontenc}       % code for pdf file
+\DeclareUnicodeCharacter{00B4}{~} % fixes encoding error for acute accent characters in bibliography titles
 \usepackage{enumerate}
 \usepackage{subcaption}
 \usepackage{rotating}
@@ -49,7 +51,6 @@
 
 \thispagestyle{empty}
 \makecopyright
-
 
 \begin{abstract}
 
@@ -459,7 +460,7 @@ RT across modified nucleotide-containing RNA leads to errors in cognate deoxynuc
 
 \begin{figure}[!ht]%
 \centering
-\includegraphics[width=\textwidth]{paper7a.png}%
+\includegraphics[scale=1]{paper7a.png}%
 \caption[paper7a]
 {\textbf{paper7a.}
 placeholder}
@@ -473,9 +474,25 @@ The temporal resolution of tRNA modifications by RNAseq has begun to be addresse
 This confirmed that A34 deamination takes place at the precursor level, and therefore is a nuclear modification, as it has been previously reported \cite{Torres:2015ed}. 
 Next, we noticed that 1-methyl-inosine at position 37 also appears at the precursor stage. Of note the A37 modification became apparent prior to A34, as the majority of the error distance 1 reads contained a mismatch at A37. Reads with two mismatches contained both modifications (\textbf{Fig. \ref{paper7b}, bottom})
 
+In many instances we observe specific and highly abundant mismatchsignatures in pre-tRNAs, which can possibly allow us to determine and monitor by RNA-seq the editing hierarchy of tRNAs and the order of function of their modifying enzymes. 
+
+We observe editing in the D1 alignments. Those reads do not map at error distance 1, since we are following a hierarchical mapping, neither to they map back to the genome. This suggests that we can observe nucleotide editing at the precursor stage of tRNAs. 
+ 
+
+What we can say is that 
+	we observe tRNA editing leading to mismatches in RNA-seq
+	specifc postitions 
+	edited many times more abundant than unedited
+This slide brings up another point…
+
+We are far from experts on tRNA editing and modifications, but our protocols do allow for a careful annotation and overview of specific modifications. Those that lead to characteristic signatures of mismatches upon RNAseq
+In many instances we observe specific and highly abundant mismatchsignatures in pre-tRNAs, which can possibly allow us to determine and monitor by RNA-seq the editing hierarchy of tRNAs and the order of function of their modifying enzymes. 
+
+We observe editing in the D1 alignments. Those reads do not map at error distance 1, since we are following a hierarchical mapping, neither to they map back to the genome. This suggests that we can observe nucleotide editing at the precursor stage of tRNAs. 
+
 \begin{figure}[!ht]%
 \centering
-\includegraphics[width=\textwidth]{paper7b.png}%
+\includegraphics[width = 5in]{paper7b.png}%
 \caption[paper7b]
 {\textbf{paper7b.}
 placeholder}
@@ -485,7 +502,7 @@ placeholder}
 
 \section{Annotation of intron-containing tRNA genes}
 
-Intron-containing tRNAs represent a particularly interesting set of tRNA genes, as mutations in their evolutionarily conserved, yet distinct, processing machinery have emerged recently as causes of severe neurodevelopmental syndromes, such as pontocerebellar hypoplasia \cite{Namavar:2011ew}. Therefore, there is documented need for a comprehensive annotation of human intron-containing tRNAs, which should be revisited as markers or disease-causing candidates in phenotypically similar conditions. We confirmed 26 out of 32 predicted intron-containing tRNAs by hydro-tRNAseq (\textbf{Fig. \ref{paper5}A}. Excluding any unknown biologically redundant mechanism, this suggests that the integrity of the tRNA splicing complex is essential for survival. To further confirm our observations, we coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, we identified a crosslinked read peak at the anticodon loop of all intron-containing tRNAs annotated by our approaches (\textbf{Fig. \ref{paper5}B,C}. 
+Intron-containing tRNAs represent a particularly interesting set of tRNA genes, as mutations in their evolutionarily conserved, yet distinct, processing machinery have emerged recently as causes of severe neurodevelopmental syndromes, such as pontocerebellar hypoplasia \cite{Namavar:2011ew}. Therefore, there is documented need for a comprehensive annotation of human intron-containing tRNAs, which should be revisited as markers or disease-causing candidates in phenotypically similar conditions. We confirmed 26 out of 32 predicted intron-containing tRNAs by hydro-tRNAseq (\textbf{Fig. \ref{paper5}A}. Excluding any unknown biologically redundant mechanism, this suggests that the integrity of the tRNA splicing complex is essential for survival. To further confirm our observations, we coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, we identified a crosslinked read peak at the anticodon loop of all intron-containing tRNAs annotated by our approaches. (\textbf{Fig. \ref{paper5}B,C}. One tRNA isotype and three isoacceptors are fully dependent on tRNA splicing, which suggests that despite functional redundancies that are often observed in tRNA processing steps, tRNA splicing is an esential [rocess for viability, at least in the cell system that we studied 
 
 \begin{figure}[!ht]%
 \centering
@@ -497,8 +514,10 @@ placeholder}
 \label{paper5}%
 \end{figure}
 
-
 \chapter{CLP1}
+
+
+
 \chapter{C3PO}
 
 \renewcommand{\bibname}{References}

@@ -56,10 +56,10 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.14}Ribonucleotide modifications}{27}{section.2.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.15}Annotation of intron-containing tRNA genes}{30}{section.2.15}
+\contentsline {section}{\numberline {2.15}Annotation of intron-containing tRNA genes}{31}{section.2.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}CLP1}{33}{chapter.3}
+\contentsline {chapter}{\numberline {3}CLP1}{34}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}C3PO}{34}{chapter.4}
+\contentsline {chapter}{\numberline {4}C3PO}{35}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{38}{chapter*.39}
+\contentsline {chapter}{References}{40}{chapter*.39}

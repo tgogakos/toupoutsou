@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  25 MAY 2017 17:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  26 MAY 2017 08:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -75,9 +75,330 @@ Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS)
 \f@ncyO@olf=\skip50
 \f@ncyO@orf=\skip51
 )
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2015/03/17 v1.2c Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2016/02/28 v1.1s UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0100 (decimal 256)
+   defining Unicode char U+0101 (decimal 257)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+0108 (decimal 264)
+   defining Unicode char U+0109 (decimal 265)
+   defining Unicode char U+010A (decimal 266)
+   defining Unicode char U+010B (decimal 267)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0112 (decimal 274)
+   defining Unicode char U+0113 (decimal 275)
+   defining Unicode char U+0114 (decimal 276)
+   defining Unicode char U+0115 (decimal 277)
+   defining Unicode char U+0116 (decimal 278)
+   defining Unicode char U+0117 (decimal 279)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011C (decimal 284)
+   defining Unicode char U+011D (decimal 285)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0120 (decimal 288)
+   defining Unicode char U+0121 (decimal 289)
+   defining Unicode char U+0122 (decimal 290)
+   defining Unicode char U+0123 (decimal 291)
+   defining Unicode char U+0124 (decimal 292)
+   defining Unicode char U+0125 (decimal 293)
+   defining Unicode char U+0128 (decimal 296)
+   defining Unicode char U+0129 (decimal 297)
+   defining Unicode char U+012A (decimal 298)
+   defining Unicode char U+012B (decimal 299)
+   defining Unicode char U+012C (decimal 300)
+   defining Unicode char U+012D (decimal 301)
+   defining Unicode char U+012E (decimal 302)
+   defining Unicode char U+012F (decimal 303)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0134 (decimal 308)
+   defining Unicode char U+0135 (decimal 309)
+   defining Unicode char U+0136 (decimal 310)
+   defining Unicode char U+0137 (decimal 311)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013B (decimal 315)
+   defining Unicode char U+013C (decimal 316)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0145 (decimal 325)
+   defining Unicode char U+0146 (decimal 326)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+014C (decimal 332)
+   defining Unicode char U+014D (decimal 333)
+   defining Unicode char U+014E (decimal 334)
+   defining Unicode char U+014F (decimal 335)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0156 (decimal 342)
+   defining Unicode char U+0157 (decimal 343)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015C (decimal 348)
+   defining Unicode char U+015D (decimal 349)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+0168 (decimal 360)
+   defining Unicode char U+0169 (decimal 361)
+   defining Unicode char U+016A (decimal 362)
+   defining Unicode char U+016B (decimal 363)
+   defining Unicode char U+016C (decimal 364)
+   defining Unicode char U+016D (decimal 365)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0172 (decimal 370)
+   defining Unicode char U+0173 (decimal 371)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+01CD (decimal 461)
+   defining Unicode char U+01CE (decimal 462)
+   defining Unicode char U+01CF (decimal 463)
+   defining Unicode char U+01D0 (decimal 464)
+   defining Unicode char U+01D1 (decimal 465)
+   defining Unicode char U+01D2 (decimal 466)
+   defining Unicode char U+01D3 (decimal 467)
+   defining Unicode char U+01D4 (decimal 468)
+   defining Unicode char U+01E2 (decimal 482)
+   defining Unicode char U+01E3 (decimal 483)
+   defining Unicode char U+01E6 (decimal 486)
+   defining Unicode char U+01E7 (decimal 487)
+   defining Unicode char U+01E8 (decimal 488)
+   defining Unicode char U+01E9 (decimal 489)
+   defining Unicode char U+01EA (decimal 490)
+   defining Unicode char U+01EB (decimal 491)
+   defining Unicode char U+01F0 (decimal 496)
+   defining Unicode char U+01F4 (decimal 500)
+   defining Unicode char U+01F5 (decimal 501)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+1E02 (decimal 7682)
+   defining Unicode char U+1E03 (decimal 7683)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2010 (decimal 8208)
+   defining Unicode char U+2011 (decimal 8209)
+   defining Unicode char U+2012 (decimal 8210)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2015 (decimal 8213)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2016/02/28 v1.1s UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
-\@enLab=\toks15
+\@enLab=\toks17
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2016/02/20 v1.1-142 Sub-captions (AR)
@@ -111,7 +432,7 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rotFPtop=\skip52
 \rotFPbot=\skip53
 \rot@float@box=\box26
-\rot@mess@toks=\toks16
+\rot@mess@toks=\toks18
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
@@ -120,7 +441,7 @@ Package: tabu 2011/02/26 v2.8 - flexible LaTeX tabulars (FC)
 Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen112
 \extrarowheight=\dimen113
-\NC@list=\toks17
+\NC@list=\toks19
 \extratabsurround=\skip54
 \backup@length=\skip55
 )
@@ -146,8 +467,8 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \abovetabulinesep=\dimen122
 \belowtabulinesep=\dimen123
 \tabustrutrule=\dimen124
-\tabu@thebody=\toks18
-\tabu@footnotes=\toks19
+\tabu@thebody=\toks20
+\tabu@footnotes=\toks21
 \tabu@box=\box28
 \tabu@arstrutbox=\box29
 \tabu@hleads=\box30
@@ -164,11 +485,11 @@ Package color Info: Driver file: pdftex.def on input line 144.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks20
-\SOUL@lasttoken=\toks21
-\SOUL@cmds=\toks22
-\SOUL@buffer=\toks23
-\SOUL@token=\toks24
+\SOUL@word=\toks22
+\SOUL@lasttoken=\toks23
+\SOUL@cmds=\toks24
+\SOUL@buffer=\toks25
+\SOUL@token=\toks26
 \SOUL@spaceskip=\skip57
 \SOUL@ttwidth=\dimen125
 \SOUL@uldp=\dimen126
@@ -181,7 +502,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip59
 \ttl@plus=\dimen128
 \ttl@minus=\dimen129
-\ttl@toksa=\toks25
+\ttl@toksa=\toks27
 \titlewidth=\dimen130
 \titlewidthlast=\dimen131
 \titlewidthfirst=\dimen132
@@ -248,6 +569,8 @@ Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2016/05/05 v6.83n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count102
 
@@ -308,8 +631,8 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkeyval.tex
 (/usr/local/texlive/2016/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks26
-\XKV@tempa@toks=\toks27
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
 )
 \XKV@depth=\count110
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -321,8 +644,8 @@ Package: mfirstuc 2015/12/17 v2.02 (NLCT)
 Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count111
 )
-\@glsmfirst=\toks28
-\@glsmrest=\toks29
+\@glsmfirst=\toks30
+\@glsmrest=\toks31
 )
 (/usr/local/texlive/2016/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -343,7 +666,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
+\@emptytoks=\toks32
 \ex@=\dimen137
 ))
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -373,21 +696,21 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \dotsspace@=\muskip11
 \c@parentequation=\count119
 \dspbrk@lvl=\count120
-\tag@help=\toks31
+\tag@help=\toks33
 \row@=\count121
 \column@=\count122
 \maxfields@=\count123
-\andhelp@=\toks32
+\andhelp@=\toks34
 \eqnshift@=\dimen140
 \alignsep@=\dimen141
 \tagshift@=\dimen142
 \tagwidth@=\dimen143
 \totwidth@=\dimen144
 \lineht@=\dimen145
-\@envbody=\toks33
+\@envbody=\toks35
 \multlinegap=\skip62
 \multlinetaggap=\skip63
-\mathdisplay@stack=\toks34
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2739.
 LaTeX Info: Redefining \] on input line 2740.
 )
@@ -446,7 +769,7 @@ Package: fp-upn 1996/10/21
 (/usr/local/texlive/2016/texmf-dist/tex/latex/fp/fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks35
+\@dtl@toks=\toks37
 \@dtl@tmpcount=\count136
 \dtl@tmplength=\skip64
 \dtl@sortresult=\count137
@@ -461,12 +784,12 @@ ible-307.sty
 Package: glossaries-compatible-307 2016/04/30 v4.23 (NLCT)
 )
 \gls@level=\count143
-\@gls@tmpb=\toks36
+\@gls@tmpb=\toks38
 \gls@tmplen=\skip65
-\glskeylisttok=\toks37
-\glslabeltok=\toks38
-\glsshorttok=\toks39
-\glslongtok=\toks40
+\glskeylisttok=\toks39
+\glslabeltok=\toks40
+\glsshorttok=\toks41
+\glslongtok=\toks42
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/glossaries/styles/glossary-hypern
 av.sty
@@ -496,7 +819,7 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LT@rows=\count146
 \c@LT@tables=\count147
 \c@LT@chunks=\count148
-\LT@p@ftn=\toks41
+\LT@p@ftn=\toks43
 )
 \glsdescwidth=\skip71
 \glspagelistwidth=\skip72
@@ -533,12 +856,12 @@ Package: glossary-tree 2016/04/30 v4.23 (NLCT)
 \openout4 = `tasos_thesis.glo'.
 
 Package glossaries Info: Writing glossary file tasos_thesis.glo on input line 2
-1.
+4.
 \glo@acronym@file=\write5
 \openout5 = `tasos_thesis.acn'.
 
 Package glossaries Info: Writing glossary file tasos_thesis.acn on input line 2
-1.
+4.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/imakeidx/imakeidx.sty
 Package: imakeidx 2016/05/16 v1.3c Package for typesetting indices in a synchro
 nous mode
@@ -597,6 +920,7 @@ Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
 
 
 Writing index file tasos_thesis.idx
+   defining Unicode char U+00B4 (decimal 180)
 (/usr/local/texlive/2016/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2016/05/14 v3.4 programmable bibliographies (PK/JW/AB)
 
@@ -838,23 +1162,23 @@ LaTeX Warning: Label `paper4' multiply defined.
 )
 \openout1 = `tasos_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Try loading font information for OT1+phv on input line 42.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ot1phv.fd
-File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 46.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 (/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -863,12 +1187,12 @@ File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 \scratchbox=\box66
 \nofMPsegments=\count349
 \nofMParguments=\count350
-\everyMPshowfont=\toks42
+\everyMPshowfont=\toks44
 \MPscratchCnt=\count351
 \MPscratchDim=\dimen168
 \MPnumerator=\count352
 \makeMPintoPDFobject=\count353
-\everyMPtoPDFconversion=\toks43
+\everyMPtoPDFconversion=\toks45
 ) (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -895,7 +1219,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box67
-Package hyperref Info: Link coloring OFF on input line 42.
+Package hyperref Info: Link coloring OFF on input line 46.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -905,50 +1229,49 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count354
 )
-LaTeX Info: Redefining \ref on input line 42.
-LaTeX Info: Redefining \pageref on input line 42.
-LaTeX Info: Redefining \nameref on input line 42.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
 
 (./tasos_thesis.out) (./tasos_thesis.out)
 \@outlinefile=\write9
 \openout9 = `tasos_thesis.out'.
 
  (./tasos_thesis.glsdefs)
-Package biblatex Info: No input encoding detected.
-(biblatex)             Assuming 'ascii'.
+Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'ascii'.
+(biblatex)             Assuming data encoding 'utf8'.
 \openout8 = `tasos_thesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tasos_thesis.bbl' found.
 
 (./tasos_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 42.
-Package biblatex Info: Reference segment=0 on input line 42.
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 49.
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 53.
  [1
 
 \openout3 = `tasos_thesis.xdy'.
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+phv on input line 51.
+LaTeX Font Info:    Try loading font information for OMS+phv on input line 55.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/omsphv.fd
 File: omsphv.fd 
 )
 LaTeX Font Info:    Font shape `OMS/phv/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 51.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
 [2]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 54.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 57.
  [1
 
 
 ]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 61.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 64.
  [3
 
 ] [4
@@ -990,15 +1313,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 
+l.111 
        [1
 
 
 ]
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1006,378 +1325,241 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [2]
-LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 113.
- [3] <./figures/biogenesis.png, id=334, 734.5041pt x 386.8854pt>
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 116.
+ [3] <./figures/biogenesis.png, id=336, 734.5041pt x 386.8854pt>
 File: ./figures/biogenesis.png Graphic file (type png)
 
 <use ./figures/biogenesis.png>
-Package pdftex.def Info: ./figures/biogenesis.png used on input line 120.
+Package pdftex.def Info: ./figures/biogenesis.png used on input line 123.
 (pdftex.def)             Requested size: 430.00627pt x 226.4953pt.
  [4 <./figures/biogenesis.png (PNG copy)>]
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-
-[5] [6] [7] <./figures/sRNA.png, id=358, 244.0317pt x 328.1058pt>
+[5] [6] [7] <./figures/sRNA.png, id=360, 244.0317pt x 328.1058pt>
 File: ./figures/sRNA.png Graphic file (type png)
 
 <use ./figures/sRNA.png>
-Package pdftex.def Info: ./figures/sRNA.png used on input line 156.
+Package pdftex.def Info: ./figures/sRNA.png used on input line 159.
 (pdftex.def)             Requested size: 252.94499pt x 340.11053pt.
  [8 <./figures/sRNA.png (PNG copy)>] [9]
 Chapter 2.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
 [10
 
-] <./figures/paper1.png, id=374, 566.8377pt x 443.9787pt>
+] <./figures/paper1.png, id=376, 566.8377pt x 443.9787pt>
 File: ./figures/paper1.png Graphic file (type png)
 
 <use ./figures/paper1.png>
-Package pdftex.def Info: ./figures/paper1.png used on input line 196.
+Package pdftex.def Info: ./figures/paper1.png used on input line 199.
 (pdftex.def)             Requested size: 252.94499pt x 198.12202pt.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
 
-Overfull \hbox (3.29518pt too wide) in paragraph at lines 206--207
-[]\OT1/phv/m/n/12 We mapped the reads to ref-er-ence tRNA genes (hg19, http://g
-trnadb.ucsc.edu/)
+Overfull \hbox (3.29518pt too wide) in paragraph at lines 209--210
+[]\T1/phv/m/n/12 We mapped the reads to ref-er-ence tRNA genes (hg19, http://gt
+rnadb.ucsc.edu/)
  []
 
-[11 <./figures/paper1.png (PNG copy)>] [12]
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
- [13]
-<./figures/mature.png, id=389, 1314.1095pt x 1034.9064pt>
+[11 <./figures/paper1.png (PNG copy)>] [12] [13]
+<./figures/mature.png, id=391, 1314.1095pt x 1034.9064pt>
 File: ./figures/mature.png Graphic file (type png)
 
 <use ./figures/mature.png>
-Package pdftex.def Info: ./figures/mature.png used on input line 230.
+Package pdftex.def Info: ./figures/mature.png used on input line 233.
 (pdftex.def)             Requested size: 252.94499pt x 199.19246pt.
  [14]
-<./figures/pre.png, id=395, 854.2314pt x 510.4671pt>
+<./figures/pre.png, id=397, 854.2314pt x 510.4671pt>
 File: ./figures/pre.png Graphic file (type png)
  <use ./figures/pre.png>
-Package pdftex.def Info: ./figures/pre.png used on input line 241.
+Package pdftex.def Info: ./figures/pre.png used on input line 244.
 (pdftex.def)             Requested size: 252.94499pt x 151.15509pt.
 
-<./figures/supp1.png, id=397, 564.1878pt x 475.5366pt>
+<./figures/supp1.png, id=399, 564.1878pt x 475.5366pt>
 File: ./figures/supp1.png Graphic file (type png)
 
 <use ./figures/supp1.png>
-Package pdftex.def Info: ./figures/supp1.png used on input line 253.
+Package pdftex.def Info: ./figures/supp1.png used on input line 256.
 (pdftex.def)             Requested size: 252.94499pt x 213.19858pt.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
  [15 <./figures/mature.png (PNG copy)> <./figures/pre.png (PNG copy)>] <./figur
-es/paper2a.png, id=403, 270.7716pt x 203.3196pt>
+es/paper2a.png, id=405, 270.7716pt x 203.3196pt>
 File: ./figures/paper2a.png Graphic file (type png)
 
 <use ./figures/paper2a.png>
-Package pdftex.def Info: ./figures/paper2a.png used on input line 266.
+Package pdftex.def Info: ./figures/paper2a.png used on input line 269.
 (pdftex.def)             Requested size: 252.94499pt x 189.93532pt.
  [16 <./figures/supp1.png (PNG copy)>]
-Overfull \hbox (7.78125pt too wide) in paragraph at lines 276--277
-[]\OT1/phv/m/n/12 We did this by per-form-ing PAR-CLIP (photoactivatable-ribonu
-cleoside-enhanced
+Overfull \hbox (7.78125pt too wide) in paragraph at lines 279--280
+[]\T1/phv/m/n/12 We did this by per-form-ing PAR-CLIP (photoactivatable-ribonuc
+leoside-enhanced
  []
 
-<./figures/paper2b.png, id=414, 341.8371pt x 292.9344pt>
+<./figures/paper2b.png, id=416, 341.8371pt x 292.9344pt>
 File: ./figures/paper2b.png Graphic file (type png)
 
 <use ./figures/paper2b.png>
-Package pdftex.def Info: ./figures/paper2b.png used on input line 280.
+Package pdftex.def Info: ./figures/paper2b.png used on input line 283.
 (pdftex.def)             Requested size: 252.94499pt x 216.7636pt.
 
-Overfull \hbox (4.49721pt too wide) in paragraph at lines 290--291
-\OT1/phv/m/n/12 Ribonucleoside-Enhanced Crosslink-ing and Im-muno-pre-cip-i-ta-
-tion (PAR-CLIP), cou-
+Overfull \hbox (4.49721pt too wide) in paragraph at lines 293--294
+\T1/phv/m/n/12 Ribonucleoside-Enhanced Crosslink-ing and Im-muno-pre-cip-i-ta-t
+ion (PAR-CLIP), cou-
  []
 
 [17 <./figures/paper2a.png (PNG copy)>]
-<./figures/parclip.png, id=420, 283.0575pt x 420.6114pt>
+<./figures/parclip.png, id=422, 283.0575pt x 420.6114pt>
 File: ./figures/parclip.png Graphic file (type png)
 
 <use ./figures/parclip.png>
-Package pdftex.def Info: ./figures/parclip.png used on input line 294.
+Package pdftex.def Info: ./figures/parclip.png used on input line 297.
 (pdftex.def)             Requested size: 252.94499pt x 375.87688pt.
- [18 <./figures/paper2b.png (PNG copy)>]
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
- [19 <./figures/parclip.png (PNG copy)>]
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-
-<./figures/paper2cd.png, id=438, 501.7947pt x 218.9781pt>
+ [18 <./figures/paper2b.png (PNG copy)>] [19 <./figures/parclip.png (PNG copy)>
+]
+<./figures/paper2cd.png, id=440, 501.7947pt x 218.9781pt>
 File: ./figures/paper2cd.png Graphic file (type png)
 
 <use ./figures/paper2cd.png>
-Package pdftex.def Info: ./figures/paper2cd.png used on input line 310.
+Package pdftex.def Info: ./figures/paper2cd.png used on input line 313.
 (pdftex.def)             Requested size: 252.94499pt x 110.38425pt.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
 
-<./figures/paper2ef.png, id=442, 582.0144pt x 267.399pt>
+<./figures/paper2ef.png, id=444, 582.0144pt x 267.399pt>
 File: ./figures/paper2ef.png Graphic file (type png)
 
 <use ./figures/paper2ef.png>
-Package pdftex.def Info: ./figures/paper2ef.png used on input line 322.
+Package pdftex.def Info: ./figures/paper2ef.png used on input line 325.
 (pdftex.def)             Requested size: 252.94499pt x 116.21153pt.
  [20 <./figures/paper2cd.png (PNG copy)>] [21 <./figures/paper2ef.png (PNG copy
 )>]
-<./figures/paper3.png, id=458, 581.7735pt x 460.119pt>
+<./figures/paper3.png, id=460, 581.7735pt x 460.119pt>
 File: ./figures/paper3.png Graphic file (type png)
 
 <use ./figures/paper3.png>
-Package pdftex.def Info: ./figures/paper3.png used on input line 335.
+Package pdftex.def Info: ./figures/paper3.png used on input line 338.
 (pdftex.def)             Requested size: 252.94499pt x 200.05185pt.
 
-<./figures/paper4_two.png, id=459, 570.6921pt x 559.8516pt>
+<./figures/paper4_two.png, id=461, 570.6921pt x 559.8516pt>
 File: ./figures/paper4_two.png Graphic file (type png)
 
 <use ./figures/paper4_two.png>
-Package pdftex.def Info: ./figures/paper4_two.png used on input line 346.
+Package pdftex.def Info: ./figures/paper4_two.png used on input line 349.
 (pdftex.def)             Requested size: 430.00627pt x 421.83537pt.
 
-<./figures/paper4A.png, id=460, 302.8113pt x 244.7544pt>
+<./figures/paper4A.png, id=462, 302.8113pt x 244.7544pt>
 File: ./figures/paper4A.png Graphic file (type png)
 
 <use ./figures/paper4A.png>
-Package pdftex.def Info: ./figures/paper4A.png used on input line 366.
+Package pdftex.def Info: ./figures/paper4A.png used on input line 369.
 (pdftex.def)             Requested size: 252.94499pt x 204.45694pt.
  [22 <./figures/paper3.png (PNG copy)>] [23 <./figures/paper4_two.png (PNG copy
 )>]
-<./figures/paper4D.png, id=473, 621.0402pt x 172.4844pt>
+<./figures/paper4D.png, id=475, 621.0402pt x 172.4844pt>
 File: ./figures/paper4D.png Graphic file (type png)
 
 <use ./figures/paper4D.png>
-Package pdftex.def Info: ./figures/paper4D.png used on input line 389.
+Package pdftex.def Info: ./figures/paper4D.png used on input line 392.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
-<./figures/paper4Drot.png, id=474, 621.0402pt x 172.4844pt>
+<./figures/paper4Drot.png, id=476, 621.0402pt x 172.4844pt>
 File: ./figures/paper4Drot.png Graphic file (type png)
 
 <use ./figures/paper4Drot.png>
-Package pdftex.def Info: ./figures/paper4Drot.png used on input line 399.
+Package pdftex.def Info: ./figures/paper4Drot.png used on input line 402.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
-Overfull \hbox (8.33067pt too wide) in paragraph at lines 407--407
-|[]\OT1/phv/b/n/17.28 Mature tRNA abun-dance does not cor-re-late with
+Overfull \hbox (8.33067pt too wide) in paragraph at lines 410--410
+|[]\T1/phv/b/n/17.28 Mature tRNA abun-dance does not cor-re-late with
  []
 
-<./figures/supp4.png, id=476, 589.0005pt x 259.9311pt>
+<./figures/supp4.png, id=478, 589.0005pt x 259.9311pt>
 File: ./figures/supp4.png Graphic file (type png)
 
 <use ./figures/supp4.png>
-Package pdftex.def Info: ./figures/supp4.png used on input line 412.
+Package pdftex.def Info: ./figures/supp4.png used on input line 415.
 (pdftex.def)             Requested size: 430.00627pt x 189.77191pt.
  [24 <./figures/paper4A.png (PNG copy)>]
 
 LaTeX Warning: Text page 25 contains only floats.
 
 [25 <./figures/paper4D.png (PNG copy)> <./figures/paper4Drot.png (PNG copy)>]
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-
-
-LaTeX Warning: Citation 'Nielsen:2013be' on page 26 undefined on input line 424
-.
-
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <12> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 424.
-
-LaTeX Warning: Citation 'Teplova:2006dv' on page 26 undefined on input line 424
-.
-
-
-LaTeX Warning: Citation 'Nielsen:2013be' on page 26 undefined on input line 424
-.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 427.
 
 [26 <./figures/supp4.png (PNG copy)>]
-<./figures/paper6.png, id=501, 794.97pt x 214.8828pt>
+<./figures/paper6.png, id=506, 794.97pt x 214.8828pt>
 File: ./figures/paper6.png Graphic file (type png)
 
 <use ./figures/paper6.png>
-Package pdftex.def Info: ./figures/paper6.png used on input line 428.
+Package pdftex.def Info: ./figures/paper6.png used on input line 431.
 (pdftex.def)             Requested size: 430.00627pt x 116.23499pt.
 
-<./figures/paper6de.png, id=502, 560.0925pt x 209.583pt>
+<./figures/paper6de.png, id=507, 560.0925pt x 209.583pt>
 File: ./figures/paper6de.png Graphic file (type png)
 
 <use ./figures/paper6de.png>
-Package pdftex.def Info: ./figures/paper6de.png used on input line 438.
+Package pdftex.def Info: ./figures/paper6de.png used on input line 441.
 (pdftex.def)             Requested size: 430.00627pt x 160.91249pt.
 
-<./figures/supp5.png, id=503, 315.579pt x 161.403pt>
+<./figures/supp5.png, id=508, 315.579pt x 161.403pt>
 File: ./figures/supp5.png Graphic file (type png)
  <use ./figures/supp5.png>
-Package pdftex.def Info: ./figures/supp5.png used on input line 448.
+Package pdftex.def Info: ./figures/supp5.png used on input line 451.
 (pdftex.def)             Requested size: 430.00627pt x 219.93616pt.
 
-
-LaTeX Warning: Reference `paper7a' on page 27 undefined on input line 458.
-
 [27 <./figures/paper6.png (PNG copy)>]
-<./figures/paper7a.png, id=510, 245.2362pt x 270.5307pt>
+<./figures/paper7a.png, id=518, 245.2362pt x 270.5307pt>
 File: ./figures/paper7a.png Graphic file (type png)
 
 <use ./figures/paper7a.png>
-Package pdftex.def Info: ./figures/paper7a.png used on input line 462.
-(pdftex.def)             Requested size: 430.00627pt x 474.38936pt.
-Missing character: There is no â in font phvr7t!
-Missing character: There is no € in font phvr7t!
-Missing character: There is no ™ in font phvr7t!
-
-
-LaTeX Warning: Citation 'Machnicka:2013ky' on page 28 undefined on input line 4
-70.
-
-
-LaTeX Warning: Citation 'Machnicka:2013ky' on page 28 undefined on input line 4
-70.
-
-[28 <./figures/paper6de.png (PNG copy)> <./figures/supp5.png (PNG copy)>]
-[29 <./figures/paper7a.png (PNG copy)>]
-
-LaTeX Warning: Citation 'Torres:2015ed' on page 30 undefined on input line 472.
-
-
-
-LaTeX Warning: Reference `paper7b' on page 30 undefined on input line 472.
-
-
-LaTeX Warning: Citation 'Torres:2015ed' on page 30 undefined on input line 473.
-
-
-
-LaTeX Warning: Reference `paper7b' on page 30 undefined on input line 474.
-
-<./figures/paper7b.png, id=519, 341.3553pt x 362.3136pt>
+Package pdftex.def Info: ./figures/paper7a.png used on input line 465.
+(pdftex.def)             Requested size: 245.2356pt x 270.53003pt.
+ [28 <./figures/paper6de.png (PNG copy)> <./figures/supp5.png (PNG copy)>] [29 
+<./figures/paper7a.png (PNG copy)>] [30]
+<./figures/paper7b.png, id=540, 341.3553pt x 362.3136pt>
 File: ./figures/paper7b.png Graphic file (type png)
 
 <use ./figures/paper7b.png>
-Package pdftex.def Info: ./figures/paper7b.png used on input line 478.
-(pdftex.def)             Requested size: 430.00627pt x 456.41805pt.
-
-
-LaTeX Warning: Citation 'Baltz:2012bh' on page 30 undefined on input line 488.
-
-[30] [31 <./figures/paper7b.png (PNG copy)>]
-<./figures/paper5.png, id=533, 532.1481pt x 595.2639pt>
+Package pdftex.def Info: ./figures/paper7b.png used on input line 497.
+(pdftex.def)             Requested size: 361.34999pt x 383.5475pt.
+ [31 <./figures/paper7b.png (PNG copy)>]
+<./figures/paper5.png, id=549, 532.1481pt x 595.2639pt>
 File: ./figures/paper5.png Graphic file (type png)
 
 <use ./figures/paper5.png>
-Package pdftex.def Info: ./figures/paper5.png used on input line 492.
+Package pdftex.def Info: ./figures/paper5.png used on input line 511.
 (pdftex.def)             Requested size: 430.00627pt x 481.02576pt.
- [32 <./figures/paper5.png (PNG copy)>]
+ [32] [33 <./figures/paper5.png (PNG copy)>]
 Chapter 3.
-[33
-
-]
-Chapter 4.
 [34
 
 ]
-Overfull \hbox (2.60893pt too wide) in paragraph at lines 508--508
-[]\OT1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \OT1/phv/m/sl/12 tRNA: Struc-tur
-e, Biosyn-the-sis and Func-tion \OT1/phv/m/n/12 1st ed.
- []
-
+Chapter 4.
 [35
 
-] [36] [37]
-Missing character: There is no Â in font phvr7t!
-Missing character: There is no ´ in font phvr7t!
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 510.
- [38]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 510.
+]
+Overfull \hbox (2.60893pt too wide) in paragraph at lines 527--527
+[]\T1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \T1/phv/m/sl/12 tRNA: Struc-ture,
+ Biosyn-the-sis and Func-tion \T1/phv/m/n/12 1st ed.
+ []
+
+[36
+
+] [37] [38]
+Overfull \hbox (2.47385pt too wide) in paragraph at lines 527--527
+\T1/phv/m/n/12 UOH 3  Tem-ini of Nascent RNA Poly-merase III Tran-scripts by La
+, a Rheumatic
+ []
+
+
+Overfull \hbox (17.1013pt too wide) in paragraph at lines 527--527
+[]\T1/phv/m/n/12 Machnicka, M. A. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 MOD-OMI
+CS: a database of RNA mod-i-fi-ca-tion pathways--
+ []
+
+[39]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
+ [40]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 510.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 510.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
+Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 44E44C1FE88807853C50415577D89E25;2143.
 
-
-Package rerunfilecheck Warning: File `tasos_thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `tasos_thesis.out':
-(rerunfilecheck)             Before: 6AC5C9CAE8B3E72E562D4EE86BF1CD06;2143
-(rerunfilecheck)             After:  44E44C1FE88807853C50415577D89E25;2143.
 
 LaTeX Warning: There were undefined references.
 
@@ -1392,33 +1574,30 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tasos_thesis.run.xml'.
 \openout1 = `tasos_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 510.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 529.
  ) 
 Here is how much of TeX's memory you used:
- 18553 strings out of 493014
- 300606 string characters out of 6133351
- 803250 words of memory out of 5000000
- 21622 multiletter control sequences out of 15000+600000
- 21119 words of font info for 44 fonts, out of 8000000 for 9000
+ 19054 strings out of 493014
+ 305010 string characters out of 6133351
+ 806948 words of memory out of 5000000
+ 22095 multiletter control sequences out of 15000+600000
+ 33051 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,12n,77p,2446b,1131s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{chapter*.38} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
-live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
-ive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texli
-ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
-/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
-016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/
-texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-d
-ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fon
-ts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (51 pages, 3233252 bytes).
+ 46i,12n,77p,2464b,1131s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
+live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texli
+ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
+/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/20
+16/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+6/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf
+-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/f
+onts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on tasos_thesis.pdf (53 pages, 3235927 bytes).
 PDF statistics:
- 639 PDF objects out of 1000 (max. 8388607)
- 548 compressed objects within 6 object streams
- 154 named destinations out of 1000 (max. 500000)
+ 665 PDF objects out of 1000 (max. 8388607)
+ 572 compressed objects within 6 object streams
+ 161 named destinations out of 1000 (max. 500000)
  356 words of extra memory for PDF output out of 10000 (max. 10000000)
 
