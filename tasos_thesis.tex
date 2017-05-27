@@ -26,6 +26,7 @@
 \makeindex %glossary 
 \usepackage[backend=biber,style=nature,]{biblatex}
 \bibliography{./tasos_v2.bib}
+\usepackage{pdfpages}
 
 %\usepackage[utf8]{inputenc} %allow greek input
 %\usepackage[LGR,T1]{fontenc} %allow greek input
@@ -724,6 +725,16 @@ Regarding the cytosolic function of TSN in non-lymphoid cells “one possibility
 
 The high expression pattern of TSN in testes, a tissue that is know to undergo extensive DNA rearrangements provides further evidence that the protein may be involved in DNA damage control. 
 
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width = \textwidth]{parclips.png}%
+\caption[parclips]
+{\textbf{parclips.}
+placeholder}
+\centering
+\label{parclips}%
+\end{figure}
+
 \section{From manny}
 C3PO is an RNA/DNA-binding protein complex of TRANSLIN (TSN) and TRANSLIN-ASSOCIATED FACTOR X (TSNAX), which was originally reported to co-localize with breakpoint junctions of chromosomal translocations. Tsn-/- mice were created with the hypothesis that its absence would affect genome stability. Interestingly, mice lacking Tsn exhibited learning and memory defects indicating that it is necessary for brain development or neurological maintenance. C3PO was recently reported to enhance RNAi activity in Drosophila and humans, wherein TSNAX possessed a novel and highly conserved ribonucleolytic activity. In collaboration with Dinshaw Patel’s group (MSKCC), I biochemically characterized its nuclease activity and we solved the structure of Drosophila C3PO. Concurrently, the Liu laboratory (UTSW) crystallized human C3PO. Despite these recent efforts, neither the endogenous targets nor the mechanism of C3PO assembly and nuclease activity are well understood. Given the positions of the nuclease catalytic sites, it is not clear if C3PO dynamically assembles onto its substrates, or if RNA molecules are fed inside the structure.
 
@@ -775,6 +786,8 @@ Finally, recognizing that I can obtain tRNA expression and abundance profiles in
 For this reason, I turned my attention towards ribosome profiling. Since our lab is still in the process of establishing this methodology, I focused on already published data about our cell culture system. I developed a series of scripts that allow me to perform tailored analysis of the data. Although this analysis is far from complete, there have been some important observations already. First, as previously shown by other groups, I showed (using our own RNAseq data) that although highly expressed mRNAs are also highly occupied by ribosomes, there are indeed cases where transcripts are efficienytly transcribed but inefficiently translated and vice versa.  
 This led to the hypothesis that specific tRNA availability may be the bottleneck in the translation of some transcripts. Using my tRNA abundance data, and after accounting for wobble effects, I computed an anticodon scoring index, which is essentially the weighted sum of the relative frequency of all anticodons required to decode a given open reading frame. Traditionally, it has been postulated that efficiently translated messages harbor common codons, reflecting codon optimization. Surprisingly, my preliminary data indicate that the most highly represented genes in ribosome profiling (top 10\%) rank in the bottom 10\% in anticodon score index. At the same time, these genes are highly transcribed, as evidenced by mRNAseq data. If these results are true (and not an experimental artifact, which I will validate by performing further replicates), then this would argue towards a lack of selective pressure for optimized codons in highly translated genes. One could then argue that increasing transcription rates for these genes leads to high protein expression levels, obviating the need for codon optimization at the DNA level. 
 
+\includepdf[scale = 0.80, pages = {1-}, pagecommand={}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}
+%\includepdf[pages={1-3}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}
 
 \renewcommand{\bibname}{References}
 %\bibliographystyle{IEEEtran}
