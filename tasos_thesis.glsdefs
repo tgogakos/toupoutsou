@@ -328,6 +328,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{hek293}{}%
+{%
+\gls@defglossaryentry{hek293}%
+{%
+name={HEK293},%
+sort={HEK293},%
+type={acronym},%
+first={Human embryonic kidney cells 293\glsspace (HEK293)},%
+firstplural={Human embryonic kidney cells 293s\glsspace (HEK293s)},%
+text={HEK293},%
+plural={HEK293s},%
+description={Human embryonic kidney cells 293},%
+descriptionplural={Human embryonic kidney cells 293\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Human embryonic kidney cells 293},%
+longplural={Human embryonic kidney cells 293s},%
+short={HEK293},%
+shortplural={HEK293s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{isoacceptor}{}%
 {%
 \gls@defglossaryentry{isoacceptor}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2017 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  30 MAY 2017 17:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1482,43 +1482,43 @@ l.68 \end{abstract}
                     [2]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 72.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 76.
  [3
 
 ] [4
 
-] [5
+] (./tasos_thesis.toc [5
 
-] (./tasos_thesis.toc [6
-
-] [7])
+] [6])
 \tf@toc=\write10
 \openout10 = `tasos_thesis.toc'.
 
- [8]
-(./tasos_thesis.lof [9
+ [7]
+(./tasos_thesis.lof [8
 
 
 ])
 \tf@lof=\write11
 \openout11 = `tasos_thesis.lof'.
 
- [10] (./tasos_thesis.lot)
+ [9] (./tasos_thesis.lot)
 \tf@lot=\write12
 \openout12 = `tasos_thesis.lot'.
 
 \@gls@deffile=\write13
 \openout13 = `tasos_thesis.glsdefs'.
 
- [11
+ [10
 
 
 ] (./tasos_thesis.acr
-[12
+[11
 
-]) (./tasos_thesis.gls [13
+]) (./tasos_thesis.gls [12
 
 
-]) [14
+]) [13
 
 
 ]
@@ -1532,7 +1532,21 @@ l.134
 
 
 ]
-<./figures/tRNA_general_structure.png, id=475, 697.8873pt x 307.1475pt>
+
+LaTeX Warning: Citation 'Foretek:2016ea' on page 2 undefined on input line 139.
+
+
+
+LaTeX Warning: Citation 'Bayfield:2010cs' on page 2 undefined on input line 139
+.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2] <./figures/tRNA_general_structure.png, id=485, 697.8873pt x 307.1475pt>
 File: ./figures/tRNA_general_structure.png Graphic file (type png)
 
 <use ./figures/tRNA_general_structure.png>
@@ -1542,13 +1556,6 @@ e 143.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 150.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1630,25 +1637,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 2.
 [11
 
-] <./figures/paper1.png, id=596, 566.8377pt x 443.9787pt>
-File: ./figures/paper1.png Graphic file (type png)
-
-<use ./figures/paper1.png>
-Package pdftex.def Info: ./figures/paper1.png used on input line 243.
-(pdftex.def)             Requested size: 252.94499pt x 198.12202pt.
-
-Overfull \hbox (3.29518pt too wide) in paragraph at lines 253--254
-[]\T1/phv/m/n/12 We mapped the reads to ref-er-ence tRNA genes (hg19, http://gt
-rnadb.ucsc.edu/)
- []
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[12] <./figures/paper1.png, id=615, 566.8377pt x 443.9787pt>
+File: ./figures/paper1.png Graphic file (type png)
+
+<use ./figures/paper1.png>
+Package pdftex.def Info: ./figures/paper1.png used on input line 269.
+(pdftex.def)             Requested size: 252.94499pt x 198.12202pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1656,6 +1658,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13 <./figures/paper1.png (PNG copy)>]
+Overfull \hbox (3.29518pt too wide) in paragraph at lines 279--280
+[]\T1/phv/m/n/12 We mapped the reads to ref-er-ence tRNA genes (hg19, http://gt
+rnadb.ucsc.edu/)
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1669,24 +1676,30 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15] <./figures/mature.png, id=617, 1314.1095pt x 1034.9064pt>
+[15] <./figures/mature.png, id=629, 1314.1095pt x 1034.9064pt>
 File: ./figures/mature.png Graphic file (type png)
 
 <use ./figures/mature.png>
-Package pdftex.def Info: ./figures/mature.png used on input line 277.
+Package pdftex.def Info: ./figures/mature.png used on input line 303.
 (pdftex.def)             Requested size: 252.94499pt x 199.19246pt.
 
-<./figures/pre.png, id=619, 854.2314pt x 510.4671pt>
-File: ./figures/pre.png Graphic file (type png)
- <use ./figures/pre.png>
-Package pdftex.def Info: ./figures/pre.png used on input line 288.
-(pdftex.def)             Requested size: 252.94499pt x 151.15509pt.
 
-<./figures/supp1.png, id=621, 564.1878pt x 475.5366pt>
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[16] <./figures/pre.png, id=636, 854.2314pt x 510.4671pt>
+File: ./figures/pre.png Graphic file (type png)
+
+<use ./figures/pre.png>
+Package pdftex.def Info: ./figures/pre.png used on input line 314.
+(pdftex.def)             Requested size: 252.94499pt x 151.15509pt.
+ <./figures/supp1.png, id=638, 564.1878pt x 475.5366pt>
 File: ./figures/supp1.png Graphic file (type png)
 
 <use ./figures/supp1.png>
-Package pdftex.def Info: ./figures/supp1.png used on input line 300.
+Package pdftex.def Info: ./figures/supp1.png used on input line 326.
 (pdftex.def)             Requested size: 252.94499pt x 213.19858pt.
 
 
@@ -1695,41 +1708,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16 <./figures/mature.png (PNG copy)>]
+[17 <./figures/mature.png (PNG copy)> <./figures/pre.png (PNG copy)>]
+<./figures/paper2a.png, id=644, 270.7716pt x 203.3196pt>
+File: ./figures/paper2a.png Graphic file (type png)
+
+<use ./figures/paper2a.png>
+Package pdftex.def Info: ./figures/paper2a.png used on input line 339.
+(pdftex.def)             Requested size: 252.94499pt x 189.93532pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17 <./figures/pre.png (PNG copy)> <./figures/supp1.png (PNG copy)>]
-<./figures/paper2a.png, id=636, 270.7716pt x 203.3196pt>
-File: ./figures/paper2a.png Graphic file (type png)
-
-<use ./figures/paper2a.png>
-Package pdftex.def Info: ./figures/paper2a.png used on input line 313.
-(pdftex.def)             Requested size: 252.94499pt x 189.93532pt.
-
-Overfull \hbox (7.78125pt too wide) in paragraph at lines 323--324
+[18 <./figures/supp1.png (PNG copy)>]
+Overfull \hbox (7.78125pt too wide) in paragraph at lines 349--350
 []\T1/phv/m/n/12 We did this by per-form-ing PAR-CLIP (photoactivatable-ribonuc
 leoside-enhanced
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[18 <./figures/paper2a.png (PNG copy)>]
-<./figures/paper2b.png, id=642, 341.8371pt x 292.9344pt>
+<./figures/paper2b.png, id=652, 341.8371pt x 292.9344pt>
 File: ./figures/paper2b.png Graphic file (type png)
 
 <use ./figures/paper2b.png>
-Package pdftex.def Info: ./figures/paper2b.png used on input line 327.
+Package pdftex.def Info: ./figures/paper2b.png used on input line 353.
 (pdftex.def)             Requested size: 252.94499pt x 216.7636pt.
 
-Overfull \hbox (4.49721pt too wide) in paragraph at lines 337--338
+Overfull \hbox (4.49721pt too wide) in paragraph at lines 363--364
 \T1/phv/m/n/12 Ribonucleoside-Enhanced Crosslink-ing and Im-muno-pre-cip-i-ta-t
 ion (PAR-CLIP), cou-
  []
@@ -1740,12 +1746,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19 <./figures/paper2b.png (PNG copy)>]
-<./figures/parclip.png, id=648, 283.0575pt x 420.6114pt>
+[19 <./figures/paper2a.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[20 <./figures/paper2b.png (PNG copy)>]
+<./figures/parclip.png, id=662, 283.0575pt x 420.6114pt>
 File: ./figures/parclip.png Graphic file (type png)
 
 <use ./figures/parclip.png>
-Package pdftex.def Info: ./figures/parclip.png used on input line 341.
+Package pdftex.def Info: ./figures/parclip.png used on input line 367.
 (pdftex.def)             Requested size: 252.94499pt x 375.87688pt.
 
 
@@ -1754,11 +1767,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20] <./figures/paper2cd.png, id=663, 501.7947pt x 218.9781pt>
+[21] <./figures/paper2cd.png, id=675, 501.7947pt x 218.9781pt>
 File: ./figures/paper2cd.png Graphic file (type png)
 
 <use ./figures/paper2cd.png>
-Package pdftex.def Info: ./figures/paper2cd.png used on input line 357.
+Package pdftex.def Info: ./figures/paper2cd.png used on input line 383.
 (pdftex.def)             Requested size: 252.94499pt x 110.38425pt.
 
 
@@ -1767,12 +1780,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21 <./figures/parclip.png (PNG copy)>]
-<./figures/paper2ef.png, id=672, 582.0144pt x 267.399pt>
+[22 <./figures/parclip.png (PNG copy)> <./figures/paper2cd.png (PNG copy)>]
+<./figures/paper2ef.png, id=684, 582.0144pt x 267.399pt>
 File: ./figures/paper2ef.png Graphic file (type png)
 
 <use ./figures/paper2ef.png>
-Package pdftex.def Info: ./figures/paper2ef.png used on input line 369.
+Package pdftex.def Info: ./figures/paper2ef.png used on input line 395.
 (pdftex.def)             Requested size: 252.94499pt x 116.21153pt.
 
 
@@ -1781,19 +1794,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22 <./figures/paper2cd.png (PNG copy)> <./figures/paper2ef.png (PNG copy)>]
-<./figures/paper3.png, id=683, 581.7735pt x 460.119pt>
+[23 <./figures/paper2ef.png (PNG copy)>]
+<./figures/paper3.png, id=695, 581.7735pt x 460.119pt>
 File: ./figures/paper3.png Graphic file (type png)
 
 <use ./figures/paper3.png>
-Package pdftex.def Info: ./figures/paper3.png used on input line 382.
+Package pdftex.def Info: ./figures/paper3.png used on input line 408.
 (pdftex.def)             Requested size: 252.94499pt x 200.05185pt.
 
-<./figures/paper4_two.png, id=684, 570.6921pt x 559.8516pt>
+<./figures/paper4_two.png, id=696, 570.6921pt x 559.8516pt>
 File: ./figures/paper4_two.png Graphic file (type png)
 
 <use ./figures/paper4_two.png>
-Package pdftex.def Info: ./figures/paper4_two.png used on input line 393.
+Package pdftex.def Info: ./figures/paper4_two.png used on input line 419.
 (pdftex.def)             Requested size: 430.00627pt x 421.83537pt.
 
 
@@ -1802,33 +1815,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23 <./figures/paper3.png (PNG copy)>]
+[24 <./figures/paper3.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <./figures/paper4_two.png (PNG copy)>]
-<./figures/supp6.png, id=698, 351.714pt x 227.6505pt>
+[25 <./figures/paper4_two.png (PNG copy)>]
+<./figures/supp6.png, id=710, 351.714pt x 227.6505pt>
 File: ./figures/supp6.png Graphic file (type png)
 
 <use ./figures/supp6.png>
-Package pdftex.def Info: ./figures/supp6.png used on input line 407.
+Package pdftex.def Info: ./figures/supp6.png used on input line 433.
 (pdftex.def)             Requested size: 351.71315pt x 227.64993pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[25 <./figures/supp6.png (PNG copy)>]
-<./figures/supp7.png, id=704, 340.1508pt x 251.4996pt>
+<./figures/supp7.png, id=712, 340.1508pt x 251.4996pt>
 File: ./figures/supp7.png Graphic file (type png)
 
 <use ./figures/supp7.png>
-Package pdftex.def Info: ./figures/supp7.png used on input line 419.
+Package pdftex.def Info: ./figures/supp7.png used on input line 445.
 (pdftex.def)             Requested size: 340.14996pt x 251.49898pt.
 
 
@@ -1837,12 +1843,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26 <./figures/supp7.png (PNG copy)>]
-<./figures/paper4A.png, id=710, 302.8113pt x 244.7544pt>
+[26 <./figures/supp6.png (PNG copy)>]
+<./figures/paper4A.png, id=717, 302.8113pt x 244.7544pt>
 File: ./figures/paper4A.png Graphic file (type png)
 
 <use ./figures/paper4A.png>
-Package pdftex.def Info: ./figures/paper4A.png used on input line 439.
+Package pdftex.def Info: ./figures/paper4A.png used on input line 465.
 (pdftex.def)             Requested size: 252.94499pt x 204.45694pt.
 
 
@@ -1851,38 +1857,45 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./figures/paper4A.png (PNG copy)>]
-<./figures/paper4D.png, id=720, 621.0402pt x 172.4844pt>
+[27 <./figures/supp7.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[28 <./figures/paper4A.png (PNG copy)>]
+<./figures/paper4D.png, id=733, 621.0402pt x 172.4844pt>
 File: ./figures/paper4D.png Graphic file (type png)
 
 <use ./figures/paper4D.png>
-Package pdftex.def Info: ./figures/paper4D.png used on input line 462.
+Package pdftex.def Info: ./figures/paper4D.png used on input line 488.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
-<./figures/paper4Drot.png, id=721, 621.0402pt x 172.4844pt>
+<./figures/paper4Drot.png, id=734, 621.0402pt x 172.4844pt>
 File: ./figures/paper4Drot.png Graphic file (type png)
 
 <use ./figures/paper4Drot.png>
-Package pdftex.def Info: ./figures/paper4Drot.png used on input line 472.
+Package pdftex.def Info: ./figures/paper4Drot.png used on input line 498.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
-Overfull \hbox (8.33067pt too wide) in paragraph at lines 480--480
+Overfull \hbox (8.33067pt too wide) in paragraph at lines 506--506
 |[]\T1/phv/b/n/17.28 Mature tRNA abun-dance does not cor-re-late with
  []
 
-<./figures/supp4.png, id=723, 589.0005pt x 259.9311pt>
+<./figures/supp4.png, id=736, 589.0005pt x 259.9311pt>
 File: ./figures/supp4.png Graphic file (type png)
 
 <use ./figures/supp4.png>
-Package pdftex.def Info: ./figures/supp4.png used on input line 485.
+Package pdftex.def Info: ./figures/supp4.png used on input line 511.
 (pdftex.def)             Requested size: 430.00627pt x 189.77191pt.
 
-<./figures/hierarchical_mapping.png, id=724, 1227.3855pt x 511.1898pt>
+<./figures/hierarchical_mapping.png, id=737, 1227.3855pt x 511.1898pt>
 File: ./figures/hierarchical_mapping.png Graphic file (type png)
 
 <use ./figures/hierarchical_mapping.png>
 Package pdftex.def Info: ./figures/hierarchical_mapping.png used on input line 
-495.
+521.
 (pdftex.def)             Requested size: 430.00627pt x 179.09071pt.
 
 
@@ -1891,42 +1904,39 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28 <./figures/paper4D.png (PNG copy)>]
+[29 <./figures/paper4D.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29 <./figures/paper4Drot.png (PNG copy)>]
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 508.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[30 <./figures/supp4.png (PNG copy)> <./figures/hierarchical_mapping.png (PNG c
-opy)>] <./figures/paper6.png, id=754, 794.97pt x 214.8828pt>
+[30 <./figures/paper4Drot.png (PNG copy)>]
+<./figures/paper6.png, id=760, 794.97pt x 214.8828pt>
 File: ./figures/paper6.png Graphic file (type png)
 
 <use ./figures/paper6.png>
-Package pdftex.def Info: ./figures/paper6.png used on input line 512.
+Package pdftex.def Info: ./figures/paper6.png used on input line 538.
 (pdftex.def)             Requested size: 430.00627pt x 116.23499pt.
 
-<./figures/paper6de.png, id=755, 560.0925pt x 209.583pt>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[31 <./figures/supp4.png (PNG copy)> <./figures/hierarchical_mapping.png (PNG c
+opy)>] <./figures/paper6de.png, id=766, 560.0925pt x 209.583pt>
 File: ./figures/paper6de.png Graphic file (type png)
 
 <use ./figures/paper6de.png>
-Package pdftex.def Info: ./figures/paper6de.png used on input line 522.
+Package pdftex.def Info: ./figures/paper6de.png used on input line 548.
 (pdftex.def)             Requested size: 430.00627pt x 160.91249pt.
 
-<./figures/supp5.png, id=756, 315.579pt x 161.403pt>
+<./figures/supp5.png, id=767, 315.579pt x 161.403pt>
 File: ./figures/supp5.png Graphic file (type png)
  <use ./figures/supp5.png>
-Package pdftex.def Info: ./figures/supp5.png used on input line 532.
+Package pdftex.def Info: ./figures/supp5.png used on input line 558.
 (pdftex.def)             Requested size: 430.00627pt x 219.93616pt.
 
 
@@ -1935,12 +1945,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31 <./figures/paper6.png (PNG copy)> <./figures/paper6de.png (PNG copy)>]
-<./figures/paper7a.png, id=762, 245.2362pt x 270.5307pt>
+[32 <./figures/paper6.png (PNG copy)> <./figures/paper6de.png (PNG copy)>]
+<./figures/paper7a.png, id=773, 245.2362pt x 270.5307pt>
 File: ./figures/paper7a.png Graphic file (type png)
 
 <use ./figures/paper7a.png>
-Package pdftex.def Info: ./figures/paper7a.png used on input line 546.
+Package pdftex.def Info: ./figures/paper7a.png used on input line 572.
 (pdftex.def)             Requested size: 245.2356pt x 270.53003pt.
 
 
@@ -1949,25 +1959,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32 <./figures/supp5.png (PNG copy)>]
+[33 <./figures/supp5.png (PNG copy)> <./figures/paper7a.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33 <./figures/paper7a.png (PNG copy)>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[34] <./figures/paper7b.png, id=784, 341.3553pt x 362.3136pt>
+[34] <./figures/paper7b.png, id=791, 341.3553pt x 362.3136pt>
 File: ./figures/paper7b.png Graphic file (type png)
 
 <use ./figures/paper7b.png>
-Package pdftex.def Info: ./figures/paper7b.png used on input line 578.
+Package pdftex.def Info: ./figures/paper7b.png used on input line 604.
 (pdftex.def)             Requested size: 361.34999pt x 383.5475pt.
 
 
@@ -1976,67 +1979,60 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35 <./figures/paper7b.png (PNG copy)>]
-<./figures/paper5.png, id=793, 532.1481pt x 595.2639pt>
+[35]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[36 <./figures/paper7b.png (PNG copy)>]
+<./figures/paper5.png, id=806, 532.1481pt x 595.2639pt>
 File: ./figures/paper5.png Graphic file (type png)
 
 <use ./figures/paper5.png>
-Package pdftex.def Info: ./figures/paper5.png used on input line 592.
+Package pdftex.def Info: ./figures/paper5.png used on input line 618.
 (pdftex.def)             Requested size: 430.00627pt x 481.02576pt.
 
-<./figures/intron_trna.png, id=794, 1132.23pt x 527.571pt>
+<./figures/intron_trna.png, id=807, 1132.23pt x 527.571pt>
 File: ./figures/intron_trna.png Graphic file (type png)
 
 <use ./figures/intron_trna.png>
-Package pdftex.def Info: ./figures/intron_trna.png used on input line 612.
+Package pdftex.def Info: ./figures/intron_trna.png used on input line 638.
 (pdftex.def)             Requested size: 430.00627pt x 200.3583pt.
 
-<./figures/clp1align.png, id=795, 587.0733pt x 418.2024pt>
+<./figures/clp1align.png, id=808, 587.0733pt x 418.2024pt>
 File: ./figures/clp1align.png Graphic file (type png)
 
 <use ./figures/clp1align.png>
-Package pdftex.def Info: ./figures/clp1align.png used on input line 622.
+Package pdftex.def Info: ./figures/clp1align.png used on input line 648.
 (pdftex.def)             Requested size: 430.00627pt x 306.31897pt.
 
-<./figures/clp1bars.png, id=796, 721.69624pt x 497.86pt>
+<./figures/clp1bars.png, id=809, 721.69624pt x 497.86pt>
 File: ./figures/clp1bars.png Graphic file (type png)
 
 <use ./figures/clp1bars.png>
-Package pdftex.def Info: ./figures/clp1bars.png used on input line 632.
+Package pdftex.def Info: ./figures/clp1bars.png used on input line 658.
 (pdftex.def)             Requested size: 430.00627pt x 296.6368pt.
 
-<./figures/clp1bars2.png, id=798, 755.9442pt x 225.0006pt>
+<./figures/clp1bars2.png, id=811, 755.9442pt x 225.0006pt>
 File: ./figures/clp1bars2.png Graphic file (type png)
 
 <use ./figures/clp1bars2.png>
-Package pdftex.def Info: ./figures/clp1bars2.png used on input line 642.
+Package pdftex.def Info: ./figures/clp1bars2.png used on input line 668.
 (pdftex.def)             Requested size: 430.00627pt x 127.9873pt.
 
-<./figures/nb.png, id=799, 572.8602pt x 341.3553pt>
+<./figures/nb.png, id=812, 572.8602pt x 341.3553pt>
 File: ./figures/nb.png Graphic file (type png)
  <use ./figures/nb.png>
-Package pdftex.def Info: ./figures/nb.png used on input line 652.
+Package pdftex.def Info: ./figures/nb.png used on input line 678.
 (pdftex.def)             Requested size: 430.00627pt x 256.23459pt.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[36]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[37 <./figures/paper5.png (PNG copy)>]
-<./figures/splicing2_v2.png, id=811, 599.6001pt x 390.9807pt>
+<./figures/splicing2_v2.png, id=813, 599.6001pt x 390.9807pt>
 File: ./figures/splicing2_v2.png Graphic file (type png)
 
 <use ./figures/splicing2_v2.png>
-Package pdftex.def Info: ./figures/splicing2_v2.png used on input line 669.
+Package pdftex.def Info: ./figures/splicing2_v2.png used on input line 695.
 (pdftex.def)             Requested size: 430.00627pt x 280.39026pt.
 
 
@@ -2045,7 +2041,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38 <./figures/intron_trna.png (PNG copy)> <./figures/clp1align.png (PNG copy)>
+[37]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[38 <./figures/paper5.png (PNG copy)>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[39 <./figures/intron_trna.png (PNG copy)> <./figures/clp1align.png (PNG copy)>
 ]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2053,24 +2063,17 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39 <./figures/clp1bars.png> <./figures/clp1bars2.png (PNG copy)>]
+[40 <./figures/clp1bars.png> <./figures/clp1bars2.png (PNG copy)>]
 
-LaTeX Warning: Text page 40 contains only floats.
+LaTeX Warning: Text page 41 contains only floats.
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[40 <./figures/nb.png (PNG copy)> <./figures/splicing2_v2.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]
+[41 <./figures/nb.png (PNG copy)> <./figures/splicing2_v2.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2099,34 +2102,34 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [45]
-Chapter 3.
-
-Overfull \hbox (11.20323pt too wide) in paragraph at lines 722--723
-\T1/phv/m/n/12 (http://journal.embnet.org/index.php/embnetjournal/article/view/
-200/458). Se-quenc-
- []
-
-
-Overfull \hbox (18.36786pt too wide) in paragraph at lines 722--723
-\T1/phv/m/n/12 pre-dicted tRNA se-quences for hu-man genome ver-sion hg19 (http
-://gtrnadb.ucsc.edu).
- []
-
-[46
-
-]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 725.
-
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47]
+[46]
+Chapter 3.
+
+Overfull \hbox (11.20323pt too wide) in paragraph at lines 748--749
+\T1/phv/m/n/12 (http://journal.embnet.org/index.php/embnetjournal/article/view/
+200/458). Se-quenc-
+ []
+
+
+Overfull \hbox (18.36786pt too wide) in paragraph at lines 748--749
+\T1/phv/m/n/12 pre-dicted tRNA se-quences for hu-man genome ver-sion hg19 (http
+://gtrnadb.ucsc.edu).
+ []
+
+[47
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 751.
+
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2141,8 +2144,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [49]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[50]
 Chapter 4.
-[50
+[51
 
 ]
 
@@ -2151,14 +2161,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51] <./figures/parclips.png, id=906, 947.54pt x 592.2125pt>
+[52] <./figures/parclips.png, id=917, 947.54pt x 592.2125pt>
 File: ./figures/parclips.png Graphic file (type png)
 
 <use ./figures/parclips.png>
-Package pdftex.def Info: ./figures/parclips.png used on input line 758.
+Package pdftex.def Info: ./figures/parclips.png used on input line 784.
 (pdftex.def)             Requested size: 430.00627pt x 268.75226pt.
 
-Overfull \hbox (12.48717pt too wide) in paragraph at lines 767--768
+Overfull \hbox (12.48717pt too wide) in paragraph at lines 793--794
 \T1/phv/m/n/12 C3PO is an RNA/DNA-binding pro-tein com-plex of TRANSLIN (TSN) a
 nd TRANSLIN-
  []
@@ -2169,30 +2179,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
+[53]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53 <./figures/parclips.png>]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54]
-Overfull \hbox (30.96727pt too wide) in paragraph at lines 774--774
-|[]\T1/phv/b/n/17.28 C3PO pos-sesses a length- and structure-dependent
- []
-
-
-Overfull \hbox (16.74524pt too wide) in paragraph at lines 777--777
-|[]\T1/phv/b/n/17.28 Biochemical char-ac-ter-i-za-tion of C3PO's tRNA pro-
- []
-
+[54 <./figures/parclips.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2200,6 +2194,15 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [55]
+Overfull \hbox (30.96727pt too wide) in paragraph at lines 800--800
+|[]\T1/phv/b/n/17.28 C3PO pos-sesses a length- and structure-dependent
+ []
+
+
+Overfull \hbox (16.74524pt too wide) in paragraph at lines 803--803
+|[]\T1/phv/b/n/17.28 Biochemical char-ac-ter-i-za-tion of C3PO's tRNA pro-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2228,7 +2231,14 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [59]
-Overfull \hbox (1.4608pt too wide) in paragraph at lines 798--799
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[60]
+Overfull \hbox (1.4608pt too wide) in paragraph at lines 824--825
 \T1/phv/m/n/12 (5'-GUAUAGUGGUUAGUAC) that be-long to two dif-fer-ent space grou
 ps. The struc-
  []
@@ -2239,8 +2249,8 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60]
-Overfull \hbox (5.50096pt too wide) in paragraph at lines 804--805
+[61]
+Overfull \hbox (5.50096pt too wide) in paragraph at lines 830--831
 []\T1/phv/m/n/12 Although pre-vi-ous at-tempts to co-immunoprecipitate (co-IP) 
 in-ter-ac-tors of C3PO
  []
@@ -2251,16 +2261,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61]
+[62]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[63]
 Chapter 5.
-[63
+[64
 
 ]
 
@@ -2269,127 +2279,87 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64]
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
-Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-
-</Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=963, 587.19376pt x 785.93625pt>
-File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf Graphic file (type pdf)
-
-<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf>
-Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf used on input line 817.
-(pdftex.def)             Requested size: 587.19232pt x 785.93433pt.
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
-Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf Graphic file (type pdf)
-
-<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf>
-Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf used on input line 817.
-(pdftex.def)             Requested size: 587.19232pt x 785.93433pt.
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
-Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-
-
-pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
-Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
-on: found PDF version <1.6>, but at most version <1.5> allowed
-
-</Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=966, page=1, 587.19376pt x 785.93625pt>
-File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf Graphic file (type pdf)
-
-<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 1>
-Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 817.
-(pdftex.def)             Requested size: 587.19232pt x 785.93433pt.
-File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf Graphic file (type pdf)
-
-<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 1>
-Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 817.
-(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
 [65]
-File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf Graphic file (type pdf)
-
-<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 1>
-Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 817.
-(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
-File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf Graphic file (type pdf)
-
-<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 1>
-Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 817.
-(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf Graphic file (type pdf)
-
-<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 1>
-Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 817.
-(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
- [66 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
-B44-2D8A078D14BD.pdf>]
 
 pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
 Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1032, page=2, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=974, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 2>
+44-2D8A078D14BD.pdf>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page2 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf used on input line 843.
+(pdftex.def)             Requested size: 587.19232pt x 785.93433pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
+Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf Graphic file (type pdf)
+
+<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
+44-2D8A078D14BD.pdf>
+Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf used on input line 843.
+(pdftex.def)             Requested size: 587.19232pt x 785.93433pt.
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
+Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
+Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+
+</Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
+D8A078D14BD.pdf, id=977, page=1, 587.19376pt x 785.93625pt>
+File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf Graphic file (type pdf)
+
+<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
+44-2D8A078D14BD.pdf, page 1>
+Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 843.
+(pdftex.def)             Requested size: 587.19232pt x 785.93433pt.
+File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf Graphic file (type pdf)
+
+<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
+44-2D8A078D14BD.pdf, page 1>
+Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 843.
+(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[66]
+File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf Graphic file (type pdf)
+
+<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
+44-2D8A078D14BD.pdf, page 1>
+Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 2>
+44-2D8A078D14BD.pdf, page 1>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page2 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2402,9 +2372,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 2>
+44-2D8A078D14BD.pdf, page 1>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page2 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page1 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [67 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2414,22 +2384,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1043, page=3, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1043, page=2, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 3>
+44-2D8A078D14BD.pdf, page 2>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page3 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page2 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 3>
+44-2D8A078D14BD.pdf, page 2>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page3 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page2 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2442,9 +2412,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 3>
+44-2D8A078D14BD.pdf, page 2>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page3 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page2 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [68 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2454,22 +2424,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1059, page=4, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1054, page=3, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 4>
+44-2D8A078D14BD.pdf, page 3>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page4 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page3 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 4>
+44-2D8A078D14BD.pdf, page 3>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page4 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page3 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2482,9 +2452,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 4>
+44-2D8A078D14BD.pdf, page 3>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page4 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page3 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [69 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2494,22 +2464,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1072, page=5, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1070, page=4, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 5>
+44-2D8A078D14BD.pdf, page 4>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page5 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page4 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 5>
+44-2D8A078D14BD.pdf, page 4>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page5 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page4 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2522,9 +2492,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 5>
+44-2D8A078D14BD.pdf, page 4>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page5 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page4 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [70 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2534,22 +2504,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1084, page=6, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1083, page=5, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 6>
+44-2D8A078D14BD.pdf, page 5>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page6 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page5 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 6>
+44-2D8A078D14BD.pdf, page 5>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page6 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page5 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2562,9 +2532,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 6>
+44-2D8A078D14BD.pdf, page 5>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page6 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page5 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [71 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2574,22 +2544,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1096, page=7, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1095, page=6, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 7>
+44-2D8A078D14BD.pdf, page 6>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page7 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page6 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 7>
+44-2D8A078D14BD.pdf, page 6>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page7 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page6 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2602,9 +2572,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 7>
+44-2D8A078D14BD.pdf, page 6>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page7 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page6 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [72 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2614,22 +2584,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1103, page=8, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1108, page=7, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 8>
+44-2D8A078D14BD.pdf, page 7>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page8 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page7 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 8>
+44-2D8A078D14BD.pdf, page 7>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page8 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page7 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2642,9 +2612,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 8>
+44-2D8A078D14BD.pdf, page 7>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page8 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page7 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [73 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2654,22 +2624,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1116, page=9, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1115, page=8, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 9>
+44-2D8A078D14BD.pdf, page 8>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page9 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page8 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 9>
+44-2D8A078D14BD.pdf, page 8>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page9 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page8 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2682,9 +2652,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 9>
+44-2D8A078D14BD.pdf, page 8>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page9 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page8 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [74 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2694,22 +2664,22 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1128, page=10, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1127, page=9, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 10>
+44-2D8A078D14BD.pdf, page 9>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page10 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page9 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 10>
+44-2D8A078D14BD.pdf, page 9>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page10 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page9 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2722,9 +2692,9 @@ File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
-44-2D8A078D14BD.pdf, page 10>
+44-2D8A078D14BD.pdf, page 9>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page10 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page9 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
  [75 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
@@ -2734,14 +2704,54 @@ Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
 on: found PDF version <1.6>, but at most version <1.5> allowed
 
 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
-D8A078D14BD.pdf, id=1136, page=11, 587.19376pt x 785.93625pt>
+D8A078D14BD.pdf, id=1139, page=10, 587.19376pt x 785.93625pt>
+File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf Graphic file (type pdf)
+
+<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
+44-2D8A078D14BD.pdf, page 10>
+Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page10 used on input line 843.
+(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
+File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf Graphic file (type pdf)
+
+<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
+44-2D8A078D14BD.pdf, page 10>
+Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page10 used on input line 843.
+(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf Graphic file (type pdf)
+
+<use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
+44-2D8A078D14BD.pdf, page 10>
+Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page10 used on input line 843.
+(pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
+ [76 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+B44-2D8A078D14BD.pdf>]
+
+pdfTeX warning: /Library/TeX/texbin/pdflatex (file /Users/tasos/Dropbox/papers/
+Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf): PDF inclusi
+on: found PDF version <1.6>, but at most version <1.5> allowed
+
+</Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2
+D8A078D14BD.pdf, id=1147, page=11, 587.19376pt x 785.93625pt>
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
 
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
 44-2D8A078D14BD.pdf, page 11>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page11 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page11 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 File: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf Graphic file (type pdf)
@@ -2749,7 +2759,7 @@ B44-2D8A078D14BD.pdf Graphic file (type pdf)
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
 44-2D8A078D14BD.pdf, page 11>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page11 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page11 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
 
 
@@ -2764,30 +2774,23 @@ B44-2D8A078D14BD.pdf Graphic file (type pdf)
 <use /Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B
 44-2D8A078D14BD.pdf, page 11>
 Package pdftex.def Info: /Users/tasos/Dropbox/papers/Library.papers3/Files/99/9
-9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page11 used on input line 817.
+9837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf, page11 used on input line 843.
 (pdftex.def)             Requested size: 469.75565pt x 628.74985pt.
- [76 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
+ [77 </Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8
 B44-2D8A078D14BD.pdf>]
-Overfull \hbox (2.60893pt too wide) in paragraph at lines 824--824
+Overfull \hbox (2.60893pt too wide) in paragraph at lines 850--850
 []\T1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \T1/phv/m/sl/12 tRNA: Struc-ture,
  Biosyn-the-sis and Func-tion \T1/phv/m/n/12 1st ed.
  []
 
-[77
+[78
 
 ]
-Overfull \hbox (3.8604pt too wide) in paragraph at lines 824--824
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 850--850
 \T1/phv/m/n/12 independent, Dicer-dependent small RNAs. \T1/phv/m/sl/12 Genes &
  De-vel-op-ment \T1/phv/b/n/12 22, \T1/phv/m/n/12 2773^^U
  []
 
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[78]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2809,13 +2812,20 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [81]
-Overfull \hbox (3.92581pt too wide) in paragraph at lines 824--824
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82]
+Overfull \hbox (3.92581pt too wide) in paragraph at lines 850--850
 \T1/phv/m/n/12 UOH 3\TS1/phv/m/n/12 ´ \T1/phv/m/n/12 Tem-ini of Nascent RNA Pol
 y-merase III Tran-scripts by La, a Rheumatic
  []
 
 
-Overfull \hbox (17.1013pt too wide) in paragraph at lines 824--824
+Overfull \hbox (17.1013pt too wide) in paragraph at lines 850--850
 []\T1/phv/m/n/12 Machnicka, M. A. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 MOD-OMI
 CS: a database of RNA mod-i-fi-ca-tion pathways--
  []
@@ -2826,29 +2836,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[82]
+[83]
 LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <12> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 823.
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 849.
 
-Overfull \hbox (5.8186pt too wide) in paragraph at lines 824--824
+Overfull \hbox (5.8186pt too wide) in paragraph at lines 850--850
 \T1/phv/m/n/12 PAR-CLIP for transcriptome-wide iden-ti-fi-ca-tion of bind-ing s
 ites of RNA-binding
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 826.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 852.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[83]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 826.
+[84]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 852.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 826.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 826.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 852.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 852.
 Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 444F43AD6B6860CF66752BC7205C7997;3870.
+(rerunfilecheck)             Checksum: 4A67E447CEBFA5A0B544FB4F57AB615F;3866.
 
 
 LaTeX Warning: There were undefined references.
@@ -2864,18 +2874,21 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tasos_thesis.run.xml'.
 \openout1 = `tasos_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 826.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 852.
  ) 
 Here is how much of TeX's memory you used:
- 20852 strings out of 493014
- 337802 string characters out of 6133351
- 838275 words of memory out of 5000000
- 23709 multiletter control sequences out of 15000+600000
- 34028 words of font info for 48 fonts, out of 8000000 for 9000
+ 20887 strings out of 493014
+ 338385 string characters out of 6133351
+ 838758 words of memory out of 5000000
+ 23740 multiletter control sequences out of 15000+600000
+ 35764 words of font info for 49 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  46i,19n,77p,2180b,1141s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{glo:nt} has been referenced but does not exist, r
-eplaced by a fixed one
+pdfTeX warning (dest): name{glo:hek293} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{glo:nt} has been referenced but does not exist, rep
+laced by a fixed one
 
 pdfTeX warning (dest): name{glo:miRNA} has been referenced but does not exist, 
 replaced by a fixed one
@@ -2891,14 +2904,15 @@ e/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive
 016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/201
 6/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2016/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2016/te
-xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texm
-f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/
-fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
-ype1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (99 pages, 7069386 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2016/texm
+f-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texmf-
+dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/fo
+nts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/typ
+e1/urw/helvetic/uhvro8a.pfb>
+Output written on tasos_thesis.pdf (99 pages, 7083774 bytes).
 PDF statistics:
- 1288 PDF objects out of 1440 (max. 8388607)
- 1083 compressed objects within 11 object streams
- 290 named destinations out of 1000 (max. 500000)
+ 1302 PDF objects out of 1440 (max. 8388607)
+ 1096 compressed objects within 11 object streams
+ 294 named destinations out of 1000 (max. 500000)
  673 words of extra memory for PDF output out of 10000 (max. 10000000)
 

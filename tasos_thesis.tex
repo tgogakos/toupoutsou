@@ -73,14 +73,13 @@ Finally, I harness this novel experimental and computational expertise towards t
 \addtocounter{page}{2} %fix numbering
 \vspace{3in} %start the dedication close to the bottom of page
 \begin{flushright} %center everything
-%\emph{\textgreek{Stous gone'is kai ton aderf'o mou}}
+\emph{To my parents and my brother}
 \end{flushright}
 
 \chapter*{Acknowledgments} %uncounted chapter
 
 First, I would like to thank my  
 
-\chapter*{contents}
 \renewcommand\contentsname{Table of Contents}
 \tableofcontents
 \cleardoublepage
@@ -104,6 +103,7 @@ First, I would like to thank my
 \newacronym{rt}{RT}{reverse transcriptase}
 \newacronym{miRNA}{miRNA}{microRNA}
 \newacronym{nt}{nt}{nucleotide}
+\newacronym{hek293}{HEK293}{Human embryonic kidney cells 293}
 
 \newglossaryentry{isoacceptor}
 {
@@ -134,9 +134,9 @@ Nevertheless, the lack of reliable methods for tRNA quantification has hampered 
 
 An improvement in tRNA quantification has arisen from recent efforts that employed modification-reverting enzymes prior to sequencing, in order to minimize stalling of reverse transcriptase at modified sites \cite{Cozen:2015ds, Zheng:2015dw}. However, an extensive annotation of human genes and transcripts was foregone because the focus was either on mature tRNAs only \cite{Zheng:2015dw} or on tRNA fragments not inclusive of full-length precursor \gls{pretrna} transcripts \cite{Cozen:2015ds}. Thus, to-date an experimentally validated list of curated mature and pre-tRNA sequences and annotating tRNA genes in human is still missing.
 
-To address this lack of experimentally-validated tRNA reference, I combined complementary high-throughput techniques for obtaining the sequence composition and abundance of tRNAs in human embryonic kidney cells (HEK293). First, I developed hydro-tRNAseq, a modified small RNA sequencing protocol based on partial alkaline hydrolysis of input RNA that succeeded in identifying and quantifying tRNAs. 
+\hl{To address this lack of experimentally-validated tRNA reference, I combined complementary high-throughput techniques for obtaining the sequence composition and abundance of tRNAs in human cells. First, I developed hydro-tRNAseq, a modified small RNA sequencing protocol based on partial alkaline hydrolysis of input RNA that succeeded in identifying and quantifying tRNAs.}
 
-%I used the results of this approach to annotate and curate all mature and pre-tRNAs. Since tRNA processing, such as precursor trimming and intron removal, is a fast process\cite{Foretek:2016ea}, we also aimed to enrich specifically for pre-tRNAs in order to identify and annotate the corresponding unique tRNA gene template. Thus, we performed PAR-CLIP on SSB, a conserved and ubiquitous protein involved in 3’ tRNA processing \cite{Bayfield:2009cx,Bayfield:2010cs,Stefano:1984wp}. 
+I used the results of this approach to annotate and curate all mature and pre-tRNAs. Since tRNA processing, such as precursor trimming and intron removal, is a fast process\cite{Foretek:2016ea}, we also aimed to enrich specifically for pre-tRNAs in order to identify and annotate the corresponding unique tRNA gene template. Thus, we performed PAR-CLIP on SSB, a conserved and ubiquitous protein involved in 3’ tRNA processing \cite{Bayfield:2009cx,Bayfield:2010cs,Stefano:1984wp}
 
 \begin{figure}[!ht]%
 \centering
@@ -225,18 +225,44 @@ The application of this protocol for tRNA sequencing, though, resulted in \gls{r
 	\hline
 \end{tabu}
 \end{center}
-\caption[RNA types recovered by small RNA sequencing protocol]{\textbf{RNA types recovered by small RNA sequencing protocol.} Percentage of reads mapped to indicated ncRNA type over total depth of library, and mean length of reads mapped to RNAs of each type are shown. snRNA: small nuclear RNA; snoRNA: small nucleolar RNA; repeat: repetitive DNA sequence; miscRNA: all other ncRNAs}\label{abysmal}
+\caption[RNA types recovered by small RNA sequencing protocol]{\textbf{RNA types recovered by small RNA sequencing protocol.} Percentage of reads mapped to indicated ncRNA type over total depth of library, and mean length of reads mapped to RNAs of each type are shown. snRNA: small nuclear RNA; snoRNA: small nucleolar RNA; repeat: repetitive DNA sequence; miscRNA: all other ncRNAs.	}\label{abysmal}
 \end{table}
 
-\chapter{Results}
+\chapter{Hydro-tRNAseq}
 
-\section{Hydrolysis-based tRNA sequencing}
+\section{Experimental innovation}
+In order to overcome the problems associated with tRNA sequencing, I tried to identify the minimal number of simplest steps that could tackle the maximal number of problems. Thus, I isolated 60-100 nt-sized total RNA from \gls{hek293} cells, comprising both pre- and mature tRNAs, but being devoid of most other abundant RNAs and short tRNA turnover products \cite{Lee:2009fb}. Full-length tRNAs have thermodynamically stable secondary and tertiary structures and are heavily modified by RNA editing, all of which compromise RT and RNAseq analysis. To overcome these problems, I implemented a limited alkaline hydrolysis step. I reasoned that hydrolysis would generate shorter RNA fragments less prone to adopt stable structures, and would also reduce the number of per sequenced fragment. 
+
+Let us assume that the probability of an RT "problem" (stall, drop or misincorporation) is the same for all modifications (e.g. $p$). The compound probability of RT stalling, dropping or misincorporating a nucleoside in a given sequence is given by the product of any of these events happening at a given modified position is 
+\begin{equation}
+P = p^n
+\end{equation}
+where  $n = \text{number of modified nucleosides affecting RT}$. 
+Given that full length tRNAs are longer than the hydrolysis-derived fragments, and modifications are usually concentrated in the loops of the tRNA (see (\textbf{Fig. \ref{tRNAstructure}} and \textbf{Fig. \ref{paper7a}}), then 
+\begin{equation}
+n_{full-length} \geq n_{fragment} 
+\end{equation}
+\begin{center}
+and therefore: 
+\begin{equation}
+P_{full-length} \geq p_{fragment}
+\end{equation}
+and the probability of sequencing through an RNA fragment $(1-p)$:
+\begin{equation}
+1-P_{full-length} \leq 1-p_{fragment}
+\end{equation}
+\end{center}
+
+The value of the latter effect becomes apparent if one performs the following thought experiment: suppose  I anticipated that collectively these effects would yield RNA sequences more amenable to small RNA cDNA library preparation and deep sequencing than the refractory tRNAs. 
+
+Furthermore, basic conditions also cleave the aminoacyl-tRNA bond, freeing the 3’ terminal hydroxyl group required for 3’ adapter ligation during RNA cDNA library preparation. This approach increased the tRNA read content to >40\% in our deepest dataset \hl{Table S1}. We named this procedure \cyan{hydro-tRNAseq} (\textbf{Fig. \ref{paper1}}).  In summary, partial hydrolysis of tRNAs overcame technical limitations of suboptimal adapter ligation and RT and albeit this resulted in shorter reads, it also resulted in fewer errors at sites of modification per sequenced read, which ultimately improved the performance of the mapping algorithm.
+
 \hl{We wanted to obtain an RNA-seq validated list of human nuclear and mitochondrial tRNA gene, and their processing intermediates
 This was my goal. To design a method for seequencing and a}
 
 \hl{To address the lack of a global and unbiased analysis of the human tRNA profile, I will develop an experimental and computational methodology for the generation of a reference tRNA atlas. To overcome existing experimental challenges, I will use a customized RNA-Seq technique (HydroRNAseq). To efficiently analyze the sequencing data in silico, I will develop a systematic and iterative bioinformatics platform}
 
-In order to overcome the problems associated with tRNA sequencing, we tried to identify the minimal number of simplest steps that could tackle the maximal number of problems. Thus, to curate and quantify human tRNAs, we isolated 60-100 nt-sized total RNA from \cyan{HEK293} cells comprising both precursor and mature tRNAs, but being devoid of most other abundant RNAs and short tRNA turnover products \cite{Lee:2009fb}. Full-length tRNAs have thermodynamically stable secondary and tertiary structures and are heavily modified by RNA editing, all of which compromise reverse transcription (RT) and RNAseq analysis. To overcome these problems, we implemented a limited alkaline hydrolysis step, which generates shorter RNA fragments with less structure and fewer modifications per fragment, and consequently more amenable to small RNA cDNA library preparation and deep sequencing. Furthermore, basic conditions also cleave the aminoacyl-tRNA bond, freeing the 3’ terminal hydroxyl group required for 3’ adapter ligation during RNA cDNA library preparation. This approach increased the tRNA read content to >40\% in our deepest dataset \hl{Table S1}. We named this procedure \cyan{hydro-tRNAseq} (\textbf{Fig. \ref{paper1}}).  In summary, partial hydrolysis of tRNAs overcame technical limitations of suboptimal adapter ligation and RT and albeit this resulted in shorter reads, it also resulted in fewer errors at sites of modification per sequenced read, which ultimately improved the performance of the mapping algorithm.
+
 
 \begin{figure}[!ht]%
 \centering
