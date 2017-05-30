@@ -1,4 +1,13 @@
-Warning: File 'tasos_thesis.glo' is empty.
-Have you used any entries defined in glossary 'main'?
-Remember to use package option 'nomain' if you
-don't want to use the main glossary.
+;; This logfile was generated automatically by `xindy'
+;; at 30.05.2017  12:00:19
+;; Indexstyle: "/var/folders/gn/ym78x39n1jl54zlnx841cs3h0000gn/T/SVPXhW_KnC", Rawindex: "/var/folders/gn/ym78x39n1jl54zlnx841cs3h0000gn/T/lgyFFfavmm", Output: "tasos_thesis.gls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ÚË¼€ ¨ÐÃ€††—ÈÚÃË" -> "T"

@@ -28,19 +28,19 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{test}{}%
+\ifglsentryexists{pretrna}{}%
 {%
-\gls@defglossaryentry{test}%
+\gls@defglossaryentry{pretrna}%
 {%
-name={tEsT},%
-sort={tEsT},%
+name={pre-tRNA},%
+sort={pre-tRNA},%
 type={acronym},%
-first={test2\glsspace (tEsT)},%
-firstplural={test2s\glsspace (tEsTs)},%
-text={tEsT},%
-plural={tEsTs},%
-description={test2},%
-descriptionplural={test2\acrpluralsuffix },%
+first={precursor tRNA\glsspace (pre-tRNA)},%
+firstplural={precursor tRNAs\glsspace (pre-tRNAs)},%
+text={pre-tRNA},%
+plural={pre-tRNAs},%
+description={precursor tRNA},%
+descriptionplural={precursor tRNA\acrpluralsuffix },%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
@@ -49,10 +49,10 @@ user3={},%
 user4={},%
 user5={},%
 user6={},%
-long={test2},%
-longplural={test2s},%
-short={tEsT},%
-shortplural={tEsTs},%
+long={precursor tRNA},%
+longplural={precursor tRNAs},%
+short={pre-tRNA},%
+shortplural={pre-tRNAs},%
 counter={page},%
 parent={},%
 %
@@ -83,6 +83,276 @@ long={noncoding RNA},%
 longplural={noncoding RNAs},%
 short={ncRNA},%
 shortplural={ncRNAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{polr3}{}%
+{%
+\gls@defglossaryentry{polr3}%
+{%
+name={POLR3},%
+sort={POLR3},%
+type={acronym},%
+first={human RNA polymerase III\glsspace (POLR3)},%
+firstplural={human RNA polymerase IIIs\glsspace (POLR3s)},%
+text={POLR3},%
+plural={POLR3s},%
+description={human RNA polymerase III},%
+descriptionplural={human RNA polymerase III\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={human RNA polymerase III},%
+longplural={human RNA polymerase IIIs},%
+short={POLR3},%
+shortplural={POLR3s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{chip}{}%
+{%
+\gls@defglossaryentry{chip}%
+{%
+name={ChIP-seq},%
+sort={ChIP-seq},%
+type={acronym},%
+first={chromatin immunoprecipitation sequencing\glsspace (ChIP-seq)},%
+firstplural={chromatin immunoprecipitation sequencings\glsspace (ChIP-seqs)},%
+text={ChIP-seq},%
+plural={ChIP-seqs},%
+description={chromatin immunoprecipitation sequencing},%
+descriptionplural={chromatin immunoprecipitation sequencing\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={chromatin immunoprecipitation sequencing},%
+longplural={chromatin immunoprecipitation sequencings},%
+short={ChIP-seq},%
+shortplural={ChIP-seqs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rnp}{}%
+{%
+\gls@defglossaryentry{rnp}%
+{%
+name={RNP},%
+sort={RNP},%
+type={acronym},%
+first={ribonucleoprotein\glsspace (RNP)},%
+firstplural={ribonucleoproteins\glsspace (RNPs)},%
+text={RNP},%
+plural={RNPs},%
+description={ribonucleoprotein},%
+descriptionplural={ribonucleoprotein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={ribonucleoprotein},%
+longplural={ribonucleoproteins},%
+short={RNP},%
+shortplural={RNPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hydroxyl}{}%
+{%
+\gls@defglossaryentry{hydroxyl}%
+{%
+name={OH},%
+sort={OH},%
+type={acronym},%
+first={hydroxyl\glsspace (OH)},%
+firstplural={hydroxyls\glsspace (OHs)},%
+text={OH},%
+plural={OHs},%
+description={hydroxyl},%
+descriptionplural={hydroxyl\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={hydroxyl},%
+longplural={hydroxyls},%
+short={OH},%
+shortplural={OHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rnaseq}{}%
+{%
+\gls@defglossaryentry{rnaseq}%
+{%
+name={RNA-seq},%
+sort={RNA-seq},%
+type={acronym},%
+first={RNA sequencing\glsspace (RNA-seq)},%
+firstplural={RNA sequencings\glsspace (RNA-seqs)},%
+text={RNA-seq},%
+plural={RNA-seqs},%
+description={RNA sequencing},%
+descriptionplural={RNA sequencing\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={RNA sequencing},%
+longplural={RNA sequencings},%
+short={RNA-seq},%
+shortplural={RNA-seqs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rt}{}%
+{%
+\gls@defglossaryentry{rt}%
+{%
+name={RT},%
+sort={RT},%
+type={acronym},%
+first={reverse transcriptase\glsspace (RT)},%
+firstplural={reverse transcriptases\glsspace (RTs)},%
+text={RT},%
+plural={RTs},%
+description={reverse transcriptase},%
+descriptionplural={reverse transcriptase\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={reverse transcriptase},%
+longplural={reverse transcriptases},%
+short={RT},%
+shortplural={RTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{miRNA}{}%
+{%
+\gls@defglossaryentry{miRNA}%
+{%
+name={miRNA},%
+sort={miRNA},%
+type={acronym},%
+first={micro RNA\glsspace (miRNA)},%
+firstplural={micro RNAs\glsspace (miRNAs)},%
+text={miRNA},%
+plural={miRNAs},%
+description={micro RNA},%
+descriptionplural={micro RNA\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={micro RNA},%
+longplural={micro RNAs},%
+short={miRNA},%
+shortplural={miRNAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nt}{}%
+{%
+\gls@defglossaryentry{nt}%
+{%
+name={nt},%
+sort={nt},%
+type={acronym},%
+first={nucleotide\glsspace (nt)},%
+firstplural={nucleotides\glsspace (nts)},%
+text={nt},%
+plural={nts},%
+description={nucleotide},%
+descriptionplural={nucleotide\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={nucleotide},%
+longplural={nucleotides},%
+short={nt},%
+shortplural={nts},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{isoacceptor}{}%
+{%
+\gls@defglossaryentry{isoacceptor}%
+{%
+name={tRNA isoacceptor},%
+sort={tRNA isoacceptor},%
+type={main},%
+first={tRNA isoacceptor},%
+firstplural={tRNA isoacceptors},%
+text={tRNA isoacceptor},%
+plural={tRNA isoacceptors},%
+description={tRNA molecules that decode synonymous codons},%
+descriptionplural={tRNA molecules that decode synonymous codons},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
 counter={page},%
 parent={},%
 %

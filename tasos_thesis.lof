@@ -2,78 +2,78 @@
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.1}{\ignorespaces tRNA structure}}{3}{figure.caption.12}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces tRNA structure}}{3}{figure.caption.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.2}{\ignorespaces tRNA biogensis}}{5}{figure.caption.13}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces tRNA biogensis}}{5}{figure.caption.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1.3}{\ignorespaces tRNA biogensis}}{9}{figure.caption.14}
-\defcounter {refsection}{0}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Experimental and bioinformatic pipeline for tRNA annotation and reference transcript curation by hydro-tRNAseq}}{12}{figure.caption.16}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Mature tRNA alignment}}{16}{figure.caption.17}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Pre-tRNA alignment}}{16}{figure.caption.18}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Information entropy in pre-tRNA segments and mature body}}{17}{figure.caption.19}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Composition of hydro-tRNAseq libraries}}{18}{figure.caption.20}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.6}{\ignorespaces SSB crosslinking to RNA}}{19}{figure.caption.21}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.7}{\ignorespaces PAR-CLIP}}{20}{figure.caption.22}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.8}{\ignorespaces figure2cd}}{21}{figure.caption.23}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.9}{\ignorespaces figure2ef}}{22}{figure.caption.24}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.10}{\ignorespaces figure3}}{23}{figure.caption.25}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.11}{\ignorespaces figure4}}{24}{figure.caption.26}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.12}{\ignorespaces supp6}}{25}{figure.caption.27}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.13}{\ignorespaces supp7}}{26}{figure.caption.28}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.14}{\ignorespaces figure4A}}{26}{figure.caption.30}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.15}{\ignorespaces figure4D}}{28}{figure.caption.32}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.16}{\ignorespaces figure4Drot}}{28}{figure.caption.33}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.17}{\ignorespaces supp4}}{29}{figure.caption.34}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.18}{\ignorespaces clp1 bar}}{29}{figure.caption.35}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.19}{\ignorespaces figure6}}{31}{figure.caption.36}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.20}{\ignorespaces figure6de}}{31}{figure.caption.37}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.21}{\ignorespaces supp5}}{31}{figure.caption.38}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.22}{\ignorespaces paper7a}}{32}{figure.caption.39}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.23}{\ignorespaces paper7b}}{35}{figure.caption.40}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.24}{\ignorespaces figure5}}{36}{figure.caption.41}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.25}{\ignorespaces intrno-containing tRNA}}{37}{figure.caption.42}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.26}{\ignorespaces clp1 alignments}}{38}{figure.caption.43}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.27}{\ignorespaces clp1 bar}}{39}{figure.caption.44}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.28}{\ignorespaces clp1 bar}}{39}{figure.caption.45}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.29}{\ignorespaces NB}}{40}{figure.caption.46}
-\defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2.30}{\ignorespaces spliciing}}{40}{figure.caption.47}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Small RNA sequencing protocol}}{9}{figure.caption.16}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Experimental and bioinformatic pipeline for tRNA annotation and reference transcript curation by hydro-tRNAseq}}{13}{figure.caption.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Mature tRNA alignment}}{16}{figure.caption.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Pre-tRNA alignment}}{17}{figure.caption.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Information entropy in pre-tRNA segments and mature body}}{17}{figure.caption.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Composition of hydro-tRNAseq libraries}}{18}{figure.caption.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.6}{\ignorespaces SSB crosslinking to RNA}}{19}{figure.caption.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.7}{\ignorespaces PAR-CLIP}}{21}{figure.caption.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.8}{\ignorespaces figure2cd}}{22}{figure.caption.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.9}{\ignorespaces figure2ef}}{22}{figure.caption.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.10}{\ignorespaces figure3}}{23}{figure.caption.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.11}{\ignorespaces figure4}}{24}{figure.caption.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.12}{\ignorespaces supp6}}{25}{figure.caption.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.13}{\ignorespaces supp7}}{26}{figure.caption.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.14}{\ignorespaces figure4A}}{27}{figure.caption.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.15}{\ignorespaces figure4D}}{28}{figure.caption.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.16}{\ignorespaces figure4Drot}}{29}{figure.caption.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.17}{\ignorespaces supp4}}{30}{figure.caption.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.18}{\ignorespaces clp1 bar}}{30}{figure.caption.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.19}{\ignorespaces figure6}}{31}{figure.caption.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.20}{\ignorespaces figure6de}}{31}{figure.caption.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.21}{\ignorespaces supp5}}{32}{figure.caption.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.22}{\ignorespaces paper7a}}{33}{figure.caption.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.23}{\ignorespaces paper7b}}{35}{figure.caption.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.24}{\ignorespaces figure5}}{37}{figure.caption.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.25}{\ignorespaces intrno-containing tRNA}}{38}{figure.caption.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.26}{\ignorespaces clp1 alignments}}{38}{figure.caption.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.27}{\ignorespaces clp1 bar}}{39}{figure.caption.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.28}{\ignorespaces clp1 bar}}{39}{figure.caption.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.29}{\ignorespaces NB}}{40}{figure.caption.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {2.30}{\ignorespaces spliciing}}{40}{figure.caption.49}
+\defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4.1}{\ignorespaces parclips}}{52}{figure.caption.48}
+\addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces parclips}}{53}{figure.caption.50}
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

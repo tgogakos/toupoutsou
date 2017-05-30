@@ -6,6 +6,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{List of Abbreviations}{xiii}{section*.10}
 \defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Terms}{xiv}{section*.12}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}
@@ -32,80 +34,80 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.1}Mature tRNA alignment}{15}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}Pre-tRNA alignment}{15}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Pre-tRNA alignment}{16}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Justification for using precursor reads}{16}{section.2.5}
+\contentsline {section}{\numberline {2.5}Justification for using precursor reads}{17}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Composition of hydro-tRNAseq libraries}{17}{section.2.6}
+\contentsline {section}{\numberline {2.6}Composition of hydro-tRNAseq libraries}{18}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.7}Need for pre-tRNA enrichment}{17}{section.2.7}
+\contentsline {section}{\numberline {2.7}Need for pre-tRNA enrichment}{18}{section.2.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.8}PAR-CLIP methodology for the study or RNA-RBP interactions}{18}{section.2.8}
+\contentsline {section}{\numberline {2.8}PAR-CLIP methodology for the study or RNA-RBP interactions}{19}{section.2.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.9}SSB PAR-CLIP}{20}{section.2.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.10}tRNA gene annotation}{22}{section.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.11}Comparison with other methods}{23}{section.2.11}
+\contentsline {section}{\numberline {2.11}Comparison with other methods}{24}{section.2.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.12}Applications and biological insights}{25}{section.2.12}
+\contentsline {section}{\numberline {2.12}Applications and biological insights}{26}{section.2.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}{25}{subsubsection*.29}
+\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}{26}{subsubsection*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor (same amino acid, different anticodon) level}{27}{subsubsection*.31}
+\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor (same amino acid, different anticodon) level}{27}{subsubsection*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.13}Mature tRNA abundance does not correlate with pre-tRNA abundance}{29}{section.2.13}
+\contentsline {section}{\numberline {2.13}Mature tRNA abundance does not correlate with pre-tRNA abundance}{28}{section.2.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.14}tRNA transcription initiation and termination}{30}{section.2.14}
+\contentsline {section}{\numberline {2.14}tRNA transcription initiation and termination}{29}{section.2.14}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.15}Ribonucleotide modifications}{32}{section.2.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.16}Annotation of intron-containing tRNA genes}{34}{section.2.16}
+\contentsline {section}{\numberline {2.16}Annotation of intron-containing tRNA genes}{35}{section.2.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.17}CLP1}{37}{section.2.17}
+\contentsline {section}{\numberline {2.17}CLP1}{36}{section.2.17}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.18}CLP1 figures}{37}{section.2.18}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.18.1}Plausible pathomechanisms of CLP1 mutations}{37}{subsection.2.18.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.18.2}hydro-tRNAseq on CLP1}{38}{subsection.2.18.2}
+\contentsline {subsection}{\numberline {2.18.2}hydro-tRNAseq on CLP1}{39}{subsection.2.18.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.19}tRNA enzyme screen}{38}{section.2.19}
+\contentsline {section}{\numberline {2.19}tRNA enzyme screen}{41}{section.2.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.20}Discussion}{41}{section.2.20}
+\contentsline {section}{\numberline {2.20}Discussion}{42}{section.2.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.21}Summary}{44}{section.2.21}
+\contentsline {section}{\numberline {2.21}Summary}{45}{section.2.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}Materials and methods}{45}{chapter.3}
+\contentsline {chapter}{\numberline {3}Materials and methods}{46}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}Hydro-tRNAseq}{45}{section.3.1}
+\contentsline {section}{\numberline {3.1}Hydro-tRNAseq}{46}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}SSB PAR-CLIP}{46}{section.3.2}
+\contentsline {section}{\numberline {3.2}SSB PAR-CLIP}{47}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Bioinformatic analysis}{47}{section.3.3}
+\contentsline {section}{\numberline {3.3}Bioinformatic analysis}{48}{section.3.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.4}Accession codes}{48}{section.3.4}
+\contentsline {section}{\numberline {3.4}Accession codes}{49}{section.3.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}C3PO}{49}{chapter.4}
+\contentsline {chapter}{\numberline {4}C3PO}{50}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Introduction}{49}{section.4.1}
+\contentsline {section}{\numberline {4.1}Introduction}{50}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}From manny}{52}{section.4.2}
+\contentsline {section}{\numberline {4.2}From manny}{53}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}TSN binds tRNAs}{54}{section.4.3}
+\contentsline {section}{\numberline {4.3}TSN binds tRNAs}{55}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}C3PO possesses a length- and structure-dependent endonucleolytic activity}{55}{section.4.4}
+\contentsline {section}{\numberline {4.4}C3PO possesses a length- and structure-dependent endonucleolytic activity}{56}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Biochemical characterization of C3PO\IeC {\textquoteright }s tRNA processing activity}{55}{section.4.5}
+\contentsline {section}{\numberline {4.5}Biochemical characterization of C3PO\IeC {\textquoteright }s tRNA processing activity}{56}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.6}Functional validation of C3PO\IeC {\textquoteright }s targets}{55}{section.4.6}
+\contentsline {section}{\numberline {4.6}Functional validation of C3PO\IeC {\textquoteright }s targets}{56}{section.4.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.7}C3PO sumary report 2014}{56}{section.4.7}
+\contentsline {section}{\numberline {4.7}C3PO sumary report 2014}{57}{section.4.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.8}C3PO summary from annual report 2015}{58}{section.4.8}
+\contentsline {section}{\numberline {4.8}C3PO summary from annual report 2015}{59}{section.4.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.9}C3PO summary from annual report 2016}{59}{section.4.9}
+\contentsline {section}{\numberline {4.9}C3PO summary from annual report 2016}{60}{section.4.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Things that didn't work}{62}{chapter.5}
+\contentsline {chapter}{\numberline {5}Things that didn't work}{63}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{80}{chapter*.50}
+\contentsline {chapter}{References}{83}{chapter*.52}

@@ -20,7 +20,7 @@
 \usepackage[labelfont=bf]{caption} 
 \usepackage{titlesec}
 \usepackage{hyperref} %allow hypertexting
-\usepackage[acronym,xindy,toc]{glossaries} %glossary 
+\usepackage[nogroupskip,acronym,xindy,toc]{glossaries} %glossary 
 \makeglossaries %glossary 
 \usepackage[xindy]{imakeidx} %glossary 
 \makeindex %glossary 
@@ -59,7 +59,12 @@
 
 \begin{abstract}
 
-The participation of \glspl{trna} in \gls{test} fundamental aspects of biology and disease necessitates an accurate, experimentally confirmed annotation of tRNA genes, and curation of precursor and mature tRNA sequences. This has been challenging, mainly because RNA secondary structure and nucleotide modifications, together with tRNA gene multiplicity, complicate sequencing and sequencing read mapping efforts. To address these issues, we developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates fragments amenable for sequencing. To identify transcribed tRNA genes, we further complemented this approach with Photoactivatable Crosslinking and Immunoprecipitation (PAR-CLIP) of SSB/La, a conserved protein involved in pre-tRNA processing. Our results show that approximately half of all predicted tRNA genes are transcribed in human cells. We also report predominant nucleotide modification sites, their order of introduction, and identify tRNA leader, trailer and intron sequences. By using complementary sequencing-based methodologies we present a human tRNA atlas, and determine expression levels of mature and processing intermediates of tRNAs in human cells.
+The participation of tRNAs in fundamental aspects of biology and disease necessitates an accurate, experimentally confirmed annotation of tRNA genes, and curation of precursor and mature tRNA sequences. This has been challenging, mainly because RNA secondary structure and nucleotide modifications, together with tRNA gene multiplicity, complicate sequencing and read mapping efforts. To address these issues, I developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates fragments amenable for sequencing. To identify transcribed tRNA genes, I further complemented this approach with Photoactivatable Crosslinking and Immunoprecipitation (PAR-CLIP) of SSB/La, a conserved protein involved in pre-tRNA processing. My results show that approximately half of all predicted tRNA genes are transcribed in human cells, suggesting that the tRNA genomic space is more contracted than previously thought as a result of regulated of expression. I also report predominant nucleotide modification sites, their order of Incorporation, and identify tRNA leader, trailer and intron sequences. By using complementary sequencing-based methodologies I present a human tRNA atlas, and determine expression levels of mature and processing intermediates of tRNAs in human cells.
+
+The technical advances provide by hydro-tRNAseq are applied towards the molecular diagnosis of a genetic neurodevelopmental syndrome, caused by mutations in the tRNA processing factor, CLP1. Since then, it has also been widely used on multiple other fronts, some which are outlined in the appendix of this thesis. 
+
+Finally, I harness this novel experimental and computational expertise towards the identification of the endonuclease complex C3PO as a novel processing factor of human tRNAs. I carry out a transcriptome-wide analysis of C3PO targets, identify its binding sites and motifs, and provide insights into its biochemical and biological functions. 
+
 \end{abstract}
 
 
@@ -89,11 +94,27 @@ First, I would like to thank my
 
 %glossary
 \newacronym[plural=tRNAs, firstplural=transfer RNAs]{trna}{tRNA}{transfer RNA}
-\newacronym{test}{tEsT}{test2}
+\newacronym[plural=pre-tRNAs]{pretrna}{pre-tRNA}{precursor tRNA}
 \newacronym{ncrna}{ncRNA}{noncoding RNA}
-\chapter*{Glossary}
-\printglossary[type=\acronymtype,nonumberlist,title={List of Abbreviations}]
+\newacronym{polr3}{POLR3}{human RNA polymerase III}
+\newacronym{chip}{ChIP-seq}{chromatin immunoprecipitation sequencing}
+\newacronym{rnp}{RNP}{ribonucleoprotein}
+\newacronym{hydroxyl}{OH}{hydroxyl}
+\newacronym{rnaseq}{RNA-seq}{RNA sequencing}
+\newacronym{rt}{RT}{reverse transcriptase}
+\newacronym{miRNA}{miRNA}{microRNA}
+\newacronym{nt}{nt}{nucleotide}
 
+\newglossaryentry{isoacceptor}
+{
+    name=tRNA isoacceptors,
+    description={tRNA molecules that decode synonymous codons}
+}
+
+\chapter*{Glossary}
+\setglossarystyle{super}
+\printglossary[type=\acronymtype,nonumberlist,title={List of Abbreviations}]
+\printglossary[nonumberlist,title={List of Terms}]
 %----------
 %mainmatter
 %----------
@@ -106,20 +127,21 @@ First, I would like to thank my
 
 \chapter{Introduction}
 \section{Overview}
-Transfer RNAs (tRNAs) are essential factors for the expression of genetic information, serving as the adaptor molecules that decode the genetic code during protein synthesis \hl{cite Crick tie club letter}, and are among the earliest studied \gls{ncrna} non-coding RNA molecules \cite{Woese:1967, Soll:1995}. Despite their highly conserved participation in the translational machinery, there is growing evidence that they play roles in other cellular processes, including non-coding RNA-mediated gene silencing and responses to cellular stress. The biological importance of tRNAs and their associated proteins is underscored by the pathologic conditions that are related to aberrations in their expression and function or The biological significance of tRNAs and their protein interactions is underscored by the number of human diseases caused by mutations in tRNAs and tRBPs \hl{8,11-15 from TRP}. 
+\glspl{trna} are essential factors for the expression of genetic information, serving as the adaptor molecules that decode the genetic code during protein synthesis \cite{Crick:1955}, and are among the earliest studied \gls{ncrna} non-coding RNA molecules \cite{Woese:1967, Soll:1995}. The biological importance of tRNAs and their associated proteins is underscored by the pathologic conditions that are related to aberrations in their expression and function \cite{Cooper:2009da, Park:2008gg, Griffiths:2011ge, McFarland:2004fz}.
+Despite their highly conserved participation in the translational machinery, tRNAs have received new attention in recent years in the context of codon-resolved translational control \cite{Dana:2012kq,Dana:2014bs,Mahlab:2012dg,Plotkin:2010fu,Tuller:2010ge,Weinberg:2016kh}, and due to the involvement of their metabolic byproducts in regulation and cross-talk with processing and effector functions of other classes of non-coding RNAs (ncRNAs) \cite{Hasler:2016ce,Ivanov:2011iu,Lee:2009fb,Haussecker:2010hda, Babiarz:2008bs}.
 
+Nevertheless, the lack of reliable methods for tRNA quantification has hampered such analyses, and necessitated the use of predicted tRNA gene copy number as a surrogate index of expression \cite{Iben:2014dt,Pechmann:2012ey,Tuller:2010ge}. This hinged on the assumption that predicted tRNA gene loci are all expressed constitutively and equally, even though there has been experimental evidence against it \cite{Gingold:2014iz}. Similarly, experimental tRNA gene annotation in the past had to focus on \gls{polr3} \gls{chip} \cite{Moqtaderi:2010hc, Oler:2010fb, Kutter:2011ff} or hybridization-based approaches \cite{Dittmar:2004fb, Goodarzi:2016gd}. The former, however, were impeded by their restricted genomic resolution and the assumption that POLR3 binding always leads to productive tRNA expression followed by complete processing, while the latter fell short of providing absolute counts and did not address the discovery of new transcripts and genes, assuming also normal hybridization rules for modified nucleosides.
 
+An improvement in tRNA quantification has arisen from recent efforts that employed modification-reverting enzymes prior to sequencing, in order to minimize stalling of reverse transcriptase at modified sites \cite{Cozen:2015ds, Zheng:2015dw}. However, an extensive annotation of human genes and transcripts was foregone because the focus was either on mature tRNAs only \cite{Zheng:2015dw} or on tRNA fragments not inclusive of full-length precursor \gls{pretrna} transcripts \cite{Cozen:2015ds}. Thus, to-date an experimentally validated list of curated mature and pre-tRNA sequences and annotating tRNA genes in human is still missing.
 
-Yet, in recent years tRNAs received new attention in the context of codon-resolved translational control \cite{Dana:2012kq,Dana:2014bs,Mahlab:2012dg,Plotkin:2010fu,Tuller:2010ge,Weinberg:2016kh}, and due to the involvement of their metabolic byproducts in regulation and cross-talk with processing and effector functions of other classes of non-coding RNAs (ncRNAs) \cite{Hasler:2016ce,Ivanov:2011iu,Lee:2009fb}. Nevertheless, the lack of reliable methods for tRNA quantification has hampered such analyses, and necessitated the use of predicted tRNA gene copy number as a surrogate index of expression \cite{Iben:2014dt,Pechmann:2012ey,Tuller:2010ge}. This hinged on the assumption that predicted tRNA gene loci are all expressed constitutively and equally, even though there has been experimental evidence against it \cite{Gingold:2014iz}. Similarly, experimental tRNA gene annotation in the past had to focus on RNA polymerase III (POLR3) ChIP-seq \cite{Kutter:2011ff} \cite{Moqtaderi:2010hc} \cite{Oler:2010fb} or hybridization-based approaches \cite{Dittmar:2004fb} \cite{Goodarzi:2016gd}. The former, however, were impeded by their restricted genomic resolution and the assumption that POLR3 binding always leads to productive tRNA expression followed by complete processing, while the latter fell short of providing absolute counts and did not address the discovery of new transcripts and genes, assuming also normal hybridization rules for modified nucleosides.
+To address this lack of experimentally-validated tRNA reference, I combined complementary high-throughput techniques for obtaining the sequence composition and abundance of tRNAs in human embryonic kidney cells (HEK293). First, I developed hydro-tRNAseq, a modified small RNA sequencing protocol based on partial alkaline hydrolysis of input RNA that succeeded in identifying and quantifying tRNAs. 
 
-An improvement in tRNA quantification has arisen from recent efforts that employed modification-reverting enzymes prior to sequencing, in order to minimize stalling of reverse transcriptase at modified sites \cite{Cozen:2015ds} \cite{Zheng:2015dw}. However, an extensive annotation of human genes and transcripts was foregone because the focus was either on mature tRNAs only \cite{Zheng:2015dw} or on tRNA fragments not inclusive of full-length precursor tRNA (pre-tRNA) transcripts \cite{Cozen:2015ds}. Thus, to-date an experimentally validated list of curated mature and pre-tRNA sequences and annotating tRNA genes in human is still missing.
-
-We have combined complementary high-throughput techniques for obtaining the sequence composition and abundance of tRNAs in human embryonic kidney cells (HEK293). We developed hydro-tRNAseq, a modified small RNA sequencing protocol based on partial alkaline hydrolysis of input RNA, in order to identify and quantify tRNAs, and provided evidence for the validity of this approach when determining the accumulation of disease-associated tRNA intron fragments caused by mutations in the tRNA splicing machinery \cite{Karaca:2014em}. Here we extend this approach by applying it to tRNA-enriched size fragments with the aim to annotate and curate all tRNAs. Since tRNA processing, such as precursor trimming and intron removal, is a fast process\cite{Foretek:2016ea}, we also aimed to enrich specifically for pre-tRNAs in order to identify and annotate the corresponding unique tRNA gene template. Thus, we performed PAR-CLIP on SSB, a conserved and ubiquitous protein involved in 3’ tRNA processing \cite{Bayfield:2009cx} \cite{Bayfield:2010cs} \cite{Stefano:1984wp}. 
+%I used the results of this approach to annotate and curate all mature and pre-tRNAs. Since tRNA processing, such as precursor trimming and intron removal, is a fast process\cite{Foretek:2016ea}, we also aimed to enrich specifically for pre-tRNAs in order to identify and annotate the corresponding unique tRNA gene template. Thus, we performed PAR-CLIP on SSB, a conserved and ubiquitous protein involved in 3’ tRNA processing \cite{Bayfield:2009cx,Bayfield:2010cs,Stefano:1984wp}. 
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{tRNA_general_structure.png}%
-\caption[tRNA structure]{\textbf{Structure.} Yeast tRNAPhe, PDB 1EHZ
+\caption[tRNA structure]{\textbf{tRNA structure}. (A) tRNA transcripts, such as the phenylalanine tRNA shown here, adopt the typical "cloverleaf" secondary, which in turns adopts an L-shaped tertiary structure as shown in (B). The structurally conserved stems and stemloops are indicated in A, color-coded, and their coordinates are reflected in the 3-dimensional structure in B (PDB 1EHZ).
 }
 %\textbf{\caption{tRNA biogenesis}} 
 \label{tRNAstructure}%
@@ -128,62 +150,63 @@ We have combined complementary high-throughput techniques for obtaining the sequ
 \subsection{tRNA and disease} 
 talk about javier's papers, schimmel and dreyfuss review
 
-\subsection{tRNA biogenesis}
-tRNA genes are transcribed by RNA polymerase III \cyan{(POLR3)} that uses promoters internal to the DNA sequence of the tRNA gene (tDNA). The primary transcript is a precursor tRNAs \cyan{(pre-tRNA)} with a 5' triphosphate. In humans, a minority of tRNA transcripts \hl{(see section XXX)} harbor introns. A dedicated tRNA splicing complex composed fo core and accessory proteins carries out tRNA splicing \hl{cite references}. Pre-tRNAs comprise the mature tRNA sequence, and 5' leader and 3' trailer extensions, which are trimmed in a coordinated manner by endonucleases and other processing factors. The ribonucleoprotein \cyan{(RNP)} complex RNase P removes the 5' leaders, leaving a 5' monophospahte, and ELAC2, the human homolog of tRNase Z trims the 3' trailer, leaving a 3' hydroxyl \cyan{(OH)}. Next, the universally conserved 3' terminal CCA tail is added by TRNT1, the tRNA nucleotidyll transferase 1 \cyan{(TRNT1)}, and acts as the acceptor of the amino acid. tRNAs are further modified by chemical nucleotide modifications \hl{(see section XXX)}, exported from the nucleus to the cytoplasm where they can undergo further modifcations, are aminoacylated with their cognate amino acid by aminoacyl tRNA synthetases, and are finally presented to the ribosome by translation factors to participate in protein synthesis Fig. \ref{biogenesis}. \hl{cite 16,17 from TRP}
+\subsection{tRNA biogenesis}\label{biogenesis}
+tRNA genes are transcribed by POLR3 that uses promoters internal to the DNA sequence of the tRNA gene (tDNA), resulting in a primary transcript with a 5' triphosphate. In humans, a minority of tRNA transcripts harbor introns (see section ref{introns}). A dedicated tRNA splicing complex composed of core and accessory proteins carries out tRNA splicing \cite{trotta1999trna,Paushkin:2004wl,Weitzer:2007hda, Popow:2011ffa,Popow:2014ita}. Pre-tRNAs comprise the mature tRNA sequence, and 5' leader and 3' trailer extensions, which are trimmed in a coordinated manner by endonucleases and other processing factors. The \gls{rnp} complex RNase P removes the 5' leaders, leaving a 5' monophospahte, and ELAC2, the human homolog of tRNase Z trims the 3' trailer, leaving a 3' \gls{hydroxyl}. Next, the universally conserved 3' terminal CCA tail is added by the tRNA nucleotidyl transferase 1 (TRNT1), and acts as the acceptor of the amino acid. tRNAs are further modified by chemical nucleotide modifications (\ref{modifications}), exported from the nucleus to the cytoplasm where they can undergo further modifcations, are aminoacylated with their cognate amino acid by aminoacyl tRNA synthetases, and are finally presented to the ribosome by translation factors to participate in protein synthesis (\textbf{Fig. \ref{biogenesis}})\cite{Phizicky:2010jf,Hopper:2010ho,Hopper:2013dl}.
 
-Although these processes allow for multiple levels of regulation, variation in tRNA expression across tissues or between normal and pathologic conditions has not been studied extensively, mainly for two reasons. First, until recently there was the assumption that their essentiality obviated a need for any specialized transcriptional or post-transcriptional control. Second, the lack of an extensively curated and experimentally validated tRNA profile prevented quantitative and systematic studies. Nevertheless, it is now clear that the expression of tRNAs can be dynamic and can indeed exhibit tissue specificity1 \hl{18 from TRP}. Importantly, abnormal tRNA expression levels have been correlated and causally associated with pathologic conditions, such as cancer \hl{14 from TRP}.
-\newline
+Although these processes allow for multiple levels of regulation, variation in tRNA expression across tissues or between normal and pathologic conditions has not been studied extensively, mainly for two reasons. First, until recently there was the assumption that their essentiality obviated a need for any specialized transcriptional or post-transcriptional control. Second, the lack of an extensively curated and experimentally validated tRNA profile prevented quantitative and systematic studies. Nevertheless, it is now clear that the expression of tRNAs can be dynamic and can indeed exhibit tissue specificity \cite{Dittmar:2006du,Gingold:2014iz}. Importantly, abnormal tRNA expression levels have been correlated and causally associated with pathologic conditions, such as cancer \cite{Gingold:2014iz,Goodarzi:2016gd}.
+\newpage
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{biogenesis2.png}%
-\caption[tRNA biogensis]{\textbf{Overview of tRNA biogenesis and processing.} thththt}
+\caption[tRNA biogensis]{\textbf{Overview of tRNA biogenesis and processing.} tRNAs are transcribed by POLR3. If present, tRNA introns are removed by the tRNA splicing complex, and mature halves are ligated by the tRNA ligase (RTCB). Pre-tRNA leaders are trimmed by the RNase P complex, and 3' trailer by ELAC2. The 3' terminal CCA tail is added by TRNT1. tRNAs are further modified by nucleoside editing in the nucleus and the cytoplasm, are aminoacylated by cognate tRNA synthetases and are presented to the ribosome by translation factors.}
 %\textbf{\caption{tRNA biogenesis}} 
 \label{biogenesis}%
 \end{figure}
 
 \subsection{tRNA sequencing}
-Evidently the biogenesis pathway of tRNAs is quite a complex one. 
-Already some of the possible problems associated with tRNA annotation become apparent. 
-Issues that complicate tRNA sequencing and analysis pertain to both experimental and bioinformatic problems:
-A) Experimental:%\begin{enumerate}[label=\Alph*]
-\vspace{-2.5mm}
+This complex biogenesis and processing pathway adds multiple layers of difficulty to the analysis of tRNAs. Obtaining  data for tRNAs is hindered by multiple obstacles:
+
 \begin{enumerate}[i)]
-\itemsep-0.5em 
-\item stable 2o and 3o structures. The highly structured tRNA impede ligation steps employed in traditional protocols of small RNA sequencing.
-\item extensive post-transcriptional processing. The extensive chemical modification of nucleosides causes stalls, blocks or errors during reverse-transcription \cyan{RT} steps
-\item aminoacylation of the 3' end of tRNAs. The 3' aminoacyl-tRNA bind prevents ligation of adapters at the 3' end of tRNAs
+\item sequencing of tRNAs is technically arduous due to their relatively small size, and their stable structure that impedes enzymes used in cDNA library preparations, such as RNA ligases and \gls{rt}
+\item numerous (>100) tRNA pseudogenes are interspersed in the human genome \cite{Lowe:1997uc,Chan:2009dz}
+\item all tRNAs undergo extensive post-transcriptional processing (see \ref{biogenesis}, while some involve extra processing steps (intron removal, addition of a 5’ guanosine to all histidine tRNAs \cite{Gu:2003jj})
+\item tRNAs are subjected to extensive chemical modifications on numerous nucleosides, which lead to mismatches upon the reverse transcription step of the RNA cloning protocols \cite{Jackman:2012ki,Lee:2013cg}. Some modifications are universally conserved and required for proper tRNA function (e.g. adenosine to inosine deamination at the wobble position of the anticodon and methylation of adenosine in the T$\Psi$C loop) \cite{Jackman:2012ki,Gustilo:2008ge}. Since alignment algorithms cannot tolerate multiple mismatches, it is likely that significant numbers of tRNA reads are excluded even if non-default mapping parameters are used.
+\item \glspl{isoacceptor} share a large degree of sequence similarity that makes the distinction between alternative isoacceptors and editing products equivocal. 
+\item eukaryotic cells harbor two distinct populations of tRNAs, nuclear and mitochondrial, whose length, structure, genomic organization, and processing differ considerably, and thus call for customized annotation procedures.
 \end{enumerate}
 
-Obtaining an RNA-Seq based atlas of human tRNAs is hindered by multiple obstacles. First, sequencing of tRNAs is technically arduous due to their relatively small size, and their stable structure that proves to be a challenge for enzymes used in cDNA library preparations. Second, numerous (>100) tRNA pseudogenes are interspersed in the human genome19. Third, tRNAs undergo extensive post-transcriptional processing, which involves the removal of the 5’ leader and 3’ trailer sequences of the primary transcript, removal of tRNA introns, addition of the universally conserved 3’ CCA end, and addition of a 5’ guanosine to all histidine tRNAs17. Fourth, tRNAs are subjected to extensive chemical modifications on numerous nucleosides, which are likely to lead to mismatches upon the reverse transcription step of the RNA cloning protocols20,21. Some modifications are universally conserved and required for proper tRNA function (e.g. adenosine to inosine deamination at the wobble position of the anticodon and methylation of adenosine in the TpsiC loop)20,22. Since alignment algorithms cannot tolerate multiple mismatches, it is likely that significant numbers of tRNA reads are excluded even if non-default mapping parameters are used. Fifth, tRNA isoacceptors (tRNA molecules that decode synonymous codons) share a large degree of sequence similarity that makes the distinction between alternative isoacceptors and editing products equivocal. Finally, eukaryotic cells harbor two distinct populations of tRNAs, nuclear and mitochondrial, whose length, structure, genomic organization, and processing differ considerably, and thus call for customized annotation procedures. 	Owing to all these hurdles, the normal genetic makeup and variation of the tRNA population in human cells has not been probed with RNA-Seq tools. Instead information about tRNA sequences and genes comes from bioinformatic predictions19,23. Such approaches take into account base-pair covariance, secondary structure predictions of the classical cloverleaf fold of tRNAs, and the tRNA promoter and termination architecture, and scan the human genome in order to identify sequences that are likely to obtain the typical tRNA structure. These analyses have resulted in the most comprehensive standard for whole-genome, predictive annotation of tRNAs so far, and the sequences they have predicted have been used extensively as bona fide tRNAs23.
-
-Thus, it may come as no surprise that obtaining an accurate annotation of tRNA genes and curation of tRNA transcripts is challenging. 
-We wanted to obtain an RNA-seq validated list of human nuclear and mitochondrial tRNA gene, and their processing intermediates
-This was my goal. To design a method for seequencing and a 
+Owing to all these hurdles, the normal genetic makeup and variation of the tRNA population in human cells has not been probed adequately with \gls{rnaseq} tools. Instead information about tRNA sequences and genes comes from bioinformatic predictions \cite{Lowe:1997uc,Chan:2009dz}. Such approaches take into account base-pair covariation, secondary structure predictions of the classical cloverleaf fold of tRNAs, and the tRNA promoter and termination architecture, and scan the human genome in order to identify sequences that are likely to obtain the typical tRNA structure. These analyses have resulted in the most comprehensive standard for whole-genome, predictive annotation of tRNAs so far, and the sequences they have predicted have been used extensively as bona fide tRNAs.
 
 \subsection{Previous efforts for genome-wide tRNA annotation}
 
-To date, no direct and rigorous experimental validation of tRNA sequences has been carried out. Instead, experimental evidence for tRNA expression has been indirect, through: a) chromatin immunoprecipitation and sequencing (ChIP-Seq) studies focusing on the occupancy of genomic locations by POLR3 and/or its transcription factors and b) tRNA microarrays that use the predicted tRNA sequences as the reference for the creation of array probes42-45. These methods, though, have several limitations. ChIP-Seq, for example, uses chromatin occupancy as a proxy for productive RNA synthesis. Conversely, tRNA microarrays have limited sensitivity and specificity thresholds due to off-target hybridization that is potentiated by nucleoside modifications21, while their dynamic range is considerably narrower than RNA-Seq. Finally, neither method is appropriately equipped to determine definitively precursor tRNAs (pre-tRNAs) or their transcription start and termination sites. This is an important limitation, as pre-tRNA fragments have been associated with neurodegenerative diseases46. 
-	To address the lack of a global and unbiased analysis of the human tRNA profile, I will develop an experimental and computational methodology for the generation of a reference tRNA atlas. To overcome existing experimental challenges, I will use a customized RNA-Seq technique (HydroRNAseq). To efficiently analyze the sequencing data in silico, I will develop a systematic and iterative bioinformatics platform.
+Even though no direct and rigorous experimental validation of tRNA sequences has been carried out, there has been indirect experimental evidence for tRNA expression:
 
+\begin{enumerate}[i)]
+\item ChIP-seq studies focusing on the occupancy of genomic locations by POLR3 and/or its transcription factors \cite{Moqtaderi:2010hc,Oler:2010fb,Kutter:2011ff}
+\item tRNA microarrays that use the predicted tRNA sequences as the reference for the creation of array probes \cite{Dittmar:2004fb}
+\end{enumerate}
 
+These methods, though, have several limitations. ChIP-seq, for example, uses chromatin occupancy as a proxy for productive RNA synthesis. Conversely, tRNA microarrays have limited sensitivity and specificity thresholds due to off-target hybridization that is potentiated by nucleoside modifications21, while their dynamic range is considerably narrower than RNA-seq. Finally, neither method is appropriately equipped to determine definitively pre-tRNAs or their transcription start and termination sites. This is an important limitation, as pre-tRNA fragments have been associated with neurodegenerative diseases \cite{Hanada:2013bk, Weitzer:2014bi, Karaca:2014em}. 
+	
 \subsection{Small RNA sequencing protocol}
-First, I applied the protocol that the Tuschl lab had previously developed for sequencing small RNAs \cite{Hafner:2012eaa} (\textbf{Fig. \ref{sRNA}}). The experimental procedure resulting in small RNA cDNA library preparation begins with the ligation of barcoded 3' oligonucleotide adapters, pooling of several multiplexed samples, ligation of a 5' adapter, reverse transcription and \cyan{PCR} amplification, followed by high-throughput Illumina sequencing. The different sequences for the 3' and 5' adapters preserves the strandedness of the original RNA sequence, enhancing ncRNA discovery and curation. 
+In order to obtain RNA-seq reads, I decided to first apply the well established protocol for sequencing small RNAs, established in the Tuschl lab \cite{Hafner:2012eaa} (\textbf{Fig. \ref{sRNA}}). The experimental procedure takes advantage of the 5' monophosphate (p) and 3' OH groups present in small RNAs, such as \glspl{miRNA}, in order to enrich for such RNA species over other abundant RNA molecules. The use of a truncated and mutated RNA ligase (T4 Rnl2(1-249)K227Q) that requires 5' preadenylated adapter (App-(5')-adapter) prevents on one hand the formation of secondary, circularized byproducts, and allows on the other for exclusive ligation at the 3' end of the target RNA. Rnl1 is used to ligate an adapter with a different sequence at the 5' end, by activating the 5' monophosphate of the small RNA. cDNA is obtained by RT and amplified at non-saturated levels by PCR. The derived small RNA cDNA library is submitted to high-throughput on Illumina instruments using sequencing primer sites present in the adapter sequences. The different sequences of the 3' and 5' adapters preserves the strandedness of the original RNA sequence, enhancing ncRNA discovery and curation. Adding short (5-nt) barcode sequences at the 3' adapter also allows for pooling of several multiplexed samples, reducing costs, processing time, and batch variability. 
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=3.5in]{sRNA.png}%
-\caption[tRNA biogensis]{\textbf{Small RNA sequencing protocol.} thththtfahflahflahdflahdflahdfladfladhflasdhfladhfladhfladhfladhfaldjsfhaldskfjaldsfhalsdfhasdf}
+\caption[Small RNA sequencing protocol]{\textbf{Small RNA sequencing protocol}. Schematic overview of the conventional small RNA sequencing protocol, as it has been described previously \cite{Hafner:2012eaa}} 
 \centering
 \label{sRNA}%
 \end{figure}
 
-The utility of this protocol is documented for the discovery and study of miRNAs. Indeed, the decision to employ this protocol for sequencing of tRNAs is reasonable because:
-\begin{itemize}
-\item tRNAs, which are on average 75 nucleotides \cyan{nts} long are closer in length than most other ncRNAs (typically longer than 100 nts). 
-\item mature tRNAs and miRNAs have a monophosphate at their 5' ends, which acts as the nucleophilic attacking group in the 5' ligation step. 
-\end{itemize}
-The application of this protocol for tRNA sequencing, though, resulting in \cyan{RNAseq} datasets with only \~2\% tRNA content, with an average length of 59 nts (\textbf{Fig. \ref{abysmal}}). These suggested that tRNAs were refractory to the small RNA sequencing protocol, and necessitated the development of a novel sequencing protocol. 
+Even though the utility of this protocol has been documented for the discovery and quantification of miRNAs, it was reasonable to apply towards tRNA sequencing because:
+\begin{enumerate}
+\item tRNAs, which are on average 75 \glspl{nt} long, are closer in length than most other highly abundant ncRNAs (typically longer than 150 nts) 
+\item mature tRNAs and miRNAs both have a 5' monophosphate and 3' OH, which are employed at different steps of library preparation
+\end{enumerate}
+
+The application of this protocol for tRNA sequencing, though, resulted in \gls{rnaseq} datasets with only \~2\% tRNA content, with an average length of 59 nts (\textbf{Table. \ref{abysmal}}). These suggested that tRNAs were refractory to the small RNA sequencing protocol, and necessitated the development of a novel sequencing protocol. 
 
 \begin{table}[!ht]
 \begin{center}
@@ -194,7 +217,7 @@ The application of this protocol for tRNA sequencing, though, resulting in \cyan
 	rRNA & 35.8\% & 60.5 \\ \hline
 	no match  & 24.1\% & 76.2 \\ \hline
 	no annotation & 17.8\% & 64.2 \\ \hline
-	sn/snoRNA & 15.1\% & 62.5 \\ \hline
+	snRNA/snoRNA & 15.1\% & 62.5 \\ \hline
 	repeat & 3.8\% & 59.1 \\ \hline
 	tRNA & 2.0\% & 59.1 \\ \hline
 	miscRNA & 1.3\% & 63.1 \\ \hline
@@ -202,12 +225,17 @@ The application of this protocol for tRNA sequencing, though, resulting in \cyan
 	\hline
 \end{tabu}
 \end{center}
-\caption[RNA category from small RNA sequencing protocol]{\textbf{RNA category from small RNA sequencing protocol}}\label{abysmal}
+\caption[RNA types recovered by small RNA sequencing protocol]{\textbf{RNA types recovered by small RNA sequencing protocol.} Percentage of reads mapped to indicated ncRNA type over total depth of library, and mean length of reads mapped to RNAs of each type are shown. snRNA: small nuclear RNA; snoRNA: small nucleolar RNA; repeat: repetitive DNA sequence; miscRNA: all other ncRNAs}\label{abysmal}
 \end{table}
 
 \chapter{Results}
 
 \section{Hydrolysis-based tRNA sequencing}
+\hl{We wanted to obtain an RNA-seq validated list of human nuclear and mitochondrial tRNA gene, and their processing intermediates
+This was my goal. To design a method for seequencing and a}
+
+\hl{To address the lack of a global and unbiased analysis of the human tRNA profile, I will develop an experimental and computational methodology for the generation of a reference tRNA atlas. To overcome existing experimental challenges, I will use a customized RNA-Seq technique (HydroRNAseq). To efficiently analyze the sequencing data in silico, I will develop a systematic and iterative bioinformatics platform}
+
 In order to overcome the problems associated with tRNA sequencing, we tried to identify the minimal number of simplest steps that could tackle the maximal number of problems. Thus, to curate and quantify human tRNAs, we isolated 60-100 nt-sized total RNA from \cyan{HEK293} cells comprising both precursor and mature tRNAs, but being devoid of most other abundant RNAs and short tRNA turnover products \cite{Lee:2009fb}. Full-length tRNAs have thermodynamically stable secondary and tertiary structures and are heavily modified by RNA editing, all of which compromise reverse transcription (RT) and RNAseq analysis. To overcome these problems, we implemented a limited alkaline hydrolysis step, which generates shorter RNA fragments with less structure and fewer modifications per fragment, and consequently more amenable to small RNA cDNA library preparation and deep sequencing. Furthermore, basic conditions also cleave the aminoacyl-tRNA bond, freeing the 3’ terminal hydroxyl group required for 3’ adapter ligation during RNA cDNA library preparation. This approach increased the tRNA read content to >40\% in our deepest dataset \hl{Table S1}. We named this procedure \cyan{hydro-tRNAseq} (\textbf{Fig. \ref{paper1}}).  In summary, partial hydrolysis of tRNAs overcame technical limitations of suboptimal adapter ligation and RT and albeit this resulted in shorter reads, it also resulted in fewer errors at sites of modification per sequenced read, which ultimately improved the performance of the mapping algorithm.
 
 \begin{figure}[!ht]%
@@ -509,7 +537,7 @@ placeholder}
 \label{supp5}%
 \end{figure}
 
-\section{Ribonucleotide modifications}
+\section{Ribonucleotide modifications}\label{modifications}
 
 RT across modified nucleotide-containing RNA leads to errors in cognate deoxynucleotide incorporation, revealed by mismatches in sequence reads upon mapping to reference genomic sequence. Read coverage across regions with a high degree of modifications may result in incomplete or largely uneven coverage. Therefore, we included in our mature tRNA reference the combination of all frequent mismatch signatures in all heavily modified positions. We reported the most frequently modified positions per tRNA gene \hl{(Table S5)}, and computed the frequencies of every nucleoside change per position across all tRNA genes (\textbf{Fig. \ref{paper7a}}). 
 
@@ -555,7 +583,7 @@ placeholder}
 \label{paper7b}%
 \end{figure}
 
-\section{Annotation of intron-containing tRNA genes}
+\section{Annotation of intron-containing tRNA genes} \label{introns}
 
 Intron-containing tRNAs represent a particularly interesting set of tRNA genes, as mutations in their evolutionarily conserved, yet distinct, processing machinery have emerged recently as causes of severe neurodevelopmental syndromes, such as pontocerebellar hypoplasia \cite{Namavar:2011ew}. Therefore, there is documented need for a comprehensive annotation of human intron-containing tRNAs, which should be revisited as markers or disease-causing candidates in phenotypically similar conditions. We confirmed 26 out of 32 predicted intron-containing tRNAs by hydro-tRNAseq (\textbf{Fig. \ref{paper5}A}. Excluding any unknown biologically redundant mechanism, this suggests that the integrity of the tRNA splicing complex is essential for survival. To further confirm our observations, we coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, we identified a crosslinked read peak at the anticodon loop of all intron-containing tRNAs annotated by our approaches. (\textbf{Fig. \ref{paper5}B,C}. One tRNA isotype and three isoacceptors are fully dependent on tRNA splicing, which suggests that despite functional redundancies that are often observed in tRNA processing steps, tRNA splicing is an esential [rocess for viability, at least in the cell system that we studied 
 

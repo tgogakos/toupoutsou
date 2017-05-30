@@ -967,7 +967,7 @@ pages = {311--321},
 month = apr
 }
 
-@book{trotta1999trna,
+@inbook{trotta1999trna,
   title={{The RNA World}},
   editor = {Gesteland, Raymond F and Cech, Thomas R and Atkins, John F},
   author={Trotta, Christopher R and Abelson, John},
@@ -977,126 +977,5 @@ month = apr
   edition = {Second edition},
   publisher={Cold Spring Harbor Laboratory Press}
 
-}
-
-@article{Popow:2014ita,
-author = {Popow, Johannes and Jurkin, Jennifer and Schleiffer, Alexander and Martinez, Javier},
-title = {{Analysis of orthologous groups reveals archease and DDX1 as tRNA splicing factors}},
-journal = {Nature},
-year = {2014},
-volume = {511},
-number = {7507},
-pages = {104--107},
-month = jun
-}
-
-@article{Popow:2011ffa,
-author = {Popow, Johannes and Englert, Markus and Weitzer, Stefan and Schleiffer, Alexander and Mierzwa, Beata and Mechtler, Karl and Trowitzsch, Simon and Will, Cindy L and L{\"u}hrmann, Reinhard and S{\"o}ll, Dieter and Martinez, Javier},
-title = {{HSPC117 is the essential subunit of a human tRNA splicing ligase complex.}},
-journal = {Science},
-year = {2011},
-volume = {331},
-number = {6018},
-pages = {760--764},
-month = feb
-}
-
-@article{Weitzer:2007hda,
-author = {Weitzer, Stefan and Martinez, Javier},
-title = {{The human RNA kinase hClp1 is active on 3{\textasciiacute} transfer RNA exons and short interfering RNAs}},
-journal = {Nature},
-year = {2007},
-volume = {447},
-number = {7141},
-pages = {222--226},
-month = may
-}
-
-@article{Dittmar:2006du,
-author = {Dittmar, Kimberly A and Goodenbour, Jeffrey M and Pan, Tao},
-title = {{Tissue-Specific Differences in Human Transfer RNA Expression}},
-journal = {PLoS Genetics},
-year = {2006},
-volume = {2},
-number = {12},
-pages = {e221}
-}
-
-@article{Chan:2009dz,
-author = {Chan, P P and Lowe, T M},
-title = {{GtRNAdb: a database of transfer RNA genes detected in genomic sequence}},
-journal = {Nucleic Acids Research},
-year = {2009},
-volume = {37},
-number = {Database},
-pages = {D93--D97},
-month = jan
-}
-
-@article{Gu:2003jj,
-author = {Gu, W},
-title = {{tRNAHis maturation: An essential yeast protein catalyzes addition of a guanine nucleotide to the 5' end of tRNAHis}},
-journal = {Genes {\&} Development},
-year = {2003},
-volume = {17},
-number = {23},
-pages = {2889--2901},
-month = dec
-}
-
-@article{Jackman:2012ki,
-author = {Jackman, Jane E and Alfonzo, Juan D},
-title = {{Transfer RNA modifications: nature's combinatorial chemistry playground}},
-journal = {Wiley Interdisciplinary Reviews: RNA},
-year = {2012},
-volume = {4},
-number = {1},
-pages = {35--48},
-month = nov
-}
-
-@article{Lee:2013cg,
-author = {Lee, Jae-Hyung and Ang, Jason K and Xiao, Xinshu},
-title = {{Analysis and design of RNA sequencing experiments for identifying RNA editing and other single-nucleotide variants.}},
-journal = {RNA},
-year = {2013},
-volume = {19},
-number = {6},
-pages = {725--732},
-month = jun
-}
-
-@article{Gustilo:2008ge,
-author = {Gustilo, Estella M and Vendeix, Franck AP and Agris, Paul F},
-title = {{tRNA's modifications bring order to gene expression}},
-journal = {Current Opinion in Microbiology},
-year = {2008},
-volume = {11},
-number = {2},
-pages = {134--140},
-month = apr
-}
-
-%% Created using Papers on Tue, 30 May 2017.
-%% http://papersapp.com/papers/
-
-@article{Weitzer:2014bi,
-author = {Weitzer, Stefan and Hanada, Toshikatsu and Penninger, Josef M and Martinez, Javier},
-title = {{CLP1 as a novel player in linking tRNA splicing to neurodegenerative disorders}},
-journal = {Wiley Interdisciplinary Reviews: RNA},
-year = {2014},
-volume = {6},
-number = {1},
-pages = {n/a--n/a},
-month = aug
-}
-
-@article{Hanada:2013bk,
-author = {Hanada, Toshikatsu and Weitzer, Stefan and Mair, Barbara and Bernreuther, Christian and Wainger, Brian J and Ichida, Justin and Hanada, Reiko and Orthofer, Michael and Cronin, Shane J and Komnenovic, Vukoslav and Minis, Adi and Sato, Fuminori and Mimata, Hiromitsu and Yoshimura, Akihiko and Tamir, Ido and Rainer, Johannes and Kofler, Reinhard and Yaron, Avraham and Eggan, Kevin C and Woolf, Clifford J and Glatzel, Markus and Herbst, Ruth and Martinez, Javier and Penninger, Josef M},
-title = {{CLP1 links tRNA metabolism to progressive motor-neuron loss}},
-journal = {Nature},
-year = {2013},
-pages = {1--7},
-month = mar
 }
 
