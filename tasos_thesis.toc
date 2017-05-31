@@ -28,55 +28,55 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Hierarchical sequence read mapping}{14}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Iterative manual tRNA curation}{15}{section.2.3}
+\contentsline {section}{\numberline {2.3}Iterative manual tRNA curation}{16}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Protocol and pipeline outputs}{16}{section.2.4}
+\contentsline {section}{\numberline {2.4}Protocol and pipeline outputs}{17}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Mature tRNA alignment}{16}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.1}Mature tRNA alignment}{17}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.4.2}Pre-tRNA alignment}{17}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.5}Justification for using precursor reads}{18}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Composition of hydro-tRNAseq libraries}{18}{section.2.6}
+\contentsline {section}{\numberline {2.6}Composition of hydro-tRNAseq libraries}{19}{section.2.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.7}Need for pre-tRNA enrichment}{19}{section.2.7}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.8}PAR-CLIP methodology for the study or RNA-RBP interactions}{20}{section.2.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.9}SSB PAR-CLIP}{21}{section.2.9}
+\contentsline {section}{\numberline {2.9}SSB PAR-CLIP}{22}{section.2.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.10}tRNA gene annotation}{23}{section.2.10}
+\contentsline {section}{\numberline {2.10}tRNA gene annotation}{24}{section.2.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.11}Comparison with other methods}{24}{section.2.11}
+\contentsline {section}{\numberline {2.11}Comparison with other methods}{25}{section.2.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.12}Applications and biological insights}{27}{section.2.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}{27}{subsubsection*.30}
+\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}{27}{subsubsection*.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor (same amino acid, different anticodon) level}{28}{subsubsection*.32}
+\contentsline {subsubsection}{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor (same amino acid, different anticodon) level}{29}{subsubsection*.33}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.13}Mature tRNA abundance does not correlate with pre-tRNA abundance}{29}{section.2.13}
+\contentsline {section}{\numberline {2.13}Mature tRNA abundance does not correlate with pre-tRNA abundance}{31}{section.2.13}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.14}tRNA transcription initiation and termination}{29}{section.2.14}
+\contentsline {section}{\numberline {2.14}tRNA transcription initiation and termination}{32}{section.2.14}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.15}Ribonucleotide modifications}{32}{section.2.15}
+\contentsline {section}{\numberline {2.15}Ribonucleotide modifications}{34}{section.2.15}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.16}Annotation of intron-containing tRNA genes}{35}{section.2.16}
+\contentsline {section}{\numberline {2.16}Annotation of intron-containing tRNA genes}{36}{section.2.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.17}CLP1}{37}{section.2.17}
+\contentsline {section}{\numberline {2.17}CLP1}{39}{section.2.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.18}CLP1 figures}{37}{section.2.18}
+\contentsline {section}{\numberline {2.18}CLP1 figures}{39}{section.2.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.18.1}Plausible pathomechanisms of CLP1 mutations}{37}{subsection.2.18.1}
+\contentsline {subsection}{\numberline {2.18.1}Plausible pathomechanisms of CLP1 mutations}{39}{subsection.2.18.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.18.2}hydro-tRNAseq on CLP1}{38}{subsection.2.18.2}
+\contentsline {subsection}{\numberline {2.18.2}hydro-tRNAseq on CLP1}{40}{subsection.2.18.2}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.19}tRNA enzyme screen}{40}{section.2.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.20}Discussion}{42}{section.2.20}
+\contentsline {section}{\numberline {2.20}Discussion}{43}{section.2.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.21}Summary}{45}{section.2.21}
+\contentsline {section}{\numberline {2.21}Summary}{46}{section.2.21}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Materials and methods}{47}{chapter.3}
 \defcounter {refsection}{0}\relax 
@@ -110,4 +110,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}Things that didn't work}{64}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{84}{chapter*.51}
+\contentsline {chapter}{References}{84}{chapter*.52}
