@@ -106,12 +106,25 @@ First, I would like to thank my
 \newacronym{miRNA}{miRNA}{microRNA}
 \newacronym{nt}{nt}{nucleotide}
 \newacronym{hek293}{HEK293}{Human embryonic kidney cells 293}
+\newacronym{parclip}{PAR-CLIP}{photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation}
+\newacronym{rbp}{RBP}{RNA-binding protein}
+\newacronym{4su}{4-SU}{4-thiouridine}
+\newacronym{trbp}{tRBP}{tRNA-binding protein}
+\newacronym{SSB}{SSB}{Sjögren syndrome type B antigen}
+\newacronym{La}{La}{Lupus La protein}
 
-\newglossaryentry{isoacceptor}
-{
-    name=tRNA isoacceptors,
-    description={tRNA molecules that decode synonymous codons}
+\newglossaryentry{isotype}{
+name=tRNA isotype,
+description={colection of tRNAs  encoding the same amino acid}
 }
+\newglossaryentry{isoacceptor}{
+name=tRNA isoacceptors,
+description={tRNA molecules that decode synonymous codons}
+}
+
+
+
+
 
 \chapter*{Glossary}
 \setglossarystyle{super}
@@ -149,10 +162,10 @@ I used the results of this approach to annotate and curate all mature and pre-tR
 \label{tRNAstructure}%
 \end{figure}
 
-\subsection{tRNA and disease} 
+\section{tRNA and disease} 
 talk about javier's papers, schimmel and dreyfuss review
 
-\subsection{tRNA biogenesis}\label{biogenesis}
+\section{tRNA biogenesis}\label{biogenesis}
 tRNA genes are transcribed by POLR3 that uses promoters internal to the DNA sequence of the tRNA gene (tDNA), resulting in a primary transcript with a 5' triphosphate. In humans, a minority of tRNA transcripts harbor introns (see section ref{introns}). A dedicated tRNA splicing complex composed of core and accessory proteins carries out tRNA splicing \cite{trotta1999trna,Paushkin:2004wl,Weitzer:2007hda, Popow:2011ffa,Popow:2014ita}. Pre-tRNAs comprise the mature tRNA sequence, and 5' leader and 3' trailer extensions, which are trimmed in a coordinated manner by endonucleases and other processing factors. The \gls{rnp} complex RNase P removes the 5' leaders, leaving a 5' monophospahte, and ELAC2, the human homolog of tRNase Z trims the 3' trailer, leaving a 3' \gls{hydroxyl}. Next, the universally conserved 3' terminal CCA tail is added by the tRNA nucleotidyl transferase 1 (TRNT1), and acts as the acceptor of the amino acid. tRNAs are further modified by chemical nucleotide modifications (\ref{modifications}), exported from the nucleus to the cytoplasm where they can undergo further modifcations, are aminoacylated with their cognate amino acid by aminoacyl tRNA synthetases, and are finally presented to the ribosome by translation factors to participate in protein synthesis (\textbf{Fig. \ref{biogenesis}})\cite{Phizicky:2010jf,Hopper:2010ho,Hopper:2013dl}.
 
 Although these processes allow for multiple levels of regulation, variation in tRNA expression across tissues or between normal and pathologic conditions has not been studied extensively, mainly for two reasons. First, until recently there was the assumption that their essentiality obviated a need for any specialized transcriptional or post-transcriptional control. Second, the lack of an extensively curated and experimentally validated tRNA profile prevented quantitative and systematic studies. Nevertheless, it is now clear that the expression of tRNAs can be dynamic and can indeed exhibit tissue specificity \cite{Dittmar:2006du,Gingold:2014iz}. Importantly, abnormal tRNA expression levels have been correlated and causally associated with pathologic conditions, such as cancer \cite{Gingold:2014iz,Goodarzi:2016gd}.
@@ -166,7 +179,7 @@ Although these processes allow for multiple levels of regulation, variation in t
 \label{biogenesis}%
 \end{figure}
 
-\subsection{tRNA sequencing}
+\section{tRNA sequencing}
 This complex biogenesis and processing pathway adds multiple layers of difficulty to the analysis of tRNAs. Obtaining  data for tRNAs is hindered by multiple obstacles:
 
 \begin{enumerate}[i)]
@@ -180,7 +193,7 @@ This complex biogenesis and processing pathway adds multiple layers of difficult
 
 Owing to all these hurdles, the normal genetic makeup and variation of the tRNA population in human cells has not been probed adequately with \gls{rnaseq} tools. Instead information about tRNA sequences and genes comes from bioinformatic predictions \cite{Lowe:1997uc,Chan:2009dz}. Such approaches take into account base-pair covariation, secondary structure predictions of the classical cloverleaf fold of tRNAs, and the tRNA promoter and termination architecture, and scan the human genome in order to identify sequences that are likely to obtain the typical tRNA structure. These analyses have resulted in the most comprehensive standard for whole-genome, predictive annotation of tRNAs so far, and the sequences they have predicted have been used extensively as bona fide tRNAs.
 
-\subsection{Previous efforts for genome-wide tRNA annotation}
+\section{Previous efforts for genome-wide tRNA annotation}
 
 Even though no direct and rigorous experimental validation of tRNA sequences has been carried out, there has been indirect experimental evidence for tRNA expression:
 
@@ -191,7 +204,7 @@ Even though no direct and rigorous experimental validation of tRNA sequences has
 
 These methods, though, have several limitations. ChIP-seq, for example, uses chromatin occupancy as a proxy for productive RNA synthesis. Conversely, tRNA microarrays have limited sensitivity and specificity thresholds due to off-target hybridization that is potentiated by nucleoside modifications21, while their dynamic range is considerably narrower than RNA-seq. Finally, neither method is appropriately equipped to determine definitively pre-tRNAs or their transcription start and termination sites. This is an important limitation, as pre-tRNA fragments have been associated with neurodegenerative diseases \cite{Hanada:2013bk, Weitzer:2014bi, Karaca:2014em}. 
 	
-\subsection{Small RNA sequencing protocol}
+\section{Small RNA sequencing protocol}
 In order to obtain RNA-seq reads, I decided to first apply the well established protocol for sequencing small RNAs, established in the Tuschl lab \cite{Hafner:2012eaa} (\textbf{Fig. \ref{sRNA}}). The experimental procedure takes advantage of the 5' monophosphate (p) and 3' OH groups present in small RNAs, such as \glspl{miRNA}, in order to enrich for such RNA species over other abundant RNA molecules. The use of a truncated and mutated RNA ligase (T4 Rnl2(1-249)K227Q) that requires 5' preadenylated adapter (App-(5')-adapter) prevents on one hand the formation of secondary, circularized byproducts, and allows on the other for exclusive ligation at the 3' end of the target RNA. Rnl1 is used to ligate an adapter with a different sequence at the 5' end, by activating the 5' monophosphate of the small RNA. cDNA is obtained by RT and amplified at non-saturated levels by PCR. The derived small RNA cDNA library is submitted to high-throughput on Illumina instruments using sequencing primer sites present in the adapter sequences. The different sequences of the 3' and 5' adapters preserves the strandedness of the original RNA sequence, enhancing ncRNA discovery and curation. Adding short (5-nt) barcode sequences at the 3' adapter also allows for pooling of several multiplexed samples, reducing costs, processing time, and batch variability. 
 
 \begin{figure}[!ht]%
@@ -253,21 +266,17 @@ and the probability of sequencing through an RNA fragment $(1-p)$:
 1-P_{full-length} \leq 1-p_{fragment}
 \end{equation}
 
-In addition to increasing read-through by RT, the reduced frequency of modified nucleosides per sequenced fragment, also improves mapping efforts by reducing the number of mismatches per sequenced read. Furthermore, basic conditions also cleave the aminoacyl-tRNA bond, freeing the 3’ terminal hydroxyl group required for 3’ adapter ligation during RNA cDNA library preparation. Thus, I anticipated that collectively these effects would yield RNA sequences more amenable to small RNA cDNA library preparation and deep sequencing than the refractory tRNAs. Indeed this approach increased the tRNA read content to >40\% in our deepest dataset (\textbf{Table \ref{tableS1}}). We named this procedure hydro-tRNAseq (\textbf{Fig. \ref{paper1}A}).
-
-\hl{We wanted to obtain an RNA-seq validated list of human nuclear and mitochondrial tRNA gene, and their processing intermediates
-This was my goal. To design a method for seequencing and a}
-
-\hl{To address the lack of a global and unbiased analysis of the human tRNA profile, I will develop an experimental and computational methodology for the generation of a reference tRNA atlas. To overcome existing experimental challenges, I will use a customized RNA-Seq technique (HydroRNAseq). To efficiently analyze the sequencing data in silico, I will develop a systematic and iterative bioinformatics platform}
-
-
-\begin{figure}[!ht]%
+\begin{figure}[!h]%
 \centering
-\includegraphics[width=3.5in]{paper1.png}%
-\caption[Experimental and bioinformatic pipeline for tRNA annotation and reference transcript curation by hydro-tRNAseq]{\textbf{Experimental and bioinformatic pipeline for tRNA annotation and reference transcript curation by hydro-tRNAseq.}(A) tRNAs and pre-tRNAs were size-selected from HEK293 total RNA and subjected to limited alkaline hydrolysis, followed by dephosphorylation, rephosphorylation and conventional small RNA sequencing as described previously (Hafner et al., 2012). (B) An iterative mapping and annotation protocol was used to first annotate and curate fully processed and nucleotide-modified mature tRNAs. Leftover reads that spanned the mature-precursor junctions were used to identify transcribed tRNA genes.}
+\includegraphics[width=\textwidth]{paper1.png}%
+\caption[hydro-tRNAseq experimental and bioinformatic pipeline]{\textbf{Hydro-tRNAseq experimental and bioinformatic pipeline for tRNA annotation and reference transcript curation by hydro-tRNAseq.}(A) tRNAs and pre-tRNAs were size-selected from HEK293 total RNA and subjected to limited alkaline hydrolysis, followed by dephosphorylation, rephosphorylation and conventional small RNA sequencing as described previously (Hafner et al., 2012). (B) An iterative mapping and annotation protocol was used to first annotate and curate fully processed and nucleotide-modified mature tRNAs. Leftover reads that spanned the mature-precursor junctions were used to identify transcribed tRNA genes.}
 \centering
 \label{paper1}%
 \end{figure}
+
+In addition to increasing read-through by RT, the reduced frequency of modified nucleosides per sequenced fragment, also improves mapping efforts by reducing the number of mismatches per sequenced read. Furthermore, basic conditions also cleave the aminoacyl-tRNA bond, freeing the 3’ terminal hydroxyl group required for 3’ adapter ligation during RNA cDNA library preparation. Thus, I anticipated that collectively these effects would yield RNA sequences more amenable to small RNA cDNA library preparation and deep sequencing than the refractory tRNAs. Indeed this approach increased the tRNA read content to >40\% in our deepest dataset (\textbf{Table \ref{tableS1}}). We named this procedure hydro-tRNAseq (\textbf{Fig. \ref{paper1}A}).
+
+Encouraged by the preliminary performance of the protocol, I set out to obtain a curated list of human nuclear and mitochondrial tRNAs, their genomic loci,  and their processing intermediates. However, such an effort required a custom-made computational analysis pipeline.
 
 \begin{table}[h!]
   \begin{adjustbox}{max width = \textwidth}
@@ -315,97 +324,71 @@ This was my goal. To design a method for seequencing and a}
 \caption[Hydro-tRNAseq reads per RNA type]{\textbf{Hydro-tRNAseq reads per RNA type.} Reads assigned to each RNA type following hierarchical annotation are shown. Reads with no (d0), one (d1) or two (d2) mismatches compared to reference are shown. Hydro-tRNAseq enriches for nuclear (44\%) and mitochondiral (15\%) tRNAs}\label{tableS1}
 \end{table}
 
+\section{Bioinformatics analysis pipeline}
+\subsection{Hierarchical sequence read mapping}
+In parallel with the tRNA annotation procedure, we had to build a bioinfroamtic pipeline for processing the obtained sequence information. To account for the multiple maturation steps between pre- and mature tRNAs, in collaboration with bioinformatician Miguel Brown, we developed an iterative, hierarchical approach for mapping and annotating our sequence reads. 
 
+First we mapped reads to reference tRNA genes for the human genome release hg19 (\url{hg19, http://gtrnadb.ucsc.edu/}) using an iterative and hierarchical protocol (\textbf{Fig. \ref{paper1}B}). We started by mapping only to mature tRNAs, which included the 3’ CCA aminoacyl acceptor terminus, and the G\sub{-1} nucleotide added posttranscriptionally to histidine tRNAs \cite{Gu:2003jj, Juhling:2009ip}, but excluded tRNA introns. Starting with two most abundant tRNA transcripts per \gls{isotype}  as indicated after the first mapping round, except for selenocysteine, where only one mature tRNA sequence could be identified, we performed iterative rounds of mapping and manual reference transcript selection, focusing in every step on transcripts that collected more reads with an error distance of 1-2 than 0. If these reads with mismatches could be assigned to other tRNA isoacceptors, these were included in our candidate reference set. Otherwise, we reasoned that the mismatches were the results of nucleotide-modification-induced errors of RT. In those cases, we accounted for the modified nucleoside signatures by introducing a new, edited reference transcript in our set. 
 
-\section{Hierarchical sequence read mapping}
-In parallel with the tRNA annotation procedure, we had to build a bioinfroamtic pipeline for processing the obtained sequence information.
-We developed an iterative, hierarchical approach for mapping and annotating our sequence reads. 
+For tRNAs that exhibited multiple positions with high modification rates (>10\% compared to reference), we compiled reference sequences with all possible combinations of modified signatures at all detectably modified positions, aiming to account for the maximum possible number of mapped sequence reads. We ended the curation cycles when there was no observed modified position that exhibited a mismatch frequency greater than or equal to 10\% compared to the reference. By performing this iterative process of curation, we obtained an experimentally validated reference set of mature tRNAs accounting for modified-nucleotide-induced sequence variation upon reverse transcription.
 
-We mapped the reads to reference tRNA genes (hg19, http://gtrnadb.ucsc.edu/) using an iterative and hierarchical protocol (Fig. 1B). We started by mapping only to mature tRNAs, which included the 3’ CCA aminoacyl acceptor terminus introduced posttranscriptionally by tRNA nucleotidyl transferase, and the G-1 nucleotide added posttranscriptionally to histidine tRNAs (Gu, 2003; Juhling et al., 2009), but excluded tRNA introns. Starting with two most abundant tRNA transcripts per isotype (tRNAs encoding the same amino acid) as indicated after the first mapping round, except for selenocysteine, where only one mature tRNA sequence could be identified, we performed iterative rounds of mapping and manual reference transcript selection, focusing in every step on transcripts that collected more reads with an error distance of 1-2 than 0. If these reads with mismatches could be assigned to other tRNA isoacceptors (tRNA accepting the same amino acid), these were included in our candidate reference set. Otherwise, we reasoned that the mismatches were the results of nucleotide-modification-induced errors of RT. In those cases, we accounted for the modified nucleoside signatures by introducing a new, edited reference transcript in our set. For tRNAs that exhibited multiple positions with high modification rates (>10\% compared to reference), we compiled reference sequences with all possible combinations of modified signatures at all detectably modified positions, aiming to account for the maximum possible number of mapped sequence reads. We ended the curation cycles when there was no observed modified position that exhibited a mismatch frequency greater than or equal to 10\% compared to the reference. By performing this iterative process of curation, we obtained an experimentally validated reference set of mature tRNAs accounting for modified-nucleotide-induced sequence variation upon reverse transcription (Table S2).
+\subsection{tRNA gene annotation}
+In order to identify possible tRNA gene loci, we mapped the curated tRNA sequences back to the genome, allowing for gaps to accommodate tRNA introns, as well as up to 7 mismatches to accommodate terminal and internal RNA editing events. By appending 40 nts upstream and downstream of the location of genomic mapping, we obtained a candidate pre-tRNA gene set. We mapped non-annotated residual reads to these candidates to identify 5’ leader- and 3’ trailer-comprising pre-tRNA reads. These reads distinguished actively transcribed tRNA genes from silent ones or pseudogenes.
 
+Leader- and trailer-comprising tRNA genes show higher sequence variation, as evidence by higher information entropy values, across the leader and trailer nucleotides than internal sequences within the mature tRNA suggesting that even short precursor sequences with read coverage are sufficient for the annotation of non-redundant tRNA genes (\textbf{Fig. \ref{supp1}}). At the end of our analysis we accounted for 93\% of the 114,367,140 reads in our deepest library (\textbf{\ref{tableS1}}).
 
-Now, I can automatically and fast obtain relative read counts for all classes of ncRNAs in one experiment. 
-Applying this pipeline to the tRNA-seq experimental resutls shows that indeed the majority of reads map to tRNAs. The depth of the library is extensive and thus allows for a reliable annotation of tRNA genes and transcripts. 
-
-\section{Iterative manual tRNA curation}
-In order to identify possible tRNA gene loci, we mapped the curated tRNA sequences back to the genome, allowing for gaps to accommodate tRNA introns, as well as up to 7 mismatches to accommodate terminal and internal RNA editing events. By appending 40 nt 5’ and 3’ of the location of genomic mapping, we obtained a candidate pre-tRNA gene set. We mapped non-annotated residual reads to these candidates to identify 5’ leader- and 3’ trailer-comprising pre-tRNA reads, which also distinguished actively transcribed tRNA genes from silent ones or pseudogenes. Leader- and trailer-comprising tRNA genes show higher sequence variation, as evidence by higher information entropy values, across the leader and trailer nucleotides than internal sequences within the mature tRNA suggesting that even short precursor sequences with read coverage are sufficient for the annotation of non-redundant tRNA genes (Fig. S1). At the end of our analysis we accounted for 93\% of the 114,367,140 reads in our deepest library (Table S1). Given the depth of sequencing, we are confident that we accounted for the vast majority of precursor and mature tRNAs. Indeed, a posteriori we looked for genomic regions that collected at least 50 overlapping reads throughout their whole length, fell within the 60- to 100-nt size window, and adopted a cloverleaf structure, in an effort to detect any tRNAs that might have been overlooked by our approach or in prior literature. The only sequences that we identified were U1 snRNA (pseudo)genes (Fig. S2), suggesting that our analysis was exhaustive, at least for tRNAs in HEK293 cells. 
-
-\section{Protocol and pipeline outputs}
-\subsection{Mature tRNA alignment}
-
-Representative alignment of reads to a mature tRNA reference., where the reference is shown at the bottom, the reads that map to it, and the depth of read abundance, as well as the reference locations at which its read maps. 
-
-Due to the intentional fragmentation of input RNA, we observe that the majority of reads were shorter than the full length tRNA, but there were enough long reads (like the one shown here in red) to bridge together separate segments of the obtained sequence . 
-
-Figure X. Alignmnent of tRNA-seq reads from HEK293 to mature tRNA transcript TRNAE5. Shorter reads are shown in black; a longer read, bridging 
-the two halves of the tRNAs is shown in red. The frequency of each read (count) and the number of locations that it maps within the tRNA reference with
-no mismatches are indicated.  Vertical lines represent the relative frequency of binned, normalized read count in log4 increments.
-
-(\textbf{Fig. \ref{mature}})
+Given the depth of sequencing, we are confident that we accounted for the vast majority of precursor and mature tRNAs. Indeed, \textit{a posteriori} we looked for genomic regions that collected at least 50 overlapping reads throughout their whole length, fell within the 60- to 100-nt size window, and adopted a cloverleaf structure, in an effort to detect any tRNAs that might have been overlooked by our approach or in prior literature. The only sequences that we identified were U1 snRNA (pseudo)genes (Fig. S2), suggesting that our analysis was exhaustive, at least for tRNAs in HEK293 cells. 
 
 \begin{figure}[!ht]%
 \centering
-\includegraphics[width=3.5in]{mature.png}%
-\caption[Mature tRNA alignment]{\textbf{Mature tRNA alignmentl.} thththtfahflahflahdflahdflahdfladfladhflasdhfladhfladhfladhfladhfaldjsfhaldskfjaldsfhalsdfhasdf}
-\centering
-\label{mature}%
-\end{figure}
-
-\subsection{Pre-tRNA alignment}
-The reads that after a first pass were mapped to a mature tRNA were set aside, and the leftover reads were then mapped to tRNA genomic locations that were extended 40 nts up- and downstream from all mature tRNA boundaries. The reads that mapped to such tRNA precursors (that I wil refer to as pre-tRNAs) were used to identify actively transcribed tRNA loci in our cell system of HEK293 cells (\textbf{Fig. \ref{pre}})
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=3.5in]{pre.png}%
-\caption[Pre-tRNA alignment]{\textbf{Pre-tRNA alignmentl.} \hl{Placeholder}}
-\centering
-\label{pre}%
-\end{figure}
-
-\section{Justification for using precursor reads}
-
-Entropy (\textbf{Fig. \ref{supp1}})
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=3.5in]{supp1.png}%
+\includegraphics[width=\textwidth]{supp1.png}%
 \caption[Information entropy in pre-tRNA segments and mature body]{\textbf{Information entropy in pre-tRNA segments and mature body}
 (A,B) Information entropy $H = -\sum_{i=1}^np(i)*log(p(i))$, (where p is the frequency of each nucleotide at a given position, i, and n the total number of transcripts) was calculated using read evidence from hydro-tRNAseq (four replicates) for the 5’ leader and 3’ trailers of all pre-tRNAs with positions centered at the 5’ and 3’ ends of mature tRNAs. (C,D) Same as before, but using the reference sequence of mature tRNAs.}
 \centering
 \label{supp1}%
 \end{figure}
 
-\section{Composition of hydro-tRNAseq libraries}
-The majority of our reads obtained from 60-100 nt size-fractionated total RNA were assigned to mature tRNAs.
-The improvement we observed in recovering tRNA reads was considerable, as 2/3 of our reads mapped to either mature or pre-tRNAs or mitochondrial tRNAs (\textbf{Fig. \ref{paper2a}}). 
+\section{Pipeline outputs}
+\subsection{Mature tRNA alignment}
+
+Our pipeline provides individual alignments for every reference transcript included in our curated database. Each alignment is presented in a separate text file (.txt) that can be surveyed without the requirement of any special analysis or display software, as is the case for conventional mRNA-seq datasets. 
 
 \begin{figure}[!ht]%
 \centering
-\includegraphics[width=3.5in]{paper2a.png}%
+\includegraphics[width=\textwidth]{mature.png}%
+\caption[Mature tRNA alignment]{\textbf{Mature tRNA alignment.} An indicative alignment to mature TRNAE5 is shown including, sequences of reads, abundance, mapping locations, and log\sub{4} bin-normalized abundance.}
+\centering
+\label{mature}%
+\end{figure}
+
+\textbf{Figure \ref{mature}} shows a representative alignment of reads to a mature glutamate-tRNA reference (TRNAE5). The name of the transcript is shown at the top, and the reference transcript sequence at the bottom of the file. Pile-ups of of reads that were mapped to the reference are sorted in descending order of abundance, shown in the 'count' column. Due to the intentional fragmentation of input RNA, we observe that the majority of reads were shorter than the full length tRNA, longer reads (like the one boxed at the lower part of the alignment) are used to bridge together separate segments. The total mapping locations for multimapping reads are also indicated.  Vertical lines represent the relative frequency of binned, normalized read count in log\sub{4} increments. The 3’ CCA aminoacyl acceptor terminus is shown in red indicating the hydro-tRNAseq is successful in freeing the terminus from charged amino acids. 
+
+\subsection{Pre-tRNA alignment}
+As part of the hierarchical mapping protocol, reads that are not accounted for during the generation of mature tRNA alignments are mapped to our curated pre-tRNA reference sequences, which span 40 nt up- and downstream from all mature tRNA boundaries. \textbf{Figure \ref{pre}} shows a representative alignment of reads to a glutamate pre-tRNA reference (TRNAE26), similar to \textbf{Fig. \ref{mature}}. The mature sequence is shown in blue, while the leader and trailer sequences in green. 
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=5in]{pre.png}%
+\caption[Pre-tRNA alignment]{\textbf{Pre-tRNA alignment.} An indicative alignment to pre-tRNA TRNAE5 is shown. Mature sequence is in blue and precursor-specific sequence segments in green. The anticodon is boxed in blue for orientation purposes.}
+\centering
+\label{pre}%
+\end{figure}
+
+The simplicity of the output files of our pipeline renders them easily exploitable for downstream bioinformatics analysis, necessitating only intermediate programming skills. At the same time the alignment displays can be used directly in figure making. As a matter of fact, simple, and easily customizable perl and python scripts were used for all the analysis presented in section \ref{applications}, showcasing the ease of primary sequence data access and analysis conferred by our approach.
+
+\section{Need for pre-tRNA enrichment}
+The majority of our reads obtained from 60-100 nt size-fractionated total RNA were assigned to mature tRNAs. The improvement we observed in recovering tRNA reads was considerable, as 2/3 of our reads mapped to either mature (nuclear or mitochondrial) or pre-tRNAs. Nevertheless, only 1\% of total reads comprised sequences overlapping with pre-tRNA leader or trailer sequences (\textbf{Fig. \ref{paper2a}, \ref{tableS1}}). This raised the possibility that we might have missed reads corresponding to lowly expressed or very rapidly processed pre-tRNAs.
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=4in]{paper2a.png}%
 \caption[Composition of hydro-tRNAseq libraries]{\textbf{Composition of hydro-tRNAseq libraries.} Total RNA composition of the 60-100 nt size fraction from hydro-tRNAseq according to RNA classes.}
 \centering
 \label{paper2a}%
 \end{figure}
-
-\section{Need for pre-tRNA enrichment}
-Even though the majority of our reads obtained from 60-100 nt size-fractionated total RNA were assigned to mature tRNAs, only 1\% of the reads comprised sequences overlapping with pre-tRNA leader or trailer sequences (\textbf{Fig. \ref{paper2a}}, \hl{Table S1}).
-This raised the possibility that we might have missed reads corresponding to lowly expressed or very rapidly processed pre-tRNAs.
-
-We did this by performing PAR-CLIP (photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation), a technique developed in our lab to identify RNA targets of RNA binding proteins at nucleotide level resolution and with high specificity. 
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=3.5in]{paper2b.png}%
-\caption[SSB crosslinking to RNA]
-{\textbf{SSB crosslinking to RNA.}
-Phosphorimage of SSB-crosslinked to radiolabeled RNA. PAR-CLIP was performed using RNase A or RNase T1, at two different concentrations to 
-account for possible biases of RNase treatment conditions. Libraries from PAR-CLIP using 1 U/$\mu$L of RNase A and RNase T1 were prepared and submitted for sequencing. Western blot against HA, shown in the bottom, confirmed the immunoprecipitation of SSB.}
-\centering
-\label{paper2b}%
-\end{figure}
+We did this by performing \gls{parclip}, a technique developed in our lab to identify RNA targets of \glspl{rbp} with high specificity. 
 
 \section{PAR-CLIP methodology for the study or RNA-RBP interactions}
-A series of techniques have been developed for the study of RNA-RBP interactions on a genomic scale \hl{27 from TRP}. Our lab developed Photoactivatable-Ribonucleoside-Enhanced Crosslinking and Immunoprecipitation (PAR-CLIP), coupled with deep sequencing, which is a cell-based approach that allows the determination of RBP binding sites on RNA targets at nucleotide-level resolution (\textbf{Fig. \ref{parclip}}\hl{28 from TRP}. To enable efficient RNA-RBP crosslinking using long wavelength UV, 4-thiouridine \cyan{(4SU)} is added to culture medium, taken up by cells and incorporated into nascent transcripts. The crosslinked ribonucleoprotein complex is submitted to partial RNase digestion, immunopurification and size-fractionated. Crosslinked RNA is recovered, converted into small RNA cDNA libraries, and sequenced. Importantly, crosslinking introduces a structural change in the thiouridine base, which allows pinpointing the position of crosslinking by scoring for characteristic T-to-C transitions in the sequenced cDNA. In addition, the abundant background derived from non-crosslinked fragments of co-purifying cellular RNAs do not contain these T-to-C transitions and can be filtered out. Thus, PAR-CLIP has a very low rate of false positive target identification, since the nucleotide transition signature reliably marks true crosslinking sites. PAR-CLIP has so far been applied successfully to the study of mRNA- and miRNA-binding proteins, but not tRBPs. 
+A series of techniques have been developed for the study of RNA-RBP interactions on a genomic scale \cite{Konig:2011jv}. Our lab developed PAR-CLIP, coupled with deep sequencing, which is a cell-based approach that allows the determination of RBP binding sites on RNA targets at nucleotide-level resolution (\textbf{Fig. \ref{parclip}}\cite{Hafner:2010kr}). To enable efficient RNA-RBP crosslinking using long wavelength UV light, \gls{4su} is added to culture medium, taken up by cells and incorporated into nascent transcripts. The crosslinked ribonucleoprotein complex is submitted to partial RNase digestion, immunopurification and size-fractionated. Crosslinked RNA is recovered, converted into small RNA cDNA libraries, and sequenced. Importantly, crosslinking introduces a structural change in the thiouridine base, which allows pinpointing the position of crosslinking by scoring for characteristic T-to-C transitions in the sequenced cDNA. In addition, the abundant background derived from non-crosslinked fragments of co-purifying cellular RNAs do not contain these T-to-C transitions and can be filtered out. Thus, PAR-CLIP has a very low rate of false positive target identification, since the nucleotide transition signature reliably marks true crosslinking sites. PAR-CLIP has so far been applied successfully to the study of mRNA- and miRNA-binding proteins, but not \glspl{trbp}.
 
 \begin{figure}[!ht]%
 \centering
@@ -418,10 +401,31 @@ Outline}
 \end{figure}
 
 \section{SSB PAR-CLIP}
-Therefore, we decided to complement our efforts with PAR-CLIP-sequencing of \cyan{SSB} (\textbf{Fig. \ref{paper2b}}
-All tRNA genes are transcribed by POLR3, which terminates upon decoding an oligo-uridine \cyan{(oligoU)} region \cite{Maraia:2010kx}. SSB binds to the short pre-tRNA 3’ oligoU tail \cite{Stefano:1984wp} prior to removal of the entire 3’ trailer sequence. Therefore, we reasoned that SSB should bind all tRNA precursors, and that if we could isolate its targets, we would be able to reliably identify transcribed tRNA loci. 
+Therefore, we decided to complement our sequencing efforts with PAR-CLIP-sequencing of the protein \gls{SSB}, which is also known as \gls{La}. SSB has been shown biochemically to bind to the short 3’ oligoU tails \cite{Stefano:1984wp} that acts as termination signal for POLR3 \cite{Maraia:2010kx}. Therefore, we reasoned that SSB should bind all tRNA precursors, and that if we could isolate its targets, we would be able to reliably identify transcribed tRNA loci. 
+
+
+
+
+
+
 
 SSB exhibited a striking binding preference for pre-tRNAs and showed a drastic enrichment in precursor tRNAs compared to hydro-tRNAseq (\textbf{Fig. \ref{paper2cd}}), which confirmed our hypothesis, as well as previous observations \cite{Bayfield:2009cx}. We performed PAR-CLIP using two different nucleases to control for sequence biases at the nuclease digestion step. RNase T1 resulted in longer precursor tRNA trailer sequences than RNase A, due the latter’s preference for cleaving 3’ to pyrimidines, which are highly abundant in the 3’ trailer sequences. Overall, 46\% of all PAR-CLIP reads mapped to pre-tRNAs (\textbf{Fig. \ref{paper2cd}}), the overwhelming majority of which showed the characteristic T-to-C transition, indicative of crosslinking (\textbf{Fig. \ref{paper2cd}}, \hl{table S3}. 
+
+
+(\textbf{Fig. \ref{paper2b}}
+
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{paper2b.png}%
+\caption[SSB crosslinking to RNA]
+{\textbf{SSB crosslinking to RNA.}
+Phosphorimage of SSB-crosslinked to radiolabeled RNA. PAR-CLIP was performed using RNase A or RNase T1, at two different concentrations to 
+account for possible biases of RNase treatment conditions. Libraries from PAR-CLIP using 1 U/$\mu$L of RNase A and RNase T1 were prepared and submitted for sequencing. Western blot against HA, shown in the bottom, confirmed the immunoprecipitation of SSB.}
+\centering
+\label{paper2b}%
+\end{figure}
+
 
 \begin{figure}[!ht]%
 \centering
@@ -495,7 +499,7 @@ placeholder}
 \label{supp7}%
 \end{figure}
 
-\section{Applications and biological insights}
+\section{Applications and biological insights}\label{applications}
 
 %check if following parts should be subsections (numbered) or subsubsections (not numbered)
 \subsubsection{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}
@@ -885,7 +889,7 @@ Finally, recognizing that I can obtain tRNA expression and abundance profiles in
 For this reason, I turned my attention towards ribosome profiling. Since our lab is still in the process of establishing this methodology, I focused on already published data about our cell culture system. I developed a series of scripts that allow me to perform tailored analysis of the data. Although this analysis is far from complete, there have been some important observations already. First, as previously shown by other groups, I showed (using our own RNAseq data) that although highly expressed mRNAs are also highly occupied by ribosomes, there are indeed cases where transcripts are efficienytly transcribed but inefficiently translated and vice versa.  
 This led to the hypothesis that specific tRNA availability may be the bottleneck in the translation of some transcripts. Using my tRNA abundance data, and after accounting for wobble effects, I computed an anticodon scoring index, which is essentially the weighted sum of the relative frequency of all anticodons required to decode a given open reading frame. Traditionally, it has been postulated that efficiently translated messages harbor common codons, reflecting codon optimization. Surprisingly, my preliminary data indicate that the most highly represented genes in ribosome profiling (top 10\%) rank in the bottom 10\% in anticodon score index. At the same time, these genes are highly transcribed, as evidenced by mRNAseq data. If these results are true (and not an experimental artifact, which I will validate by performing further replicates), then this would argue towards a lack of selective pressure for optimized codons in highly translated genes. One could then argue that increasing transcription rates for these genes leads to high protein expression levels, obviating the need for codon optimization at the DNA level. 
 
-\includepdf[scale = 0.80, pages = {1-}, pagecommand={}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}
+%\includepdf[scale = 0.80, pages = {1-}, pagecommand={}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}
 %\includepdf[pages={1-3}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}
 
 \renewcommand{\bibname}{References}

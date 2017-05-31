@@ -358,6 +358,216 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{parclip}{}%
+{%
+\gls@defglossaryentry{parclip}%
+{%
+name={PAR-CLIP},%
+sort={PAR-CLIP},%
+type={acronym},%
+first={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation\glsspace (PAR-CLIP)},%
+firstplural={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitations\glsspace (PAR-CLIPs)},%
+text={PAR-CLIP},%
+plural={PAR-CLIPs},%
+description={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation},%
+descriptionplural={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation},%
+longplural={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitations},%
+short={PAR-CLIP},%
+shortplural={PAR-CLIPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rbp}{}%
+{%
+\gls@defglossaryentry{rbp}%
+{%
+name={RBP},%
+sort={RBP},%
+type={acronym},%
+first={RNA-binding protein\glsspace (RBP)},%
+firstplural={RNA-binding proteins\glsspace (RBPs)},%
+text={RBP},%
+plural={RBPs},%
+description={RNA-binding protein},%
+descriptionplural={RNA-binding protein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={RNA-binding protein},%
+longplural={RNA-binding proteins},%
+short={RBP},%
+shortplural={RBPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{4su}{}%
+{%
+\gls@defglossaryentry{4su}%
+{%
+name={4-SU},%
+sort={4-SU},%
+type={acronym},%
+first={4-thiouridine\glsspace (4-SU)},%
+firstplural={4-thiouridines\glsspace (4-SUs)},%
+text={4-SU},%
+plural={4-SUs},%
+description={4-thiouridine},%
+descriptionplural={4-thiouridine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={4-thiouridine},%
+longplural={4-thiouridines},%
+short={4-SU},%
+shortplural={4-SUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{trbp}{}%
+{%
+\gls@defglossaryentry{trbp}%
+{%
+name={tRBP},%
+sort={tRBP},%
+type={acronym},%
+first={tRNA-binding protein\glsspace (tRBP)},%
+firstplural={tRNA-binding proteins\glsspace (tRBPs)},%
+text={tRBP},%
+plural={tRBPs},%
+description={tRNA-binding protein},%
+descriptionplural={tRNA-binding protein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={tRNA-binding protein},%
+longplural={tRNA-binding proteins},%
+short={tRBP},%
+shortplural={tRBPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SSB}{}%
+{%
+\gls@defglossaryentry{SSB}%
+{%
+name={SSB},%
+sort={SSB},%
+type={acronym},%
+first={Sj\IeC {\"o}gren syndrome type B antigen\glsspace (SSB)},%
+firstplural={Sjögren syndrome type B antigen\acrpluralsuffix \glsspace (SSB\acrpluralsuffix )},%
+text={SSB},%
+plural={SSB\acrpluralsuffix },%
+description={Sjögren syndrome type B antigen},%
+descriptionplural={Sjögren syndrome type B antigen\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sj\IeC {\"o}gren syndrome type B antigen},%
+longplural={Sj\IeC {\"o}gren syndrome type B antigens},%
+short={SSB},%
+shortplural={SSBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{La}{}%
+{%
+\gls@defglossaryentry{La}%
+{%
+name={La},%
+sort={La},%
+type={acronym},%
+first={Lupus La protein\glsspace (La)},%
+firstplural={Lupus La protein\acrpluralsuffix \glsspace (La\acrpluralsuffix )},%
+text={La},%
+plural={La\acrpluralsuffix },%
+description={Lupus La protein},%
+descriptionplural={Lupus La protein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Lupus La protein},%
+longplural={Lupus La proteins},%
+short={La},%
+shortplural={Las},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{isotype}{}%
+{%
+\gls@defglossaryentry{isotype}%
+{%
+name={tRNA isotype},%
+sort={tRNA isotype},%
+type={main},%
+first={tRNA isotype},%
+firstplural={tRNA isotypes},%
+text={tRNA isotype},%
+plural={tRNA isotypes},%
+description={colection of tRNAs encoding the same amino acid},%
+descriptionplural={colection of tRNAs encoding the same amino acid},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{isoacceptor}{}%
 {%
 \gls@defglossaryentry{isoacceptor}%
