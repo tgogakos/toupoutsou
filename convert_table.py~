@@ -3,8 +3,6 @@ import pandas as pd
 import numpy as np
 
 d = pd.read_csv('./gogakos_tuschl_S1.csv')
-print d.to_latex()
-
-print d.to_latex(multicolumn_format = "|")
+print d.to_latex(index = False)
 
 

@@ -259,11 +259,11 @@ n_{full-length} \geq n_{fragment}
 \end{equation}
 and therefore: 
 \begin{equation}
-P_{full-length} \geq p_{fragment}
+P_{full-length} \geq P_{fragment}
 \end{equation}
 and the probability of sequencing through an RNA fragment $(1-p)$:
 \begin{equation}
-1-P_{full-length} \leq 1-p_{fragment}
+1-P_{full-length} \leq 1-P_{fragment}
 \end{equation}
 
 \begin{figure}[!h]%
@@ -294,7 +294,7 @@ Encouraged by the preliminary performance of the protocol, I set out to obtain a
            mRNA &     951,538 &     231,248 &     89,536 &    1,272,322 &                1\% &                   1\% &             1\% &                 75\% &      18\% &       7\% \\
       mRNA gene &     828,458 &     229,342 &    150,541 &    1,208,341 &                1\% &                   1\% &             1\% &                 69\% &      19\% &      12\% \\
           snRNA &     773,703 &     169,800 &     43,861 &      987,364 &                1\% &                   1\% &             1\% &                 78\% &      17\% &       4\% \\
-      tRNA prec &     529,077 &     247,304 &    146,557 &      922,938 &                1\% &                   1\% &             1\% &                 57\% &      27\% &      16\% \\
+      pre-tRNA &     529,077 &     247,304 &    146,557 &      922,938 &                1\% &                   1\% &             1\% &                 57\% &      27\% &      16\% \\
          genome &     327,950 &     114,402 &    153,951 &      596,303 &                0\% &                   1\% &             0\% &                 55\% &      19\% &      26\% \\
         mt rRNA &     363,913 &      86,271 &     24,813 &      474,997 &                0\% &                   0\% &             0\% &                 77\% &      18\% &       5\% \\
           scRNA &     339,135 &      91,056 &     27,098 &      457,289 &                0\% &                   0\% &             0\% &                 74\% &      20\% &       6\% \\
@@ -401,18 +401,61 @@ Outline}
 \end{figure}
 
 \section{SSB PAR-CLIP}
-Therefore, we decided to complement our sequencing efforts with PAR-CLIP-sequencing of the protein \gls{SSB}, which is also known as \gls{La}. SSB has been shown biochemically to bind to the short 3’ oligoU tails \cite{Stefano:1984wp} that acts as termination signal for POLR3 \cite{Maraia:2010kx}. Therefore, we reasoned that SSB should bind all tRNA precursors, and that if we could isolate its targets, we would be able to reliably identify transcribed tRNA loci. 
+Therefore, in collaboration with Aitor Garzia, we decided to complement our sequencing efforts with PAR-CLIP-sequencing of the protein \gls{SSB}, which is also known as \gls{La} ((\textbf{Fig. \ref{paper2b}}). SSB has been shown biochemically to bind to the short 3’ oligoU tails \cite{Stefano:1984wp} that acts as termination signal for POLR3 \cite{Maraia:2010kx}. Therefore, we reasoned that SSB should bind all tRNA precursors, and that if we could isolate its targets, we would be able to reliably identify transcribed tRNA loci. 
+
+%SSB exhibited a striking binding preference for pre-tRNAs and showed a drastic enrichment in precursor tRNAs compared to hydro-tRNAseq (\textbf{Fig. \ref{paper2cd}}), which confirmed our hypothesis, as well as previous observations \cite{Bayfield:2009cx}. We performed PAR-CLIP using two different nucleases to control for sequence biases at the nuclease digestion step. RNase T1 resulted in longer precursor tRNA trailer sequences than RNase A, due the latter’s preference for cleaving 3’ to pyrimidines, which are highly abundant in the 3’ trailer sequences. Overall, 46\% of all PAR-CLIP reads mapped to pre-tRNAs (\textbf{Fig. \ref{paper2cd}A}), the overwhelming majority of which showed the characteristic T-to-C transition, indicative of crosslinking (\textbf{Fig. \ref{paper2cd}B}, \hl{table S3}. 
+
+\begin{table}[!ht]
+  \begin{adjustbox}{max width = \textwidth}
+  \def\arraystretch{1.2}
+
+  \begin{tabular}{|l|r|r|r|r|r|}
+\hline
+              Type &  \multicolumn{1}{l|}{D0 counts} &  \multicolumn{1}{l|}{D1 counts} &  \multicolumn{1}{l|}{D2 counts} &  \multicolumn{1}{l|}{Total} & \multicolumn{1}{l|}{Percent of total} \\
+\hline  
+       pre-tRNA &  8,249,237 &  45,310,051 &  18,719,097 &  72,278,385 &              46\% \\
+            tRNA &  8,687,821 &  16,903,928 &   7,278,511 &  32,870,260 &              21\% \\
+            rRNA &  3,120,687 &  15,480,966 &   2,745,431 &  21,347,084 &              14\% \\
+       mRNA gene &  1,446,452 &   4,200,866 &  10,423,676 &  16,070,994 &              10\% \\
+            mRNA &    396,184 &   2,788,499 &   7,499,514 &  10,684,197 &               7\% \\
+           scRNA &    243,364 &   1,543,873 &     305,333 &   2,092,570 &               1\% \\
+    lincRNA gene &     81,146 &     224,548 &     335,874 &     641,568 &               0\% \\
+         adapter &    282,626 &      90,077 &       8,183 &     380,886 &               0\% \\
+           snRNA &     37,462 &     131,211 &      31,302 &     199,975 &               0\% \\
+          snoRNA &     11,203 &      54,179 &      16,072 &      81,454 &               0\% \\
+           miRNA &      3,228 &      17,382 &      20,827 &      41,437 &               0\% \\
+      scRNA prec &      5,979 &      23,546 &       7,876 &      37,401 &               0\% \\
+           piRNA &      8,573 &       1,671 &       9,102 &      19,346 &               0\% \\
+         plasmid &      5,344 &       4,722 &       6,301 &      16,367 &               0\% \\
+         mt rRNA &     11,006 &       2,866 &         979 &      14,851 &               0\% \\
+         mt tRNA &      3,356 &       5,942 &       2,617 &      11,915 &               0\% \\
+     snoRNA prec &        703 &       5,030 &       2,362 &       8,095 &               0\% \\
+       rRNA prec &      2,076 &       3,549 &       1,548 &       7,173 &               0\% \\
+         mt mRNA &      1,017 &       1,783 &       3,207 &       6,007 &               0\% \\
+          scaRNA &        198 &       2,654 &       1,708 &       4,560 &               0\% \\
+          marker &      1,739 &         208 &          27 &       1,974 &               0\% \\
+         lincRNA &        698 &         515 &         714 &       1,927 &               0\% \\
+       long cali &          3 &         151 &         662 &         816 &               0\% \\
+  doubtful miRNA &        176 &         140 &         203 &         519 &               0\% \\
+      snRNA prec &         13 &          66 &          37 &         116 &               0\% \\
+     scaRNA prec &          6 &          37 &           7 &          50 &               0\% \\
+         mirtron &          2 &          17 &           6 &          25 &               0\% \\
+         circRNA &          0 &           0 &          14 &          14 &               0\% \\
+        std cali &          0 &           1 &          10 &          11 &               0\% \\
+        Ome cali &          0 &           2 &           5 &           7 &               0\% \\
+        alt cali &          0 &           0 &           3 &           3 &               0\% \\
+ doubtful snoRNA &          1 &           0 &           1 &           2 &               0\% \\
+\hline
+  \end{tabular}
+  \end{adjustbox}
+\caption[Hydro-tRNAseq reads per RNA type]{\textbf{Hydro-tRNAseq reads per RNA type.} Reads assigned to each RNA type following hierarchical annotation are shown. Reads with no (d0), one (d1) or two (d2) mismatches compared to reference are shown. SSB PAR-CLIP enriches for pre-tRNAs (46\%).}\label{tableS3}
+\end{table}
 
 
 
 
 
 
-
-SSB exhibited a striking binding preference for pre-tRNAs and showed a drastic enrichment in precursor tRNAs compared to hydro-tRNAseq (\textbf{Fig. \ref{paper2cd}}), which confirmed our hypothesis, as well as previous observations \cite{Bayfield:2009cx}. We performed PAR-CLIP using two different nucleases to control for sequence biases at the nuclease digestion step. RNase T1 resulted in longer precursor tRNA trailer sequences than RNase A, due the latter’s preference for cleaving 3’ to pyrimidines, which are highly abundant in the 3’ trailer sequences. Overall, 46\% of all PAR-CLIP reads mapped to pre-tRNAs (\textbf{Fig. \ref{paper2cd}}), the overwhelming majority of which showed the characteristic T-to-C transition, indicative of crosslinking (\textbf{Fig. \ref{paper2cd}}, \hl{table S3}. 
-
-
-(\textbf{Fig. \ref{paper2b}}
 
 
 \begin{figure}[!ht]%
