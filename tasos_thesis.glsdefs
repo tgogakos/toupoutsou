@@ -568,19 +568,49 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{isoacceptor}{}%
+\ifglsentryexists{isoacceptors}{}%
 {%
-\gls@defglossaryentry{isoacceptor}%
+\gls@defglossaryentry{isoacceptors}%
 {%
-name={tRNA isoacceptor},%
-sort={tRNA isoacceptor},%
+name={tRNA isoacceptors},%
+sort={tRNA isoacceptors},%
 type={main},%
-first={tRNA isoacceptor},%
-firstplural={tRNA isoacceptors},%
-text={tRNA isoacceptor},%
-plural={tRNA isoacceptors},%
+first={tRNA isoacceptors},%
+firstplural={tRNA isoacceptorss},%
+text={tRNA isoacceptors},%
+plural={tRNA isoacceptorss},%
 description={tRNA molecules that decode synonymous codons},%
 descriptionplural={tRNA molecules that decode synonymous codons},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{isodecoders}{}%
+{%
+\gls@defglossaryentry{isodecoders}%
+{%
+name={tRNA isodecoders},%
+sort={tRNA isodecoders},%
+type={main},%
+first={tRNA isodecoders},%
+firstplural={tRNA isodecoderss},%
+text={tRNA isodecoders},%
+plural={tRNA isodecoderss},%
+description={tRNA molecules that have the same anticodon, and thus decode the same amino acid},%
+descriptionplural={tRNA molecules that have the same anticodon, and thus decode the same amino acid},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%

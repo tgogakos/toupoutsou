@@ -115,13 +115,16 @@ First, I would like to thank my
 
 \newglossaryentry{isotype}{
 name=tRNA isotype,
-description={colection of tRNAs  encoding the same amino acid}
+description={collection of tRNAs  encoding the same amino acid}
 }
-\newglossaryentry{isoacceptor}{
+\newglossaryentry{isoacceptors}{
 name=tRNA isoacceptors,
 description={tRNA molecules that decode synonymous codons}
 }
-
+\newglossaryentry{isodecoders}{
+name=tRNA isodecoders,
+description={tRNA molecules that have the same anticodon, and thus decode the same amino acid}
+}
 
 
 
@@ -337,7 +340,7 @@ In order to identify possible tRNA gene loci, we mapped the curated tRNA sequenc
 
 Leader- and trailer-comprising tRNA genes show higher sequence variation, as evidence by higher information entropy values, across the leader and trailer nucleotides than internal sequences within the mature tRNA suggesting that even short precursor sequences with read coverage are sufficient for the annotation of non-redundant tRNA genes (\textbf{Fig. \ref{supp1}}). At the end of our analysis we accounted for 93\% of the 114,367,140 reads in our deepest library (\textbf{\ref{tableS1}}).
 
-Given the depth of sequencing, we are confident that we accounted for the vast majority of precursor and mature tRNAs. Indeed, \textit{a posteriori} we looked for genomic regions that collected at least 50 overlapping reads throughout their whole length, fell within the 60- to 100-nt size window, and adopted a cloverleaf structure, in an effort to detect any tRNAs that might have been overlooked by our approach or in prior literature. The only sequences that we identified were U1 snRNA (pseudo)genes (Fig. S2), suggesting that our analysis was exhaustive, at least for tRNAs in HEK293 cells. 
+Given the depth of sequencing, we are confident that we accounted for the vast majority of precursor and mature tRNAs. Indeed, \textit{a posteriori} we looked for genomic regions that collected at least 50 overlapping reads throughout their whole length, fell within the 60- to 100-nt size window, and adopted a cloverleaf structure, in an effort to detect any tRNAs that might have been overlooked by our approach or in prior literature. The only sequences that we identified were U1 snRNA \hl{(pseudo)genes (Fig. S2)}, suggesting that our analysis was exhaustive, at least for tRNAs in HEK293 cells. 
 
 \begin{figure}[!ht]%
 \centering
@@ -401,13 +404,22 @@ Outline}
 \end{figure}
 
 \section{SSB PAR-CLIP}
-Therefore, in collaboration with Aitor Garzia, we decided to complement our sequencing efforts with PAR-CLIP-sequencing of the protein \gls{SSB}, which is also known as \gls{La} ((\textbf{Fig. \ref{paper2b}}). SSB has been shown biochemically to bind to the short 3’ oligoU tails \cite{Stefano:1984wp} that acts as termination signal for POLR3 \cite{Maraia:2010kx}. Therefore, we reasoned that SSB should bind all tRNA precursors, and that if we could isolate its targets, we would be able to reliably identify transcribed tRNA loci. 
+Therefore, in collaboration with Aitor Garzia, we decided to complement our sequencing efforts with PAR-CLIP-sequencing of the protein \gls{SSB}, which is also known as \gls{La} (\textbf{Fig. \ref{paper2b}}). SSB has been shown biochemically to bind to the short 3’ oligoU tails \cite{Stefano:1984wp} that acts as termination signal for POLR3 \cite{Maraia:2010kx}. Therefore, we reasoned that SSB should bind all tRNA precursors, and that if we could isolate its targets, we would be able to reliably identify transcribed tRNA loci. 
 
-%SSB exhibited a striking binding preference for pre-tRNAs and showed a drastic enrichment in precursor tRNAs compared to hydro-tRNAseq (\textbf{Fig. \ref{paper2cd}}), which confirmed our hypothesis, as well as previous observations \cite{Bayfield:2009cx}. We performed PAR-CLIP using two different nucleases to control for sequence biases at the nuclease digestion step. RNase T1 resulted in longer precursor tRNA trailer sequences than RNase A, due the latter’s preference for cleaving 3’ to pyrimidines, which are highly abundant in the 3’ trailer sequences. Overall, 46\% of all PAR-CLIP reads mapped to pre-tRNAs (\textbf{Fig. \ref{paper2cd}A}), the overwhelming majority of which showed the characteristic T-to-C transition, indicative of crosslinking (\textbf{Fig. \ref{paper2cd}B}, \hl{table S3}. 
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=4in]{paper2b.png}%
+\caption[SSB crosslinking to RNA]
+{\textbf{SSB crosslinking to RNA.}
+Phosphorimage of SSB-crosslinked to radiolabeled RNA. PAR-CLIP was performed using RNase A or RNase T1, at two different concentrations to 
+account for possible biases of RNase treatment conditions. Libraries from PAR-CLIP using 1 U/$\mu$L of RNase A and RNase T1 were prepared and submitted for sequencing. Western blot against HA, shown in the bottom, confirmed the immunoprecipitation of SSB.}
+\centering
+\label{paper2b}%
+\end{figure}
 
 \begin{table}[!ht]
   \begin{adjustbox}{max width = \textwidth}
-  \def\arraystretch{1.2}
+%  \def\arraystretch{1.2}
 
   \begin{tabular}{|l|r|r|r|r|r|}
 \hline
@@ -448,98 +460,72 @@ Therefore, in collaboration with Aitor Garzia, we decided to complement our sequ
 \hline
   \end{tabular}
   \end{adjustbox}
-\caption[Hydro-tRNAseq reads per RNA type]{\textbf{Hydro-tRNAseq reads per RNA type.} Reads assigned to each RNA type following hierarchical annotation are shown. Reads with no (d0), one (d1) or two (d2) mismatches compared to reference are shown. SSB PAR-CLIP enriches for pre-tRNAs (46\%).}\label{tableS3}
+\caption[SSB PAR-CLIP reads per RNA type]{\textbf{SSB PAR-CLIP reads per RNA type.} Reads assigned to each RNA type following hierarchical annotation are shown. Reads with no (d0), one (d1) or two (d2) mismatches compared to reference are shown. Data from replicate using RNase T1 are shown. SSB PAR-CLIP enriches for pre-tRNAs (46\%).}\label{tableS3}
 \end{table}
 
-
-
-
-
-
+SSB exhibited a striking binding preference for pre-tRNAs and showed a drastic enrichment in precursor tRNAs compared to hydro-tRNAseq (\textbf{Fig. \ref{paper2cd}}), which confirmed our hypothesis, as well as previous observations \cite{Bayfield:2009cx}. We performed PAR-CLIP using two different nucleases to control for sequence biases at the nuclease digestion step. RNase T1 resulted in longer precursor tRNA trailer sequences than RNase A, due the latter’s preference for cleaving 3’ to pyrimidines, which are highly abundant in the 3’ trailer sequences. Overall, 46\% of all PAR-CLIP reads mapped to pre-tRNAs (\textbf{Fig. \ref{paper2cd}A}), the overwhelming majority of which showed the characteristic T-to-C transition, indicative of crosslinking (\textbf{Fig. \ref{paper2cd}B, Table \ref{tableS3}}).
 
 
 \begin{figure}[!ht]%
 \centering
-\includegraphics[width=3.5in]{paper2b.png}%
-\caption[SSB crosslinking to RNA]
-{\textbf{SSB crosslinking to RNA.}
-Phosphorimage of SSB-crosslinked to radiolabeled RNA. PAR-CLIP was performed using RNase A or RNase T1, at two different concentrations to 
-account for possible biases of RNase treatment conditions. Libraries from PAR-CLIP using 1 U/$\mu$L of RNase A and RNase T1 were prepared and submitted for sequencing. Western blot against HA, shown in the bottom, confirmed the immunoprecipitation of SSB.}
-\centering
-\label{paper2b}%
-\end{figure}
-
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=3.5in]{paper2cd.png}%
-\caption[figure2cd]
-{\textbf{figure2cd.}
-placeholder}
+\includegraphics[width=\textwidth]{paper2cd.png}%
+\caption[SSB binds pre-tRNAs.]
+{
+\textbf{SSB binds pre-tRNAs.}
+(A) Assignment of reads from SSB PAR-CLIP (RNase T1, 1 U/µL) to RNA classes. (B) SSB PAR-CLIP reads mapping to tRNA precursors with 0, 1 or 2 mismatches (d0, d1, d2); reads with T-to-C mismatches are separated (red) from the rest of the reads with one mismatch (gray). Read length and number of reads are represented on the x- and y-axis, respectively. 
+}
 \centering
 \label{paper2cd}%
 \end{figure}
 
-The vast majority of crosslinking sites in pre-tRNAs were concentrated, as expected, in the oligoU tract of the 3’ trailer sequence (\textbf{Fig. \ref{paper2ef}}A,B). We also found that SSB crosslinked to the 5’ segment of the mature tRNA body at conserved sites in the D-stemloop (\textbf{Fig. \ref{paper2ef}}B), which is a novel finding, hinted at by a report proposing that the affinity of SSB for a full-length pre-tRNA cannot be explained solely by its binding to the 3’ oligoU tract \cite{Bayfield:2009cx}. The other major target of SSB was 5S ribosomal RNA (rRNA), which is the only POLR3-transcribed rRNA, and as such also terminates with an oligoU stretch to which SSB crosslinked \hl{(Fig. S3)}. 
-
-\begin{figure}[!ht]%
+\begin{figure}[!h]%
 \centering
-\includegraphics[width=3.5in]{paper2ef.png}%
-\caption[figure2ef]
-{\textbf{figure2ef.}
-placeholder}
+\includegraphics[width=\textwidth]{paper2ef.png}%
+\caption[SSB binds the 3' oligoU stretch of pre-tRNAs.]
+{
+\textbf{SSB binds the 3' oligoU stretch of pre-tRNAs.}
+(A) Positional preference of SSB crosslinking by metagene analysis of all crosslinking events to precursor tRNAs. The incidence of T-to-C transitions is indicated by color intensity. (B) Positional preference of SSB crosslinking by metagene analysis of reads mapped hierarchically; first to mature and then to precursor tRNAs. For each class, PAR-CLIP signal (reads containing T-to-C) and background (reads with no mismatches) are shown. The normalized boundaries of pre-tRNAs (labeled as 0,1) and mature tRNAs (labeled as 5’ end, 3’ end), and read count are shown on the x- and y-axis, respectively.
+}
 \centering
 \label{paper2ef}%
 \end{figure}
 
-\section{tRNA gene annotation}
-We combined hydro-tRNAseq and SSB PAR-CLIP to identify actively transcribed tRNA genes (genomic locations that give rise to a supported pre-tRNAs). We confidently identified 288 tRNA genes as the intersection of 4 replicates of hydro-tRNAseq (\textbf{Fig. \ref{paper3}A}), and 349 tRNA genes as the intersection of two SSB PAR-CLIP experiments. Of note, SSB PAR-CLIP confirmed the expression of an additional 7 tRNA genes that were not supported in hydro-tRNAseq replicate (e.g. \textbf{Fig. \ref{paper3}B}), further showcasing the complementarity of the two approaches. We observed a strong correlation of pre-tRNA abundances between SSB PAR-CLIP and hydro-tRNAseq (Pearson R = 0.72; \textbf{Fig. \ref{paper3}D}), providing confidence that SSB PAR-CLIP quantitatively detected pre-tRNAs, without introducing biases (e.g. artificially enriching for lowly expressed pre-tRNAs). Instead, we observed no strong correlation between precursor and mature tRNA read counts in either of the two techniques (R < 0.2; \hl{Fig. S4)}. The correlation of identified isoacceptor counts between SSB PAR-CLIP and hydro-tRNAseq was virtually perfect (Pearson R = 0.99; \textbf{Fig. \ref{paper4}C}), ruling out the introduction of a pronounced systematic bias from our hydrolysis-based protocol. Some anticodons seemed to be served by multiple isodecoders (e.g. 19 isodecoders for tRNA\textsuperscript{Ser}\textsubscript{GCA}), while others only from one (e.g. tRNA\textsuperscript{Ser}\textsubscript{ACT};(\textbf{Fig. \ref{paper4}B}, \textbf{Fig. \ref{paper4}}).Selenocysteine was the only amino acid that, in our data, was decoded by only one tRNA gene.
-
-\begin{figure}[!ht]%
+\begin{figure}[!h]%
 \centering
-\includegraphics[width=3.5in]{paper3.png}%
-\caption[figure3]
-{\textbf{figure3.}
-placeholder}
+\includegraphics[scale = 0.8]{supp3.png}%
+\caption[SSB binds 5S rRNA.]
+{
+\textbf{SSB binds 5S rRNA.}
+(A) Assignment of reads from SSB PAR-CLIP to rRNAs. (B) Abundance of reads mapped to 5S rRNA with 0, 1 or 2 mismatches (d0, d1, d2) as a function of read length; reads with T-to-C mismatches are separated (red) from the rest of the reads with one mismatch (gray). Read length and number of reads are represented on the x- and y-axis, respectively. (C) Read alignments corresponding to 5S rRNA. Crosslinked positions are shown in red. The read count is shown next to each read sequence, followed by the total mapping positions, and the mapping positions that contain a T-to-C transition. Crosslinked and non-crosslinked read coverage is graphically represented.
+}
+\centering
+\label{supp3}%
+\end{figure}
+
+The vast majority of crosslinking sites in pre-tRNAs were concentrated, as expected, in the oligoU tract of the 3’ trailer sequence (\textbf{Fig. \ref{paper2ef}}). We also found that SSB crosslinked to the 5’ segment of the mature tRNA body at conserved sites in the D-stemloop (\textbf{Fig. \ref{paper2ef}B}), which is a novel finding, hinted at by a report proposing that the affinity of SSB for a full-length pre-tRNA cannot be explained solely by its binding to the 3’ oligoU tract \cite{Bayfield:2009cx}. The other major target of SSB was 5S ribosomal RNA (rRNA), which is the only POLR3-transcribed rRNA, and, as such,	 also terminates with an oligoU stretch to which SSB crosslinked (\textbf{Fig. \ref{supp3}}). 
+
+
+\section{tRNA gene annotation}
+I combined hydro-tRNAseq and SSB PAR-CLIP to identify actively transcribed tRNA genes (genomic locations that give rise to a supported pre-tRNAs). I could confidently identify 288 tRNA genes as the intersection of 4 replicates of hydro-tRNAseq (\textbf{Fig. \ref{paper3}A}), and 349 tRNA genes as the intersection of two SSB PAR-CLIP experiments (\textbf{Fig. \ref{paper3}B}). Of note, SSB PAR-CLIP confirmed the expression of an additional 7 tRNA genes that were not supported in hydro-tRNAseq replicate (\textbf{Fig. \ref{paper3}C}), further showcasing the complementarity of the two approaches. There was a strong correlation of pre-tRNA abundances between SSB PAR-CLIP and hydro-tRNAseq (Pearson R = 0.72; \textbf{Fig. \ref{paper3}D}), providing confidence that SSB PAR-CLIP quantitatively detected pre-tRNAs, without introducing biases (e.g. artificially enriching for lowly expressed pre-tRNAs). The correlation of identified isoacceptor counts between SSB PAR-CLIP and hydro-tRNAseq was virtually perfect (Pearson R = 0.99; \textbf{Fig. \ref{paper4}A}), ruling out the introduction of a pronounced systematic bias from our hydrolysis-based protocol. Some anticodons seemed to be served by multiple isodecoders (e.g. 19 isodecoders for tRNA\textsuperscript{Ser}\textsubscript{GCA}), while others only from one (e.g. tRNA\textsuperscript{Ser}\textsubscript{ACT};(\textbf{Fig. \ref{paper4}B}).Selenocysteine was the only amino acid that, in our data, was decoded by only one tRNA gene.
+
+\begin{figure}[!h]%
+\centering
+\includegraphics[width=\textwidth]{paper3.png}%
+\caption[tRNA gene annotation.]
+{\textbf{tRNA gene annotation.}
+(A) Venn diagram of expressed tRNA genes detected by hydro-tRNAseq in HEK293 cells. Genes with read evidence in both the 5’ leader and 3’ trailer of the pre-tRNA were counted. (B) Bar chart showing the number of pre-tRNAs detected in each replicate of hydro-tRNAseq and SSB PAR-CLIP. (C) Example of one out of seven tRNA genes that were detected by SSB PAR-CLIP, but were not detected in any of four hydro-tRNAseq replicates. (D) Correlation of relative read frequencies (log2-transformed) of precursor tRNAs between hydro-tRNAseq (x-axis) and SSB PAR-CLIP (y-axis). Correlation was calculated using the Pearson test. Linear fit is shown in red. The y=x line (dotted) is shown for comparison.}
 \centering
 \label{paper3}%
 \end{figure}
 
-
-\begin{figure}[!ht]%
+\begin{figure}[!h]%
 \centering
-\includegraphics[width=\textwidth]{paper4_two.png}%
-\caption[figure4]
-{\textbf{figure4.}
-placeholder}
+\includegraphics[width=\textwidth]{paper4.png}%
+\caption[Number and relative abundance of tRNA genes per isotype and isoacceptor.]
+{\textbf{Number and relative abundance of tRNA genes per isotype and isoacceptor.}
+(A) Correlation of gene counts for each anticodon detected by hydro-tRNAseq (y-axis) and SSB PAR-CLIP (x-axis). Each dot represents an anticodon shown in (B). Correlation was calculated using the Pearson test.(B) Number of tRNA genes for each anticodon and isotype. Hydro-tRNAseq data are shown in black (mean of 4 replicates; error bars represent standard deviation), SSB PAR-CLIP (RNase T1 treated) in red. (C) Correlation of relative read frequency (y-axis) of mature tRNAs with number of genes (x-axis) per tRNA isotype. Hydro-tRNAseq data; four replicates; mean values shown; error bars represent standard deviation.}
 \centering
 \label{paper4}%
-\end{figure}
-
-\section{Comparison with other methods}
-
-Recently tRNA sequencing methods have been developed that employ dealkylating enzymes and/or highly thermostable reverse transcriptase to overcome respectively the hurdles of modifications and stable structures that impede tRNA sequencing \cite{Cozen:2015ds, Zheng:2015dw}. However, they both have specific limitations that we tried to address. We size-selected at a higher size window to avoid contamination by tRNA-derived fragments (as compared to \cite{Cozen:2015ds}). Also, we used two sequential adapter ligation methods to make sure that only full-length fragments were sequenced and the sequencing reads were not results of blocks during RT (as compared to \cite{Zheng:2015dw}), which allowed us to differentiate RT stops from fragment ends. Additionally, we did not bias our sequencing protocol towards mature tRNAs, but instead we captured more precursors by both RNAseq and more importantly PAR-CLIP methods, allowing us to perform a deeper precursor tRNA curation. Importantly, despite the reportedly high processivity conferred by dealkylating methyl modifications, in the previous studies only a small fraction of reads mapped at a given transcript were full-length reads (<1\% of all reads), with a marginal increase compared to untreated controls (\textbf{Fig. \ref{supp6}}). 
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics{supp6.png}%
-\caption[supp6]
-{\textbf{supp6.}
-placeholder}
-\centering
-\label{supp6}%
-\end{figure}
-
-In contrast, hydro-tRNAseq yielded a higher cumulative fraction of mature tRNAs with read evidence across their whole length with a mean read coverage of 0.99 of the full length (compared to 0.95 and 0.87 in previous studies; \textbf{Fig. \ref{supp7}}). Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics{supp7.png}%
-\caption[supp7]
-{\textbf{supp7.}
-placeholder}
-\centering
-\label{supp7}%
 \end{figure}
 
 \section{Applications and biological insights}\label{applications}
@@ -547,22 +533,23 @@ placeholder}
 %check if following parts should be subsections (numbered) or subsubsections (not numbered)
 \subsubsection{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}
 
-There is no monotonic relationship between number of tRNA genes per amino acid and the abundance of each class/family of tRNAs. This lies in contrast with prior publications that had assumed that the number of tRNA predicted tRNA genes can be used as a proxy of tRNA expression. 
+Having established the rigor and validity of our experimental and computational method, we set out to address long-standing questions related to tRNA biology. First, we asked whether there is a linear relationship between number of tRNA genes (which will from now on be used interchangeably with pre-tRNAs) and the collective abundance of tRNAs for a given isotype. Due to the absence of reliable tRNAseq datasets, it was assumed that tRNA abundance increased monotonically with increasing tRNA gene count \cite{Iben:2014dt,Pechmann:2012ey,Tuller:2010ge}. 
 
-This was assumed in the absence of tRNA sequencing data and because in yeast it seems that all tRNA genes are epxressed and seem to contribute equally to the mature tRNA pool. 
+This proposition hinged on the assumption that tRNAs undergo insignificant transcriptional or post-transcriptional regulation gene regulation, and thus all tRNA genes are transcribed and contribute equally to the mature tRNA abundance. It dismissed, thus, any possible mechanisms of affecting steady state tRNA levels, such as modulation of transcription, processing and degradation. 
+
+Indeed, recent data, albeit scant and based on array-type experiments, suggested that the tRNA repertoire can be regulated in a dynamic fashion, and might not even be associated with tumor biology \cite{Gingold:2014iz}. My anlaysis lent credence to the concept of tRNA regulation. I showed that although tRNA isotypes with higher relative abundances generally tend to have higher tRNA gene numbers, we did not observe a clear linear correlation between read frequency and gene count (R = 0.12; \textbf{Fig. \ref{paper4A}})).
+
+The non-linear relationship between gene count and abundance holds true also across \gls{isodecoders}. 
+
+
+
+ 
+
+
+
 So, this result undesrcore the need for caution when reporting tRNA abunandce measurements and estimates.
 
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=3.5in]{paper4A.png}%
-\caption[figure4A]
-{\textbf{figure4A.}
-placeholder}
-\centering
-\label{paper4A}%
-\end{figure}
-
-Although tRNA isotypes with higher relative abundances generally tend to have higher tRNA gene numbers, we did not observe a clear linear correlation between read frequency and gene count (R = 0.12; \textbf{Fig. \ref{paper4A}})), like it has been reported before \cite{Tuller:2010ge}. We then focused on the number of tRNA \cyan{isoacceptors} per amino acid, and \cyan{isodecoders} (tRNAs with the same anticodon sequence) per anticodon. We noticed a wide range of pre-tRNA counts per isoacceptor (\textbf{Fig. \ref{paper4}B}), with our data providing read evidence for 47 out of 62 coding codons (61 canonical and 1 selenocysteine TAG). 
+We then focused on the number of tRNA isoacceptors per amino acid, and \gls{isodecoders} per anticodon. We noticed a wide range of pre-tRNA counts per isoacceptor (\textbf{Fig. \ref{paper4}B}), with our data providing read evidence for 47 out of 62 coding codons (61 canonical and 1 selenocysteine TAG). 
 
 \subsubsection{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor (same amino acid, different anticodon) level}
 The same non-monotonic relationship seems to be true also on the level of isoacceptors, that is tRNAs with different anticodons that decode the same amino acid. 
@@ -582,40 +569,23 @@ But how about correlation between idnividual pre- and mature tRNA levels
 {\textbf{figure4D.}
 placeholder}
 \centering
-\label{paper4}%
+\label{discs}%
 \end{figure}
 
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=\textwidth, angle=90]{paper4Drot.png}%
-\caption[figure4Drot]
-{\textbf{figure4Drot.}
-placeholder}
-\centering
-\label{paper4Drot}%
-\end{figure}	
-
 \section{Mature tRNA abundance does not correlate with pre-tRNA abundance}
+Instead, we observed no strong correlation between precursor and mature tRNA read counts in either of the two techniques (R < 0.2; \textbf{\ref{supp4}}). 
 No good correlation (pearson coefficients < 0.2) as identified by our 2 separate techniques. (\textbf{Fig. \ref{supp4}})
 
-\begin{figure}[!ht]%
+\begin{figure}[!h]%
 \centering
-\includegraphics[width=\textwidth]{supp4.png}%
-\caption[supp4]
-{\textbf{supp4.}
-placeholder}
+\includegraphics[width=\textwidth]{supp4b.png}%
+\caption[Correlation between pre-tRNA and mature tRNA read frequencies.]
+{
+\textbf{Correlation between pre-tRNA and mature tRNA read frequencies.}
+Correlation of relative read frequencies (log2-transformed) between pre-tRNA (x-axis) and mature tRNAs (y-axis) for SSB PAR-CLIP (A) and hydro-tRNAseq (B). Correlation was calculated using the Pearson test. Linear fit is shown in red. The y=x line (dotted) is shown for comparison.
+}
 \centering
 \label{supp4}%
-\end{figure}	
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=\textwidth]{hierarchical_mapping.png}%
-\caption[clp1 bar]
-{\textbf{clp1 bar.}
-placeholder}
-\centering
-\label{hierarchical}%
 \end{figure}
 
 
@@ -792,8 +762,6 @@ placeholder}
 \label{splicing}%
 \end{figure}
 
-
-
 \subsection{hydro-tRNAseq on CLP1}
 tRNA intron accumulation in patient with CLP1 recessive mutation compared to heterozygous parent
 
@@ -801,6 +769,33 @@ tRNA intron accumulation in patient with CLP1 recessive mutation compared to het
 With respect to more functional aspects of tRNA biology, I focused on the results from knockdowns from a series of tRNA modifying and processing enzymes. Surprisingly, even though I targeted key components of the tRNA biogenesis and processing pathway, I could not observe major defects in tRNA processing or abundance patterns with the exception of the tRNA ligase (RTCB) that led to a very modest accumulation of 5’ end tRNA halves. This suggested either that the residual enzymatic activity after knockdown is sufficient for proper tRNA processing or that there is unknown redundancy in several steps of tRNA biogenesis. 
 
 This publication steered interest in the connection of tRNA and disease, a link that was previously not well examined. To further showcase the utility and usefulness of my method in this field I decided to use it in a proof of principle example. I have carried out an siRNA-mediated gene silencing screen targeting a series of tRNA processing and modifying enzymes (i.e. the CCA terminal transferase, the tRNA methyltransferase TRMT10A, the tRNA splicing ligase HSPC117, a member of the RNase P complex, and also TRANSLIN, a putatively novel tRNA processing enzyme – see aim 2). In the cases where a reliable antibody was available, the knockdowns were validated by western blot analysis. In all other cases, knockdowns are currently being validated by mRNAseq. RNA from the validated knockdowns will be subjected to tRNAseq, with the expectation to identify tRNA processing defects that prior to our method would have been overlooked. In addition, I have performed tRNAseq from spinal cord-derived fibroblasts of knockout mice for the tRNA ligase. There I was already able to show tRNA processing is affected characterized by an accumulation of unspliced tRNA halves. 
+
+\section{Comparison with other methods}
+
+Recently tRNA sequencing methods have been developed that employ dealkylating enzymes and/or highly thermostable reverse transcriptase to overcome respectively the hurdles of modifications and stable structures that impede tRNA sequencing \cite{Cozen:2015ds, Zheng:2015dw}. However, they both have specific limitations that we tried to address. We size-selected at a higher size window to avoid contamination by tRNA-derived fragments (as compared to \cite{Cozen:2015ds}). Also, we used two sequential adapter ligation methods to make sure that only full-length fragments were sequenced and the sequencing reads were not results of blocks during RT (as compared to \cite{Zheng:2015dw}), which allowed us to differentiate RT stops from fragment ends. Additionally, we did not bias our sequencing protocol towards mature tRNAs, but instead we captured more precursors by both RNAseq and more importantly PAR-CLIP methods, allowing us to perform a deeper precursor tRNA curation. Importantly, despite the reportedly high processivity conferred by dealkylating methyl modifications, in the previous studies only a small fraction of reads mapped at a given transcript were full-length reads (<1\% of all reads), with a marginal increase compared to untreated controls (\textbf{Fig. \ref{supp6}}). 
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics{supp6.png}%
+\caption[supp6]
+{\textbf{supp6.}
+placeholder}
+\centering
+\label{supp6}%
+\end{figure}
+
+In contrast, hydro-tRNAseq yielded a higher cumulative fraction of mature tRNAs with read evidence across their whole length with a mean read coverage of 0.99 of the full length (compared to 0.95 and 0.87 in previous studies; \textbf{Fig. \ref{supp7}}). Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics{supp7.png}%
+\caption[supp7]
+{\textbf{supp7.}
+placeholder}
+\centering
+\label{supp7}%
+\end{figure}
+
 
 \section{Discussion}
 We have combined two complementary transcriptome-wide approaches to provide experimentally validated annotation for mature and pre-tRNA transcripts and their respective genes, in addition to furnishing an accurate quantification of tRNA abundance in human cells.
