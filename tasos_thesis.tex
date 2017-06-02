@@ -190,7 +190,7 @@ This complex biogenesis and processing pathway adds multiple layers of difficult
 \item numerous (>100) tRNA pseudogenes are interspersed in the human genome \cite{Lowe:1997uc,Chan:2009dz}
 \item all tRNAs undergo extensive post-transcriptional processing (see \ref{biogenesis}, while some involve extra processing steps (intron removal, addition of a 5’ guanosine to all histidine tRNAs \cite{Gu:2003jj})
 \item tRNAs are subjected to extensive chemical modifications on numerous nucleosides, which lead to mismatches upon the reverse transcription step of the RNA cloning protocols \cite{Jackman:2012ki,Lee:2013cg}. Some modifications are universally conserved and required for proper tRNA function (e.g. adenosine to inosine deamination at the wobble position of the anticodon and methylation of adenosine in the T$\Psi$C loop) \cite{Jackman:2012ki,Gustilo:2008ge}. Since alignment algorithms cannot tolerate multiple mismatches, it is likely that significant numbers of tRNA reads are excluded even if non-default mapping parameters are used.
-\item \glspl{isoacceptor} share a large degree of sequence similarity that makes the distinction between alternative isoacceptors and editing products equivocal. 
+\item \gls{isoacceptors} share a large degree of sequence similarity that makes the distinction between alternative isoacceptors and editing products equivocal. 
 \item eukaryotic cells harbor two distinct populations of tRNAs, nuclear and mitochondrial, whose length, structure, genomic organization, and processing differ considerably, and thus call for customized annotation procedures.
 \end{enumerate}
 
@@ -528,53 +528,44 @@ I combined hydro-tRNAseq and SSB PAR-CLIP to identify actively transcribed tRNA 
 \label{paper4}%
 \end{figure}
 
-\section{Applications and biological insights}\label{applications}
+\chapter{Applications and biological insights}\label{applications}
 
-%check if following parts should be subsections (numbered) or subsubsections (not numbered)
-\subsubsection{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}
+\section{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}
 
 Having established the rigor and validity of our experimental and computational method, we set out to address long-standing questions related to tRNA biology. First, we asked whether there is a linear relationship between number of tRNA genes (which will from now on be used interchangeably with pre-tRNAs) and the collective abundance of tRNAs for a given isotype. Due to the absence of reliable tRNAseq datasets, it was assumed that tRNA abundance increased monotonically with increasing tRNA gene count \cite{Iben:2014dt,Pechmann:2012ey,Tuller:2010ge}. 
 
 This proposition hinged on the assumption that tRNAs undergo insignificant transcriptional or post-transcriptional regulation gene regulation, and thus all tRNA genes are transcribed and contribute equally to the mature tRNA abundance. It dismissed, thus, any possible mechanisms of affecting steady state tRNA levels, such as modulation of transcription, processing and degradation. 
 
-Indeed, recent data, albeit scant and based on array-type experiments, suggested that the tRNA repertoire can be regulated in a dynamic fashion, and might not even be associated with tumor biology \cite{Gingold:2014iz}. My anlaysis lent credence to the concept of tRNA regulation. I showed that although tRNA isotypes with higher relative abundances generally tend to have higher tRNA gene numbers, we did not observe a clear linear correlation between read frequency and gene count (R = 0.12; \textbf{Fig. \ref{paper4A}})).
+Indeed, recent data, albeit scant and based on array-type experiments, suggested that the tRNA repertoire can be regulated in a dynamic fashion, and might not even be associated with tumor biology \cite{Gingold:2014iz}. My anlaysis lent credence to the concept of tRNA regulation. I showed that although tRNA isotypes with higher relative abundances generally tend to have higher tRNA gene numbers, we did not observe a clear linear correlation between read frequency and gene count (R = 0.12; \textbf{Fig. \ref{paper4}C}).
 
-The non-linear relationship between gene count and abundance holds true also across \gls{isodecoders}. 
+\section{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor level}
+The same non-monotonic relationship seems to be true also on the level of \gls{isoacceptors}. The relevant data are presented in \textbf{Fig. \ref{discs}}. 
+The complexity of the collective data presentation merits a detailed explanation \hl{please note that a reader-friendlier version of the figure is shown in the Apendix, page XXX)}. In detail the figure shows:
 
+\begin{itemize}
+\item tRNA isotypes as headers, using single-letter amino acid codes
+\item anticodons (representing tRNA isodecoders) on the x-axis
+\item tRNA gene count (average of four hydro-tRNAseq replicates) on the y-axis
+\item relative mature tRNA read frequency per anticodon, normalized over all tRNAs (proportional to the area of each disc)
+\end{itemize}
 
-
- 
-
-
-
-So, this result undesrcore the need for caution when reporting tRNA abunandce measurements and estimates.
-
-We then focused on the number of tRNA isoacceptors per amino acid, and \gls{isodecoders} per anticodon. We noticed a wide range of pre-tRNA counts per isoacceptor (\textbf{Fig. \ref{paper4}B}), with our data providing read evidence for 47 out of 62 coding codons (61 canonical and 1 selenocysteine TAG). 
-
-\subsubsection{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor (same amino acid, different anticodon) level}
-The same non-monotonic relationship seems to be true also on the level of isoacceptors, that is tRNAs with different anticodons that decode the same amino acid. 
-
-On this graph the data are broken down by aminoacid, which you can see as headers at the top, and then by anticodon which you can see on the bottom. The y-axis reperesnts tRNA gene count, and the size of every disc the relative abundance of all mature tRNAs with a given anticodon. 
-
-Thus, even though, for example, Cys GCA is the tRNA with the highest gene count, Gllycine GCC, is the tRNA group with the highest abundance. 
-
-Also, if you take a look at Proline, the group with highest gene count is the one with the lowest total abundance which is completely opposite by what was assumed beofre. 
-
-But how about correlation between idnividual pre- and mature tRNA levels 
+Even though, for example, cysteine-tRNA\super{GCA} is the tRNA with the highest gene count, glycine-tRNA\super{GCC} is the tRNA with the highest abundance. Also, proline tRNAs are a telling counterexample, whereby the AGG isodecoders are encoded by the largest number of genes, but represent the least abundant set. At the same time, it becomes evident that the tRNA repertoire in HEK293 cells can decode 47 out of the 62 coding codons (61 canonical and one for selenocysteine,TGA) by Watson-Crick basepairing, being thus, dependent on wobble basepairing for the remaining set. 
+\bigskip
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{paper4D.png}%
-\caption[figure4D]
-{\textbf{figure4D.}
-placeholder}
+\caption[Average gene count and relative frequency for each anticodon.] 
+{\textbf{Average gene count and relative frequency for each anticodon.}
+The gene count (mean of 4 replicates) is shown on the y-axis, anticodons on the x-axis; isotypes are indicated on the top. The area of each black disc is proportional to the fraction of reads mapping to all mature tRNAs for a given anticodon, normalized over all mature tRNAs for all anticodons.}
 \centering
 \label{discs}%
 \end{figure}
 
 \section{Mature tRNA abundance does not correlate with pre-tRNA abundance}
-Instead, we observed no strong correlation between precursor and mature tRNA read counts in either of the two techniques (R < 0.2; \textbf{\ref{supp4}}). 
-No good correlation (pearson coefficients < 0.2) as identified by our 2 separate techniques. (\textbf{Fig. \ref{supp4}})
+The next question that arose, was whether there was a correlation between individual pre-tRNAs and their mature transcripts. If that were the case, then one could conclude that tRNA maturation is a uniform process across all tRNAs that occurs without significant regulation on individual tRNAs.
+
+Neither of the two techniques I employed showed any strong correlation between precursor and mature tRNA counts (R < 0.2; \textbf{\ref{supp4}A,B}). Our techniques can reproducibly quantify pre-tRNAs (\textbf{Fig. \ref{paper3}D}), and detect accumulation of pre-tRNA processing intermediates (see section \ref{clp1section}. Therefore, the observed lack of correlation is likely due to marked differences in the kinetics and dynamics of processing across tRNAs, and/or their pre-tRNA fragments' degradation, rather than due to experimental limitations in capturing processing intermediates. 
 
 \begin{figure}[!h]%
 \centering
@@ -582,12 +573,13 @@ No good correlation (pearson coefficients < 0.2) as identified by our 2 separate
 \caption[Correlation between pre-tRNA and mature tRNA read frequencies.]
 {
 \textbf{Correlation between pre-tRNA and mature tRNA read frequencies.}
-Correlation of relative read frequencies (log2-transformed) between pre-tRNA (x-axis) and mature tRNAs (y-axis) for SSB PAR-CLIP (A) and hydro-tRNAseq (B). Correlation was calculated using the Pearson test. Linear fit is shown in red. The y=x line (dotted) is shown for comparison.
+Correlation of relative read frequencies (log2-transformed) between pre-tRNA (x-axis) and mature tRNAs (y-axis) for SSB PAR-CLIP (A) and hydro-tRNAseq (B). Correlation was calculated using the Pearson test. Linear fit is shown in red. The y=x line (dotted) is shown for comparison. (C) Representative alignments of a mature tRNA (top) and its corresponding precursor (bottom). On the pre-tRNA reference, the mature sequence is labeled in blue, and the leader and trailer sequences in green, with their borders demarcated by vertical dotted lines. The post-transcriptionally added CCA tail is shown in red on the mature reference sequence. Vertical bars represent binned, log\sub{4}-transformed abundance. 
 }
 \centering
 \label{supp4}%
 \end{figure}
 
+With respect to individual tRNAs, however, mature tRNA read counts were always higher than the respective pre-tRNA counts (\textbf{Fig. \ref{supp4}C}). This  suggests that tRNA processing is an efficient process across the tRNA spectrum, leading to prompt removal of intermediates and preventing accumulation of fragments that could possibly be toxic to the cells \cite{Hanada:2013bk}. 
 
 \section{tRNA transcription initiation and termination}
 
@@ -685,7 +677,7 @@ placeholder}
 \label{paper5}%
 \end{figure}
 
-\section{CLP1}
+\section{CLP1}\label{clp1section}
 This came at an opportune moment because of the studies of CLP1 
 \begin{itemize}
 \item Recessive mutations in children with neurodevelopmental disorders were localized to tRNA splicing factor CLP1 

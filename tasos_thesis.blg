@@ -1,18 +1,18 @@
 [0] Config.pm:343> INFO - This is Biber 2.5
 [0] Config.pm:346> INFO - Logfile is 'tasos_thesis.blg'
-[55] biber-darwin:290> INFO - === Tue May 30, 2017, 11:56:47
-[78] Biber.pm:351> INFO - Reading 'tasos_thesis.bcf'
-[182] Biber.pm:776> INFO - Found 60 citekeys in bib section 0
-[197] Biber.pm:3493> INFO - Processing section 0
-[217] Biber.pm:3657> INFO - Looking for bibtex format file './tasos_v2.bib' for section 0
-[223] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
-[229] bibtex.pm:1048> INFO - Found BibTeX data source './tasos_v2.bib'
-[238] Utils.pm:149> WARN - Duplicate entry key: 'Ivanov:2011iu' in file './tasos_v2.bib', skipping ...
-[239] Utils.pm:149> WARN - Duplicate entry key: 'Gu:2003jj' in file './tasos_v2.bib', skipping ...
-[369] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[369] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[369] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
-[369] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
-[412] bbl.pm:526> INFO - Writing 'tasos_thesis.bbl' with encoding 'UTF-8'
-[423] bbl.pm:619> INFO - Output to tasos_thesis.bbl
-[424] Biber.pm:108> INFO - WARNINGS: 2
+[55] biber-darwin:290> INFO - === Fri Jun  2, 2017, 09:00:06
+[76] Biber.pm:351> INFO - Reading 'tasos_thesis.bcf'
+[178] Biber.pm:776> INFO - Found 68 citekeys in bib section 0
+[193] Biber.pm:3493> INFO - Processing section 0
+[209] Biber.pm:3657> INFO - Looking for bibtex format file './tasos_v2.bib' for section 0
+[214] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[221] bibtex.pm:1048> INFO - Found BibTeX data source './tasos_v2.bib'
+[228] Utils.pm:149> WARN - Duplicate entry key: 'Ivanov:2011iu' in file './tasos_v2.bib', skipping ...
+[230] Utils.pm:149> WARN - Duplicate entry key: 'Gu:2003jj' in file './tasos_v2.bib', skipping ...
+[390] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[390] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[391] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[391] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[441] bbl.pm:526> INFO - Writing 'tasos_thesis.bbl' with encoding 'UTF-8'
+[455] bbl.pm:619> INFO - Output to tasos_thesis.bbl
+[455] Biber.pm:108> INFO - WARNINGS: 2
