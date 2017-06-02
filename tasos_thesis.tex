@@ -30,8 +30,9 @@
 \usepackage{adjustbox}
 \usepackage{booktabs}
 \usepackage{longtable}
-\usepackage{multicol}
 \usepackage{supertabular}
+
+
 
 %\usepackage[utf8]{inputenc} %allow greek input
 %\usepackage[LGR,T1]{fontenc} %allow greek input
@@ -627,21 +628,22 @@ Every colored box indicates one nucleotide. Red and blue reflect the 5â€™ and 3â
 
 RT across modified nucleotide-containing RNA leads to errors in cognate deoxynucleotide incorporation, revealed by mismatches in sequence reads upon mapping to reference genomic sequence. Read coverage across regions with a high degree of modifications may result in incomplete or largely uneven coverage. Therefore, the compilation of my tRNA reference set, included the combination of all frequent mismatch signatures in all heavily modified positions. I reported the most frequently modified positions per tRNA gene 
 
+
+\twocolumn
 \begin{tiny}
 \def\arraystretch{0.7}
-\begin{longtable}{|l|r|c|r|}
+\begin{supertabular}{|l|r|c|r|}
 \hline
 \multicolumn{1}{|l|}{\textbf{tRNA}} & \multicolumn{1}{l|}{\textbf{Position}} & \multicolumn{1}{l|}{\textbf{Nucleoside}} & \multicolumn{1}{l|}{\textbf{Read count}} \\ \hline
-\endfirsthead
+%\endfirsthead
 \multicolumn{4}{c}%
 {{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
 \multicolumn{1}{|c|}{\textbf{tRNA}} & \multicolumn{1}{c|}{\textbf{Position}} & \multicolumn{1}{c|}{\textbf{Nucleoside}} & \multicolumn{1}{c|}{\textbf{Read count}} \\ \hline
-\endhead
+%\endhead
 \hline \multicolumn{4}{r}{{\textit{Continued on next page}}} \\ 
-\endfoot
-\endlastfoot 
+%\endfoot
+%\endlastfoot 
 \hline
-
  trnaA10 &        36 &          G &     25,957 \\
  trnaA10 &        36 &          T &      1,198 \\
  trnaA10 &        36 &          A &      2,206 \\
@@ -1248,10 +1250,13 @@ RT across modified nucleotide-containing RNA leads to errors in cognate deoxynuc
   trnaY8 &        58 &          A &     17,992 \\
   trnaY8 &        58 &          T &      1,254 \\
 \hline
-\caption[aaa]{aaaaa} 
-\label{tableS5}
-\end{longtable}
+%\caption[aaa]{aaaaa} 
+%\label{tableS5}
+\end{supertabular}
 \end{tiny}
+
+
+
 
 
 
