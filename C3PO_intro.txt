@@ -1,0 +1,130 @@
+# introduction for C3PO 
+	C3PO is a conserved, multisubunit complex of the RNA-binding protein TRANSLIN (TSN) and 
+	TRANSLIN-ASSOCIATED PROTIEN (TSNAX). Both members of the complex contain a previously 
+	undescirbed RNA recognition motif (RRM). TSNAX is an endonuclease with a preference
+	for single stranded RNA (ssRNA). 
+	TSN and TSNAX form an octameric oblong complex and have been associated with various
+	functions ranging from double stranded DNA (dsDNA) 
+	damage response, RNA interference enhancement and neurologic development. 
+	
+	Recent biochemical and genetic studies, though, failed to identify a contribution of 
+	C3PO to RNAi enhancement in fungi and mice. Instead, it was observed that upon C3PO 
+	knockdown, there was an accumulation of premature tRNA fragment accumulation in 
+	both species. 
+
+	However, the stage in the tRNA lifecycle that C3PO participates remains unclear. 	
+	We decided to examine the involvement of C3PO as a novel tRNA processing factor. 
+	At the same time the RNA targets of C3PO is still elusive.
+	
+	We carried out Photoactivatable Riboucleoside Crosslinking and Immunoprecipitation
+	followed by high throughput sequencing (PAR-CLIP) to identify the transcriptome-wide 
+	targets of C3PO. We performed PAR-CLIP on inducible cell lines expressing FLAG-HA TSN, 
+	and FLAG-HA-TSN-2A-TSNAX*-HA. TSNAX* has an active site mutation because induction of 
+	catalytically active TSNAX proved lethal in our system (data not shown). Both ORFs were cloned
+	in tandem in order to control as tightly as possible their concomitant expression. 
+	
+	We show that C3PO binds to a WGGW motif (W= A or T) in tRNAs and mRNAs. Strikingly, 
+	virtually no binding to miRNAs was observed, calling into into question the contribution
+	of C3PO to RNAi. 
+	
+	In vitro biochemical cleavage assays with recombinant human C3PO show that C3PO exhibits 
+	a length- and structure-dependent specificity. Its activity drops when its substrates' \
+	length exceeds 80 nts. 
+	
+	At the same time, although C3PO processively degrades unstructured substrates (poly-rArC), 
+	it presents a structural-dependence. 
+	
+	***give importance of proper function of C3PO by mentioning the phenotype of knockout 
+	mice and/or fungi. 
+	
+	***tissue-specificity of expression: C3PO is expressed at moderate to high levels in 
+	a variety of tissues. ***
+	
+#results
+	describe PAR-CLIP results 
+	effects of knockdown on the abundance of targets and non-targets
+	
+	co-IPs: they did not show a tight interaction with other proteins under even low salt
+	conditions (***look-up javier s use of DSP***). 
+	
+	we examine globally the function of C3PO by generating stable HEK293 cell lines expressing 
+	FLAG/HA tagged TSN and FLAG-HA-TSN-2A-TSNAX*-HA. 
+	
+	TSNAX* has an active site mutation because induction of 
+	catalytically active TSNAX proved lethal in our system (data not shown).
+	
+	Ribonucleoprtein complexes were UV-crosslinked (365 nm), RNase treated, radiolabeled, 
+	immunoprecipitated with anti-FLAG aantibody, and resolved by SDS PAGE. In the context 
+	of FH-TSN one band was observed at the expected size, when blotting with anti-HA antibody. 
+	
+	In the context of C3PO cell line, 3 bands were observed, corresponding to HA-tagged TSN, 
+	HA-tagged TSNAX* and the remaining uncleaved TSN-2A intein-TSNAX peptide. 
+	
+	Complementary DNA (cDNA) libraries were created from both PAR-CLIP experiments and 
+	Illumina sequenced. Sequence reads were aligned to an in-house reference transcriptome,
+	and the human genome (hg19). Aligned reads were grouped by PARalyzer to identify clusters
+	of overlapping sequences. In order to distinguish binding sites from background clusters, 
+	we require that clusters fulfill three criteria: a) they had at least 50 reads with T-to-C conversions, 
+	2) they contained at least 2 crosslinked sites, 3) had a frequency of ≥50% T-to-C cnversion. 
+	
+	We identified a total of XXXX and YYYY binding sites in the respective experiments. 
+	The percentage of crosslinked sites that were identified as binding sites was particularly high 
+	suggesting significant depletion of contaminating background reads in our experiments. 
+	
+	***of note, there was a high enrichment of tRNA clusters that were not observed before
+	in the study of other RBPs (cite PAR-CLIP, Cell 2010) 
+	
+	
+	
+	***the clusters distributed through XXXX mRNAs and YYYY tRNA genes.
+	previous gentic evidence and our PAR-CLIP results taken together, suggest that C3PO 
+	might be a tRNA binding protein (tRBP). Since there are X times more mRNA reference transcripts 
+	than tRNA genes, we suspected that tRNA binding sites might be underestimated. Thus, we 
+	focused on the 100???? most abundant clusters based on read count, as well as 
+	the most abundant clusters that collect 75% of the sequence reads. 
+	
+	tRNA transcripts undergo an extensive posttranscriptional processing and modification
+	including 5' and 3' endonucleolytic cleavage, intron removal, 3' terminal CCA addition, 
+	and chemical modifications. Due to all these, many reads that arise from tRNAs do not map 
+	perfectly to the genomic sequences they are derived from or are not even considered due to the 
+	deafault alignment criteria used during the analysis. 
+	
+	To overcome this we made use of a tRNA annotation and curation atlas to identify the true 
+	binding sites of C3PO on tRNAs. This included both mature transcripts as well as 
+	primary transcripts that contain the 5' leader adn 3' trailer sequences. C3PO binds exclusively 
+	mature tRNAs after their endonucleolytic processing. It does not bind 5' leader, 3' trailer or 
+	intronic sequences. Thus, we conclude that C3PO is a mature tRNA binding protein. 
+	
+	***motif analysis
+		-motif prediction algorithms identified WGGW as the most likely motif both on 
+		tRNAs and mRNAs. Interestingly, the motif is universally located in the D loop 
+		of tRNAs. Therefore, it is unclear whether C3PO has a sequence or structural 
+		recognition tRNA motif. To further evaluate the strength of the predicted motif 
+		we counted all possible 4-mers revealed UGGU as the most abundant 4-mer and 
+		exhibited an extremely high enrichment of G-rich and GU-rich sequences.
+	
+	
+	***lookup the localization of C3PO 	
+	
+	
+	***distribution of clusters on mRNAs
+		C3PO binding sites on mRNAs are preferentially located on 5' UTRs which is not 
+		common for most well-studied RBPs.
+		
+------------------------------------------------------------------------------------------
+
+Mechanism
+
+We carried out RNA-seq analysis in C3PO induced, uninduced, and siRNA-mediated knockdown. 
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
