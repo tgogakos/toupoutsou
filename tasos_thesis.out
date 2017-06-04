@@ -39,15 +39,32 @@
 \BOOKMARK [1][-]{section.4.3}{Bioinformatic analysis}{chapter.4}% 39
 \BOOKMARK [1][-]{section.4.4}{Accession codes}{chapter.4}% 40
 \BOOKMARK [1][-]{section.4.5}{Code availability}{chapter.4}% 41
-\BOOKMARK [0][-]{chapter.5}{C3PO}{}% 42
-\BOOKMARK [1][-]{section.5.1}{Introduction}{chapter.5}% 43
-\BOOKMARK [1][-]{section.5.2}{From manny}{chapter.5}% 44
-\BOOKMARK [1][-]{section.5.3}{TSN binds tRNAs}{chapter.5}% 45
-\BOOKMARK [1][-]{section.5.4}{C3PO possesses a length- and structure-dependent endonucleolytic activity}{chapter.5}% 46
-\BOOKMARK [1][-]{section.5.5}{Biochemical characterization of C3PO\220s tRNA processing activity}{chapter.5}% 47
-\BOOKMARK [1][-]{section.5.6}{Functional validation of C3PO\220s targets}{chapter.5}% 48
-\BOOKMARK [1][-]{section.5.7}{C3PO sumary report 2014}{chapter.5}% 49
-\BOOKMARK [1][-]{section.5.8}{C3PO summary from annual report 2015}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.9}{C3PO summary from annual report 2016}{chapter.5}% 51
-\BOOKMARK [0][-]{chapter.6}{Things that didn't work}{}% 52
-\BOOKMARK [0][-]{chapter*.49}{References}{}% 53
+\BOOKMARK [-1][-]{part.1}{I C3PO}{}% 42
+\BOOKMARK [0][-]{chapter.5}{Introduction}{part.1}% 43
+\BOOKMARK [1][-]{section.5.1}{C3PO PAR-CLIP}{chapter.5}% 44
+\BOOKMARK [1][-]{section.5.2}{Biochemical characterization}{chapter.5}% 45
+\BOOKMARK [2][-]{subsection.5.2.1}{Cleavage activity}{section.5.2}% 46
+\BOOKMARK [2][-]{subsection.5.2.2}{EMSAs}{section.5.2}% 47
+\BOOKMARK [2][-]{subsection.5.2.3}{Structural studies}{section.5.2}% 48
+\BOOKMARK [2][-]{subsection.5.2.4}{Immuno-precipitations}{section.5.2}% 49
+\BOOKMARK [1][-]{section.5.3}{Biological characterization}{chapter.5}% 50
+\BOOKMARK [2][-]{subsection.5.3.1}{Loss of function studies by siRNA knockdowns}{section.5.3}% 51
+\BOOKMARK [2][-]{subsection.5.3.2}{Translational effects}{section.5.3}% 52
+\BOOKMARK [2][-]{subsection.5.3.3}{Loss of function studies by CRISPR knockouts}{section.5.3}% 53
+\BOOKMARK [1][-]{section.5.4}{Discussion}{chapter.5}% 54
+\BOOKMARK [0][-]{chapter.6}{Materials and methods}{part.1}% 55
+\BOOKMARK [1][-]{section.6.1}{PAR-CLIP}{chapter.6}% 56
+\BOOKMARK [1][-]{section.6.2}{Cleavage assays}{chapter.6}% 57
+\BOOKMARK [1][-]{section.6.3}{Immunoprecipitation}{chapter.6}% 58
+\BOOKMARK [1][-]{section.6.4}{siRNA knockdowns}{chapter.6}% 59
+\BOOKMARK [1][-]{section.6.5}{CRISPR knockouts}{chapter.6}% 60
+\BOOKMARK [1][-]{section.6.6}{SILAC}{chapter.6}% 61
+\BOOKMARK [1][-]{section.6.7}{From manny}{chapter.6}% 62
+\BOOKMARK [1][-]{section.6.8}{TSN binds tRNAs}{chapter.6}% 63
+\BOOKMARK [1][-]{section.6.9}{C3PO possesses a length- and structure-dependent endonucleolytic activity}{chapter.6}% 64
+\BOOKMARK [1][-]{section.6.10}{Biochemical characterization of C3PO\220s tRNA processing activity}{chapter.6}% 65
+\BOOKMARK [1][-]{section.6.11}{Functional validation of C3PO\220s targets}{chapter.6}% 66
+\BOOKMARK [1][-]{section.6.12}{C3PO sumary report 2014}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.13}{C3PO summary from annual report 2015}{chapter.6}% 68
+\BOOKMARK [1][-]{section.6.14}{C3PO summary from annual report 2016}{chapter.6}% 69
+\BOOKMARK [0][-]{chapter*.64}{References}{part.1}% 70

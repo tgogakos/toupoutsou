@@ -1496,8 +1496,8 @@ The RNAseq and PAR-CLIP sequence data have been deposited in the National Center
 \section{Code availability}
 All scripts used for the analysis (written in Perl, Python and R) are available upon request, and will also be deposited on \url{https://github.com/tgogakos} upon publication of the presented work.  
 
-\chapter{C3PO}
-\section{Introduction}
+\part{C3PO}
+\chapter{Introduction}
 Even though tRNA biology has been studied extensively in the past, there are still fundamental parts in the lifecycle of tRNAs that remain unexplored in humans. For example, the 3' end processing of human tRNAs is not completely understood \cite{Maraia:2010kx}. On one hand, this can be attributed to divergent evolutionary trajectories of tRNA processing pathways within Eukarya, resulting, for example in great differences in tRNA splicing and nucleocytoplasmic dynamics (this has already been alluded to here, see \ref{clp1_evolution}, but has been surveyed in much greater detail elsewhere \cite{Hopper:2008ct, Hopper:2010ho, Phizicky:2010jf}). On the other hand, tRNA processing and expression is characterized by multiple levels of evolutionary and functional redundancy (e.g. multiple translation factors, editing enzymes, multicopy genes). One could speculate, and explain the emergence of such redundant mechanisms in light of the essentiality of tRNA biogenesis for life. 
 
 Given the incomplete knowledge of human tRNA processing proteins, I was interested in studying novel potential such factors. Thus, I turned my attention to \gls{C3PO}, which is a conserved, multisubunit complex of the RBP \gls{TSN} and \gls{TSNAX} \cite{Liu:2009ce}. This complex has been associated with various biological functions, ranging from double stranded DNA (dsDNA) damage response, RNA interference enhancement, and has been involved neurologic development \cite{Aoki:1995ec, Ishida:2002td, Stein:2006jj, Claussen:2006in, Liu:2009ce}. 
@@ -1505,10 +1505,200 @@ Given the incomplete knowledge of human tRNA processing proteins, I was interest
 Both members of the complex contain a previously undescribed RNA recognition motif, and  TSNAX possesses RNA 	and TSNAX was reported to possess endonucleolytic activity both \textit{in vitro} and \textit{in vivo}, with a preference for single stranded RNA (ssRNA) \cite{Ye:2011bo, Tian:2011hx}. The he crystal structure of the C3PO apo-complex from various organisms has also been reported, and has determined a tight octameric assembly, consisting of six TSN and two TSNAX monomers \cite{Ye:2011bo, Tian:2011hx, Parizotto:2013dg}. Its biological importance is underscored by the severe neurodegenerative phenotypes observed in mice lacking components of the complex \cite{Stein:2006jj}. 
 
 Interestingly, it was recently observed that C3PO mutations in the fungus N.crassa and in mouse fibroblasts result in accumulation of tRNA fragments (tRFs), elevated levels of mature tRNAs and protein translation, and increased resistance to cell death-inducing agents \cite{Li:2012kob}. This unexpected finding suggested that C3PO might be a novel tRNA processing enzyme, at least in the two studied species. Despite these studies, though, the biological targets and the details of the biochemical activity of C3PO remain elusive. Moreover, it is not yet clear whether C3PO is important for the biogenesis of tRNAs, the generation of competent stress or non-stress related tRNA fragments or if it is simply involved in tRNA turnover.       
-\hl{Recent biochemical and genetic studies, though, failed to identify a contribution of 
-	C3PO to RNAi enhancement in fungi and mice. Instead, it was observed that upon C3PO 
-	knockdown, there was an accumulation of premature tRNA fragment accumulation in 
-	both species.}
+
+\section{C3PO PAR-CLIP}
+I carried out PAR-CLIP in order to identify the transcriptome-wide targets of C3PO. I used inducible cell lines expressing a FLAG-HA-TSN or FLAG-HA-TSN-2A-TSNAX*-HA construct, under the control of a doxycycline-inducible promoter. TSNAX* had two mutations in the endonuclease active sites, because induction of a catalytically active TSNAX proved lethal in our system (data not shown). 	Both ORFs were cloned in tandem, with an intervening self-cleaving 2A intein peptide, in order to control as tightly as possible their concomitant expression and their relative stoichiometry. 
+
+In both cases, C3PO crosslinked with very high efficiency to tRNAs. 
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=3.5in]{c3po_pie.png}%
+\caption[Title.]
+{
+\textbf{Title.}
+
+}
+\centering
+\label{c3po_pie}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{c3po_pos_dep.png} 
+\caption[Metagene analysis of C3PO crosslinking to mature tRNAs.]
+{
+\textbf{Title.}
+
+}
+\centering
+\label{c3po_pie}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{c3po_pos_dep_pre.png} 
+\caption[Metagene analysis of C3PO crosslinking to pre-tRNAs.]
+{
+\textbf{Title.}
+
+}
+\centering
+\label{c3po_pie}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{motifs_collected.png} 
+\caption[Motifs.]
+{
+\textbf{Motifs.}
+
+}
+\centering
+\label{motifs}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{c3po_pavel.png} 
+\caption[Motifs.]
+{
+\textbf{Motifs.}
+
+}
+\centering
+\label{motifs}%
+\end{figure}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{weblogo.png} 
+\caption[Motifs.]
+{
+\textbf{Motifs.}
+see also entropy figure above
+}
+\centering
+\label{motifs}%
+\end{figure}
+
+\section{Biochemical characterization}
+
+\subsection{Cleavage activity}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{cleavage2.png} 
+\caption[Cleavage.]
+{
+\textbf{Cleavage.}
+see also entropy figure above
+}
+\centering
+\label{motifs}%
+\end{figure}
+
+Length and structure dependent cleavage activity
+
+\subsection{EMSAs}
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{emsa.png} 
+\caption[EMSA.]
+{
+\textbf{EMSA.}
+see also entropy figure above
+}
+\centering
+\label{motifs}%
+\end{figure}
+
+\subsection{Structural studies}
+only comments
+
+\subsection{Immuno-precipitations}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{IP.png} 
+\caption[IP.]
+{
+\textbf{IP.}
+see also entropy figure above
+}
+\centering
+\label{motifs}%
+\end{figure}
+
+
+\section{Biological characterization}
+
+  \subsection{Loss of function studies by siRNA knockdowns}
+
+      \subsubsection{hydro-tRNAseq}
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{trnaseq.png} 
+\caption[trnaseq.]
+{
+\textbf{trnaseq.}
+see also entropy figure above
+}
+\centering
+\label{motifs}%
+\end{figure}
+
+      \subsubsection{mRNA seq}
+
+  \subsection{Translational effects}
+
+  \subsection{Loss of function studies by CRISPR knockouts}
+
+      \subsubsection{mRNAseq}
+
+      \subsubsection{SILAC}
+
+      \subsubsection{Polysome profiles}
+
+\section{Discussion}
+
+
+\chapter{Materials and methods}
+\section{PAR-CLIP}
+\section{Cleavage assays}
+\section{Immunoprecipitation}
+\section{siRNA knockdowns}
+\section{CRISPR knockouts}
+\section{SILAC}
+
+
+
+
+
+
+
+In both cases tRNA w
+
+
+	
+	We show that C3PO binds to a WGGW motif (W= A or T) in tRNAs and mRNAs. Strikingly, 
+	virtually no binding to miRNAs was observed, calling into into question the contribution
+	of C3PO to RNAi. 
+	
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1584,14 +1774,19 @@ Although previous attempts to co-immunoprecipitate (co-IP) interactors of C3PO h
 
 Finally, recent publications have provided evidence for abundant stable tRNA fragments with various functions, but to date no factor has been identified as responsible for the biogenesis of these fragments22. To examine whether C3PO is involved I have prepared small RNA sequencing datasets upon gain- and loss-function of C3PO, by enriching for 5’-end phosphate containing small RNAs in the appropriate size range of 19-35 nts, such as tRNA fragments and miRNAs. 
 
-\chapter{Things that didn't work}
-As I had proposed last year, I am ultimately interested in applying the expertise and data obtained form tRNA sequencing towards understanding the interdependence (if any) between tRNA and mRNA abundance on a codon-by-codon level, as well as determine whether the balance between the two affects translational rates and mRNA stability. First, I retrieved all annotated isoforms of human mRNA transcripts, and obtained computationally an expression-weighted frequency table for all codons, by multiplying the incidence of every codon per every transcript with the abundance of each transcript. After accounting for wobble effects, I examined the relationship between codon and respective anticodon abundance. Interestingly, even though for the majority of codons, an increase in their abundance is mirrored by an increase in their cognate anticodon, there are outlier codons for which there is a discrepancy, with the codon being unusually more or less abundant than its anticodon. This led to the idea that the codon-anticodon abundance imbalance might have an observable effect on the translational efficiency of mRNA harboring such codon-anticodon pairs. To investigate this possibility I focused on ribosome profiling, a technique that determines the translational efficiency of mRNAs into proteins by quantifying the number of ribosome-protected mRNA fragments by RNAseq following isolation of actively translating ribosomes12. Recently, a very deep ribosome profiling dataset in HEK293 was published13. I started performing analysis using this dataset. At a first step, I created scripts that allow for general quality control of the data. With these I confirmed the read length distribution as well as the characteristic phasing of the 5’ ends of ribosome profiling reads with respect to the first translation frame12,14. At the same time, I was able to quantify ribosome protected fragments per every single codon. This now allows me to correlate translational efficiency with the relationship between codon and anticodon abundance. 
-	Finally, I am investigating whether there is a connection between the translational efficiency of an mRNA and its stability, since it has been previously postulated that stalled ribosomes on inefficiently translated messages can trigger mRNA degradation resulting in decreased mRNA abundance15-18. 
+%\chapter{Things that didn't work}
+%As I had proposed last year, I am ultimately interested in applying the expertise and data obtained form tRNA sequencing towards understanding the interdependence (if any) between tRNA and mRNA abundance on a codon-by-codon level, as well as determine whether the balance between the two affects translational rates and mRNA stability. First, I retrieved all annotated isoforms of human mRNA transcripts, and obtained computationally an expression-weighted frequency table for all codons, by multiplying the incidence of every codon per every transcript with the abundance of each transcript. After accounting for wobble effects, I examined the relationship between codon and respective anticodon abundance. Interestingly, even though for the majority of codons, an increase in their abundance is mirrored by an increase in their cognate anticodon, there are outlier codons for which there is a discrepancy, with the codon being unusually more or less abundant than its anticodon. This led to the idea that the codon-anticodon abundance imbalance might have an observable effect on the translational efficiency of mRNA harboring such codon-anticodon pairs. To investigate this possibility I focused on ribosome profiling, a technique that determines the translational efficiency of mRNAs into proteins by quantifying the number of ribosome-protected mRNA fragments by RNAseq following isolation of actively translating ribosomes12. Recently, a very deep ribosome profiling dataset in HEK293 was published13. I started performing analysis using this dataset. At a first step, I created scripts that allow for general quality control of the data. With these I confirmed the read length distribution as well as the characteristic phasing of the 5’ ends of ribosome profiling reads with respect to the first translation frame12,14. At the same time, I was able to quantify ribosome protected fragments per every single codon. This now allows me to correlate translational efficiency with the relationship between codon and anticodon abundance. 
 
-Finally, recognizing that I can obtain tRNA expression and abundance profiles in a more reliable manner than previously published ones, such as tRNA arrays, I decided to approach long-standing fundamental questions about the nature of the genetic code. Particularly, I was interested in combining mRNA abundance data, and translational efficiency data obtained by ribosome profiling, with tRNA abundance data in order to understand translational dynamics better. The hypothesis behind this work was that codon biases observed in specific contexts could be directed by the availability of tRNAs. 
+%	Finally, I am investigating whether there is a connection between the translational efficiency of an mRNA and its stability, since it has been previously postulated that stalled ribosomes on inefficiently translated messages can trigger mRNA degradation resulting in decreased mRNA abundance15-18. 
 
-For this reason, I turned my attention towards ribosome profiling. Since our lab is still in the process of establishing this methodology, I focused on already published data about our cell culture system. I developed a series of scripts that allow me to perform tailored analysis of the data. Although this analysis is far from complete, there have been some important observations already. First, as previously shown by other groups, I showed (using our own RNAseq data) that although highly expressed mRNAs are also highly occupied by ribosomes, there are indeed cases where transcripts are efficienytly transcribed but inefficiently translated and vice versa.  
-This led to the hypothesis that specific tRNA availability may be the bottleneck in the translation of some transcripts. Using my tRNA abundance data, and after accounting for wobble effects, I computed an anticodon scoring index, which is essentially the weighted sum of the relative frequency of all anticodons required to decode a given open reading frame. Traditionally, it has been postulated that efficiently translated messages harbor common codons, reflecting codon optimization. Surprisingly, my preliminary data indicate that the most highly represented genes in ribosome profiling (top 10\%) rank in the bottom 10\% in anticodon score index. At the same time, these genes are highly transcribed, as evidenced by mRNAseq data. If these results are true (and not an experimental artifact, which I will validate by performing further replicates), then this would argue towards a lack of selective pressure for optimized codons in highly translated genes. One could then argue that increasing transcription rates for these genes leads to high protein expression levels, obviating the need for codon optimization at the DNA level. 
+%Finally, recognizing that I can obtain tRNA expression and abundance profiles in a more reliable manner than previously published ones, such as tRNA arrays, I decided to approach long-standing fundamental questions about the nature of the genetic code. Particularly, I was interested in combining mRNA abundance data, and translational efficiency data obtained by ribosome profiling, with tRNA abundance data in order to understand translational dynamics better. The hypothesis behind this work was that codon biases observed in specific contexts could be directed by the availability of tRNAs. 
+
+%For this reason, I turned my attention towards ribosome profiling. Since our lab is still in the process of establishing this methodology, I focused on already published data about our cell culture system. I developed a series of scripts that allow me to perform tailored analysis of the data. Although this analysis is far from complete, there have been some important observations already. First, as previously shown by other groups, I showed (using our own RNAseq data) that although highly expressed mRNAs are also highly occupied by ribosomes, there are indeed cases where transcripts are efficienytly transcribed but inefficiently translated and vice versa.  
+%This led to the hypothesis that specific tRNA availability may be the bottleneck in the translation of some transcripts. Using my tRNA abundance data, and after accounting for wobble effects, I computed an anticodon scoring index, which is essentially the weighted sum of the relative frequency of all anticodons required to decode a given open reading frame. Traditionally, it has been postulated that efficiently translated messages harbor common codons, reflecting codon optimization. Surprisingly, my preliminary data indicate that the most highly represented genes in ribosome profiling (top 10\%) rank in the bottom 10\% in anticodon score index. At the same time, these genes are highly transcribed, as evidenced by mRNAseq data. If these results are true (and not an experimental artifact, which I will validate by performing further replicates), then this would argue towards a lack of selective pressure for optimized codons in highly translated genes. One could then argue that increasing transcription rates for these genes leads to high protein expression levels, obviating the need for codon optimization at the DNA level. 
+
+
+
+
 
 %\includepdf[scale = 0.80, pages = {1-}, pagecommand={}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}
 %\includepdf[pages={1-3}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}

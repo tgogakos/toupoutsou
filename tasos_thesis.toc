@@ -1,12 +1,12 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{viii}{section*.4}
+\contentsline {chapter}{List of Figures}{ix}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{x}{section*.6}
+\contentsline {chapter}{List of Tables}{xii}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Abbreviations}{xii}{section*.9}
+\contentsline {chapter}{List of Abbreviations}{xiv}{section*.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossary}{xiv}{section*.11}
+\contentsline {chapter}{Glossary}{xvi}{section*.11}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
 \defcounter {refsection}{0}\relax 
@@ -82,26 +82,70 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.5}Code availability}{61}{section.4.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}C3PO}{62}{chapter.5}
+\contentsline {part}{I\hspace {1em}C3PO}{62}{part.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Introduction}{62}{section.5.1}
+\contentsline {chapter}{\numberline {5}Introduction}{63}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}From manny}{65}{section.5.2}
+\contentsline {section}{\numberline {5.1}C3PO PAR-CLIP}{65}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}TSN binds tRNAs}{68}{section.5.3}
+\contentsline {section}{\numberline {5.2}Biochemical characterization}{66}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}C3PO possesses a length- and structure-dependent endonucleolytic activity}{68}{section.5.4}
+\contentsline {subsection}{\numberline {5.2.1}Cleavage activity}{66}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Biochemical characterization of C3PO\IeC {\textquoteright }s tRNA processing activity}{68}{section.5.5}
+\contentsline {subsection}{\numberline {5.2.2}EMSAs}{68}{subsection.5.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Functional validation of C3PO\IeC {\textquoteright }s targets}{69}{section.5.6}
+\contentsline {subsection}{\numberline {5.2.3}Structural studies}{68}{subsection.5.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}C3PO sumary report 2014}{69}{section.5.7}
+\contentsline {subsection}{\numberline {5.2.4}Immuno-precipitations}{70}{subsection.5.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.8}C3PO summary from annual report 2015}{71}{section.5.8}
+\contentsline {section}{\numberline {5.3}Biological characterization}{70}{section.5.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.9}C3PO summary from annual report 2016}{72}{section.5.9}
+\contentsline {subsection}{\numberline {5.3.1}Loss of function studies by siRNA knockdowns}{70}{subsection.5.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Things that didn't work}{75}{chapter.6}
+\contentsline {subsubsection}{hydro-tRNAseq}{70}{subsubsection*.56}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{86}{chapter*.49}
+\contentsline {subsubsection}{mRNA seq}{70}{subsubsection*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.2}Translational effects}{70}{subsection.5.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3.3}Loss of function studies by CRISPR knockouts}{70}{subsection.5.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{mRNAseq}{70}{subsubsection*.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{SILAC}{70}{subsubsection*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Polysome profiles}{70}{subsubsection*.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5.4}Discussion}{70}{section.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Materials and methods}{71}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.1}PAR-CLIP}{71}{section.6.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.2}Cleavage assays}{71}{section.6.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Immunoprecipitation}{71}{section.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.4}siRNA knockdowns}{71}{section.6.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.5}CRISPR knockouts}{71}{section.6.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.6}SILAC}{71}{section.6.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.7}From manny}{73}{section.6.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.8}TSN binds tRNAs}{76}{section.6.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.9}C3PO possesses a length- and structure-dependent endonucleolytic activity}{76}{section.6.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.10}Biochemical characterization of C3PO\IeC {\textquoteright }s tRNA processing activity}{76}{section.6.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.11}Functional validation of C3PO\IeC {\textquoteright }s targets}{77}{section.6.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.12}C3PO sumary report 2014}{77}{section.6.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.13}C3PO summary from annual report 2015}{79}{section.6.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.14}C3PO summary from annual report 2016}{80}{section.6.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{References}{91}{chapter*.64}
