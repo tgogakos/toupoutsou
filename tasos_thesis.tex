@@ -15,7 +15,6 @@
 \usepackage{subcaption}
 \usepackage{rotating}
 \usepackage{tabu}
-\renewcommand\thesubfigure{\alph{subfigure}}
 \usepackage{color,soul}
 \usepackage[labelfont=bf]{caption} 
 \usepackage{titlesec}
@@ -109,7 +108,7 @@ First, I would like to thank my
 \newacronym{rt}{RT}{reverse transcriptase}
 \newacronym{miRNA}{miRNA}{microRNA}
 \newacronym{nt}{nt}{nucleotide}
-\newacronym{hek293}{HEK293}{Human embryonic kidney cells 293}
+\newacronym{hek293}{HEK293}{human embryonic kidney cells 293}
 \newacronym{parclip}{PAR-CLIP}{photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation}
 \newacronym{rbp}{RBP}{RNA-binding protein}
 \newacronym{4su}{4-SU}{4-thiouridine}
@@ -136,7 +135,7 @@ description={tRNA molecules that have the same anticodon, and thus decode the sa
 \chapter*{Glossary}
 \setglossarystyle{super}
 \printglossary[type=\acronymtype,nonumberlist,title={List of Abbreviations}]
-\printglossary[nonumberlist,title={List of Terms}]
+\printglossary[nonumberlist,title={Glossary}]
 %----------
 %mainmatter
 %----------
@@ -335,7 +334,7 @@ Encouraged by the preliminary performance of the protocol, I set out to obtain a
 \subsection{Hierarchical sequence read mapping}
 In parallel with the tRNA annotation procedure, we had to build a bioinfroamtic pipeline for processing the obtained sequence information. To account for the multiple maturation steps between pre- and mature tRNAs, in collaboration with bioinformatician Miguel Brown, we developed an iterative, hierarchical approach for mapping and annotating our sequence reads. 
 
-First we mapped reads to reference tRNA genes for the human genome release hg19 (\url{hg19, http://gtrnadb.ucsc.edu/}) using an iterative and hierarchical protocol (\textbf{Fig. \ref{paper1}B}). We started by mapping only to mature tRNAs, which included the 3’ CCA aminoacyl acceptor terminus, and the G\sub{-1} nucleotide added posttranscriptionally to histidine tRNAs \cite{Gu:2003jj, Juhling:2009ip}, but excluded tRNA introns. Starting with two most abundant tRNA transcripts per \gls{isotype}  as indicated after the first mapping round, except for selenocysteine, where only one mature tRNA sequence could be identified, we performed iterative rounds of mapping and manual reference transcript selection, focusing in every step on transcripts that collected more reads with an error distance of 1-2 than 0. If these reads with mismatches could be assigned to other tRNA isoacceptors, these were included in our candidate reference set. Otherwise, we reasoned that the mismatches were the results of nucleotide-modification-induced errors of RT. In those cases, we accounted for the modified nucleoside signatures by introducing a new, edited reference transcript in our set. 
+First we mapped reads to reference tRNA genes for the human genome release hg19 (\url{http://gtrnadb.ucsc.edu/}) using an iterative and hierarchical protocol (\textbf{Fig. \ref{paper1}B}). We started by mapping only to mature tRNAs, which included the 3’ CCA aminoacyl acceptor terminus, and the G\sub{-1} nucleotide added posttranscriptionally to histidine tRNAs \cite{Gu:2003jj, Juhling:2009ip}, but excluded tRNA introns. Starting with two most abundant tRNA transcripts per \gls{isotype}  as indicated after the first mapping round, except for selenocysteine, where only one mature tRNA sequence could be identified, we performed iterative rounds of mapping and manual reference transcript selection, focusing in every step on transcripts that collected more reads with an error distance of 1-2 than 0. If these reads with mismatches could be assigned to other tRNA isoacceptors, these were included in our candidate reference set. Otherwise, we reasoned that the mismatches were the results of nucleotide-modification-induced errors of RT. In those cases, we accounted for the modified nucleoside signatures by introducing a new, edited reference transcript in our set. 
 
 For tRNAs that exhibited multiple positions with high modification rates (>10\% compared to reference), we compiled reference sequences with all possible combinations of modified signatures at all detectably modified positions, aiming to account for the maximum possible number of mapped sequence reads. We ended the curation cycles when there was no observed modified position that exhibited a mismatch frequency greater than or equal to 10\% compared to the reference. By performing this iterative process of curation, we obtained an experimentally validated reference set of mature tRNAs accounting for modified-nucleotide-induced sequence variation upon reverse transcription.
 
@@ -626,23 +625,35 @@ Every colored box indicates one nucleotide. Red and blue reflect the 5’ and 3�
 
 \section{Ribonucleotide modifications}\label{modifications}
 
-RT across modified nucleotide-containing RNA leads to errors in cognate deoxynucleotide incorporation, revealed by mismatches in sequence reads upon mapping to reference genomic sequence. Read coverage across regions with a high degree of modifications may result in incomplete or largely uneven coverage. Therefore, the compilation of my tRNA reference set, included the combination of all frequent mismatch signatures in all heavily modified positions. I reported the most frequently modified positions per tRNA gene 
-
+RT across modified nucleotide-containing RNA leads to errors in cognate deoxynucleotide incorporation, revealed by mismatches in sequence reads upon mapping to reference genomic sequence. Read coverage across regions with a high degree of modifications may result in incomplete or largely uneven coverage. Therefore, the compilation of my tRNA reference set, included the combination of all frequent mismatch signatures in all heavily modified positions. I reported the most frequently modified positions per tRNA gene (\textbf{Table \ref{mod_table}}), and computed the frequencies of every nucleoside change per position across all tRNA genes (the most common ones shown in \textbf{Fig. \ref{paper7a}}).
 
 \twocolumn
-\begin{tiny}
+{\tiny
 \def\arraystretch{0.7}
+\begin{center}
+\tablefirsthead{
+ \hline
+ \multicolumn{1}{|l|}{\textbf{tRNA}} &
+ \multicolumn{1}{l|}{\textbf{Position}} & 
+ \multicolumn{1}{l|}{\textbf{Nucleoside}} & 
+ \multicolumn{1}{l|}{\textbf{Read count}} \\
+ \hline}
+\tablehead{
+ \hline
+ \multicolumn{4}{|l|}{\textit{Continued from previous column}}\\
+ \hline
+ \multicolumn{1}{|l|}{\textbf{tRNA}} &
+ \multicolumn{1}{l|}{\textbf{Position}} & 
+ \multicolumn{1}{l|}{\textbf{Nucleoside}} & 
+ \multicolumn{1}{l|}{\textbf{Read count}} \\
+ \hline}
+\tabletail{
+ \hline
+ \multicolumn{4}{|l|}{\textit{Continued on next column}} \\
+ \hline}
+\tablelasttail{\hline}
+\bottomcaption[Positions resulting to modifications-induced mismatches.]{\textbf{Positions resulting to modifications-induced mismatches.} tRNA transcripts, the positions where modifications result in mismatches, and the read count corresponding to every observed nucleoside per position are shown.}
 \begin{supertabular}{|l|r|c|r|}
-\hline
-\multicolumn{1}{|l|}{\textbf{tRNA}} & \multicolumn{1}{l|}{\textbf{Position}} & \multicolumn{1}{l|}{\textbf{Nucleoside}} & \multicolumn{1}{l|}{\textbf{Read count}} \\ \hline
-%\endfirsthead
-\multicolumn{4}{c}%
-{{\bfseries \tablename\ \thetable{} -- continued from previous page}} \\ \hline
-\multicolumn{1}{|c|}{\textbf{tRNA}} & \multicolumn{1}{c|}{\textbf{Position}} & \multicolumn{1}{c|}{\textbf{Nucleoside}} & \multicolumn{1}{c|}{\textbf{Read count}} \\ \hline
-%\endhead
-\hline \multicolumn{4}{r}{{\textit{Continued on next page}}} \\ 
-%\endfoot
-%\endlastfoot 
 \hline
  trnaA10 &        36 &          G &     25,957 \\
  trnaA10 &        36 &          T &      1,198 \\
@@ -1250,136 +1261,101 @@ RT across modified nucleotide-containing RNA leads to errors in cognate deoxynuc
   trnaY8 &        58 &          A &     17,992 \\
   trnaY8 &        58 &          T &      1,254 \\
 \hline
-%\caption[aaa]{aaaaa} 
-%\label{tableS5}
-\end{supertabular}
-\end{tiny}
+\end{supertabular}%1\label{mod_table}
+\end{center}
+\pagebreak
+}
+\onecolumn
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-%\caption[Positions resulting to modifications-induced mismatches.]{\textbf{Positions resulting to modifications-induced mismatches.} Reads assigned to each RNA type following hierarchical annotation are shown. Reads with no (d0), one (d1) or two (d2) mismatches compared to reference are shown. Data from replicate using RNase T1 are shown. SSB PAR-CLIP enriches for pre-tRNAs (46\%).}\label{tableS3}
-%\end{table}
-
-
-
-%  \end{adjustbox}
-%\caption[Positions resulting to modifications-induced mismatches.]{\textbf{Positions resulting to modifications-induced mismatches.} Reads assigned to each RNA type following hierarchical annotation are shown. Reads with no (d0), one (d1) or two (d2) mismatches compared to reference are shown. Data from replicate using RNase T1 are shown. SSB PAR-CLIP enriches for pre-tRNAs (46\%).}\label{tableS3}
-%\end{table}
-
-
-
-
-
-
-\hl{(Table S5)}, and computed the frequencies of every nucleoside change per position across all tRNA genes (\textbf{Fig. \ref{paper7a}}). 
+The majority of editing events were A-to-G transitions at the first position of the anticodon (position 34) and at the position 3’ to the anticodon (usually position 37). Both positions are known to be heavily modified, the former being deaminated to inosine, and the latter further modified (e.g. 1-methylinosine) \cite{Machnicka:2013ky}. In my data the majority of the reads that mapped to the anticodon of the modified tRNAs contained mismatches. To a lesser extent we could also detect 1-methyladenosine in the pseudouridine loop (returned as A-to-T or A-to-G), and various guanosine modifications at positions 9, 26, and 45, which most likely correspond to 1-methyl-, N2,N2-dimethyl-, and 7-methyl-guanosine, respectively \cite{Machnicka:2013ky}.
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[scale=1]{paper7a.png}%
-\caption[paper7a]
-{\textbf{paper7a.}
-placeholder}
+\caption[tRNA modifications detected by hydro-tRNAseq.]
+{\textbf{tRNA modifications detected by hydro-tRNAseq.}
+The positions that resulted in the most common mismatches over all tRNAs, along with the reference nucleotide and the most likely modification are indicated in the center of each ring. The relative frequency of each returned nucleoside is proportional to the corresponding color-coded area of the ring (m1G: 1-methylguanosine; m2,2G: N2,N2-dimethylguanosine; I: inosine; m1I: 1-methylinosine; m7G: 7-methylguanosine; m1A: 1-methyladenosine).}
 \centering
 \label{paper7a}%
 \end{figure}
 
-The majority of editing events were A-to-G transitions at the first position of the anticodon and at the position 3’ to the anticodon (usually position 37). Both positions are known to be heavily modified, the former being deaminated to inosine, and the latter further modified (e.g. 1-methylinosine) \cite{Machnicka:2013ky}. In our data the majority of the reads that mapped to the anticodon of the modified tRNAs contained the mismatches. To a lesser extent we could also detect 1-methyladenosine in the pseudouridine loop (returned as A-to-T or A-to-G), and various guanosine modifications at positions 9, 26, and 45, which most likely correspond to 1-methyl-, N2,N2-dimethyl-, and 7-methyl-guanosine, respectively \cite{Machnicka:2013ky}.
+The temporal resolution of tRNA modifications by RNAseq has begun to be addressed recently  \cite{Torres:2015ed}, however at a single modification level (inosine 34), and by using libraries relative poor in tRNA reads (<1\% of total reads). I was appropriately poised to address this issue since my very deep sequencing set, in combination with my hierarchical annotation pipeline, offered the advantage of dissecting multiple modifications simultaneously. 
 
-The temporal resolution of tRNA modifications by RNAseq has begun to be addressed recently  \cite{Torres:2015ed}, however at a single modification level (inosine 34), and by using libraries relative poor in tRNA reads (<1\% of total reads). We were appropriately poised to address this issue since our very deep sequencing set, in combination with our hierarchical annotation pipeline, offered the advantage of dissecting multiple modifications simultaneously. We focused on the inosine modifications, since they represented the majority of modified nucleosides. By inspecting read alignments with error distance 1 to the reference pre-tRNA, we noticed A-to-G transition mismatches at position 34 in reads that retained the leader and trailer sequences of the precursor tRNA (\textbf{Fig. \ref{paper7b}, top}). 
+I focused on inosine editing events, since they represented the majority of modified nucleosides. By inspecting read alignments with error distance 1 to the reference pre-tRNA, I noticed A-to-G transition mismatches at position 34 in reads that retained the leader and trailer sequences of the precursor tRNA (\textbf{Fig. \ref{paper7b}, top}). 
 This confirmed that A34 deamination takes place at the precursor level, and therefore is a nuclear modification, as it has been previously reported \cite{Torres:2015ed}. 
-Next, we noticed that 1-methyl-inosine at position 37 also appears at the precursor stage. Of note the A37 modification became apparent prior to A34, as the majority of the error distance 1 reads contained a mismatch at A37. Reads with two mismatches contained both modifications (\textbf{Fig. \ref{paper7b}, bottom})
+
+Next, I noticed that 1-methyl-inosine at position 37 also appears at the precursor stage. Of note the A37 modification became apparent prior to A34, as the majority of the error distance 1 reads contained a mismatch at A37. Reads with two mismatches contained both modifications (\textbf{Fig. \ref{paper7b}, bottom})
 
 In many instances we observe specific and highly abundant mismatchsignatures in pre-tRNAs, which can possibly allow us to determine and monitor by RNA-seq the editing hierarchy of tRNAs and the order of function of their modifying enzymes. 
 
 We observe editing in the D1 alignments. Those reads do not map at error distance 1, since we are following a hierarchical mapping, neither to they map back to the genome. This suggests that we can observe nucleotide editing at the precursor stage of tRNAs. 
- 
 
-What we can say is that 
-	we observe tRNA editing leading to mismatches in RNA-seq
-	specifc postitions 
-	edited many times more abundant than unedited
-This slide brings up another point…
-
-We are far from experts on tRNA editing and modifications, but our protocols do allow for a careful annotation and overview of specific modifications. Those that lead to characteristic signatures of mismatches upon RNAseq
-In many instances we observe specific and highly abundant mismatchsignatures in pre-tRNAs, which can possibly allow us to determine and monitor by RNA-seq the editing hierarchy of tRNAs and the order of function of their modifying enzymes. 
-
-We observe editing in the D1 alignments. Those reads do not map at error distance 1, since we are following a hierarchical mapping, neither to they map back to the genome. This suggests that we can observe nucleotide editing at the precursor stage of tRNAs. 
+%All in all, far from being a comprehensive analysis of tRNA editing and modifications, the work presented here outlines how a careful examination and analysis of deep hydro-tRNAseq datasets can yield valuable insights in the and type and temporal occurrence of such events. Such analysis is paramount to avoiding misassignment of sequencing reads when dealing with highly similar reference sequences. 
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width = 5in]{paper7b.png}%
-\caption[paper7b]
-{\textbf{paper7b.}
-placeholder}
+\caption[Temporal resolution of tRNA modifications]
+{\textbf{Temporal resolution of tRNA modifications.}
+Read alignments for precursor TRNAA6 with one (top) and two mismatches (bottom). The position of the anticodon is marked by the black rectangle at the top of the alignments. Mismatches of the heavily modified adenosines in the anticodon loop are indicated by red lowercase letters. Read counts and mapping locations for each read are shown on the right side. Vertical bars represent binned, log4-transformed, and normalized read counts for each alignment.}
 \centering
 \label{paper7b}%
 \end{figure}
 
 \section{Annotation of intron-containing tRNA genes} \label{introns}
 
-Intron-containing tRNAs represent a particularly interesting set of tRNA genes, as mutations in their evolutionarily conserved, yet distinct, processing machinery have emerged recently as causes of severe neurodevelopmental syndromes, such as pontocerebellar hypoplasia \cite{Namavar:2011ew}. Therefore, there is documented need for a comprehensive annotation of human intron-containing tRNAs, which should be revisited as markers or disease-causing candidates in phenotypically similar conditions. We confirmed 26 out of 32 predicted intron-containing tRNAs by hydro-tRNAseq (\textbf{Fig. \ref{paper5}A}. Excluding any unknown biologically redundant mechanism, this suggests that the integrity of the tRNA splicing complex is essential for survival. To further confirm our observations, we coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, we identified a crosslinked read peak at the anticodon loop of all intron-containing tRNAs annotated by our approaches. (\textbf{Fig. \ref{paper5}B,C}. One tRNA isotype and three isoacceptors are fully dependent on tRNA splicing, which suggests that despite functional redundancies that are often observed in tRNA processing steps, tRNA splicing is an esential [rocess for viability, at least in the cell system that we studied 
-
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=\textwidth]{paper5.png}%
-\caption[figure5]
-{\textbf{figure5.}
-placeholder}
-\centering
-\label{paper5}%
-\end{figure}
-
-\section{CLP1}\label{clp1section}
-This came at an opportune moment because of the studies of CLP1 
-\begin{itemize}
-\item Recessive mutations in children with neurodevelopmental disorders were localized to tRNA splicing factor CLP1 
-\item Exome sequencing identified R140H recessive mutation
-\item R140H reduced interaction between CLP1 and the TSEN splicing complex
-\end{itemize}
-
-\section{CLP1 figures}
+Intron-containing tRNAs represent a particularly interesting set of tRNA genes, as mutations in their evolutionarily conserved, yet distinct, processing machinery have emerged recently as causes of severe neurodevelopmental syndromes, such as pontocerebellar hypoplasia \cite{Cooper:2009da,Namavar:2011ew,Weitzer:2014bi} \hl{Budde 2008}. Therefore, there is documented need for a comprehensive annotation of human intron-containing tRNAs, which should be revisited as markers or disease-causing candidates in phenotypically similar conditions. 
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{intron_trna.png}%
-\caption[intrno-containing tRNA]
-{\textbf{intron-containing tRNA.}
-placeholder}
+\caption[Intron-containing pre-tRNA alignment.]
+{\textbf{Intron-containing pre-tRNA alignment.} An indicative alignment to pre-tRNA TRNAY15 is shown. Mature sequence is in blue, leaders and trailers in green, and intron sequences in orange. Precursor/mature tRNA borders are demarcated by vertical, dotted lines.}
 \centering
-\label{introntrna}%
+\label{intron_trna}%
 \end{figure}
+
+I set out to document all intron-containg tRNAs. Read coverage across both exon/intron boundaries in the pre-tRNA alignments was a requirement for the validation of intron-containing tRNAs (e.g.\textbf{Fig. \ref{intron_trna}}).I confirmed 26 out of 32 predicted intron-containing tRNAs by hydro-tRNAseq (\textbf{Fig. \ref{paper5}A}).  Intriguingly, I could not confirm expression of any predicted \underline{intronless} tyrosine pre-tRNA gene. The same was true for isoleucine-TAT and leucine-CAA isoacceptors.Excluding any unknown biologically redundant mechanism, this suggests that the integrity of the tRNA splicing complex is essential for survival, at least in the studied cellular system. 
+
+\newpage
+\begin{figure}[!hb]%
+\centering
+\includegraphics[width=\textwidth]{paper5.png}%
+\caption[Annotation of intron-containing tRNA genes.]
+{\textbf{Annotation of intron-containing tRNA genes.}
+(A) Number of validated intron-containing (orange) and intronless (blue) tRNA genes for all tRNA isotypes with possible intron-containing tRNAs. (B), (C) Analysis of PAR-CLIP for the tRNA ligase, RTCB (previously published in (Baltz et al., 2012). Positional preference of crosslinking by metagene analysis of all crosslinking events (B) and all crosslinked reads (C) to mature tRNAs. The incidence of T-to-C transitions is indicated by color intensity in (B). PAR-CLIP signal (reads containing T-to-C), background (reads with no mismatches), normalized boundaries of the pre-tRNAs (labeled as 0, 1) and mature tRNAs (labeled as 5’ end, 3’ end) are shown in (C)
+}
+\centering
+\label{paper5}%
+\end{figure}
+
+To further confirm my observations, I coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, I identified a crosslinking peak (RBP binding site) at the anticodon loop of all intron-containing tRNAs annotated by my approach (\textbf{Fig. \ref{paper5}B,C}. 
+
+\section{Hydro-tRNAseq application in human disease}\label{clp1section}
+These observations came at an opportune moment because of novel contributions of tRNA processing ongoing efforts to characterize the involvement of CLP1 in the human disease, an 5' RNA kinase involved in tRNA splicing \cite{Weitzer:2007hda}. Before my studies, it was shown that mouse models with CLP1 that lacked its catalytic activity develop severe neuromuscular defects accentuated by loss of motor neurons and muscular paralysis \cite{Hanada:2013bk}. 
+
+Human exome capture and sequencing from individuals with ponotcerebellar hypoplasia identified a homozygous missense mutation in CLP1 (chr11:g.57,427,367 G > A [hg19], p.R140H) in five unrelated, but consanguineous families, resulting in an autosomal recessive pattern of inheritance (\textbf{Fig. \ref{pedigree}}). Biochemical studies showed that this autosomal mutation reduces the interaction affinity of CLP1 with the splicing complex \cite{Karaca:2014em}. 
+
+\begin{figure}[!ht]%
+\centering
+\includegraphics[width=\textwidth]{pedigree1.png}%
+\caption[Pedigrees of families with CLP1-induced syndromes.]
+{\textbf{Pedigrees of families with CLP1-induced syndromes.}
+Pedigrees of three nuclear families with patients showing microcephaly, ponotcerebellar hypoplasia, dysmorphic facial features and severe neuromuscular abnormalities. CLP1 p.R140H follows autosomal recessive inheritance. Double lines indicate consanguineous marriages; squares and circles represent male and female subjects, respectively. Black-filled shapes indicate patients.}
+\label{introntrna}
+\end{figure}
+
+However, it was not clear whether this had any molecular effect on tRNA processing. I applied Hydro-tRNAseq on RNA isolated from parental and patient fibroblasts. There was no significant difference in the steady-state levels of either mature (for example \textbf{Fig. \ref{clp1align}}, right part) or pre-tRNAs as reported by our bioinformatics pipeline. 
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{clp1align.png}%
-\caption[clp1 alignments]
-{\textbf{clp1 alignments.}
-placeholder}
+\caption[Intron-containing pre-tRNA alignment]{\textbf{Intron-containing pre-tRNA alignment.} An indicative alignment to pre-tRNA TRNAY15 is shown. Mature sequence is in blue, leaders and trailers in green, and intron sequences in orange. Precursor/mature tRNA borders are demarcated by vertical, dotted lines.}
 \centering
 \label{clp1align}%
 \end{figure}
 
-\begin{figure}[!ht]%
-\centering
-\includegraphics[width=\textwidth]{clp1bars.png}%
-\caption[clp1 bar]
-{\textbf{clp1 bar.}
-placeholder}
-\centering
-\label{clp1bars}%
-\end{figure}
+Interestingly, however, when I manually inspected I detected reproducibly an accumulation of intronic sequences for specific pre-tRNAs (\textbf{Fig. \ref{clp1align}}, left part) in patient samples. The same pattern was observed in two more pre-tRNAs, all of which showed >4-fold accumlation of intronic sequences (\textbf{Fig. \ref{clp1bars2}}).
 
 \begin{figure}[!ht]%
 \centering
@@ -1390,6 +1366,8 @@ placeholder}
 \centering
 \label{clp1bars2}%
 \end{figure}
+
+These results were confirmed independently by our collaborators (Stefan Weitzer, Javier Martinez, IMBA) who carried out northern blot analysis on the same RNA samples. Consistent with my results, they failed to detect significant differences in steady-state mature or pre-tRNA levels between parents and patients (\textbf{Fig. \ref{nb}}, top-most pannels), but detected an accumulation of the salient tRNA introns of my analysis (\textbf{Fig. \ref{nb}}, middle pannels). Densitometric analysis of the northern blots also confirmed the trend and range of intron accumulatino across the studied samples (\textbf{Fig. \ref{clp1bars2}}), proving that th two techniques are in good agreement. 
 
 \begin{figure}[!ht]%
 \centering
@@ -1402,6 +1380,13 @@ placeholder}
 \end{figure}
 
 \subsection{Plausible pathomechanisms of CLP1 mutations}
+	Thus, our Northern analysis and deep sequencing data indicate that the CLP1 R140H mutation in fibro- blasts influences processing of pre-tRNAs, resulting in the accu- mulation of linear tRNA introns, whereas pre- and mature tRNA levels remain largely unaffecte
+ Our data elucidate a
+neurological syndrome defined by CLP1 mutations that impair tRNA splicing. Reduction of a founder mutation to homozygosity illustrates the importance of rare variations in disease and supports the clan genomics hypothesis.
+
+
+
+
 \begin{enumerate}[i)]
 \item Reduced tRNA splicing in sensitive tissues (e.g. neurons)
 \item Innate immunity activation by tRNA intron accumulation

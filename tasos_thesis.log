@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  2 JUN 2017 15:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  3 JUN 2017 13:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1014,12 +1014,12 @@ Package: glossary-tree 2016/04/30 v4.23 (NLCT)
 \openout4 = `tasos_thesis.glo'.
 
 Package glossaries Info: Writing glossary file tasos_thesis.glo on input line 2
-4.
+3.
 \glo@acronym@file=\write5
 \openout5 = `tasos_thesis.acn'.
 
 Package glossaries Info: Writing glossary file tasos_thesis.acn on input line 2
-4.
+3.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/imakeidx/imakeidx.sty
 Package: imakeidx 2016/05/16 v1.3c Package for typesetting indices in a synchro
 nous mode
@@ -1402,27 +1402,27 @@ LaTeX Warning: Label `biogenesis' multiply defined.
 )
 \openout1 = `tasos_thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Try loading font information for T1+phv on input line 55.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 54.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
@@ -1466,7 +1466,7 @@ Package caption Info: rotating package is loaded.
 Package caption Info: supertabular package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box70
-Package hyperref Info: Link coloring OFF on input line 55.
+Package hyperref Info: Link coloring OFF on input line 54.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1476,9 +1476,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count363
 )
-LaTeX Info: Redefining \ref on input line 55.
-LaTeX Info: Redefining \pageref on input line 55.
-LaTeX Info: Redefining \nameref on input line 55.
+LaTeX Info: Redefining \ref on input line 54.
+LaTeX Info: Redefining \pageref on input line 54.
+LaTeX Info: Redefining \nameref on input line 54.
 
 (./tasos_thesis.out) (./tasos_thesis.out)
 \@outlinefile=\write9
@@ -1494,8 +1494,8 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'tasos_thesis.bbl' found.
 
 (./tasos_thesis.bbl)
-Package biblatex Info: Reference section=0 on input line 55.
-Package biblatex Info: Reference segment=0 on input line 55.
+Package biblatex Info: Reference section=0 on input line 54.
+Package biblatex Info: Reference segment=0 on input line 54.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
@@ -1506,20 +1506,20 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 62.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 61.
  [1
 
 \openout3 = `tasos_thesis.xdy'.
 
 
 {/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 64.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 63.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 ) [2]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 65.
  [1
 
 
@@ -1527,12 +1527,12 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 s been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.74 \end{abstract}
+l.73 \end{abstract}
                     [2]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 82.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 81.
  [3
 
 ] [4
@@ -1586,7 +1586,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.156 
+l.155 
        [1
 
 
@@ -1597,12 +1597,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] <./figures/tRNA_general_structure.png, id=512, 697.8873pt x 307.1475pt>
+[2] <./figures/tRNA_general_structure.png, id=509, 697.8873pt x 307.1475pt>
 File: ./figures/tRNA_general_structure.png Graphic file (type png)
 
 <use ./figures/tRNA_general_structure.png>
 Package pdftex.def Info: ./figures/tRNA_general_structure.png used on input lin
-e 165.
+e 164.
 (pdftex.def)             Requested size: 430.00627pt x 189.25311pt.
 
 
@@ -1618,11 +1618,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] <./figures/biogenesis2.png, id=542, 734.5041pt x 536.9661pt>
+[4] <./figures/biogenesis2.png, id=539, 734.5041pt x 536.9661pt>
 File: ./figures/biogenesis2.png Graphic file (type png)
 
 <use ./figures/biogenesis2.png>
-Package pdftex.def Info: ./figures/biogenesis2.png used on input line 183.
+Package pdftex.def Info: ./figures/biogenesis2.png used on input line 182.
 (pdftex.def)             Requested size: 430.00627pt x 314.3574pt.
 
 
@@ -1645,11 +1645,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <./figures/sRNA.png, id=594, 244.0317pt x 328.1058pt>
+[7] <./figures/sRNA.png, id=591, 244.0317pt x 328.1058pt>
 File: ./figures/sRNA.png Graphic file (type png)
 
 <use ./figures/sRNA.png>
-Package pdftex.def Info: ./figures/sRNA.png used on input line 219.
+Package pdftex.def Info: ./figures/sRNA.png used on input line 218.
 (pdftex.def)             Requested size: 252.94499pt x 340.11053pt.
 
 
@@ -1676,11 +1676,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 Chapter 2.
 [11
 
-] <./figures/paper1.png, id=629, 566.8377pt x 443.9787pt>
+] <./figures/paper1.png, id=626, 566.8377pt x 443.9787pt>
 File: ./figures/paper1.png Graphic file (type png)
 
 <use ./figures/paper1.png>
-Package pdftex.def Info: ./figures/paper1.png used on input line 278.
+Package pdftex.def Info: ./figures/paper1.png used on input line 277.
 (pdftex.def)             Requested size: 430.00627pt x 336.81761pt.
 
 
@@ -1693,22 +1693,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 []|\T1/phv/m/n/12 % over
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 \T1/phv/m/n/12 mapped
  []
 
 
-Underfull \hbox (badness 3039) in paragraph at lines 295--295
+Underfull \hbox (badness 3039) in paragraph at lines 294--294
 []|\T1/phv/m/n/12 % D0/ to-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 295--295
+Underfull \hbox (badness 10000) in paragraph at lines 294--294
 []|\T1/phv/m/n/12 D0/total
  []
 
@@ -1716,7 +1716,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--295
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 335.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 334.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -1731,7 +1731,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [14]
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 338.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 337.
 
  (/usr/local/texlive/2016/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1742,11 +1742,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15] <./figures/supp1.png, id=665, 564.1878pt x 475.5366pt>
+[15] <./figures/supp1.png, id=662, 564.1878pt x 475.5366pt>
 File: ./figures/supp1.png Graphic file (type png)
 
 <use ./figures/supp1.png>
-Package pdftex.def Info: ./figures/supp1.png used on input line 351.
+Package pdftex.def Info: ./figures/supp1.png used on input line 350.
 (pdftex.def)             Requested size: 430.00627pt x 362.45644pt.
 
 
@@ -1763,11 +1763,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [17 <./figures/supp1.png (PNG copy)>]
-<./figures/mature.png, id=676, 1314.1095pt x 1034.9064pt>
+<./figures/mature.png, id=673, 1314.1095pt x 1034.9064pt>
 File: ./figures/mature.png Graphic file (type png)
 
 <use ./figures/mature.png>
-Package pdftex.def Info: ./figures/mature.png used on input line 365.
+Package pdftex.def Info: ./figures/mature.png used on input line 364.
 (pdftex.def)             Requested size: 430.00627pt x 338.64613pt.
 
 
@@ -1777,10 +1777,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [18 <./figures/mature.png (PNG copy)>]
-<./figures/pre.png, id=684, 854.2314pt x 510.4671pt>
+<./figures/pre.png, id=681, 854.2314pt x 510.4671pt>
 File: ./figures/pre.png Graphic file (type png)
  <use ./figures/pre.png>
-Package pdftex.def Info: ./figures/pre.png used on input line 378.
+Package pdftex.def Info: ./figures/pre.png used on input line 377.
 (pdftex.def)             Requested size: 361.34999pt x 215.92917pt.
 
 
@@ -1790,11 +1790,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [19 <./figures/pre.png (PNG copy)>]
-<./figures/paper2a.png, id=692, 270.7716pt x 189.5883pt>
+<./figures/paper2a.png, id=689, 270.7716pt x 189.5883pt>
 File: ./figures/paper2a.png Graphic file (type png)
 
 <use ./figures/paper2a.png>
-Package pdftex.def Info: ./figures/paper2a.png used on input line 390.
+Package pdftex.def Info: ./figures/paper2a.png used on input line 389.
 (pdftex.def)             Requested size: 289.07999pt x 202.42064pt.
 
 
@@ -1804,11 +1804,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [20 <./figures/paper2a.png>]
-<./figures/parclip.png, id=708, 283.0575pt x 420.6114pt>
+<./figures/parclip.png, id=705, 283.0575pt x 420.6114pt>
 File: ./figures/parclip.png Graphic file (type png)
 
 <use ./figures/parclip.png>
-Package pdftex.def Info: ./figures/parclip.png used on input line 402.
+Package pdftex.def Info: ./figures/parclip.png used on input line 401.
 (pdftex.def)             Requested size: 252.94499pt x 375.87688pt.
 
 
@@ -1817,11 +1817,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[21] <./figures/paper2b.png, id=727, 235.6002pt x 177.7842pt>
+[21] <./figures/paper2b.png, id=724, 235.6002pt x 177.7842pt>
 File: ./figures/paper2b.png Graphic file (type png)
 
 <use ./figures/paper2b.png>
-Package pdftex.def Info: ./figures/paper2b.png used on input line 415.
+Package pdftex.def Info: ./figures/paper2b.png used on input line 414.
 (pdftex.def)             Requested size: 289.07999pt x 218.14424pt.
 
 
@@ -1831,28 +1831,28 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [22 <./figures/parclip.png (PNG copy)>]
-<./figures/paper2cd.png, id=740, 501.7947pt x 218.9781pt>
+<./figures/paper2cd.png, id=737, 501.7947pt x 218.9781pt>
 File: ./figures/paper2cd.png Graphic file (type png)
 
 <use ./figures/paper2cd.png>
-Package pdftex.def Info: ./figures/paper2cd.png used on input line 475.
+Package pdftex.def Info: ./figures/paper2cd.png used on input line 474.
 (pdftex.def)             Requested size: 430.00627pt x 187.65256pt.
 
-<./figures/paper2ef.png, id=741, 582.0144pt x 267.399pt>
+<./figures/paper2ef.png, id=738, 582.0144pt x 267.399pt>
 File: ./figures/paper2ef.png Graphic file (type png)
 
 <use ./figures/paper2ef.png>
-Package pdftex.def Info: ./figures/paper2ef.png used on input line 487.
+Package pdftex.def Info: ./figures/paper2ef.png used on input line 486.
 (pdftex.def)             Requested size: 430.00627pt x 197.56206pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures/supp3.png, id=742, 386.4036pt x 517.6941pt>
+<./figures/supp3.png, id=739, 386.4036pt x 517.6941pt>
 File: ./figures/supp3.png Graphic file (type png)
 
 <use ./figures/supp3.png>
-Package pdftex.def Info: ./figures/supp3.png used on input line 499.
+Package pdftex.def Info: ./figures/supp3.png used on input line 498.
 (pdftex.def)             Requested size: 309.12329pt x 414.15584pt.
 
 
@@ -1879,21 +1879,21 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [25 <./figures/paper2cd.png (PNG copy)>]
-<./figures/paper3.png, id=766, 581.7735pt x 460.119pt>
+<./figures/paper3.png, id=763, 581.7735pt x 460.119pt>
 File: ./figures/paper3.png Graphic file (type png)
 
 <use ./figures/paper3.png>
-Package pdftex.def Info: ./figures/paper3.png used on input line 517.
+Package pdftex.def Info: ./figures/paper3.png used on input line 516.
 (pdftex.def)             Requested size: 430.00627pt x 340.09657pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<./figures/paper4.png, id=767, 570.6921pt x 570.2103pt>
+<./figures/paper4.png, id=764, 570.6921pt x 570.2103pt>
 File: ./figures/paper4.png Graphic file (type png)
 
 <use ./figures/paper4.png>
-Package pdftex.def Info: ./figures/paper4.png used on input line 527.
+Package pdftex.def Info: ./figures/paper4.png used on input line 526.
 (pdftex.def)             Requested size: 430.00627pt x 429.64043pt.
 
 
@@ -1937,11 +1937,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31] <./figures/paper4D.png, id=802, 621.0402pt x 172.4844pt>
+[31] <./figures/paper4D.png, id=799, 621.0402pt x 172.4844pt>
 File: ./figures/paper4D.png Graphic file (type png)
 
 <use ./figures/paper4D.png>
-Package pdftex.def Info: ./figures/paper4D.png used on input line 561.
+Package pdftex.def Info: ./figures/paper4D.png used on input line 560.
 (pdftex.def)             Requested size: 430.00627pt x 119.42757pt.
 
 
@@ -1951,11 +1951,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [32 <./figures/paper4D.png (PNG copy)>]
-<./figures/supp4b.png, id=810, 595.2639pt x 508.5399pt>
+<./figures/supp4b.png, id=807, 595.2639pt x 508.5399pt>
 File: ./figures/supp4b.png Graphic file (type png)
 
 <use ./figures/supp4b.png>
-Package pdftex.def Info: ./figures/supp4b.png used on input line 576.
+Package pdftex.def Info: ./figures/supp4b.png used on input line 575.
 (pdftex.def)             Requested size: 430.00627pt x 367.35895pt.
 
 
@@ -1967,13 +1967,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [33 <./figures/supp4b.png (PNG copy)>]
 
 LaTeX Warning: Citation 'Arimbasseri:2013dg' on page 34 undefined on input line
- 590.
+ 589.
 
-<./figures/paper6.png, id=822, 794.97pt x 214.8828pt>
+<./figures/paper6.png, id=819, 794.97pt x 214.8828pt>
 File: ./figures/paper6.png Graphic file (type png)
 
 <use ./figures/paper6.png>
-Package pdftex.def Info: ./figures/paper6.png used on input line 594.
+Package pdftex.def Info: ./figures/paper6.png used on input line 593.
 (pdftex.def)             Requested size: 430.00627pt x 116.23499pt.
 
 
@@ -1983,26 +1983,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34 <./figures/paper6.png (PNG copy)>]
-<./figures/paper6de.png, id=842, 560.0925pt x 209.583pt>
+<./figures/paper6de.png, id=839, 560.0925pt x 209.583pt>
 File: ./figures/paper6de.png Graphic file (type png)
 
 <use ./figures/paper6de.png>
-Package pdftex.def Info: ./figures/paper6de.png used on input line 609.
+Package pdftex.def Info: ./figures/paper6de.png used on input line 608.
 (pdftex.def)             Requested size: 430.00627pt x 160.91249pt.
 
-<./figures/supp5.png, id=843, 315.579pt x 161.403pt>
+<./figures/supp5.png, id=840, 315.579pt x 161.403pt>
 File: ./figures/supp5.png Graphic file (type png)
  <use ./figures/supp5.png>
-Package pdftex.def Info: ./figures/supp5.png used on input line 619.
+Package pdftex.def Info: ./figures/supp5.png used on input line 618.
 (pdftex.def)             Requested size: 430.00627pt x 219.93616pt.
 
 
-LaTeX Warning: Citation 'Lorenz:2011it' on page 35 undefined on input line 622.
+LaTeX Warning: Citation 'Lorenz:2011it' on page 35 undefined on input line 621.
 
 
 
-LaTeX Warning: Citation 'Lorenz:2011it' on page 35 undefined on input line 622.
+LaTeX Warning: Citation 'Lorenz:2011it' on page 35 undefined on input line 621.
 
+
+
+LaTeX Warning: Reference `mod_table' on page 35 undefined on input line 628.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2019,9 +2022,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [36 <./figures/supp5.png (PNG copy)>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 637.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 656.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 643.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 656.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2053,203 +2056,43 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [40]
-Overfull \hbox (8.90977pt too wide) in paragraph at lines 1286--1287
-[][]\T1/phv/m/n/12 (Ta[]-[]ble[] [][][]S5), and com-puted the fre-quen-
+Underfull \hbox (badness 2564) in paragraph at lines 1264--1264
+[]\T1/phv/b/n/12 Table 3.1: |Po-si-tions re-sult-ing to
  []
 
-<./figures/paper7a.png, id=873, 245.2362pt x 270.5307pt>
+
+Underfull \hbox (badness 2837) in paragraph at lines 1264--1264
+\T1/phv/b/n/12 modifications-induced mis-matches.
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[41] <./figures/paper7a.png, id=876, 245.2362pt x 270.5307pt>
 File: ./figures/paper7a.png Graphic file (type png)
 
 <use ./figures/paper7a.png>
-Package pdftex.def Info: ./figures/paper7a.png used on input line 1290.
+Package pdftex.def Info: ./figures/paper7a.png used on input line 1274.
 (pdftex.def)             Requested size: 245.2356pt x 270.53003pt.
 
-Overfull \hbox (35.23247pt too wide) in paragraph at lines 1290--1293
- [][] 
- []
-
-
-Overfull \hbox (0.79811pt too wide) in paragraph at lines 1298--1299
-\T1/phv/m/n/12 the an-ti-codon (usu-ally po-si-tion 37). Both
- []
-
-
-Overfull \hbox (4.96446pt too wide) in paragraph at lines 1298--1299
-\T1/phv/m/n/12 o-sine, and the lat-ter fur-ther mod-i-fied (e.g.
- []
-
-
-Overfull \hbox (22.33833pt too wide) in paragraph at lines 1298--1299
-\T1/phv/m/n/12 tent we could also de-tect 1-methyladenosine
- []
-
-
-Overfull \hbox (1.66728pt too wide) in paragraph at lines 1298--1299
-\T1/phv/m/n/12 sine mod-i-fi-ca-tions at po-si-tions 9, 26, and
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41 <./figures/paper7a.png (PNG copy)>]
-Overfull \hbox (5.60674pt too wide) in paragraph at lines 1300--1303
-[]\T1/phv/m/n/12 The tem-po-ral res-o-lu-tion of tRNA mod-
- []
+[42
 
-
-Overfull \hbox (4.95305pt too wide) in paragraph at lines 1300--1303
-\T1/phv/m/n/12 sin-gle mod-i-fi-ca-tion level (in-o-sine 34), and
- []
-
-
-Overfull \hbox (4.66508pt too wide) in paragraph at lines 1300--1303
-\T1/phv/m/n/12 mod-i-fi-ca-tions, since they rep-re-sented the
- []
-
-
-Overfull \hbox (15.24602pt too wide) in paragraph at lines 1300--1303
-\T1/phv/m/n/12 po-si-tion 34 in reads that re-tained the leader
- []
-
-
-Overfull \hbox (3.18655pt too wide) in paragraph at lines 1300--1303
-\T1/phv/m/n/12 at A37. Reads with two mis-matches con-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[42]
-Overfull \hbox (0.57053pt too wide) in paragraph at lines 1309--1314
-\T1/phv/m/n/12 times more abun-dant than unedited This
- []
-
-
-Overfull \hbox (2.87082pt too wide) in paragraph at lines 1315--1317
-[]\T1/phv/m/n/12 We are far from ex-perts on tRNA edit-
- []
-
-
-Overfull \hbox (27.6664pt too wide) in paragraph at lines 1315--1317
-\T1/phv/m/n/12 do al-low for a care-ful an-no-ta-tion and overview
- []
-
-
-Overfull \hbox (3.27063pt too wide) in paragraph at lines 1315--1317
-\T1/phv/m/n/12 of spe-cific mod-i-fi-ca-tions. Those that lead
- []
-
-
-Overfull \hbox (10.29048pt too wide) in paragraph at lines 1315--1317
-\T1/phv/m/n/12 to char-ac-ter-is-tic sig-na-tures of mis-matches
- []
-
-
-Overfull \hbox (6.8732pt too wide) in paragraph at lines 1315--1317
-\T1/phv/m/n/12 matchsig-na-tures in pre-tRNAs, which can
- []
-
-<./figures/paper7b.png, id=890, 341.3553pt x 362.3136pt>
+ <./figures/paper7a.png (PNG copy)>]
+<./figures/paper7b.png, id=886, 341.3553pt x 362.3136pt>
 File: ./figures/paper7b.png Graphic file (type png)
 
 <use ./figures/paper7b.png>
-Package pdftex.def Info: ./figures/paper7b.png used on input line 1322.
+Package pdftex.def Info: ./figures/paper7b.png used on input line 1297.
 (pdftex.def)             Requested size: 361.34999pt x 383.5475pt.
-
-Overfull \hbox (151.34686pt too wide) in paragraph at lines 1322--1325
- [][] 
- []
-
-
-Overfull \hbox (0.48297pt too wide) in paragraph at lines 1330--1330
-|[]\T1/phv/b/n/17.28 Annotation of intron-
- []
-
-
-Overfull \hbox (19.28227pt too wide) in paragraph at lines 1330--1330
-\T1/phv/b/n/17.28 containing tRNA genes| 
- []
-
-
-Overfull \hbox (2.91034pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 Intron-containing tR-NAs rep-re-sent a par-
- []
-
-
-Overfull \hbox (0.33105pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 se-vere neu-rode-vel-op-men-tal syn-dromes,
- []
-
-
-Overfull \hbox (1.24257pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 such as pon-to-cere-bel-lar hy-popla-sia [[]61[]].
- []
-
-
-Overfull \hbox (13.68692pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 be re-vis-ited as mark-ers or disease-causing
- []
-
-
-Overfull \hbox (1.56676pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 can-di-dates in phe-no-typ-i-cally sim-i-lar con-
- []
-
-
-Overfull \hbox (1.63867pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 dicted intron-containing tR-NAs by hydro-
- []
-
-
-Overfull \hbox (9.52277pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 known bi-o-log-i-cally re-dun-dant mech-a-nism,
- []
-
-
-Overfull \hbox (8.62192pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 this sug-gests that the in-tegrity of the tRNA
- []
-
-
-Overfull \hbox (0.76295pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 splic-ing com-plex is es-sen-tial for sur-vival.
- []
-
-
-Overfull \hbox (1.86678pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 cou-pled hydro-tRNAseq re-sults with pre-
- []
-
-
-Overfull \hbox (13.07405pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 spite the shal-low read depth of the dataset,
- []
-
-
-Overfull \hbox (4.81807pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 the an-ti-codon loop of all intron-containing
- []
-
-
-Overfull \hbox (13.03838pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 tR-NAs an-no-tated by our ap-proaches. (\T1/phv/b/n/12 Fig.
- []
-
-
-Overfull \hbox (14.66954pt too wide) in paragraph at lines 1332--1333
-[]\T1/phv/b/n/12 3.8[]B,C\T1/phv/m/n/12 . One tRNA iso-type and three isoac-
- []
-
-
-Overfull \hbox (10.00171pt too wide) in paragraph at lines 1332--1333
-\T1/phv/m/n/12 cep-tors are fully de-pen-dent on tRNA splic-
- []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -2257,702 +2100,158 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[43 <./figures/paper7b.png (PNG copy)>]
-<./figures/paper5.png, id=899, 532.1481pt x 595.2639pt>
-File: ./figures/paper5.png Graphic file (type png)
+[43]
 
-<use ./figures/paper5.png>
-Package pdftex.def Info: ./figures/paper5.png used on input line 1336.
-(pdftex.def)             Requested size: 430.00627pt x 481.02576pt.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1336--1339
- [][] 
- []
-
-
-Overfull \hbox (9.1737pt too wide) in paragraph at lines 1347--1348
-[]\T1/phv/m/n/12 Recessive mu-ta-tions in chil-dren with
- []
-
-
-Overfull \hbox (7.7457pt too wide) in paragraph at lines 1347--1348
-\T1/phv/m/n/12 neu-rode-vel-op-men-tal dis-or-ders were
- []
-
-
-Overfull \hbox (16.93686pt too wide) in paragraph at lines 1347--1348
-\T1/phv/m/n/12 lo-cal-ized to tRNA splic-ing fac-tor CLP1 
- []
-
-
-Overfull \hbox (11.08171pt too wide) in paragraph at lines 1348--1349
-[]\T1/phv/m/n/12 Exome se-quenc-ing iden-ti-fied R140H
- []
-
-
-Overfull \hbox (8.1767pt too wide) in paragraph at lines 1349--1350
-[]\T1/phv/m/n/12 R140H re-duced in-ter-ac-tion be-tween
- []
-
-<./figures/intron_trna.png, id=900, 1132.23pt x 527.571pt>
+[44 <./figures/paper7b.png (PNG copy)>]
+<./figures/intron_trna.png, id=899, 1132.23pt x 527.571pt>
 File: ./figures/intron_trna.png Graphic file (type png)
 
 <use ./figures/intron_trna.png>
-Package pdftex.def Info: ./figures/intron_trna.png used on input line 1356.
+Package pdftex.def Info: ./figures/intron_trna.png used on input line 1311.
 (pdftex.def)             Requested size: 430.00627pt x 200.3583pt.
 
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1356--1359
- [][] 
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[45 <./figures/intron_trna.png (PNG copy)>]
+<./figures/paper5.png, id=909, 532.1481pt x 595.2639pt>
+File: ./figures/paper5.png Graphic file (type png)
+
+<use ./figures/paper5.png>
+Package pdftex.def Info: ./figures/paper5.png used on input line 1323.
+(pdftex.def)             Requested size: 430.00627pt x 481.02576pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[46 <./figures/paper5.png (PNG copy)>]
+
+LaTeX Warning: Reference `pedigree' on page 47 undefined on input line 1337.
+
+
+Overfull \hbox (13.38905pt too wide) in paragraph at lines 1337--1338
+\T1/phv/m/n/12 hy-popla-sia iden-ti-fied a ho-mozy-gous mis-sense mu-ta-tion in
+ CLP1 (chr11:g.57,427,367
  []
 
-<./figures/clp1align.png, id=901, 587.0733pt x 418.2024pt>
+<./figures/pedigree1.png, id=919, 483.7272pt x 162.6075pt>
+File: ./figures/pedigree1.png Graphic file (type png)
+
+<use ./figures/pedigree1.png>
+Package pdftex.def Info: ./figures/pedigree1.png used on input line 1341.
+(pdftex.def)             Requested size: 430.00627pt x 144.54901pt.
+
+<./figures/clp1align.png, id=921, 587.0733pt x 418.2024pt>
 File: ./figures/clp1align.png Graphic file (type png)
 
 <use ./figures/clp1align.png>
-Package pdftex.def Info: ./figures/clp1align.png used on input line 1366.
+Package pdftex.def Info: ./figures/clp1align.png used on input line 1352.
 (pdftex.def)             Requested size: 430.00627pt x 306.31897pt.
 
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1366--1369
- [][] 
- []
 
-<./figures/clp1bars.png, id=902, 721.69624pt x 497.86pt>
-File: ./figures/clp1bars.png Graphic file (type png)
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-<use ./figures/clp1bars.png>
-Package pdftex.def Info: ./figures/clp1bars.png used on input line 1376.
-(pdftex.def)             Requested size: 430.00627pt x 296.6368pt.
-
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1376--1379
- [][] 
- []
-
-<./figures/clp1bars2.png, id=903, 755.9442pt x 225.0006pt>
+[47] <./figures/clp1bars2.png, id=930, 755.9442pt x 225.0006pt>
 File: ./figures/clp1bars2.png Graphic file (type png)
 
 <use ./figures/clp1bars2.png>
-Package pdftex.def Info: ./figures/clp1bars2.png used on input line 1386.
+Package pdftex.def Info: ./figures/clp1bars2.png used on input line 1362.
 (pdftex.def)             Requested size: 430.00627pt x 127.9873pt.
 
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1386--1389
- [][] 
+Overfull \hbox (12.30637pt too wide) in paragraph at lines 1370--1371
+[]\T1/phv/m/n/12 These re-sults were con-firmed in-de-pen-dently by our col-lab
+-o-ra-tors (Ste-fan Weitzer,
  []
 
-<./figures/nb.png, id=904, 572.8602pt x 341.3553pt>
+<./figures/nb.png, id=934, 572.8602pt x 341.3553pt>
 File: ./figures/nb.png Graphic file (type png)
  <use ./figures/nb.png>
-Package pdftex.def Info: ./figures/nb.png used on input line 1396.
+Package pdftex.def Info: ./figures/nb.png used on input line 1374.
 (pdftex.def)             Requested size: 430.00627pt x 256.23459pt.
 
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1396--1399
- [][] 
- []
-
-
-Overfull \hbox (28.84692pt too wide) in paragraph at lines 1404--1404
-|[]\T1/phv/b/n/14.4 Plausible path-ome-ch-a-nisms
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44]
-
-LaTeX Warning: Text page 45 contains only floats.
-
+[48 <./figures/pedigree1.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45 <./figures/paper5.png (PNG copy)> <./figures/intron_trna.png (PNG copy)> <.
-/figures/clp1align.png (PNG copy)>]
-Overfull \vbox (20.99603pt too high) has occurred while \output is active []
-
-
-<./figures/splicing2_v2.png, id=916, 599.6001pt x 390.9807pt>
+[49 <./figures/clp1align.png (PNG copy)> <./figures/clp1bars2.png (PNG copy)>]
+<./figures/splicing2_v2.png, id=943, 599.6001pt x 390.9807pt>
 File: ./figures/splicing2_v2.png Graphic file (type png)
 
 <use ./figures/splicing2_v2.png>
-Package pdftex.def Info: ./figures/splicing2_v2.png used on input line 1413.
+Package pdftex.def Info: ./figures/splicing2_v2.png used on input line 1398.
 (pdftex.def)             Requested size: 430.00627pt x 280.39026pt.
 
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1413--1416
- [][] 
- []
-
-
-Overfull \hbox (1.94875pt too wide) in paragraph at lines 1421--1421
-|[]\T1/phv/b/n/14.4 hydro-tRNAseq on CLP1| 
- []
-
-
-Overfull \hbox (0.89635pt too wide) in paragraph at lines 1424--1424
-|[]\T1/phv/b/n/17.28 tRNA en-zyme screen| 
- []
-
-
-Overfull \hbox (4.7108pt too wide) in paragraph at lines 1425--1426
-\T1/phv/m/n/12 mod-i-fy-ing and pro-cess-ing en-zymes. Sur-
- []
-
-
-Overfull \hbox (6.00812pt too wide) in paragraph at lines 1425--1426
-\T1/phv/m/n/12 pris-ingly, even though I tar-geted key com-
- []
-
-
-Overfull \hbox (2.02168pt too wide) in paragraph at lines 1425--1426
-\T1/phv/m/n/12 po-nents of the tRNA bio-gen-e-sis and pro-
- []
-
-
-Overfull \hbox (4.4844pt too wide) in paragraph at lines 1425--1426
-\T1/phv/m/n/12 cess-ing path-way, I could not ob-serve ma-
- []
-
-
-Overfull \hbox (20.74176pt too wide) in paragraph at lines 1425--1426
-\T1/phv/m/n/12 mod-est ac-cu-mu-la-tion of 5' end tRNA halves.
- []
-
-
-Overfull \hbox (5.68295pt too wide) in paragraph at lines 1425--1426
-\T1/phv/m/n/12 en-zy-matic ac-tiv-ity af-ter knock-down is suf-
- []
-
-
-Overfull \hbox (2.29782pt too wide) in paragraph at lines 1425--1426
-\T1/phv/m/n/12 fi-cient for proper tRNA pro-cess-ing or that
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46 <./figures/clp1bars.png> <./figures/clp1bars2.png (PNG copy)> <./figures/nb
-.png (PNG copy)>]
-Overfull \hbox (5.51137pt too wide) in paragraph at lines 1427--1428
-[]\T1/phv/m/n/12 This pub-li-ca-tion steered in-ter-est in the
- []
-
-
-Overfull \hbox (6.7139pt too wide) in paragraph at lines 1427--1428
-\T1/phv/m/n/12 ing a se-ries of tRNA pro-cess-ing and mod-
- []
-
-
-Overfull \hbox (0.11633pt too wide) in paragraph at lines 1427--1428
-\T1/phv/m/n/12 trans-ferase, the tRNA methyl-trans-ferase
- []
-
-
-Overfull \hbox (34.10963pt too wide) in paragraph at lines 1427--1428
-\T1/phv/m/n/12 TRMT10A, the tRNA splic-ing lig-ase HSPC117,
- []
-
-
-Overfull \hbox (1.32675pt too wide) in paragraph at lines 1427--1428
-\T1/phv/m/n/12 also TRANSLIN, a pu-ta-tively novel tRNA
- []
-
-
-Overfull \hbox (5.9494pt too wide) in paragraph at lines 1427--1428
-\T1/phv/m/n/12 avail-able, the knock-downs were val-i-dated
- []
-
-
-Overfull \hbox (2.48062pt too wide) in paragraph at lines 1427--1428
-\T1/phv/m/n/12 to tR-NAseq, with the ex-pec-ta-tion to iden-
- []
-
-
-Overfull \hbox (12.79884pt too wide) in paragraph at lines 1427--1428
-\T1/phv/m/n/12 ized by an ac-cu-mu-la-tion of un-spliced tRNA
- []
-
+[50 <./figures/nb.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <./figures/splicing2_v2.png (PNG copy)>]
-Overfull \hbox (26.79974pt too wide) in paragraph at lines 1429--1429
-|[]\T1/phv/b/n/17.28 Comparison with other
- []
+[51 <./figures/splicing2_v2.png (PNG copy)>]
 
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Overfull \hbox (8.38203pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 Recently tRNA se-quenc-ing meth-ods have
- []
-
-
-Overfull \hbox (10.48288pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 re-verse tran-scrip-tase to over-come re-spec-
- []
-
-
-Overfull \hbox (2.70673pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 quenced and the se-quenc-ing reads were
- []
-
-
-Overfull \hbox (5.51685pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 Ad-di-tion-ally, we did not bias our se-quenc-
- []
-
-
-Overfull \hbox (4.48256pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 both RNAseq and more im-por-tantly PAR-
- []
-
-
-Overfull \hbox (6.60696pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 ces-siv-ity con-ferred by dealky-lat-ing methyl
- []
-
-
-Overfull \hbox (7.07721pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 mod-i-fi-ca-tions, in the pre-vi-ous stud-ies only
- []
-
-
-Overfull \hbox (16.7582pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 given tran-script were full-length reads (<1%
- []
-
-
-Overfull \hbox (16.12189pt too wide) in paragraph at lines 1431--1432
-\T1/phv/m/n/12 com-pared to un-treated con-trols (\T1/phv/b/n/12 Fig. []3.15[]\
-T1/phv/m/n/12 ). 
- []
-
-<./figures/supp6.png, id=934, 351.714pt x 227.6505pt>
+[52] <./figures/supp6.png, id=966, 351.714pt x 227.6505pt>
 File: ./figures/supp6.png Graphic file (type png)
 
 <use ./figures/supp6.png>
-Package pdftex.def Info: ./figures/supp6.png used on input line 1435.
+Package pdftex.def Info: ./figures/supp6.png used on input line 1420.
 (pdftex.def)             Requested size: 351.71315pt x 227.64993pt.
 
-Overfull \hbox (141.71002pt too wide) in paragraph at lines 1435--1438
- [][] 
- []
-
-
-Overfull \hbox (1.80635pt too wide) in paragraph at lines 1443--1444
-\T1/phv/m/n/12 to 0.95 and 0.87 in pre-vi-ous stud-ies; \T1/phv/b/n/12 Fig.
- []
-
-
-Overfull \hbox (0.7409pt too wide) in paragraph at lines 1443--1444
-\T1/phv/m/n/12 and  212 in the other meth-ods.Also, SSB
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[48] <./figures/supp7.png, id=940, 340.1508pt x 251.4996pt>
+<./figures/supp7.png, id=968, 340.1508pt x 251.4996pt>
 File: ./figures/supp7.png Graphic file (type png)
 
 <use ./figures/supp7.png>
-Package pdftex.def Info: ./figures/supp7.png used on input line 1447.
+Package pdftex.def Info: ./figures/supp7.png used on input line 1432.
 (pdftex.def)             Requested size: 340.14996pt x 251.49898pt.
 
-Overfull \hbox (130.14684pt too wide) in paragraph at lines 1447--1450
- [][] 
- []
-
-
-Overfull \hbox (0.57031pt too wide) in paragraph at lines 1457--1458
-\T1/phv/m/n/12 vide ex-per-i-men-tally val-i-dated an-no-ta-tion
- []
-
-
-Overfull \hbox (9.3544pt too wide) in paragraph at lines 1457--1458
-\T1/phv/m/n/12 nish-ing an ac-cu-rate quan-tifi-ca-tion of tRNA
- []
-
-
-Overfull \hbox (4.29224pt too wide) in paragraph at lines 1459--1460
-\T1/phv/m/n/12 com-ing hur-dles of tRNA se-quenc-ing, and
- []
-
-
-Overfull \hbox (16.4588pt too wide) in paragraph at lines 1459--1460
-\T1/phv/m/n/12 quences for ac-cu-rately as-sign-ing se-quence
- []
-
-
-Overfull \hbox (24.58205pt too wide) in paragraph at lines 1459--1460
-\T1/phv/m/n/12 reads to the oth-er-wise edited and nucleotide-
- []
-
-
-Overfull \hbox (1.4586pt too wide) in paragraph at lines 1459--1460
-\T1/phv/m/n/12 y-sis of the tRNA-containing pool re-lieved
- []
-
-
-Overfull \hbox (2.46661pt too wide) in paragraph at lines 1459--1460
-\T1/phv/m/n/12 ther-mo-dy-nam-i-cally sta-ble struc-tural con-
- []
-
-
-Overfull \hbox (4.84468pt too wide) in paragraph at lines 1459--1460
-\T1/phv/m/n/12 quenced frag-ment, re-sult-ing in high read-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49 <./figures/supp6.png (PNG copy)> <./figures/supp7.png (PNG copy)>]
-Overfull \hbox (9.09033pt too wide) in paragraph at lines 1461--1462
-\T1/phv/m/n/12 which co-or-di-nates post-tran-scrip-tional pro-
- []
-
-
-Overfull \hbox (1.51743pt too wide) in paragraph at lines 1461--1462
-\T1/phv/m/n/12 tRNA tran-scripts and an-no-ta-tion of tRNA
- []
-
-
-Overfull \hbox (0.34396pt too wide) in paragraph at lines 1461--1462
-\T1/phv/m/n/12 genes. Of note, since SSB in-ter-acts with
- []
-
-
-Overfull \hbox (16.7721pt too wide) in paragraph at lines 1463--1464
-\T1/phv/m/n/12 ex-per-i-men-tal sys-tem, the tRNA gene space
- []
-
-
-Overfull \hbox (1.74567pt too wide) in paragraph at lines 1463--1464
-\T1/phv/m/n/12 most half of the pre-dicted tRNA loci were
- []
-
-
-Overfull \hbox (15.0544pt too wide) in paragraph at lines 1463--1464
-\T1/phv/m/n/12 for var-i-ous cell types and at dif-fer-ent stages
- []
-
-
-Overfull \hbox (12.06705pt too wide) in paragraph at lines 1463--1464
-\T1/phv/m/n/12 anal-y-sis shows that se-leno-cys-teine seems
- []
-
-
-Overfull \hbox (8.67065pt too wide) in paragraph at lines 1463--1464
-\T1/phv/m/n/12 sug-gest-ing an in-creased sen-si-tiv-ity to mu-
- []
-
-
-Overfull \hbox (1.95113pt too wide) in paragraph at lines 1465--1466
-\T1/phv/m/n/12 both of which have shown species speci-
- []
-
-
-Overfull \hbox (3.43887pt too wide) in paragraph at lines 1465--1466
-\T1/phv/m/n/12 sim-i-lar pre-dic-tions based on ge-nomic se-
- []
-
-
-Overfull \hbox (10.9981pt too wide) in paragraph at lines 1465--1466
-\T1/phv/m/n/12 of ter-mi-na-tion sig-nal lengths that has been
- []
-
+[53 <./figures/supp6.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
-Overfull \hbox (2.8841pt too wide) in paragraph at lines 1467--1468
-[]\T1/phv/m/n/12 We could also con-firm a sec-ond bind-
- []
-
-
-Overfull \hbox (3.4616pt too wide) in paragraph at lines 1467--1468
-\T1/phv/m/n/12 ence of ad-di-tional pre-tRNA bind-ing sites
- []
-
-
-Overfull \hbox (4.48486pt too wide) in paragraph at lines 1472--1473
-\T1/phv/m/n/12 tion, and could shed light into new modes
- []
-
-
-Overfull \hbox (11.57446pt too wide) in paragraph at lines 1472--1473
-\T1/phv/m/n/12 of SSB-mediated pro-cess-ing of pre-tRNAs
- []
-
-
-Overfull \hbox (8.82634pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 tions that re-sult in char-ac-ter-is-tic mis-match
- []
-
-
-Overfull \hbox (4.6744pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 com-bi-na-tions of all ^^Pmu-tated^^Q nu-cleotides
- []
-
-
-Overfull \hbox (11.17828pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 use of our hi-er-ar-chi-cal an-no-ta-tion pipeline,
- []
-
-
-Overfull \hbox (3.96628pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 and es-tab-lish-ing that the same holds true
- []
-
-
-Overfull \hbox (1.98676pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 es-pe-cially PAR-CLIP, de-pends on ap-par-
- []
-
-
-Overfull \hbox (6.39064pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 ent mis-matches (in the case of PAR-CLIP,
- []
-
-
-Overfull \hbox (9.29358pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 an-no-ta-tion of pre-tRNAs and tRNA genes,
- []
-
-
-Overfull \hbox (31.60234pt too wide) in paragraph at lines 1474--1477
-\T1/phv/m/n/12 pro-vide a method and com-pu-ta-tional flowchart
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[51]
-Overfull \hbox (1.8127pt too wide) in paragraph at lines 1481--1482
-[]\T1/phv/m/n/12 PAR-CLIP of SSB/La in-forms the an-
- []
-
-
-Overfull \hbox (6.6639pt too wide) in paragraph at lines 1482--1483
-[]\T1/phv/m/n/12 Combined to-gether, they can be used
- []
-
-
-Overfull \hbox (15.42332pt too wide) in paragraph at lines 1482--1483
-\T1/phv/m/n/12 tRNA bio-gen-e-sis, pro-cess-ing and func-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[52]
-Chapter 4.
-
-Overfull \hbox (2.8388pt too wide) in paragraph at lines 1489--1490
-\T1/phv/m/n/12 In-vit-ro-gen) was iso-lated us-ing TRI-zol (In-
- []
-
-
-Overfull \hbox (5.87488pt too wide) in paragraph at lines 1489--1490
-\T1/phv/m/n/12 polyacrylamide gels and re-cov-ered within
- []
-
-
-Overfull \hbox (4.14334pt too wide) in paragraph at lines 1491--1492
-[]\T1/phv/m/n/12 The par-tially hy-drolyzed RNA was de-
- []
-
-
-Overfull \hbox (330.26534pt too wide) in paragraph at lines 1491--1492
-\T1/phv/m/n/12 were trimmed us-ing cu-tadapt (http://journal.embnet.org/index.p
-hp/embnetjournal/article/view/200/458).
- []
-
-
-Overfull \hbox (11.32265pt too wide) in paragraph at lines 1491--1492
-\T1/phv/m/n/12 formed us-ing the Burrows-Wheeler aligner
- []
-
-
-Overfull \hbox (4.56581pt too wide) in paragraph at lines 1491--1492
-\T1/phv/m/n/12 con-tain-ing pre-dicted tRNA se-quences for
- []
-
-
-Overfull \hbox (78.49738pt too wide) in paragraph at lines 1491--1492
-\T1/phv/m/n/12 hu-man genome ver-sion hg19 (http://gtrnadb.ucsc.edu).
- []
-
-
-Overfull \hbox (23.35854pt too wide) in paragraph at lines 1491--1492
-\T1/phv/m/n/12 Se-quenc-ing reads were first mapped against
- []
-
-
-Overfull \hbox (14.26195pt too wide) in paragraph at lines 1491--1492
-\T1/phv/m/n/12 mapped against ge-nomic tRNA se-quences
- []
-
-[53
-
-]
-Overfull \hbox (8.44652pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 sodium pyru-vate, 100 U/mL peni-cillin, 100
- []
-
-
-Overfull \hbox (8.33434pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 bly ex-press-ing FLAG/HA- (FH-) SSB were
- []
-
-
-Overfull \hbox (11.28595pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 HiSeq 2500 in-stru-ment. Adapter ex-tracted
- []
-
-
-Overfull \hbox (0.58221pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 cu-rated and an-no-tated list of ma-ture and
- []
-
-
-Overfull \hbox (2.57361pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 and an-no-tated ref-er-ence RNA col-lec-tion,
- []
-
-
-Overfull \hbox (4.65318pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 which we or-ga-nized into cat-e-gories, such
- []
-
-
-Overfull \hbox (36.92886pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 This pipeline is avail-able at []$\T1/cmtt/m/n/12 https : / / rn
-aworld .
- []
-
-
-Overfull \hbox (6.05313pt too wide) in paragraph at lines 1494--1495
-\T1/cmtt/m/n/12 rockefeller . edu / PARCLIP _ suite/$[]\T1/phv/m/n/12 . T-to-
- []
-
-
-Overfull \hbox (10.24416pt too wide) in paragraph at lines 1494--1495
-\T1/phv/m/n/12 C con-ver-sion fre-quency, in-dica-tive of bind-
- []
-
-
-Overfull \hbox (5.99442pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 tomic database with er-ror dis-tance 0 (d0),
- []
-
-
-Overfull \hbox (4.98575pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 tions that be-long to dif-fer-ent RNA classes
- []
-
-
-Overfull \hbox (4.39732pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 RNA class. Ma-ture RNA se-quences (e.g.
- []
-
-
-Overfull \hbox (4.86649pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 span-ning the pre-cur-sor/mature junc-tions,
- []
-
-
-Overfull \hbox (1.53038pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 in-clud-ing exon/intron junc-tions for intron-
- []
-
-
-Overfull \hbox (19.66475pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 ports, mul-timap-ping reads were split equally
- []
-
-
-Overfull \hbox (11.0465pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 and non-edited ver-sions of the same tRNA
- []
-
-
-Overfull \hbox (0.6777pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 that no tRNA pre-cur-sors were an-no-tated
- []
-
-
-Overfull \hbox (1.95021pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 due to con-tin-u-ous tran-scrip-tion of the mi-
- []
-
-
-Overfull \hbox (13.23044pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 script were mapped to the hu-man genome.
- []
-
-
-Overfull \hbox (9.9668pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 The mapped read an-no-ta-tion pro-cess was
- []
-
-
-Overfull \hbox (8.3582pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 as-signed pri-or-ity to reads map-ping in their
- []
-
-
-Overfull \hbox (19.90242pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 by reads that spanned the precursor-mature
- []
-
-
-Overfull \hbox (7.12271pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 junc-tions. Bioin-for-matic anal-y-sis was per-
- []
-
-
-Overfull \hbox (9.94257pt too wide) in paragraph at lines 1497--1498
-\T1/phv/m/n/12 formed by cus-tom Perl and Python scripts,
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[54]
-Overfull \hbox (2.83833pt too wide) in paragraph at lines 1500--1501
-\T1/phv/m/n/12 data have been de-posited in the Na-tional
- []
-
-
-Overfull \hbox (21.82213pt too wide) in paragraph at lines 1500--1501
-\T1/phv/m/n/12 Cen-ter for Biotech-nol-ogy In-for-ma-tion (NCBI)
- []
-
+[54 <./figures/supp7.png (PNG copy)>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -2960,114 +2259,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [55]
-Chapter 5.
 
-Overfull \hbox (56.00954pt too wide) in paragraph at lines 1505--1506
-\T1/phv/m/n/12 (TSN) and the nu-cle-ase TRANSLIN-ASSOCIATED
- []
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-
-Overfull \hbox (6.47359pt too wide) in paragraph at lines 1505--1506
-\T1/phv/m/n/12 to lo-cal-ize to DNA break points36,37. Re-
- []
-
-
-Overfull \hbox (1.85973pt too wide) in paragraph at lines 1505--1506
-\T1/phv/m/n/12 cently, how-ever, it was shown to pro-mote
- []
-
-
-Overfull \hbox (5.45407pt too wide) in paragraph at lines 1505--1506
-\T1/phv/m/n/12 sesses RNA en-donu-cle-olytic ac-tiv-ity both
- []
-
-
-Overfull \hbox (11.33449pt too wide) in paragraph at lines 1505--1506
-\T1/phv/m/n/12 the se-vere neu-rode-gen-er-a-tive phe-no-types
- []
-
-
-Overfull \hbox (13.59048pt too wide) in paragraph at lines 1505--1506
-\T1/phv/m/n/12 in-creased re-sis-tance to cell death-inducing
- []
-
-
-Overfull \hbox (1.38673pt too wide) in paragraph at lines 1505--1506
-\T1/phv/m/n/12 pro-cess-ing en-zyme. De-spite these stud-
- []
-
-[56
-
-]
-Overfull \hbox (11.99406pt too wide) in paragraph at lines 1507--1508
-\T1/phv/m/n/12 nu-cle-ase TRANSLIN-ASSOCIATED PRO-
- []
-
-
-Overfull \hbox (1.50891pt too wide) in paragraph at lines 1507--1508
-\T1/phv/m/n/12 ser-va-tions, mu-ta-tions in the com-po-nents
- []
-
-
-Overfull \hbox (27.93025pt too wide) in paragraph at lines 1507--1508
-\T1/phv/m/n/12 in neu-ro-log-i-cal and be-hav-ioral phe-no-types54.
- []
-
-
-Overfull \hbox (1.30182pt too wide) in paragraph at lines 1507--1508
-\T1/phv/m/n/12 tRNA pro-cess-ing with PTGR. In this aim,
- []
-
-
-Overfull \hbox (0.7263pt too wide) in paragraph at lines 1509--1510
-\T1/phv/m/n/12 ini-tially de-scribed as a pro-tein that would
- []
-
-
-Overfull \hbox (2.39717pt too wide) in paragraph at lines 1509--1510
-\T1/phv/m/n/12 in the nu-cleus of lym-phoid cell lines, sug-
- []
-
-
-Overfull \hbox (1.78479pt too wide) in paragraph at lines 1509--1510
-\T1/phv/m/n/12 re-pair, repli-ca-tion or re-com-bi-na-tion (Aoki
- []
-
-
-Overfull \hbox (4.60266pt too wide) in paragraph at lines 1511--1514
-\T1/phv/m/n/12 ro-sine ki-nase phos-pho-ry-la-tion sites (Aoki
- []
-
-
-Overfull \hbox (8.65865pt too wide) in paragraph at lines 1511--1514
-\T1/phv/m/n/12 cy-toso-lic frac-tion of non-lym-phoid and lym-
- []
-
-
-Overfull \hbox (21.7622pt too wide) in paragraph at lines 1511--1514
-\T1/phv/m/n/12 a slightly faster mo-bil-ity in non-hematopoetic
- []
-
-
-Overfull \hbox (6.5945pt too wide) in paragraph at lines 1511--1514
-\T1/phv/m/n/12 tively con-trolledin lym-phoid lin-eage cells^^Q. 
- []
-
-
-Overfull \hbox (5.53856pt too wide) in paragraph at lines 1515--1516
-\T1/phv/m/n/12 served se-quences at the break-point junc-
- []
-
-
-Overfull \hbox (7.29346pt too wide) in paragraph at lines 1515--1516
-\T1/phv/m/n/12 was ^^PDNA-unwinding, which makes these
- []
-
-
-Overfull \hbox (18.85881pt too wide) in paragraph at lines 1515--1516
-\T1/phv/m/n/12 re-gions more sus-cep-ti-ble to nu-cle-ase cleav-
- []
-
+[56]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3075,132 +2273,22 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [57]
-Overfull \hbox (7.79144pt too wide) in paragraph at lines 1519--1520
-[]\T1/phv/m/n/12 ^^PThese re-sults raise the in-trigu-ing pos-
+Chapter 4.
+
+Overfull \hbox (11.20323pt too wide) in paragraph at lines 1476--1477
+\T1/phv/m/n/12 (http://journal.embnet.org/index.php/embnetjournal/article/view/
+200/458). Se-quenc-
  []
 
 
-Overfull \hbox (12.12595pt too wide) in paragraph at lines 1523--1524
-\T1/phv/m/n/12 dergo ex-ten-sive DNA re-ar-range-ments pro-
+Overfull \hbox (18.36786pt too wide) in paragraph at lines 1476--1477
+\T1/phv/m/n/12 pre-dicted tRNA se-quences for hu-man genome ver-sion hg19 (http
+://gtrnadb.ucsc.edu).
  []
 
-<./figures/parclips.png, id=1009, 947.54pt x 592.2125pt>
-File: ./figures/parclips.png Graphic file (type png)
+[58
 
-<use ./figures/parclips.png>
-Package pdftex.def Info: ./figures/parclips.png used on input line 1527.
-(pdftex.def)             Requested size: 430.00627pt x 268.75226pt.
-
-Overfull \hbox (220.00314pt too wide) in paragraph at lines 1527--1530
- [][] 
- []
-
-
-Overfull \hbox (31.72122pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 com-plex of TRANSLIN (TSN) and TRANSLIN-
- []
-
-
-Overfull \hbox (13.62477pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 ASSOCIATED FAC-TOR X (TSNAX), which
- []
-
-
-Overfull \hbox (4.39854pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 was orig-i-nally re-ported to co-localize with
- []
-
-
-Overfull \hbox (25.45837pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 break-point junc-tions of chro-mo-so-mal translo-
- []
-
-
-Overfull \hbox (8.30043pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 af-fect genome sta-bil-ity. In-ter-est-ingly, mice
- []
-
-
-Overfull \hbox (1.14694pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 lack-ing Tsn ex-hib-ited learn-ing and mem-
- []
-
-
-Overfull \hbox (37.81807pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 re-ported to en-hance RNAi ac-tiv-ity in Drosophila
- []
-
-
-Overfull \hbox (5.56465pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 and hu-mans, wherein TSNAX pos-sessed
- []
-
-
-Overfull \hbox (3.3181pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 shaw Pa-tel's group (MSKCC), I bio-chem-
- []
-
-
-Overfull \hbox (5.76643pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 and we solved the struc-ture of Drosophila
- []
-
-
-Overfull \hbox (0.78864pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 spite these re-cent ef-forts, nei-ther the en-
- []
-
-
-Overfull \hbox (19.48422pt too wide) in paragraph at lines 1536--1537
-\T1/phv/m/n/12 bles onto its sub-strates, or if RNA molecules
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[58 <./figures/parclips.png>]
-Overfull \hbox (7.35037pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 cent pub-li-ca-tion on a newly re-ported func-
- []
-
-
-Overfull \hbox (0.5454pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 tion of C3PO re-gard-ing mat-u-ra-tion of tR-
- []
-
-
-Overfull \hbox (0.52525pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 NAs, which are typ-i-cally be-tween 70 and
- []
-
-
-Overfull \hbox (17.67235pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 this work-ing hy-poth-e-sis, I find high crosslink
- []
-
-
-Overfull \hbox (2.57469pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 ev-i-dence within the D-arm of tR-NAs from
- []
-
-
-Overfull \hbox (3.3532pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 en-doge-nous RNA sub-strates of TSN and
- []
-
-
-Overfull \hbox (2.65991pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 ing on the RNA cat-e-gory, func-tion-ally de-
- []
-
-
-Overfull \hbox (17.56175pt too wide) in paragraph at lines 1538--1539
-\T1/phv/m/n/12 ac-ter-ize C3PO-containing mRNP and tRNP
- []
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3208,50 +2296,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [59]
-Overfull \hbox (8.72981pt too wide) in paragraph at lines 1541--1542
-\T1/phv/m/n/12 com-po-nents. Ex-pres-sion of TSNAX alone
- []
-
-
-Overfull \hbox (3.43913pt too wide) in paragraph at lines 1541--1542
-\T1/phv/m/n/12 did not yield any crosslinked RNAs ^^U pre-
- []
-
-
-Overfull \hbox (7.56668pt too wide) in paragraph at lines 1541--1542
-\T1/phv/m/n/12 sum-ably due to its nu-cle-ase ac-tiv-ity. How-
- []
-
-
-Overfull \hbox (30.52354pt too wide) in paragraph at lines 1541--1542
-\T1/phv/m/n/12 ever, PAR-CLIP with TSN did yield crosslinked
- []
-
-
-Overfull \hbox (10.26642pt too wide) in paragraph at lines 1541--1542
-\T1/phv/m/n/12 RNAs. Pre-lim-i-nary anal-y-sis of this dataset
- []
-
-
-Overfull \hbox (44.90802pt too wide) in paragraph at lines 1543--1543
-|[]\T1/phv/b/n/17.28 C3PO pos-sesses a length-
- []
-
-
-Overfull \hbox (33.69473pt too wide) in paragraph at lines 1543--1543
-\T1/phv/b/n/17.28 and structure-dependent
- []
-
-
-Overfull \hbox (10.86781pt too wide) in paragraph at lines 1543--1543
-\T1/phv/b/n/17.28 en-donu-cle-olytic ac-tiv-
- []
-
-
-Overfull \hbox (8.30092pt too wide) in paragraph at lines 1547--1548
-\T1/phv/m/n/12 able to cleave them, thereby al-low-ing their
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3259,30 +2303,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [60]
-Overfull \hbox (2.64252pt too wide) in paragraph at lines 1549--1549
-|[]\T1/phv/b/n/17.28 Functional val-i-da-tion
- []
-
-
-Overfull \hbox (0.90714pt too wide) in paragraph at lines 1550--1551
-\T1/phv/m/n/12 gets will be ex-am-ined in over-expression
- []
-
-
-Overfull \hbox (10.1707pt too wide) in paragraph at lines 1550--1551
-\T1/phv/m/n/12 per-form Hy-droR-NAseq and RIP-Seq stud-
- []
-
-
-Overfull \hbox (3.14098pt too wide) in paragraph at lines 1550--1551
-\T1/phv/m/n/12 tein level, by per-form-ing west-ern blot and
- []
-
-
-Overfull \hbox (2.33475pt too wide) in paragraph at lines 1550--1551
-\T1/phv/m/n/12 teins whose mR-NAs will be val-i-dated tar-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3290,215 +2310,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [61]
-Overfull \hbox (11.09315pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 Performing PAR-CLIP on C3PO con-firmed
- []
+Chapter 5.
+[62
 
-
-Overfull \hbox (11.5197pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 rep-re-sented class, mR-NAs, col-lect-ing only
- []
-
-
-Overfull \hbox (17.79259pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 9% (ta-ble 1), b) tR-NAs rep-re-sent the largest
- []
-
-
-Overfull \hbox (6.72662pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 well as within the top 100 clus-ters (ranked
- []
-
-
-Overfull \hbox (2.78966pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 that im-pli-cated C3PO in en-hanc-ing RISC
- []
-
-
-Overfull \hbox (0.12929pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 re-spec-tively (ta-ble 2). How-ever, 5' UTRs
- []
-
-
-Overfull \hbox (6.9062pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 not been re-ported to in-ter-act with 5' UTRs
- []
-
-
-Overfull \hbox (5.06944pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 mo-tif pre-dic-tion al-go-rithms (GIM-SAN and
- []
-
-
-Overfull \hbox (0.97777pt too wide) in paragraph at lines 1553--1554
-\T1/phv/m/n/12 MEME). Cur-rently I am car-ry-ing out RIP-
- []
-
-
-Overfull \hbox (26.59845pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 nary co-immunoprecipitation anal-y-sis yielded
- []
-
-
-Overfull \hbox (2.12106pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 no clear can-di-dates, which sug-gests that
- []
-
-
-Overfull \hbox (16.8546pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 ence of a cell-permeable crosslink-ing agent
- []
-
-
-Overfull \hbox (24.24635pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 then iden-tify by us-ing the mass-spectrometry
- []
-
-
-Overfull \hbox (4.36272pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 These ex-per-i-ments con-firmed that C3PO
- []
-
-
-Overfull \hbox (5.31004pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 length- and structure-dependent man-ner.
- []
-
-
-Overfull \hbox (1.5179pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 I will carry out sim-i-lar stud-ies us-ing tRNA
- []
-
-
-Overfull \hbox (10.01363pt too wide) in paragraph at lines 1555--1556
-\T1/phv/m/n/12 tar-gets pre-dicted from PAR-CLIP and con-
- []
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
-Overfull \hbox (1.98814pt too wide) in paragraph at lines 1557--1558
-\T1/phv/m/n/12 cesses, I am in-ter-ested in elu-ci-dat-ing the
- []
+[63] <./figures/parclips.png, id=1043, 947.54pt x 592.2125pt>
+File: ./figures/parclips.png Graphic file (type png)
 
+<use ./figures/parclips.png>
+Package pdftex.def Info: ./figures/parclips.png used on input line 1512.
+(pdftex.def)             Requested size: 430.00627pt x 268.75226pt.
 
-Overfull \hbox (6.10403pt too wide) in paragraph at lines 1557--1558
-\T1/phv/m/n/12 Also, I have per-formed siRNA knock-down
- []
-
-
-Overfull \hbox (4.6265pt too wide) in paragraph at lines 1557--1558
-\T1/phv/m/n/12 ex-per-i-ments against the two com-po-nents
- []
-
-
-Overfull \hbox (26.80229pt too wide) in paragraph at lines 1557--1558
-\T1/phv/m/n/12 suc-cess-fully knocked down C3PO in HEK293
- []
-
-
-Overfull \hbox (12.09059pt too wide) in paragraph at lines 1557--1558
-\T1/phv/m/n/12 will per-form two se-ries of RNA-sequencing
- []
-
-
-Overfull \hbox (12.55783pt too wide) in paragraph at lines 1557--1558
-\T1/phv/m/n/12 ex-per-i-ments in the con-text of C3PO knock-
- []
-
-
-Overfull \hbox (4.06187pt too wide) in paragraph at lines 1559--1560
-\T1/phv/m/n/12 rest via the ac-cu-mu-la-tion of tRNA halves.
- []
-
-
-Overfull \hbox (6.48799pt too wide) in paragraph at lines 1559--1560
-\T1/phv/m/n/12 tRNA frag-ments. As a con-trol, the miRNA
- []
-
-
-Overfull \hbox (10.14674pt too wide) in paragraph at lines 1559--1560
-\T1/phv/m/n/12 donu-cle-olytic cleav-age of tR-NAs has been
- []
-
-
-Overfull \hbox (19.27846pt too wide) in paragraph at lines 1559--1560
-\T1/phv/m/n/12 con-di-tions nor upon ox-ida-tive stress. There-
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[63]
-Overfull \hbox (0.72316pt too wide) in paragraph at lines 1561--1561
-|[]\T1/phv/b/n/17.28 C3PO sum-mary from
- []
-
-
-Overfull \hbox (6.87pt too wide) in paragraph at lines 1562--1563
-\T1/phv/m/n/12 C3PO is a mul-ti-meric com-plex of the RNA
- []
-
-
-Overfull \hbox (0.56973pt too wide) in paragraph at lines 1562--1563
-\T1/phv/m/n/12 en-donu-cle-ase TRAX. A plethora of func-
- []
-
-
-Overfull \hbox (14.32103pt too wide) in paragraph at lines 1562--1563
-\T1/phv/m/n/12 PAR-CLIP I had pre-vi-ously iden-ti-fied C3PO
- []
-
-
-Overfull \hbox (6.4026pt too wide) in paragraph at lines 1562--1563
-\T1/phv/m/n/12 that it does not bind to miR-NAs or 3'UTRs
- []
-
-
-Overfull \hbox (8.50499pt too wide) in paragraph at lines 1562--1563
-\T1/phv/m/n/12 of mR-NAs, ar-gu-ing against a role in RNAi.
- []
-
-
-Overfull \hbox (0.7978pt too wide) in paragraph at lines 1564--1565
-\T1/phv/m/n/12 C3PO in mRNA and tRNA sta-bil-ity, I per-
- []
-
-
-Overfull \hbox (5.14227pt too wide) in paragraph at lines 1564--1565
-\T1/phv/m/n/12 formed mRNA and tR-NAseq upon knock-
- []
-
-
-Overfull \hbox (3.62076pt too wide) in paragraph at lines 1564--1565
-\T1/phv/m/n/12 plex, per-haps par-tial loss of func-tion con-
- []
-
-
-Overfull \hbox (4.91731pt too wide) in paragraph at lines 1564--1565
-\T1/phv/m/n/12 hy-poth-e-sis, by per-form-ing se-quenc-ing on
- []
-
-
-Overfull \hbox (14.61029pt too wide) in paragraph at lines 1564--1565
-\T1/phv/m/n/12 RNA iso-lated from Translin and Trax knock-
- []
-
-
-Overfull \hbox (33.57271pt too wide) in paragraph at lines 1564--1565
-\T1/phv/m/n/12 out flies, and the lat-ter by per-form-ing polysome
- []
-
-
-Overfull \hbox (6.0549pt too wide) in paragraph at lines 1564--1565
-\T1/phv/m/n/12 molec-u-lar mech-a-nism of ac-tion by C3PO,
+Overfull \hbox (12.48717pt too wide) in paragraph at lines 1521--1522
+\T1/phv/m/n/12 C3PO is an RNA/DNA-binding pro-tein com-plex of TRANSLIN (TSN) a
+nd TRANSLIN-
  []
 
 
@@ -3508,151 +2339,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [64]
-Overfull \hbox (0.72316pt too wide) in paragraph at lines 1566--1566
-|[]\T1/phv/b/n/17.28 C3PO sum-mary from
- []
-
-
-Overfull \hbox (1.59056pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 Despite ex-ten-sive ef-forts in col-lab-o-ra-tion
- []
-
-
-Overfull \hbox (9.06537pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 C3PO (com-plex of TRANSLIN and TRAX)
- []
-
-
-Overfull \hbox (0.71414pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 pre-vi-ously iden-ti-fied by PAR-CLIP. I have
- []
-
-
-Overfull \hbox (1.6387pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 per-formed ex-ten-sive elec-trophoretic mo-
- []
-
-
-Overfull \hbox (3.21039pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 ing C3PO's pu-ta-tive bind-ing mo-tif TGGW
- []
-
-
-Overfull \hbox (9.28204pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 crys-tals of TRANSLIN crys-tal-lized in pres-
- []
-
-
-Overfull \hbox (123.79816pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 hy-drouri-dine stem loop se-quence (5'-GUAUAGUGGUUAGUAC)
- []
-
-
-Overfull \hbox (4.59042pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 that be-long to two dif-fer-ent space groups.
- []
-
-
-Overfull \hbox (0.65427pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 crys-tals of the trun-cated wild-type C3PO
- []
-
-
-Overfull \hbox (4.62889pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 in the RNA-free state, which are cur-rently
- []
-
-
-Overfull \hbox (1.17032pt too wide) in paragraph at lines 1567--1568
-\T1/phv/m/n/12 be-ing op-ti-mized to at-tain diffrac-tion qual-
- []
-
-
-Overfull \hbox (27.75003pt too wide) in paragraph at lines 1569--1570
-\T1/phv/m/n/12 served that siRNA knock-downs of TRANSLIN
- []
-
-
-Overfull \hbox (1.86568pt too wide) in paragraph at lines 1569--1570
-\T1/phv/m/n/12 led to in-creased trans-la-tion of mRNA tar-
- []
-
-
-Overfull \hbox (0.83461pt too wide) in paragraph at lines 1569--1570
-\T1/phv/m/n/12 gets iden-ti-fied by PAR-CLIP. At the same
- []
-
-
-Overfull \hbox (10.55399pt too wide) in paragraph at lines 1569--1570
-\T1/phv/m/n/12 were up-reg-u-lated upon TRANSLIN knock-
- []
-
-
-Overfull \hbox (11.03447pt too wide) in paragraph at lines 1569--1570
-\T1/phv/m/n/12 pressed at mod-er-ate to high lev-els. There-
- []
-
-
-Overfull \hbox (6.8487pt too wide) in paragraph at lines 1569--1570
-\T1/phv/m/n/12 fore, there are rea-sons to think that C3PO
- []
-
-
-Overfull \hbox (7.4705pt too wide) in paragraph at lines 1569--1570
-\T1/phv/m/n/12 content sig-nif-i-cantly higher than ran-domly
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65]
-Overfull \hbox (5.43929pt too wide) in paragraph at lines 1571--1572
-[]\T1/phv/m/n/12 Since TRANSLIN knock-downs did not
- []
-
-
-Overfull \hbox (3.79872pt too wide) in paragraph at lines 1571--1572
-\T1/phv/m/n/12 have a global pro-nounced ef-fect on tRNA
- []
-
-
-Overfull \hbox (24.70386pt too wide) in paragraph at lines 1571--1572
-\T1/phv/m/n/12 lev-els, I rea-soned that the de-ple-tion achieved
- []
-
-
-Overfull \hbox (30.4377pt too wide) in paragraph at lines 1571--1572
-\T1/phv/m/n/12 ob-tain-ing CRIPSR knock-outs20 of TRANSLIN
- []
-
-
-Overfull \hbox (80.75056pt too wide) in paragraph at lines 1573--1574
-[]\T1/phv/m/n/12 Although pre-vi-ous at-tempts to co-immunoprecipitate
- []
-
-
-Overfull \hbox (0.38905pt too wide) in paragraph at lines 1573--1574
-\T1/phv/m/n/12 ment of C3PO in tRNA pro-cess-ing. Hav-
- []
-
-
-Overfull \hbox (6.02945pt too wide) in paragraph at lines 1573--1574
-\T1/phv/m/n/12 ing es-tab-lished ap-pro-pri-ate IP con-di-tions,
- []
-
-
-Overfull \hbox (2.94673pt too wide) in paragraph at lines 1575--1576
-\T1/phv/m/n/12 vided ev-i-dence for abun-dant sta-ble tRNA
- []
-
-
-Overfull \hbox (7.30246pt too wide) in paragraph at lines 1575--1576
-\T1/phv/m/n/12 spon-si-ble for the bio-gen-e-sis of these frag-
- []
-
+[65 <./figures/parclips.png>]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3660,138 +2353,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [66]
+Overfull \hbox (30.96727pt too wide) in paragraph at lines 1528--1528
+|[]\T1/phv/b/n/17.28 C3PO pos-sesses a length- and structure-dependent
+ []
+
+
+Overfull \hbox (16.74524pt too wide) in paragraph at lines 1531--1531
+|[]\T1/phv/b/n/17.28 Biochemical char-ac-ter-i-za-tion of C3PO's tRNA pro-
+ []
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67
+[67]
 
-]
-Chapter 6.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
 
-Overfull \hbox (7.67705pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 codon level, as well as de-ter-mine whether
- []
-
-
-Overfull \hbox (9.97841pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 the bal-ance be-tween the two af-fects trans-
- []
-
-
-Overfull \hbox (12.81223pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 man mRNA tran-scripts, and ob-tained com-
- []
-
-
-Overfull \hbox (4.86629pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 ery tran-script with the abun-dance of each
- []
-
-
-Overfull \hbox (14.16559pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 num-ber of ribosome-protected mRNA frag-
- []
-
-
-Overfull \hbox (14.91008pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 ac-tively trans-lat-ing ri-bo-somes12. Re-cently,
- []
-
-
-Overfull \hbox (16.18219pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 that stalled ri-bo-somes on in-ef-fi-ciently trans-
- []
-
-
-Overfull \hbox (6.71391pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 lated mes-sages can trig-ger mRNA degra-
- []
-
-
-Overfull \hbox (57.91734pt too wide) in paragraph at lines 1578--1580
-\T1/phv/m/n/12 da-tion re-sult-ing in de-creased mRNA abundance15-
- []
-
-[68
-
-]
-Overfull \hbox (16.3161pt too wide) in paragraph at lines 1581--1582
-\T1/phv/m/n/12 ar-rays, I de-cided to ap-proach long-standing
- []
-
-
-Overfull \hbox (11.34587pt too wide) in paragraph at lines 1581--1582
-\T1/phv/m/n/12 in-ter-ested in com-bin-ing mRNA abun-dance
- []
-
-
-Overfull \hbox (4.85664pt too wide) in paragraph at lines 1581--1582
-\T1/phv/m/n/12 data, and trans-la-tional ef-fi-ciency data ob-
- []
-
-
-Overfull \hbox (3.89464pt too wide) in paragraph at lines 1581--1582
-\T1/phv/m/n/12 poth-e-sis be-hind this work was that codon
- []
-
-
-Overfull \hbox (9.163pt too wide) in paragraph at lines 1581--1582
-\T1/phv/m/n/12 bi-ases ob-served in spe-cific con-texts could
- []
-
-
-Overfull \hbox (12.89342pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 ture sys-tem. I de-vel-oped a se-ries of scripts
- []
-
-
-Overfull \hbox (17.56195pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 some im-por-tant ob-ser-va-tions al-ready. First,
- []
-
-
-Overfull \hbox (2.85057pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 there are in-deed cases where tran-scripts
- []
-
-
-Overfull \hbox (8.55049pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 are ef-fi-cienytly tran-scribed but in-ef-fi-ciently
- []
-
-
-Overfull \hbox (1.83052pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 abil-ity may be the bot-tle-neck in the trans-
- []
-
-
-Overfull \hbox (8.32256pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 la-tion of some tran-scripts. Us-ing my tRNA
- []
-
-
-Overfull \hbox (1.8426pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 de-code a given open read-ing frame. Tra-
- []
-
-
-Overfull \hbox (8.77882pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 fi-ciently trans-lated mes-sages har-bor com-
- []
-
-
-Overfull \hbox (2.14227pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 in-di-cate that the most highly rep-re-sented
- []
-
-
-Overfull \hbox (8.44244pt too wide) in paragraph at lines 1583--1585
-\T1/phv/m/n/12 rank in the bot-tom 10% in an-ti-codon score
- []
-
+[68]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -3806,196 +2390,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [70]
-Overfull \hbox (4.9527pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 Molec-u-lar ba-sis for Ge-netic Ex-pres-
- []
 
-
-Overfull \hbox (9.95035pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 G. RNA and Dis-ease. \T1/phv/m/sl/12 Cell \T1/phv/b/n/12 136, \T
-1/phv/m/n/12 777^^U
- []
-
-
-Overfull \hbox (5.05411pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Griffiths, E. J. in, 249^^U267 (Springer
- []
-
-
-Overfull \hbox (8.7985pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Nether-lands, Dor-drecht, Dec. 2011). 
- []
-
-
-Overfull \hbox (11.46828pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 As-sign-ing pathogenic-ity to mi-to-chon-
- []
-
-
-Overfull \hbox (16.13869pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 Trends in Ge-net-ics \T1/phv/b/n/12 20, \T1/phv/m/n/12 591^^U59
-6 (Dec.
- []
-
-
-Overfull \hbox (7.80821pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 of Trans-la-tion Elon-ga-tion Speed and
- []
-
-
-Overfull \hbox (9.98077pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Ri-bo-so-mal Pro-fil-ing Bi-ases in Mouse
- []
-
-
-Overfull \hbox (2.08943pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Em-bry-onic Stem Cells. \T1/phv/m/sl/12 PLoS Com-
- []
-
-
-Overfull \hbox (2.04445pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 pu-ta-tional Bi-ol-ogy \T1/phv/b/n/12 8, \T1/phv/m/n/12 e100275
-5^^U11
- []
-
-
-Overfull \hbox (2.73648pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 typ-i-cal de-cod-ing rates: a new trans-
- []
-
-
-Overfull \hbox (0.8726pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 la-tion ef-fi-ciency in-dex based on the
- []
-
-
-Overfull \hbox (0.17639pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 anal-y-sis of ri-bo-some pro-fil-ing data.
- []
-
-
-Overfull \hbox (1.27765pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 G3 (Bethesda, Md.) \T1/phv/b/n/12 5, \T1/phv/m/n/12 73^^U80 (De
-c.
- []
-
-
-Overfull \hbox (0.30869pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 com-po-si-tion in healthy and can-cer-
- []
-
-
-Overfull \hbox (7.10768pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ous tis-sues. \T1/phv/m/sl/12 RNA \T1/phv/b/n/12 18, \T1/phv/m/n
-/12 640^^U652 (Mar.
- []
-
-[71
-
-]
-Overfull \hbox (0.20453pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 mous but not the same: the causes
- []
-
-
-Overfull \hbox (8.81282pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Tuller, T. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 An Evo-lu-tio
-n-ar-ily Con-
- []
-
-
-Overfull \hbox (5.00266pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 tion. \T1/phv/m/sl/12 Cell \T1/phv/b/n/12 141, \T1/phv/m/n/12 34
-4^^U354 (Apr. 2010). 
- []
-
-
-Overfull \hbox (40.7464pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Weinberg, D. E. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 Im-prove
-d Ribosome-
- []
-
-
-Overfull \hbox (7.92853pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Footprint and mRNA Mea-sure-ments
- []
-
-
-Overfull \hbox (2.48074pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Pro-vide In-sights into Dy-nam-ics and
- []
-
-
-Overfull \hbox (10.765pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Reg-u-la-tion of Yeast Trans-la-tion. \T1/phv/m/sl/12 Cell-
- []
-
-
-Overfull \hbox (9.36009pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 Re-ports \T1/phv/b/n/12 14, \T1/phv/m/n/12 1787^^U1799 (Feb. 20
-16). 
- []
-
-
-Overfull \hbox (5.96896pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Hasler, D. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 The Lu-pus Au
--toanti-
- []
-
-
-Overfull \hbox (0.52974pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Mi-croRNA Path-way. \T1/phv/m/sl/12 Molec-u-lar Cell
- []
-
-
-Overfull \hbox (17.90076pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Gygi, S. P. & An-der-son, P. Angiogenin-
- []
-
-
-Overfull \hbox (21.77638pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Induced tRNA Frag-ments In-hibit Trans-
- []
-
-
-Overfull \hbox (11.18439pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 RNAs: tRNA-derived RNA frag-ments
- []
-
-
-Overfull \hbox (1.93745pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Haussecker, D. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 Hu-man tR
-NA-
- []
-
-
-Overfull \hbox (6.10713pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Y., Bar-tel, D. P. & Blel-loch, R. Mouse
- []
-
-
-Overfull \hbox (23.46889pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ES cells ex-press en-doge-nous shRNAs,
- []
-
-
-Overfull \hbox (2.57928pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 siR-NAs, and other Microprocessor-
- []
-
-
-Overfull \hbox (9.5986pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 independent, Dicer-dependent small
- []
-
-
-Overfull \hbox (2.43227pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 lu-tion-ary con-ser-va-tion of codon op-
- []
-
-
-Overfull \hbox (15.54068pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 of co-trans-la-tional fold-ing. \T1/phv/m/sl/12 Na-ture Pub-
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[71]
+Overfull \hbox (1.4608pt too wide) in paragraph at lines 1552--1553
+\T1/phv/m/n/12 (5'-GUAUAGUGGUUAGUAC) that be-long to two dif-fer-ent space grou
+ps. The struc-
  []
 
 
@@ -4005,66 +2409,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [72]
-Overfull \hbox (17.91228pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 RNA poly-merase III tran-scrip-tion com-
- []
-
-
-Overfull \hbox (6.66129pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 plexes in hu-man cells. \T1/phv/m/sl/12 Na-ture Struc-
- []
-
-
-Overfull \hbox (2.67265pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 among amino acid iso-types de-spite
- []
-
-
-Overfull \hbox (7.70532pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 di-ver-gence among tRNA genes. \T1/phv/m/sl/12 Na-
- []
-
-
-Overfull \hbox (7.47266pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Dittmar, K. A., Mob-ley, E. M., Radek,
- []
-
-
-Overfull \hbox (9.83408pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 u-lar Bi-ol-ogy \T1/phv/b/n/12 337, \T1/phv/m/n/12 31^^U47 (Mar
-. 2004). 
- []
-
-
-Overfull \hbox (12.03351pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 gres-sion. \T1/phv/m/sl/12 Cell \T1/phv/b/n/12 165, \T1/phv/m/n/
-12 1416^^U1427 (June
- []
-
-
-Overfull \hbox (12.06837pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 facilitated RNA methy-la-tion se-quenc-
- []
-
-
-Overfull \hbox (22.5079pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ti-ta-tive high-throughput tRNA se-quenc-
- []
-
-
-Overfull \hbox (14.81143pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ing. \T1/phv/m/sl/12 Na-ture Meth-ods, \T1/phv/m/n/12 1^^U5 (Jul
-y 2015). 
- []
-
-
-Overfull \hbox (11.46872pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 cess-ing by en-vi-ron-men-tal con-di-tions.
- []
-
-
-Overfull \hbox (31.45056pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Bayfield, M. A. & Maraia, R. J. Precursor-
+Overfull \hbox (5.50096pt too wide) in paragraph at lines 1558--1559
+[]\T1/phv/m/n/12 Although pre-vi-ous at-tempts to co-immunoprecipitate (co-IP) 
+in-ter-ac-tors of C3PO
  []
 
 
@@ -4074,96 +2421,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [73]
-Overfull \hbox (19.89204pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 of La and La-related pro-teins (LARPs).
- []
-
-
-Overfull \hbox (11.68456pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 BBA - Gene Reg-u-la-tory Mech-a-nisms
- []
-
-
-Overfull \hbox (14.68687pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 scripts. \T1/phv/m/sl/12 Cell \T1/phv/b/n/12 36, \T1/phv/m/n/12 
-145^^U154 (Jan. 1984). 
- []
-
-
-Overfull \hbox (2.8052pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Trotta, C. R. & Abel-son, J. \T1/phv/m/sl/12 The RNA
- []
-
-
-Overfull \hbox (5.85266pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 tween tRNA splic-ing and pre-mRNA
- []
-
-
-Overfull \hbox (2.06062pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 on 3\TS1/phv/m/n/12 ´ \T1/phv/m/n/12 trans-fer RNA ex-ons and sh
-ort
- []
-
-
-Overfull \hbox (2.75719pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 in-ter-fer-ing RNAs. \T1/phv/m/sl/12 Na-ture \T1/phv/b/n/12 447,
- \T1/phv/m/n/12 222^^U
- []
-
-
-Overfull \hbox (13.9033pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 splic-ing lig-ase com-plex. \T1/phv/m/sl/12 Sci-ence \T1/phv/b/n
-/12 331,
- []
-
-
-Overfull \hbox (2.64159pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 DDX1 as tRNA splic-ing fac-tors. \T1/phv/m/sl/12 Na-
- []
-
-
-Overfull \hbox (8.25456pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Phizicky, E. M. & Hop-per, A. K. tRNA
- []
-
-
-Overfull \hbox (1.23697pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 bi-ol-ogy charges to the front. \T1/phv/m/sl/12 Genes
- []
-
-
-Overfull \hbox (16.46239pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 & De-vel-op-ment \T1/phv/b/n/12 24, \T1/phv/m/n/12 1832^^U1860 
-(Sept.
- []
-
-
-Overfull \hbox (1.31615pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Hopper, A. K., Pai, D. A. & En-gelke,
- []
-
-
-Overfull \hbox (2.25682pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 and their genes. \T1/phv/m/sl/12 FEBS Let-ters \T1/phv/b/n/12 58
-4,
- []
-
-
-Overfull \hbox (6.19061pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 transcriptional pro-cess-ing, turnover,
- []
-
-
-Overfull \hbox (13.64066pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 and sub-cel-lu-lar dy-nam-ics in the yeast
- []
-
-
-Overfull \hbox (2.1858pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Sac-cha-romyces cere-visiae. \T1/phv/m/sl/12 Ge-net-
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -4171,225 +2428,10 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [74]
-Overfull \hbox (11.7161pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 & Pan, T. Tissue-Specific Dif-fer-ences
- []
+Chapter 6.
+[75
 
-
-Overfull \hbox (7.38887pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 in Hu-man Trans-fer RNA Ex-pres-sion.
- []
-
-
-Overfull \hbox (8.93893pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Lowe, T. M. & Eddy, S. R. tRNAscan-
- []
-
-
-Overfull \hbox (3.80576pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 nomic se-quence. \T1/phv/m/sl/12 Nu-cleic Acids Re-
- []
-
-
-Overfull \hbox (3.40678pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Chan, P. P. & Lowe, T. M. GtR-NAdb:
- []
-
-
-Overfull \hbox (3.84134pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 de-tected in ge-nomic se-quence. \T1/phv/m/sl/12 Nu-
- []
-
-
-Overfull \hbox (0.85715pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 cleic Acids Re-search \T1/phv/b/n/12 37, \T1/phv/m/n/12 D93^^UD
-97
- []
-
-
-Overfull \hbox (1.44746pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Gu, W. tR-NAHis mat-u-ra-tion: An es-
- []
-
-
-Overfull \hbox (2.56674pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 De-vel-op-ment \T1/phv/b/n/12 17, \T1/phv/m/n/12 2889^^U2901 (D
-ec.
- []
-
-
-Overfull \hbox (11.01534pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Jackman, J. E. & Al-fonzo, J. D. Trans-
- []
-
-
-Overfull \hbox (9.68456pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 fer RNA mod-i-fi-ca-tions: na-ture's com-
- []
-
-
-Overfull \hbox (6.82901pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 bi-na-to-rial chem-istry play-ground. \T1/phv/m/sl/12 Wi-
- []
-
-
-Overfull \hbox (15.88466pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Anal-y-sis and de-sign of RNA se-quenc-
- []
-
-
-Overfull \hbox (2.7804pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ing ex-per-i-ments for iden-ti-fy-ing RNA
- []
-
-
-Overfull \hbox (8.94795pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Gustilo, E. M., Vendeix, F. A. & Agris,
- []
-
-
-Overfull \hbox (15.52904pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 der to gene ex-pres-sion. \T1/phv/m/sl/12 Cur-rent Opin-
- []
-
-
-Overfull \hbox (13.82857pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 ion in Mi-cro-bi-ol-ogy \T1/phv/b/n/12 11, \T1/phv/m/n/12 134^^
-U140 (Apr.
- []
-
-
-Overfull \hbox (13.78091pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 neuron loss. \T1/phv/m/sl/12 Na-ture, \T1/phv/m/n/12 1^^U7 (Mar.
- 2013). 
- []
-
-
-Overfull \hbox (0.66573pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Weitzer, S., Hanada, T., Pen-ninger,
- []
-
-
-Overfull \hbox (5.45496pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 J. M. & Mar-tinez, J. CLP1 as a novel
- []
-
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[75]
-Overfull \hbox (12.75253pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 pro-fil-ing by next-generation se-quenc-
- []
-
-
-Overfull \hbox (20.27248pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ing. \T1/phv/m/sl/12 Meth-ods \T1/phv/b/n/12 58, \T1/phv/m/n/12 
-164^^U170 (Oct. 2012). 
- []
-
-
-Overfull \hbox (5.06093pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Juhling, F. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 tR-NAdb 2009
-: com-
- []
-
-
-Overfull \hbox (14.55232pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 pi-la-tion of tRNA se-quences and tRNA
- []
-
-
-Overfull \hbox (1.53142pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 genes. \T1/phv/m/sl/12 Nu-cleic Acids Re-search \T1/phv/b/n/12 3
-7,
- []
-
-
-Overfull \hbox (1.89655pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ac-tions: new ge-nomic tech-nolo-gies
- []
-
-
-Overfull \hbox (7.33688pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Hafner, M. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 Transcriptome
--wide
- []
-
-
-Overfull \hbox (2.99733pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 PAR-CLIP. \T1/phv/m/sl/12 Cell \T1/phv/b/n/12 141, \T1/phv/m/n/1
-2 129^^U141 (Apr.
- []
-
-
-Overfull \hbox (0.10469pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 3\TS1/phv/m/n/12 ´ \T1/phv/m/n/12 pro-cess-ing of eu-kary-otic p
-re-cur-
- []
-
-
-Overfull \hbox (22.81653pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 Re-views: RNA \T1/phv/b/n/12 2, \T1/phv/m/n/12 362^^U375 (Nov. 
-2010). 
- []
-
-
-Overfull \hbox (10.1823pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Arimbasseri, A. G., Kas-savetis, G. A.
- []
-
-
-Overfull \hbox (0.65797pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 & Maraia, R. J. Tran-scrip-tion. Com-
- []
-
-
-Overfull \hbox (9.24815pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 RNA poly-merase III tran-scrip-tion ter-
- []
-
-
-Overfull \hbox (6.42545pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Nielsen, S., Yuzenkova, Y. & Zenkin,
- []
-
-
-Overfull \hbox (20.74521pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 na-tion. \T1/phv/m/sl/12 Sci-ence \T1/phv/b/n/12 340, \T1/phv/m/
-n/12 1577^^U1580 (June
- []
-
-
-Overfull \hbox (0.31088pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 La, a Rheumatic Dis-ease Au-toanti-
- []
-
-
-Overfull \hbox (4.6775pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 gen. \T1/phv/m/sl/12 Molec-u-lar Cell \T1/phv/b/n/12 21, \T1/phv
-/m/n/12 75^^U85 (Jan.
- []
-
-
-Overfull \hbox (9.61864pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Machnicka, M. A. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 MOD-OMI
-CS:
- []
-
-
-Overfull \hbox (43.36433pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 a database of RNA mod-i-fi-ca-tion pathways--
- []
-
-
-Overfull \hbox (15.1694pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 2013 up-date. \T1/phv/m/sl/12 Nu-cleic Acids Re-search
- []
-
+]
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -4397,108 +2439,6 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [76]
-Overfull \hbox (0.12866pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ag-no-sis and po-ten-tial mech-a-nisms
- []
-
-
-Overfull \hbox (5.09447pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Baltz, A. G. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 The mRNA-Bo
-und
- []
-
-
-Overfull \hbox (8.01244pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Pro-teome and Its Global Oc-cu-pancy
- []
-
-
-Overfull \hbox (14.55238pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Pro-file on Protein-Coding Tran-scripts.
- []
-
-
-Overfull \hbox (3.87279pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 La Protein-RNA Com-plex Sur-faces.
- []
-
-
-Overfull \hbox (24.38031pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 lizes a Non-template Strand Sequence-
- []
-
-
-Overfull \hbox (6.6887pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 lar Cell \T1/phv/b/n/12 58, \T1/phv/m/n/12 1124^^U1132 (June 20
-15). 
- []
-
-
-Overfull \hbox (13.44861pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 Dis-tin-guish-ing Core and Holoen-zyme
- []
-
-
-Overfull \hbox (16.11458pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Iben, J. R. & Maraia, R. J. tR-NAomics:
- []
-
-
-Overfull \hbox (7.77263pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 and codon use pro-vide bioin-for-matic
- []
-
-
-Overfull \hbox (2.76855pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 ev-i-dence of a new an-ti-codon:codon
- []
-
-LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <12> not available
-(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 1592.
-
-
-Overfull \hbox (1.37306pt too wide) in paragraph at lines 1593--1593
-[]\T1/phv/m/n/12 Spitzer, J., Landthaler, M. & Tuschl,
- []
-
-
-Overfull \hbox (2.16856pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 malian Cell Lines for Reg-u-lated Ex-
- []
-
-
-Overfull \hbox (7.8803pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 pres-sion of Pro-teins Us-ing the Gate-
- []
-
-
-Overfull \hbox (5.63704pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 way\TS1/phv/m/sl/12 ® \T1/phv/m/sl/12 Re-com-bi-na-tion Cloning
- Tech-
- []
-
-
-Overfull \hbox (22.61154pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/sl/12 nol-ogy and Flp-In T-REx\TS1/phv/m/sl/12 ® \T1/phv/m/sl/12 Line
-s \T1/phv/m/n/12 1st ed.
- []
-
-
-Overfull \hbox (5.02429pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 of PAR-CLIP for transcriptome-wide
- []
-
-
-Overfull \hbox (10.5442pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 iden-ti-fi-ca-tion of bind-ing sites of RNA-
- []
-
-
-Overfull \hbox (15.0033pt too wide) in paragraph at lines 1593--1593
-\T1/phv/m/n/12 binding pro-teins. \T1/phv/m/sl/12 Meth-ods, \T1/phv/m/n/12 1^^U
-17 (Oct.
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
@@ -4506,7 +2446,18 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [77]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1595.
+Overfull \hbox (2.60893pt too wide) in paragraph at lines 1578--1578
+[]\T1/phv/m/n/12 Soll, D. & Ra-jB-handary, U. \T1/phv/m/sl/12 tRNA: Struc-ture,
+ Biosyn-the-sis and Func-tion \T1/phv/m/n/12 1st ed.
+ []
+
+[78
+
+]
+Overfull \hbox (3.8604pt too wide) in paragraph at lines 1578--1578
+\T1/phv/m/n/12 independent, Dicer-dependent small RNAs. \T1/phv/m/sl/12 Genes &
+ De-vel-op-ment \T1/phv/b/n/12 22, \T1/phv/m/n/12 2773^^U
+ []
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -4514,16 +2465,77 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[78
+[79]
 
-]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1595.
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[80]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[81]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[82]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[83]
+Overfull \hbox (3.92581pt too wide) in paragraph at lines 1578--1578
+\T1/phv/m/n/12 UOH 3\TS1/phv/m/n/12 ´ \T1/phv/m/n/12 Tem-ini of Nascent RNA Pol
+y-merase III Tran-scripts by La, a Rheumatic
+ []
+
+
+Overfull \hbox (17.1013pt too wide) in paragraph at lines 1578--1578
+[]\T1/phv/m/n/12 Machnicka, M. A. \T1/phv/m/sl/12 et al. \T1/phv/m/n/12 MOD-OMI
+CS: a database of RNA mod-i-fi-ca-tion pathways--
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[84]
+LaTeX Font Info:    Font shape `TS1/phv/m/it' in size <12> not available
+(Font)              Font shape `TS1/phv/m/sl' tried instead on input line 1577.
+
+
+Overfull \hbox (5.8186pt too wide) in paragraph at lines 1578--1578
+\T1/phv/m/n/12 PAR-CLIP for transcriptome-wide iden-ti-fi-ca-tion of bind-ing s
+ites of RNA-binding
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1580.
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[85]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1580.
  (./tasos_thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1595.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1595.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1580.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1580.
 
 Package rerunfilecheck Info: File `tasos_thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1D8BC7538E45628C606F73B8DB42D395;3964.
+(rerunfilecheck)             Checksum: 80EE327EDAA10DB47E160A117CD0F2E7;3937.
 
 
 LaTeX Warning: There were undefined references.
@@ -4539,16 +2551,16 @@ Package biblatex Warning: Please (re)run Biber on the file:
 Package logreq Info: Writing requests to 'tasos_thesis.run.xml'.
 \openout1 = `tasos_thesis.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1595.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1580.
  ) 
 Here is how much of TeX's memory you used:
- 21636 strings out of 493014
- 347772 string characters out of 6133351
- 895736 words of memory out of 5000000
- 24456 multiletter control sequences out of 15000+600000
+ 21642 strings out of 493014
+ 347826 string characters out of 6133351
+ 895979 words of memory out of 5000000
+ 24455 multiletter control sequences out of 15000+600000
  42891 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,11n,77p,2180b,1151s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,77p,2180b,1141s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -4562,10 +2574,10 @@ xmf-dist/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2016/texm
 f-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2016/texmf-dist/
 fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2016/texmf-dist/fonts/t
 ype1/urw/helvetic/uhvro8a.pfb>
-Output written on tasos_thesis.pdf (94 pages, 5370898 bytes).
+Output written on tasos_thesis.pdf (101 pages, 5256866 bytes).
 PDF statistics:
- 1222 PDF objects out of 1440 (max. 8388607)
- 1066 compressed objects within 11 object streams
- 304 named destinations out of 1000 (max. 500000)
- 601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1259 PDF objects out of 1440 (max. 8388607)
+ 1097 compressed objects within 11 object streams
+ 311 named destinations out of 1000 (max. 500000)
+ 593 words of extra memory for PDF output out of 10000 (max. 10000000)
 
