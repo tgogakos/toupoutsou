@@ -64,7 +64,7 @@
 
 \begin{abstract}
 
-The participation of tRNAs in fundamental aspects of biology and disease necessitates an accurate, experimentally confirmed annotation of tRNA genes, and curation of precursor and mature tRNA sequences. This has been challenging, mainly because RNA secondary structure and nucleotide modifications, together with tRNA gene multiplicity, complicate sequencing and read mapping efforts. To address these issues, I developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates fragments amenable for sequencing. To identify transcribed tRNA genes, I further complemented this approach with Photoactivatable Crosslinking and Immunoprecipitation (PAR-CLIP) of SSB/La, a conserved protein involved in pre-tRNA processing. My results show that approximately half of all predicted tRNA genes are transcribed in human cells, suggesting that the tRNA genomic space is more contracted than previously thought as a result of regulated of expression. I also report predominant nucleotide modification sites, their order of Incorporation, and identify tRNA leader, trailer and intron sequences. By using complementary sequencing-based methodologies I present a human tRNA atlas, and determine expression levels of mature and processing intermediates of tRNAs in human cells.
+The participation of tRNAs in fundamental aspects of biology and disease necessitates an accurate, experimentally confirmed annotation of tRNA genes, and curation of precursor and mature tRNA sequences. This has been challenging, mainly because RNA secondary structure and nucleotide modifications, together with tRNA gene multiplicity, complicate sequencing and read mapping efforts. To address these issues, I developed hydro-tRNAseq, a method based on partial alkaline RNA hydrolysis that generates fragments amenable for sequencing. To identify transcribed tRNA genes, I further complemented this approach with Photoactivatable Crosslinking and Immunoprecipitation (PAR-CLIP) of SSB/La, a conserved protein involved in pre-tRNA processing. My results show that approximately half of all predicted tRNA genes are transcribed in human cells, suggesting that the tRNA gdenomic space is more contracted than previously thought as a result of regulated of expression. I also report predominant nucleotide modification sites, their order of Incorporation, and identify tRNA leader, trailer and intron sequences. By using complementary sequencing-based methodologies I present a human tRNA atlas, and determine expression levels of mature and processing intermediates of tRNAs in human cells.
 
 The technical advances provide by hydro-tRNAseq are applied towards the molecular diagnosis of a genetic neurodevelopmental syndrome, caused by mutations in the tRNA processing factor, CLP1. Since then, it has also been widely used on multiple other fronts, some which are outlined in the appendix of this thesis. 
 
@@ -117,6 +117,9 @@ First, I would like to thank my
 \newacronym{La}{La}{Lupus La protein}
 \newacronym{TSEN}{TSEN}{tRNA splicing and endonuclease complex}
 \newacronym{CLP1}{CLP1}{cleavage and polyadenylation factor I subunit 1}
+\newacronym{C3PO}{C3PO}{component 3 promoter of RISC}
+\newacronym{TSN}{TSN}{translin}
+\newacronym{TSNAX}{TSNAX}{translin-associated protein X, also known as TRAX}
 
 \newglossaryentry{isotype}{
 name=tRNA isotype,
@@ -1382,7 +1385,7 @@ A probe complementary to the 50 exon of isoleucine-TAT and tyrosine-GTA tRNAs wa
 \label{nb}%
 \end{figure}
 
-\subsection{Plausible pathomechanisms of CLP1 mutations}
+\subsection{Plausible pathomechanisms of CLP1 mutations}\label{clp1_evolution}
 	Thus, our Northern analysis and deep sequencing data indicate that the CLP1 R140H mutation in fibroblasts influences processing of pre-tRNAs, resulting in the accumulation of tRNA introns, whereas pre- and mature tRNA levels remain largely unaffected. Nevertheless, at this point the biological mechanisms responsible for the pathogenicity of CLP1 mutations are not clear.
 
 \begin{figure}[!ht]%
@@ -1395,9 +1398,10 @@ CLP1 associates with the TSEN complex, which endonucleolytically removes tRNA in
 \label{splicing}%
 \end{figure}
 
-	During intron removal, cleavage by \gls{TSEN} leaves a 3' cyclic phosphate on the 5' tRNA exon and a 5' OH on the 3' exon (\textbf{Fig. \ref{splicing}}). These moieties are substrates of the tRNA ligase (RTCB), which carries out the ligation of the two tRNA halves. CLP1 is capable of phosphorylating the 5' end of the 3' exon, possibly allowing the ligation of the two halves by a yet unknown ligase \cite{Weitzer:2007hda}, which would be reminiscent of the tRNA splicing pathway in yeast \cite{Weitzer:2014bi}. 
-	Alternatively, CLP1 could be phosphorylating the removed intron, which harbors a 5' OH immediately after cleavage. The "healing" of the 5' end of the linear intron is a requirement for its degradation, at least in yeast, by the 5'-3' exonuclease Xrn1 \cite{Wu:2014fb}.
-	Altogether, taking into account both the documented and hypothesized functions of CLP1, one could come up with the following testable hypothesis regarding the plausible pathomechanisms of CLP1 mutations:
+During intron removal, cleavage by \gls{TSEN} leaves a 3' cyclic phosphate on the 5' tRNA exon and a 5' OH on the 3' exon (\textbf{Fig. \ref{splicing}}). These moieties are substrates of the tRNA ligase (RTCB), which carries out the ligation of the two tRNA halves. CLP1 is capable of phosphorylating the 5' end of the 3' exon, possibly allowing the ligation of the two halves by a yet unknown ligase \cite{Weitzer:2007hda}, which would be reminiscent of the tRNA splicing pathway in yeast \cite{Weitzer:2014bi}. 
+
+Alternatively, CLP1 could be phosphorylating the removed intron, which harbors a 5' OH immediately after cleavage. The "healing" of the 5' end of the linear intron is a requirement for its degradation, at least in yeast, by the 5'-3' exonuclease Xrn1 \cite{Wu:2014fb}.
+Altogether, taking into account both the documented and hypothesized functions of CLP1, one could come up with the following testable hypothesis regarding the plausible pathomechanisms of CLP1 mutations:
 	
 \begin{itemize}
 \item tRNA splicing and mature tRNA levels are reduced in metabolically in sensitive tissues (e.g. neurons), while they are unaffected in fibroblasts.
@@ -1493,9 +1497,22 @@ The RNAseq and PAR-CLIP sequence data have been deposited in the National Center
 All scripts used for the analysis (written in Perl, Python and R) are available upon request, and will also be deposited on \url{https://github.com/tgogakos} upon publication of the presented work.  
 
 \chapter{C3PO}
-%begin from TRP
 \section{Introduction}
-Finally, recent studies provide growing evidence for the participation of a novel endoribonuclease complex in the lifecycle of tRNAs. C3PO (component 3 promoter of RISC) is a multimeric complex of the RNA-binding protein TRANSLIN (TSN) and the nuclease TRANSLIN-ASSOCIATED PROTEIN X (TSNAX), originally shown to localize to DNA break points36,37. Recently, however, it was shown to promote the activity of the RNA-induced silencing complex in drosophila. Simultaneously, it was reported that TSNAX possesses RNA endonucleolytic activity both in vitro and in vivo, and the crystal structure of the C3PO apo-complex from various organisms was reported38-40. Its biological importance is underscored by the severe neurodegenerative phenotypes observed in mice lacking components of the complex41. Interestingly, it has also been observed that C3PO mutations in the fungus N.crassa and in mouse fibroblasts result in accumulation of tRNA fragments (tRFs), elevated levels of mature tRNAs and protein translation, and increased resistance to cell death-inducing agents10. This unexpected finding suggests that C3PO might be a novel tRNA processing enzyme. Despite these studies, though, the biological targets and the details of the C3PO’s biochemical activity remain elusive. Moreover, it is not yet clear whether C3PO is important for the biogenesis of tRNAs, the generation of competent stress or non-stress related tRNA fragments or if it is simply involved in tRNA turnover. 
+Even though tRNA biology has been studied extensively in the past, there are still fundamental parts in the lifecycle of tRNAs that remain unexplored in humans. For example, the 3' end processing of human tRNAs is not completely understood \cite{Maraia:2010kx}. On one hand, this can be attributed to divergent evolutionary trajectories of tRNA processing pathways within Eukarya, resulting, for example in great differences in tRNA splicing and nucleocytoplasmic dynamics (this has already been alluded to here, see \ref{clp1_evolution}, but has been surveyed in much greater detail elsewhere \cite{Hopper:2008ct, Hopper:2010ho, Phizicky:2010jf}). On the other hand, tRNA processing and expression is characterized by multiple levels of evolutionary and functional redundancy (e.g. multiple translation factors, editing enzymes, multicopy genes). One could speculate, and explain the emergence of such redundant mechanisms in light of the essentiality of tRNA biogenesis for life. 
+
+Given the incomplete knowledge of human tRNA processing proteins, I was interested in studying novel potential such factors. Thus, I turned my attention to \gls{C3PO}, which is a conserved, multisubunit complex of the RBP \gls{TSN} and \gls{TSNAX} \cite{Liu:2009ce}. This complex has been associated with various biological functions, ranging from double stranded DNA (dsDNA) damage response, RNA interference enhancement, and has been involved neurologic development \cite{Aoki:1995ec, Ishida:2002td, Stein:2006jj, Claussen:2006in, Liu:2009ce}. 
+	
+Both members of the complex contain a previously undescribed RNA recognition motif, and  TSNAX possesses RNA 	and TSNAX was reported to possess endonucleolytic activity both \textit{in vitro} and \textit{in vivo}, with a preference for single stranded RNA (ssRNA) \cite{Ye:2011bo, Tian:2011hx}. The he crystal structure of the C3PO apo-complex from various organisms has also been reported, and has determined a tight octameric assembly, consisting of six TSN and two TSNAX monomers \cite{Ye:2011bo, Tian:2011hx, Parizotto:2013dg}. Its biological importance is underscored by the severe neurodegenerative phenotypes observed in mice lacking components of the complex \cite{Stein:2006jj}. 
+
+Interestingly, it was recently observed that C3PO mutations in the fungus N.crassa and in mouse fibroblasts result in accumulation of tRNA fragments (tRFs), elevated levels of mature tRNAs and protein translation, and increased resistance to cell death-inducing agents \cite{Li:2012kob}. This unexpected finding suggested that C3PO might be a novel tRNA processing enzyme, at least in the two studied species. Despite these studies, though, the biological targets and the details of the biochemical activity of C3PO remain elusive. Moreover, it is not yet clear whether C3PO is important for the biogenesis of tRNAs, the generation of competent stress or non-stress related tRNA fragments or if it is simply involved in tRNA turnover.       
+\hl{Recent biochemical and genetic studies, though, failed to identify a contribution of 
+	C3PO to RNAi enhancement in fungi and mice. Instead, it was observed that upon C3PO 
+	knockdown, there was an accumulation of premature tRNA fragment accumulation in 
+	both species.}
+
+
+
+
 
 Recent work from our group and others suggests that C3PO, a multimeric complex of TRANSLIN (TSN) and the nuclease TRANSLIN-ASSOCIATED PROTEIN X (TSNAX), apart from its previously known roles in DNA-damage response and enhancement of RISC activity, possesses also a tRNA processing activity. In agreement with these observations, mutations in the components of C3PO phenocopy mutations in other tRNA processing enzymes by resulting in neurological and behavioral phenotypes54. Also, lack of C3PO activity is associated with accumulation of tRFs10. Thus, it is possible that C3PO might be a regulator of gene expression that could bridge tRNA processing with PTGR. In this aim, I plan to apply the annotated list of tRNAs from aim 1 and the experimental framework for the study of tRNA-tRBP interactions from aim 2 to the study of C3PO, a regulator of gene expression that could possibly provide a new bridge between tRNA processing and PTGR. 
 
