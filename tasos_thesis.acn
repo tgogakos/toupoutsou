@@ -17,3 +17,5 @@
 (indexentry :tkey (("tRBP" "\\glossentry{trbp}") ) :locref "{}{21}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("SSB" "\\glossentry{SSB}") ) :locref "{}{22}" :attr "pageglsnumberformat" ) 
 (indexentry :tkey (("La" "\\glossentry{La}") ) :locref "{}{22}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("CLP1" "\\glossentry{CLP1}") ) :locref "{}{47}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("TSEN" "\\glossentry{TSEN}") ) :locref "{}{50}" :attr "pageglsnumberformat" ) 

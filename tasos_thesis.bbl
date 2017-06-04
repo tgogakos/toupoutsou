@@ -2556,18 +2556,18 @@
       \field{pages}{362\bibrangedash 375}
       \range{pages}{14}
     \endentry
-    \entry{Arimbasseri:2014hj}{article}{}
+    \entry{Arimbasseri:2013dg}{article}{}
       \name{author}{3}{}{%
         {{hash=16e2a66a1db02c846ca0dea842fbff22}{%
            family={Arimbasseri},
            family_i={A\bibinitperiod},
            given={Aneeshkumar\bibnamedelima G},
            given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=91a18adc2a942e3da8437365efe54b81}{%
-           family={Kassavetis},
-           family_i={K\bibinitperiod},
-           given={George\bibnamedelima A},
-           given_i={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=b0fe80d8a9ebffa7065e08a072c85bd2}{%
+           family={Rijal},
+           family_i={R\bibinitperiod},
+           given={Keshab},
+           given_i={K\bibinitperiod}}}%
         {{hash=76359867365be6a144ebc1e827569b79}{%
            family={Maraia},
            family_i={M\bibinitperiod},
@@ -2575,19 +2575,19 @@
            given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
       }
       \strng{namehash}{39801710da71c33fa1aedb85bd479313}
-      \strng{fullhash}{f3bf9cade8eaf1a5bfdf02996fd34a7e}
+      \strng{fullhash}{dc40c779b3ec07a1c891b0c9b6779add}
       \field{sortinit}{0}
       \field{sortinithash}{990108227b3316c02842d895999a0165}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Science}
-      \field{month}{08}
-      \field{number}{6196}
-      \field{title}{{Transcription. Comment on "Mechanism of eukaryotic RNA polymerase III transcription termination".}}
-      \field{volume}{345}
-      \field{year}{2014}
-      \field{pages}{524\bibrangedash 524}
-      \range{pages}{1}
+      \field{journaltitle}{BBA - Gene Regulatory Mechanisms}
+      \field{month}{03}
+      \field{number}{3-4}
+      \field{title}{{Transcription termination by the eukaryotic RNA polymerase III}}
+      \field{volume}{1829}
+      \field{year}{2013}
+      \field{pages}{318\bibrangedash 330}
+      \range{pages}{13}
     \endentry
     \entry{Nielsen:2013be}{article}{}
       \name{author}{3}{}{%
@@ -2621,6 +2621,95 @@
       \field{year}{2013}
       \field{pages}{1577\bibrangedash 1580}
       \range{pages}{4}
+    \endentry
+    \entry{Arimbasseri:2013by}{article}{}
+      \name{author}{2}{}{%
+        {{hash=d506ffd4ae09a6937b844355039db406}{%
+           family={Arimbasseri},
+           family_i={A\bibinitperiod},
+           given={A\bibnamedelima G},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=7b5739392c8ecfa5dd25b11f8c1ba468}{%
+           family={Maraia},
+           family_i={M\bibinitperiod},
+           given={R\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{68e00e0653899ee120254f2c0a51d47a}
+      \strng{fullhash}{68e00e0653899ee120254f2c0a51d47a}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular and Cellular Biology}
+      \field{month}{03}
+      \field{number}{8}
+      \field{title}{{Distinguishing Core and Holoenzyme Mechanisms of Transcription Termination by RNA Polymerase III}}
+      \field{volume}{33}
+      \field{year}{2013}
+      \field{pages}{1571\bibrangedash 1581}
+      \range{pages}{11}
+    \endentry
+    \entry{Arimbasseri:2014hj}{article}{}
+      \name{author}{3}{}{%
+        {{hash=16e2a66a1db02c846ca0dea842fbff22}{%
+           family={Arimbasseri},
+           family_i={A\bibinitperiod},
+           given={Aneeshkumar\bibnamedelima G},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=91a18adc2a942e3da8437365efe54b81}{%
+           family={Kassavetis},
+           family_i={K\bibinitperiod},
+           given={George\bibnamedelima A},
+           given_i={G\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=76359867365be6a144ebc1e827569b79}{%
+           family={Maraia},
+           family_i={M\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{39801710da71c33fa1aedb85bd479313}
+      \strng{fullhash}{f3bf9cade8eaf1a5bfdf02996fd34a7e}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{month}{08}
+      \field{number}{6196}
+      \field{title}{{Transcription. Comment on "Mechanism of eukaryotic RNA polymerase III transcription termination".}}
+      \field{volume}{345}
+      \field{year}{2014}
+      \field{pages}{524\bibrangedash 524}
+      \range{pages}{1}
+    \endentry
+    \entry{Arimbasseri:2015jg}{article}{}
+      \name{author}{2}{}{%
+        {{hash=16e2a66a1db02c846ca0dea842fbff22}{%
+           family={Arimbasseri},
+           family_i={A\bibinitperiod},
+           given={Aneeshkumar\bibnamedelima G},
+           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=76359867365be6a144ebc1e827569b79}{%
+           family={Maraia},
+           family_i={M\bibinitperiod},
+           given={Richard\bibnamedelima J},
+           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{372db76e06f40d006986d9802e95c800}
+      \strng{fullhash}{372db76e06f40d006986d9802e95c800}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Molecular Cell}
+      \field{month}{06}
+      \field{number}{6}
+      \field{title}{{Mechanism of Transcription Termination by RNA Polymerase III Utilizes a Non-template Strand Sequence-Specific Signal Element}}
+      \field{volume}{58}
+      \field{year}{2015}
+      \field{pages}{1124\bibrangedash 1132}
+      \range{pages}{9}
     \endentry
     \entry{Teplova:2006dv}{article}{}
       \name{author}{7}{}{%
@@ -2674,6 +2763,59 @@
       \field{year}{2006}
       \field{pages}{75\bibrangedash 85}
       \range{pages}{11}
+    \endentry
+    \entry{Lorenz:2011it}{article}{}
+      \name{author}{7}{}{%
+        {{hash=cdf91c87fcae9ff79f9732f66b2fb969}{%
+           family={Lorenz},
+           family_i={L\bibinitperiod},
+           given={Ronny},
+           given_i={R\bibinitperiod}}}%
+        {{hash=d83824a27696cb44d8e7b91b97941274}{%
+           family={Bernhart},
+           family_i={B\bibinitperiod},
+           given={Stephan\bibnamedelima H},
+           given_i={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=0d57c737784d679316876806a2100dd9}{%
+           family={Höner\bibnamedelimb Zu\bibnamedelima Siederdissen},
+           family_i={H\bibinitperiod\bibinitdelim Z\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Christian},
+           given_i={C\bibinitperiod}}}%
+        {{hash=f363d6c2880c13dfd903f050fd357863}{%
+           family={Tafer},
+           family_i={T\bibinitperiod},
+           given={Hakim},
+           given_i={H\bibinitperiod}}}%
+        {{hash=b55421f384dce57ae38e9e8bcf44850b}{%
+           family={Flamm},
+           family_i={F\bibinitperiod},
+           given={Christoph},
+           given_i={C\bibinitperiod}}}%
+        {{hash=f785c52b1c1b02e23d779f5508f50619}{%
+           family={Stadler},
+           family_i={S\bibinitperiod},
+           given={Peter\bibnamedelima F},
+           given_i={P\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=9754e76f02df9abc7a97f57ad1724b12}{%
+           family={Hofacker},
+           family_i={H\bibinitperiod},
+           given={Ivo\bibnamedelima L},
+           given_i={I\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{cc030f4678a17b0483484c82b657996d}
+      \strng{fullhash}{484cad7399b6939da5592fc1671f2783}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Algorithms for molecular biology : AMB}
+      \field{month}{11}
+      \field{number}{1}
+      \field{title}{{ViennaRNA Package 2.0.}}
+      \field{volume}{6}
+      \field{year}{2011}
+      \field{pages}{26}
+      \range{pages}{1}
     \endentry
     \entry{Machnicka:2013ky}{article}{}
       \name{author}{13}{}{%
@@ -2950,6 +3092,34 @@
       \field{pages}{674\bibrangedash 690}
       \range{pages}{17}
     \endentry
+    \entry{Wu:2014fb}{article}{}
+      \name{author}{2}{}{%
+        {{hash=c9667b22c99aad50bf67c2b9c7a7e6e3}{%
+           family={Wu},
+           family_i={W\bibinitperiod},
+           given={J},
+           given_i={J\bibinitperiod}}}%
+        {{hash=4b690add7f71b5539e2b88469f41c177}{%
+           family={Hopper},
+           family_i={H\bibinitperiod},
+           given={A\bibnamedelima K},
+           given_i={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{ba917da47b99e25264b0e160aeae1137}
+      \strng{fullhash}{ba917da47b99e25264b0e160aeae1137}
+      \field{sortinit}{0}
+      \field{sortinithash}{990108227b3316c02842d895999a0165}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Genes {\&} Development}
+      \field{month}{07}
+      \field{number}{14}
+      \field{title}{{Healing for destruction: tRNA intron degradation in yeast is a two-step cytoplasmic process catalyzed by tRNA ligase Rlg1 and 5'-to-3' exonuclease Xrn1}}
+      \field{volume}{28}
+      \field{year}{2014}
+      \field{pages}{1556\bibrangedash 1561}
+      \range{pages}{6}
+    \endentry
     \entry{Maraia:2006in}{article}{}
       \name{author}{2}{}{%
         {{hash=76359867365be6a144ebc1e827569b79}{%
@@ -2977,62 +3147,6 @@
       \field{year}{2006}
       \field{pages}{149\bibrangedash 152}
       \range{pages}{4}
-    \endentry
-    \entry{Arimbasseri:2015jg}{article}{}
-      \name{author}{2}{}{%
-        {{hash=16e2a66a1db02c846ca0dea842fbff22}{%
-           family={Arimbasseri},
-           family_i={A\bibinitperiod},
-           given={Aneeshkumar\bibnamedelima G},
-           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=76359867365be6a144ebc1e827569b79}{%
-           family={Maraia},
-           family_i={M\bibinitperiod},
-           given={Richard\bibnamedelima J},
-           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{372db76e06f40d006986d9802e95c800}
-      \strng{fullhash}{372db76e06f40d006986d9802e95c800}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Molecular Cell}
-      \field{month}{06}
-      \field{number}{6}
-      \field{title}{{Mechanism of Transcription Termination by RNA Polymerase III Utilizes a Non-template Strand Sequence-Specific Signal Element}}
-      \field{volume}{58}
-      \field{year}{2015}
-      \field{pages}{1124\bibrangedash 1132}
-      \range{pages}{9}
-    \endentry
-    \entry{Arimbasseri:2013by}{article}{}
-      \name{author}{2}{}{%
-        {{hash=d506ffd4ae09a6937b844355039db406}{%
-           family={Arimbasseri},
-           family_i={A\bibinitperiod},
-           given={A\bibnamedelima G},
-           given_i={A\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
-        {{hash=7b5739392c8ecfa5dd25b11f8c1ba468}{%
-           family={Maraia},
-           family_i={M\bibinitperiod},
-           given={R\bibnamedelima J},
-           given_i={R\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{68e00e0653899ee120254f2c0a51d47a}
-      \strng{fullhash}{68e00e0653899ee120254f2c0a51d47a}
-      \field{sortinit}{0}
-      \field{sortinithash}{990108227b3316c02842d895999a0165}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Molecular and Cellular Biology}
-      \field{month}{03}
-      \field{number}{8}
-      \field{title}{{Distinguishing Core and Holoenzyme Mechanisms of Transcription Termination by RNA Polymerase III}}
-      \field{volume}{33}
-      \field{year}{2013}
-      \field{pages}{1571\bibrangedash 1581}
-      \range{pages}{11}
     \endentry
     \entry{Iben:2012cy}{article}{}
       \name{author}{2}{}{%

@@ -28,7 +28,9 @@
 \glsXpageXglsnumberformat{}{21}}}\glsgroupskip
 \glsgroupheading{C}\relax\glsresetentrylist
 \glossentry{chip}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{2}}}\glsgroupskip
+\glsXpageXglsnumberformat{}{2}}}\relax\glsresetentrylist
+\glossentry{CLP1}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{47}}}\glsgroupskip
 \glsgroupheading{H}\relax\glsresetentrylist
 \glossentry{hek293}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{11}}}\glsgroupskip
@@ -70,5 +72,7 @@
 \glossentry{trbp}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{21}}}\relax\glsresetentrylist
 \glossentry{trna}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{1}}}%
+\glsXpageXglsnumberformat{}{1}}}\relax\glsresetentrylist
+\glossentry{TSEN}{\glossaryentrynumbers{\relax 
+\glsXpageXglsnumberformat{}{50}}}%
 \end{theglossary}\glossarypostamble

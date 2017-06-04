@@ -25,9 +25,8 @@
 \begin{theglossary}\glossaryheader
 \glsgroupheading{T}\relax\glsresetentrylist
 \glossentry{isoacceptors}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{6}}}\relax\glsresetentrylist
-\glossentry{isodecoders}{\glossaryentrynumbers{\relax 
-\glsXpageXglsnumberformat{}{30}}}\relax\glsresetentrylist
+\glsXpageXglsnumberformat{}{6}\delimN 
+\glsXpageXglsnumberformat{}{31}}}\relax\glsresetentrylist
 \glossentry{isotype}{\glossaryentrynumbers{\relax 
 \glsXpageXglsnumberformat{}{15}}}%
 \end{theglossary}\glossarypostamble

@@ -115,6 +115,8 @@ First, I would like to thank my
 \newacronym{trbp}{tRBP}{tRNA-binding protein}
 \newacronym{SSB}{SSB}{Sjögren syndrome type B antigen}
 \newacronym{La}{La}{Lupus La protein}
+\newacronym{TSEN}{TSEN}{tRNA splicing and endonuclease complex}
+\newacronym{CLP1}{CLP1}{cleavage and polyadenylation factor I subunit 1}
 
 \newglossaryentry{isotype}{
 name=tRNA isotype,
@@ -1332,7 +1334,7 @@ I set out to document all intron-containg tRNAs. Read coverage across both exon/
 To further confirm my observations, I coupled hydro-tRNAseq results with previously published PAR-CLIP data on the human tRNA ligase, RTCB \cite{Baltz:2012bh}. Despite the shallow read depth of the dataset, I identified a crosslinking peak (RBP binding site) at the anticodon loop of all intron-containing tRNAs annotated by my approach (\textbf{Fig. \ref{paper5}B,C}. 
 
 \section{Hydro-tRNAseq application in human disease}\label{clp1section}
-These observations came at an opportune moment because of novel contributions of tRNA processing ongoing efforts to characterize the involvement of CLP1 in the human disease, an 5' RNA kinase involved in tRNA splicing \cite{Weitzer:2007hda}. Before my studies, it was shown that mouse models with CLP1 that lacked its catalytic activity develop severe neuromuscular defects accentuated by loss of motor neurons and muscular paralysis \cite{Hanada:2013bk}. 
+These observations came at an opportune moment because of novel contributions of tRNA processing ongoing efforts to characterize the human disease involvement of \gls{CLP1}, a 5' RNA kinase involved in tRNA splicing \cite{Weitzer:2007hda}. Before my studies, it was shown that mouse models with CLP1 that lacked its catalytic activity develop severe neuromuscular defects accentuated by loss of motor neurons and muscular paralysis \cite{Hanada:2013bk}. 
 
 Human exome capture and sequencing from individuals with ponotcerebellar hypoplasia identified a homozygous missense mutation in CLP1 (chr11:g.57,427,367 G > A [hg19], p.R140H) in five unrelated, but consanguineous families, resulting in an autosomal recessive pattern of inheritance (\textbf{Fig. \ref{pedigree}}). Biochemical studies showed that this autosomal mutation reduces the interaction affinity of CLP1 with the splicing complex \cite{Karaca:2014em}. 
 
@@ -1350,7 +1352,8 @@ However, it was not clear whether this had any molecular effect on tRNA processi
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{clp1align.png}%
-\caption[Intron-containing pre-tRNA alignment]{\textbf{Intron-containing pre-tRNA alignment.} An indicative alignment to pre-tRNA TRNAY15 is shown. Mature sequence is in blue, leaders and trailers in green, and intron sequences in orange. Precursor/mature tRNA borders are demarcated by vertical, dotted lines.}
+\caption[Hydro-tRNAseq analysis of CLP1 patient fibroblasts.]{\textbf{Hydro-tRNAseq analysis of CLP1 patient fibroblasts.} 
+Example of an isoleucine pre-tRNA (left part) and mature tRNA (right part) alignment for a matched parent (top) - patient (bottom) pair. Accumulate intronic reads are bracketed. The exon/exon junction is indicated in the mature tRNA alignments.}
 \centering
 \label{clp1align}%
 \end{figure}
@@ -1360,9 +1363,9 @@ Interestingly, however, when I manually inspected I detected reproducibly an acc
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{clp1bars2.png}%
-\caption[clp1 bar]
-{\textbf{clp1 bar.}
-placeholder}
+\caption[CLP1 mutation leads to intronic read accumulation.]
+{\textbf{CLP1 mutation leads to intronic read accumulation.}
+Quantification of intronic reads for three different pre-tRNAs for parents (black and grey bars) and patients (red and orange bars). Hydro-tRNAseq data shown on the left, and northern blot data on the right.}
 \centering
 \label{clp1bars2}%
 \end{figure}
@@ -1372,100 +1375,102 @@ These results were confirmed independently by our collaborators (Stefan Weitzer,
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{nb.png}%
-\caption[NB]
-{\textbf{NB.}
-placeholder}
+\caption[Northern blot analyses of RNA from parental and patient fibroblasts.]
+{\textbf{Northern blot analyses of RNA from parental and patient fibroblasts.}
+A probe complementary to the 50 exon of isoleucine-TAT and tyrosine-GTA tRNAs was used to detect mature and pre-tRNA species (top panels). Probes specifically directed against intron sequences were used to detect pre-tRNAs and tRNA introns of two isoleucine-TAT and one tyrosine-GTA tRNAs (middle panels). U6 snRNA served as loading control (bottom panels). Asterisks denote truncated pre-tRNA species.}
 \centering
 \label{nb}%
 \end{figure}
 
 \subsection{Plausible pathomechanisms of CLP1 mutations}
-	Thus, our Northern analysis and deep sequencing data indicate that the CLP1 R140H mutation in fibro- blasts influences processing of pre-tRNAs, resulting in the accu- mulation of linear tRNA introns, whereas pre- and mature tRNA levels remain largely unaffecte
- Our data elucidate a
-neurological syndrome defined by CLP1 mutations that impair tRNA splicing. Reduction of a founder mutation to homozygosity illustrates the importance of rare variations in disease and supports the clan genomics hypothesis.
-
-
-
-
-\begin{enumerate}[i)]
-\item Reduced tRNA splicing in sensitive tissues (e.g. neurons)
-\item Innate immunity activation by tRNA intron accumulation
-\item tRNA-unrelated effects (e.g. CLP1 participates in mRNA polyadenylation)
-\end{enumerate}
+	Thus, our Northern analysis and deep sequencing data indicate that the CLP1 R140H mutation in fibroblasts influences processing of pre-tRNAs, resulting in the accumulation of tRNA introns, whereas pre- and mature tRNA levels remain largely unaffected. Nevertheless, at this point the biological mechanisms responsible for the pathogenicity of CLP1 mutations are not clear.
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics[width=\textwidth]{splicing2_v2.png}%
-\caption[spliciing]
-{\textbf{splicing.}
-placeholder}
+\caption[Model of CLP1 involvement in tRNA splicing.]
+{\textbf{Model of CLP1 involvement in tRNA splicing.}
+CLP1 associates with the TSEN complex, which endonucleolytically removes tRNA introns (labeled in blue). The cleavage results in a 3' cyclic phosphate and 5' OH on the 5' and 3' exons, respectively, which are ligated by RTCB (canonical ligation). CLP1 can also phosphorylate the 3' exon which could then be ligated to the 5' half by an unknown ligase. CLP1 could also phosphorylate the removed intron facilitating its removal by an exonuclease.}
 \centering
 \label{splicing}%
 \end{figure}
 
-\subsection{hydro-tRNAseq on CLP1}
-tRNA intron accumulation in patient with CLP1 recessive mutation compared to heterozygous parent
+	During intron removal, cleavage by \gls{TSEN} leaves a 3' cyclic phosphate on the 5' tRNA exon and a 5' OH on the 3' exon (\textbf{Fig. \ref{splicing}}). These moieties are substrates of the tRNA ligase (RTCB), which carries out the ligation of the two tRNA halves. CLP1 is capable of phosphorylating the 5' end of the 3' exon, possibly allowing the ligation of the two halves by a yet unknown ligase \cite{Weitzer:2007hda}, which would be reminiscent of the tRNA splicing pathway in yeast \cite{Weitzer:2014bi}. 
+	Alternatively, CLP1 could be phosphorylating the removed intron, which harbors a 5' OH immediately after cleavage. The "healing" of the 5' end of the linear intron is a requirement for its degradation, at least in yeast, by the 5'-3' exonuclease Xrn1 \cite{Wu:2014fb}.
+	Altogether, taking into account both the documented and hypothesized functions of CLP1, one could come up with the following testable hypothesis regarding the plausible pathomechanisms of CLP1 mutations:
+	
+\begin{itemize}
+\item tRNA splicing and mature tRNA levels are reduced in metabolically in sensitive tissues (e.g. neurons), while they are unaffected in fibroblasts.
+\item tRNA intron accumulation leads to innate immunity activation.
+\item tRNA splicing proteins have pleiotropic, and possibly tRNA-unrelated effects (e.g. participation in mRNA polyadenylation \cite{Paushkin:2004wl, Weitzer:2014bi})
+\end{itemize}
 
-\section{tRNA enzyme screen}
-With respect to more functional aspects of tRNA biology, I focused on the results from knockdowns from a series of tRNA modifying and processing enzymes. Surprisingly, even though I targeted key components of the tRNA biogenesis and processing pathway, I could not observe major defects in tRNA processing or abundance patterns with the exception of the tRNA ligase (RTCB) that led to a very modest accumulation of 5’ end tRNA halves. This suggested either that the residual enzymatic activity after knockdown is sufficient for proper tRNA processing or that there is unknown redundancy in several steps of tRNA biogenesis. 
+%\section{tRNA enzyme screen}
+%With respect to more functional aspects of tRNA biology, I focused on the results from knockdowns from a series of tRNA modifying and processing enzymes. Surprisingly, even though I targeted key components of the tRNA biogenesis and processing pathway, I could not observe major defects in tRNA processing or abundance patterns with the exception of the tRNA ligase (RTCB) that led to a very modest accumulation of 5’ end tRNA halves. This suggested either that the residual enzymatic activity after knockdown is sufficient for proper tRNA processing or that there is unknown redundancy in several steps of tRNA biogenesis. 
 
-This publication steered interest in the connection of tRNA and disease, a link that was previously not well examined. To further showcase the utility and usefulness of my method in this field I decided to use it in a proof of principle example. I have carried out an siRNA-mediated gene silencing screen targeting a series of tRNA processing and modifying enzymes (i.e. the CCA terminal transferase, the tRNA methyltransferase TRMT10A, the tRNA splicing ligase HSPC117, a member of the RNase P complex, and also TRANSLIN, a putatively novel tRNA processing enzyme – see aim 2). In the cases where a reliable antibody was available, the knockdowns were validated by western blot analysis. In all other cases, knockdowns are currently being validated by mRNAseq. RNA from the validated knockdowns will be subjected to tRNAseq, with the expectation to identify tRNA processing defects that prior to our method would have been overlooked. In addition, I have performed tRNAseq from spinal cord-derived fibroblasts of knockout mice for the tRNA ligase. There I was already able to show tRNA processing is affected characterized by an accumulation of unspliced tRNA halves. 
+%This publication steered interest in the connection of tRNA and disease, a link that was previously not well examined. To further showcase the utility and usefulness of my method in this field I decided to use it in a proof of principle example. I have carried out an siRNA-mediated gene silencing screen targeting a series of tRNA processing and modifying enzymes (i.e. the CCA terminal transferase, the tRNA methyltransferase TRMT10A, the tRNA splicing ligase HSPC117, a member of the RNase P complex, and also TRANSLIN, a putatively novel tRNA processing enzyme – see aim 2). In the cases where a reliable antibody was available, the knockdowns were validated by western blot analysis. In all other cases, knockdowns are currently being validated by mRNAseq. RNA from the validated knockdowns will be subjected to tRNAseq, with the expectation to identify tRNA processing defects that prior to our method would have been overlooked. In addition, I have performed tRNAseq from spinal cord-derived fibroblasts of knockout mice for the tRNA ligase. There I was already able to show tRNA processing is affected characterized by an accumulation of unspliced tRNA halves. 
 
 \section{Comparison with other methods}
 
-Recently tRNA sequencing methods have been developed that employ dealkylating enzymes and/or highly thermostable reverse transcriptase to overcome respectively the hurdles of modifications and stable structures that impede tRNA sequencing \cite{Cozen:2015ds, Zheng:2015dw}. However, they both have specific limitations that we tried to address. We size-selected at a higher size window to avoid contamination by tRNA-derived fragments (as compared to \cite{Cozen:2015ds}). Also, we used two sequential adapter ligation methods to make sure that only full-length fragments were sequenced and the sequencing reads were not results of blocks during RT (as compared to \cite{Zheng:2015dw}), which allowed us to differentiate RT stops from fragment ends. Additionally, we did not bias our sequencing protocol towards mature tRNAs, but instead we captured more precursors by both RNAseq and more importantly PAR-CLIP methods, allowing us to perform a deeper precursor tRNA curation. Importantly, despite the reportedly high processivity conferred by dealkylating methyl modifications, in the previous studies only a small fraction of reads mapped at a given transcript were full-length reads (<1\% of all reads), with a marginal increase compared to untreated controls (\textbf{Fig. \ref{supp6}}). 
+Recently tRNA sequencing methods have been developed that employ dealkylating enzymes and/or highly thermostable reverse transcriptase to overcome respectively the hurdles of modifications and stable structures that impede tRNA sequencing \cite{Cozen:2015ds, Zheng:2015dw}. However, they both have specific limitations that I tried to address. I size-selected at a higher size window to avoid contamination by tRNA-derived fragments (as compared to \cite{Cozen:2015ds}). Also, I used two sequential adapter ligation methods to make sure that only full-length fragments were sequenced and the sequencing reads were not results of blocks during RT (as compared to \cite{Zheng:2015dw}), which allowed me to differentiate RT stops from fragment ends. Additionally, I did not bias our sequencing protocol towards mature tRNAs, but instead captured more precursors by both hydro-tRNAseq and more importantly PAR-CLIP methods, which enabled a deeper pre-tRNA curation. Importantly, despite the reportedly high processivity conferred by dealkylating methyl modifications, in the previous studies only a small fraction of reads mapped at a given transcript were full-length reads (<1\% of all reads), with a marginal increase compared to untreated controls (\textbf{Fig. \ref{supp6}}). 
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics{supp6.png}%
-\caption[supp6]
-{\textbf{supp6.}
-placeholder}
+\caption[Read length distribution for hydro-tRNAseq and dealkylating sequencing methods.]
+{\textbf{Read length distribution for hydro-tRNAseq and dealkylating sequencing methods.}
+Histogram representing the fraction of normalized mature tRNA transcript length with ungapped and overlapping read evidence in hydro-tRNAseq and tRNA sequencing methods employing dealkylation steps (control and subjected to treatment). The mean fraction is indicated next to each method.}
 \centering
 \label{supp6}%
 \end{figure}
 
-In contrast, hydro-tRNAseq yielded a higher cumulative fraction of mature tRNAs with read evidence across their whole length with a mean read coverage of 0.99 of the full length (compared to 0.95 and 0.87 in previous studies; \textbf{Fig. \ref{supp7}}). Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.
+In contrast, hydro-tRNAseq yielded a higher cumulative fraction of mature tRNAs with read evidence across their whole length with a mean read coverage of 0.99 of the full length (compared to 0.95 and 0.87 in previous studies; \textbf{Fig. \ref{supp7}}). Also, SSB PAR-CLIP was more sensitive in identifying tRNA genes, detecting 349 genes as compared to ~159 and ~212 in the other methods.
 
 \begin{figure}[!ht]%
 \centering
 \includegraphics{supp7.png}%
-\caption[supp7]
-{\textbf{supp7.}
-placeholder}
+\caption[Mature tRNA read coverage by hydro-tRNAseq and dealkylating sequencing methods.]
+{\textbf{Mature tRNA read coverage by hydro-tRNAseq and dealkylating sequencing methods.}
+The fraction of reads with a given length is indicated for hydro-tRNAseq, as well as untreated and treated samples from dealkylating methods. The distribution of tRNA lengths is shown in dotted blue lines on the right y-axis for comparison.
+}
 \centering
 \label{supp7}%
 \end{figure}
 
 
 \section{Discussion}
-We have combined two complementary transcriptome-wide approaches to provide experimentally validated annotation for mature and pre-tRNA transcripts and their respective genes, in addition to furnishing an accurate quantification of tRNA abundance in human cells.
+I have combined two complementary transcriptome-wide approaches to provide experimentally validated annotation for mature and pre-tRNA transcripts and their respective genes, in addition to furnishing an accurate quantification of tRNA abundance in human cells.
 
-First, we developed hydro-tRNAseq, a fragmentation-based protocol for overcoming hurdles of tRNA sequencing, and obtained deep sequencing sets that enabled the annotation of tRNA genes and derivation of mature tRNA reference sequences for accurately assigning sequence reads to the otherwise edited and nucleotide-modified original tRNA. Alkaline hydrolysis of the tRNA-containing pool relieved thermodynamically stable structural constraints that impair ligation steps in the cDNA library preparations, reduced the number of modified nucleosides per sequenced fragment, resulting in high read-through in the RT step, and release of the 3’ hydroxyl group of the otherwise aminoacylated tRNA 3’ end. 
+First, I developed hydro-tRNAseq, a fragmentation-based protocol for overcoming hurdles of tRNA sequencing, and obtained deep sequencing sets that enabled the annotation of tRNA genes and derivation of mature tRNA reference sequences for accurately assigning sequence reads to the otherwise edited and nucleotide-modified original tRNA pool. Alkaline hydrolysis of the tRNA-containing pool relieved thermodynamically stable structural constraints that impair ligation steps in the cDNA library preparations, reduced the number of modified nucleosides per sequenced fragment, resulting in high read-through in the RT step, and release of the 3’ hydroxyl group of the otherwise aminoacylated tRNA 3’ end. 
 
-Then, we took advantage of the pre-tRNA binding properties of SSB protein, which coordinates posttranscriptional processing and maturation of tRNAs \cite{Maraia:2010kx}, to enrich for tRNA precursors and allow for a comprehensive curation of pre-tRNA transcripts and annotation of tRNA genes. Of note, since SSB interacts with pre-tRNAs and other small nuclear RNA U-rich 3’ ends in all organisms examined so far \cite{Maraia:2006in,Teplova:2006dv}, our approach can be adapted towards tRNA annotation in other species.
+Then, I took advantage of the pre-tRNA binding properties of SSB protein, which coordinates posttranscriptional processing and maturation of tRNAs \cite{Maraia:2010kx}, to enrich for tRNA precursors and allow for a comprehensive curation of pre-tRNA transcripts and annotation of tRNA genes. Of note, since SSB interacts with pre-tRNAs and other small nuclear RNA's U-rich 3’ ends in all organisms examined so far \cite{Maraia:2006in,Teplova:2006dv}, this approach can be adapted towards tRNA annotation in other species.
 
-Our data suggest that, at least in our experimental system, the tRNA gene space is considerably more contracted than it has been previously predicted by bioinformatics, evidenced by the fact that almost half of the predicted tRNA loci were transcriptionally silent, presumably representing retrointegrated tRNA pseudogenes. It would be interesting to examine whether such an observation holds for various cell types and at different stages of development or disease, in order to confirm the differential expression and regulation of tRNA gene expression that has been reported before \cite{Gingold:2014iz,Goodarzi:2016gd}. Our analysis shows that selenocysteine seems to be the only monogenic tRNA species, suggesting an increased sensitivity to mutations due to the lack of functional redundancy.
+My data suggest that, at least in my experimental system, the tRNA gene space is considerably more contracted than it has been previously predicted by bioinformatics, evidenced by the fact that almost half of the predicted tRNA loci were transcriptionally silent, presumably representing retrointegrated tRNA pseudogenes or epigenetically silenced regions. It would be interesting to examine whether such an observation holds for various cell types and at different stages of development or disease, in order to confirm the differential expression and regulation of tRNA gene expression that has been reported before \cite{Gingold:2014iz,Goodarzi:2016gd}. 
 
-Our approach allowed the elucidation of relevant issues regarding POLR3 transcription such as the length of pre-tRNA leaders and trailers, the length of oligoU required for recognition by SSB, both of which have shown species specificity \cite{Arimbasseri:2015jg}. We also detected that 4 sequential Us act as the transcription termination signal for POLR3, confirming similar predictions based on genomic sequences that suggested a requirement for 4 Us for efficient termination in vertebrates \cite{Arimbasseri:2013by,Iben:2012cy} as well as structural data documenting the capacity of SSB to accommodate 4 Us in its binding site \cite{Stefano:1984wp,Teplova:2006dv}. At the same time, the length distribution of the oligoU tract identified in our experiments reflects the heterogeneity of termination signal lengths that has been noted as an intrinsic property of pol III \textit{in vitro} \cite{Arimbasseri:2015jg}.
+Furthermore, my approach allowed the elucidation of relevant issues regarding POLR3 transcription such as the length of pre-tRNA leaders and trailers, the length of oligoU required for recognition by SSB, both of which have shown species specificity \cite{Arimbasseri:2015jg}. I detected that 4 sequential Us act as the transcription termination signal for POLR3, confirming similar predictions based on genomic sequences that suggested a requirement for 4 Us for efficient termination in vertebrates \cite{Arimbasseri:2013by,Iben:2012cy}, as well as structural data documenting the capacity of SSB to accommodate 4 Us in its binding site \cite{Stefano:1984wp,Teplova:2006dv}. At the same time, the length distribution of the oligoU tract identified in our experiments reflects the heterogeneity of termination signal lengths that has been noted as an intrinsic property of polymerase III \textit{in vitro} \cite{Arimbasseri:2015jg}.
 
-We could also confirm a second binding site of SSB in the 5’ half of the mature tRNA sequence, in support of previous observations proposing the presence of additional pre-tRNA binding sites besides the 3’ tail \cite{Bayfield:2009cx,Stefano:1984wp}. It has been previously noted that the binding mode of SSB to tRNA is more complex than the recognition alone of the 3’ tails, and that one of the RNA recognition motifs present in SSB, RRM1, could bind elsewhere in the tRNA. This stems from two observations:
+I could also confirm a second binding site of SSB in the 5’ half of the mature tRNA sequence, in support of previous observations proposing the presence of additional pre-tRNA binding sites besides the 3’ tail \cite{Bayfield:2009cx,Stefano:1984wp}. It has been previously noted that the binding mode of SSB to tRNA is more complex than the recognition alone of the 3’ tails, and that one of the RNA recognition motifs present in SSB, RRM1, could bind elsewhere in the tRNA. This stems from two observations:
 \begin{enumerate}[i)]
 \item SSB has a higher affinity for precursor over mature tRNAs, 
 \item structural data show that RRM1 is unoccupied when SSB is bound to UUU-3’-OH substrate.
 \end{enumerate}
-Our data seem to validate this observation, and could shed light into new modes of SSB-mediated processing of pre-tRNAs into either mature tRNAs or other kinds of ncRNAs \cite{Hasler:2016ce}. 
+My data seem to validate this observation, and could shed light into new modes of SSB-mediated processing of pre-tRNAs into either mature tRNAs or other kinds of ncRNAs \cite{Hasler:2016ce}. 
 
-Moreover, we were able to carry out a careful overview and tRNA modifications that result in characteristic mismatch signatures. We introduced all possible combinations of all “mutated” nucleotides at the most prominently modified positions in every tRNA in order to collect as many reads that could be having RT misincorporations at the modified positions. This created a large number of similar tRNA sequences, and therefore we allowed for extensive multimapping, but split the read counts in order to avoid artificial read count inflation. By making use of our hierarchical annotation pipeline, we were able to dissect the temporal order of inosine modifications at the tRNA anticodon, confirming that A34 deamination occurs in the nucleus prior to the nucleolytic processing of the pre-tRNA, and establishing that the same holds true for A37 modifications, which in fact precede A34 deamination. 
-	Accounting for modification signatures was also important for the reason that CLIP-seq, and especially PAR-CLIP, depends on apparent mismatches (in the case of PAR-CLIP, T-to-C conversions) for the identification of RBP binding sites on target RNAs. Since we used PAR-CLIP of SSB for the annotation of pre-tRNAs and tRNA genes, we first examined uridine modifications that result in T-to-C conversions. Only a small minority of modification signatures were T-to-C transitions, suggesting that it is highly unlikely that our PAR-CLIP data were artificially inflated. 
-	Collectively, our results give a census of the tRNA transcriptome in human cells. We provide a method and computational flowchart for the analysis of tRNAs. We expect that these results will inform studies of tRNA-related human disease. 
+Moreover, I were able to carry out a careful overview and tRNA modifications that result in characteristic mismatch signatures. I introduced all possible combinations of all “mutated” nucleotides at the most prominently modified positions in every tRNA in order to collect as many reads that could be having RT misincorporations at the modified positions. This created a large number of similar tRNA sequences, and therefore I allowed for extensive multimapping, but split the read counts in order to avoid artificial read count inflation. By making use of our hierarchical annotation pipeline, I was able to dissect the temporal order of inosine modifications at the tRNA anticodon, confirming that A34 deamination occurs in the nucleus prior to the nucleolytic processing of the pre-tRNA, and establishing that the same holds true for A37 modifications, which in fact precede A34 deamination. 
+
+Accounting for modification signatures was also important for the reason that CLIP-seq, and especially PAR-CLIP, depends on apparent mismatches (in the case of PAR-CLIP, T-to-C conversions) for the identification of RBP binding sites on target RNAs. Since I used PAR-CLIP of SSB for the annotation of pre-tRNAs and tRNA genes, I first examined uridine modifications that result in T-to-C conversions. Only a small minority of modification signatures were T-to-C transitions, suggesting that it is highly unlikely that our PAR-CLIP data were artificially inflated. 
+
+Then, I applied my protocols towards the elucidation of mechanisms of human disease, in a multi-collaborative effort to characterize a novel, severe neurodevelopmental syndrome caused by mutations in the tRNA kinase CLP1 \cite{Karaca:2014em}. By applying the hydro-tRNAseq protocol and analysis pipeline, I identified the accumulation of intronic sequences in the patient samples, a finding which was confirmed independently by Northern blot analysis. This constituted a demonstrative proof-of-principle that tailored-RNAseq protocols can be of considerable value in the context of diagnostics. 
 
 \section{Summary}
+In summary I have shown that: 
+
+Collectively, our results give a census of the tRNA transcriptome in human cells. We provide a method and computational flowchart for the analysis of tRNAs. We expect that these results will inform studies of tRNA-related human disease. 
 \begin{enumerate}[i)]
-\item Hydro-tRNAseq is a facile and efficient method for sequencing tRNAs
+\item hydro-tRNAseq is a facile and efficient method for sequencing tRNAs
 \item PAR-CLIP of SSB/La informs the annotation tRNA genes and curation of pre-tRNAs
-\item Combined together, they can be used to probe long-standing questions of tRNA biogenesis, processing and function
-\item Hydro-tRNAseq can be applied for studies of human genetic diseases
+\item combined together, the two techniques can help answer long-standing questions of tRNA biogenesis, processing and function
+\item hydro-tRNAseq and the associated analysis can be applied for studies of human genetic diseases
 \end{enumerate}
 
 \chapter{Materials and methods}
@@ -1479,10 +1484,13 @@ The partially hydrolyzed RNA was dephosphorylated with 10 U of calf intestinal p
 Flp-In T-REx HEK293 cells (Invitrogen) were grown in high glucose DMEM supplemented with 10\% (v/v) FBS, 1 mM sodium pyruvate, 100 U/mL penicillin, 100 $\mu$g/mL streptomycin, 100 $\mu$g/mL zeocin and 15 $\mu$g/mL blasticidin. Cell lines stably expressing FLAG/HA- (FH-) SSB were generated as described previously \cite{Spitzer:2013fk}. Expression of FH-SSB was induced by addition of 1 $\mu$g /mL doxycycline for 24 h. 4SU PAR-CLIP was performed as described previously, using either RNase T1 or RNase A \cite{Garzia:2016cx}. PAR-CLIP cDNA libraries were sequenced on an Illumina HiSeq 2500 instrument. Adapter extracted reads were aligned against an in-house curated and annotated list of mature and precursor mRNAs and ncRNAs. Bioinformatic analysis was performed using a analysis pipeline based on a curated and annotated reference RNA collection, which we organized into categories, such as rRNA, tRNA, snoRNA, mRNAs, etc. This pipeline is available at \url{https://rnaworld.rockefeller.edu/PARCLIP_suite/}. T-to-C conversion frequency, indicative of binding, was calculated for each annotated category of RNA. 
 
 \section{Bioinformatic analysis}
-Reads were mapped to our transcriptomic database with error distance 0 (d0), 1 (d1) or 2 (d2), allowing mismatches, insertions and deletions. Assignment of reads with more than one mapping locations that belong to different RNA classes followed a hierarchical procedure reflective of the cellular abundance of each RNA class. Mature RNA sequences (e.g. fully processed tRNAs) received priority compared to precursors (e.g. pre-tRNAs), thus minimizing multimapping events. A tRNA gene was considered to be expressed when there were reads spanning the precursor/mature junctions, including exon/intron junctions for intron-containing tRNAs. For abundance reports, multimapping reads were split equally over the number of their mapping locations, and all reads mapping to edited and non-edited versions of the same tRNA transcript were summed for quantification of a given tRNA. Naming of tRNAs followed HUGO guidelines, with edited variants of reference tRNAs exhibiting the edited position and the identity of induced mismatch in their naming. The same analysis pipeline was applied to mitochondrial tRNAs, with the exception that no tRNA precursors were annotated due to continuous transcription of the mitochondrial genome. Remaining reads that did not map to any annotated transcript were mapped to the human genome. The mapped read annotation process was based on a hierarchical procedure that assigned priority to reads mapping in their entirety to mature sequences, followed by reads that spanned the precursor-mature junctions. Bioinformatic analysis was performed by custom Perl and Python scripts, all available upon request. Graphs were created in R and Prism (Graphpad).
+Reads were mapped to our transcriptomic database with error distance 0 (d0), 1 (d1) or 2 (d2), allowing mismatches, insertions and deletions. Assignment of reads with more than one mapping locations that belong to different RNA classes followed a hierarchical procedure reflective of the cellular abundance of each RNA class. Mature RNA sequences (e.g. fully processed tRNAs) received priority compared to precursors (e.g. pre-tRNAs), thus minimizing multimapping events. A tRNA gene was considered to be expressed when there were reads spanning the precursor/mature junctions, including exon/intron junctions for intron-containing tRNAs. For abundance reports, multimapping reads were split equally over the number of their mapping locations, and all reads mapping to edited and non-edited versions of the same tRNA transcript were summed for quantification of a given tRNA. Naming of tRNAs followed HUGO guidelines, with edited variants of reference tRNAs exhibiting the edited position and the identity of induced mismatch in their naming. The same analysis pipeline was applied to mitochondrial tRNAs, with the exception that no tRNA precursors were annotated due to continuous transcription of the mitochondrial genome. Remaining reads that did not map to any annotated transcript were mapped to the human genome. The mapped read annotation process was based on a hierarchical procedure that assigned priority to reads mapping in their entirety to mature sequences, followed by reads that spanned the precursor-mature junctions. Bioinformatic analysis was performed by custom Perl and Python scripts. Graphs were created in R and Prism (Graphpad).
 
 \section{Accession codes}
 The RNAseq and PAR-CLIP sequence data have been deposited in the National Center for Biotechnology Information (NCBI) Sequence Read Archive under accession numbers GSE95683.
+
+\section{Code availability}
+All scripts used for the analysis (written in Perl, Python and R) are available upon request, and will also be deposited on \url{https://github.com/tgogakos} upon publication of the presented work.  
 
 \chapter{C3PO}
 %begin from TRP
@@ -1572,7 +1580,6 @@ This led to the hypothesis that specific tRNA availability may be the bottleneck
 %\includepdf[pages={1-3}]{/Users/tasos/Dropbox/papers/Library.papers3/Files/99/99837A1A-C043-4F9D-8B44-2D8A078D14BD.pdf}
 
 \renewcommand{\bibname}{References}
-%\bibliographystyle{IEEEtran}
 \phantomsection
 \printbibliography
 \addcontentsline{toc}{chapter}{References} %rename references

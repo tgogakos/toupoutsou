@@ -64,15 +64,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.7.1}Plausible pathomechanisms of CLP1 mutations}{48}{subsection.3.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.2}hydro-tRNAseq on CLP1}{50}{subsection.3.7.2}
+\contentsline {section}{\numberline {3.8}Comparison with other methods}{52}{section.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}tRNA enzyme screen}{51}{section.3.8}
+\contentsline {section}{\numberline {3.9}Discussion}{54}{section.3.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Comparison with other methods}{52}{section.3.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.10}Discussion}{54}{section.3.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.11}Summary}{57}{section.3.11}
+\contentsline {section}{\numberline {3.10}Summary}{57}{section.3.10}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Materials and methods}{58}{chapter.4}
 \defcounter {refsection}{0}\relax 
@@ -106,4 +102,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Things that didn't work}{75}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{85}{chapter*.49}
+\contentsline {chapter}{References}{86}{chapter*.49}

@@ -538,6 +538,66 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{TSEN}{}%
+{%
+\gls@defglossaryentry{TSEN}%
+{%
+name={TSEN},%
+sort={TSEN},%
+type={acronym},%
+first={tRNA splicing and endonuclease complex\glsspace (TSEN)},%
+firstplural={tRNA splicing and endonuclease complexs\glsspace (TSENs)},%
+text={TSEN},%
+plural={TSENs},%
+description={tRNA splicing and endonuclease complex},%
+descriptionplural={tRNA splicing and endonuclease complex\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={tRNA splicing and endonuclease complex},%
+longplural={tRNA splicing and endonuclease complexs},%
+short={TSEN},%
+shortplural={TSENs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CLP1}{}%
+{%
+\gls@defglossaryentry{CLP1}%
+{%
+name={CLP1},%
+sort={CLP1},%
+type={acronym},%
+first={cleavage and polyadenylation factor I subunit 1\glsspace (CLP1)},%
+firstplural={cleavage and polyadenylation factor I subunit 1s\glsspace (CLP1s)},%
+text={CLP1},%
+plural={CLP1s},%
+description={cleavage and polyadenylation factor I subunit 1},%
+descriptionplural={cleavage and polyadenylation factor I subunit 1\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={cleavage and polyadenylation factor I subunit 1},%
+longplural={cleavage and polyadenylation factor I subunit 1s},%
+short={CLP1},%
+shortplural={CLP1s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{isotype}{}%
 {%
 \gls@defglossaryentry{isotype}%

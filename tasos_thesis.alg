@@ -1,11 +1,13 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 02.06.2017  09:00:29
-;; Indexstyle: "/var/folders/gn/ym78x39n1jl54zlnx841cs3h0000gn/T/tpE26rapbE", Rawindex: "/var/folders/gn/ym78x39n1jl54zlnx841cs3h0000gn/T/CXdfGsdRsb", Output: "tasos_thesis.acr"
+;; at 04.06.2017  08:45:15
+;; Indexstyle: "/var/folders/3b/gvtj6vp56bg062s4fk5xmsrm0000gn/T/OSFbu78IMF", Rawindex: "/var/folders/3b/gvtj6vp56bg062s4fk5xmsrm0000gn/T/4LkShlm81y", Output: "tasos_thesis.acr"
 
 
 Building indexentry-tree:
 Hierdepth of index is :TREE
 
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -44,6 +46,8 @@ Letter-group: "4Ðà" -> "glsnumbers"
 Letter-group: "ÚË„È" -> "T"
 Letter-group: "ÐÐ„" -> "S"
 Letter-group: "´€" -> "L"
+Letter-group: "†´È1" -> "C"
+Letter-group: "ÚÐ—¼" -> "T"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "4Ðà" -> "glsnumbers"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
