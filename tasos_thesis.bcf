@@ -2204,9 +2204,27 @@
     <bcf:citekey order="72">Bayfield:2009cx</bcf:citekey>
     <bcf:citekey order="72">Stefano:1984wp</bcf:citekey>
     <bcf:citekey order="73">Hasler:2016ce</bcf:citekey>
-    <bcf:citekey order="74">Hafner:2012eaa</bcf:citekey>
-    <bcf:citekey order="75">Spitzer:2013fk</bcf:citekey>
-    <bcf:citekey order="76">Garzia:2016cx</bcf:citekey>
+    <bcf:citekey order="74">Karaca:2014em</bcf:citekey>
+    <bcf:citekey order="75">Hafner:2012eaa</bcf:citekey>
+    <bcf:citekey order="76">Spitzer:2013fk</bcf:citekey>
+    <bcf:citekey order="77">Garzia:2016cx</bcf:citekey>
+    <bcf:citekey order="78">Maraia:2010kx</bcf:citekey>
+    <bcf:citekey order="79">Hopper:2008ct</bcf:citekey>
+    <bcf:citekey order="79">Hopper:2010ho</bcf:citekey>
+    <bcf:citekey order="79">Phizicky:2010jf</bcf:citekey>
+    <bcf:citekey order="80">Liu:2009ce</bcf:citekey>
+    <bcf:citekey order="81">Aoki:1995ec</bcf:citekey>
+    <bcf:citekey order="81">Ishida:2002td</bcf:citekey>
+    <bcf:citekey order="81">Stein:2006jj</bcf:citekey>
+    <bcf:citekey order="81">Claussen:2006in</bcf:citekey>
+    <bcf:citekey order="81">Liu:2009ce</bcf:citekey>
+    <bcf:citekey order="82">Ye:2011bo</bcf:citekey>
+    <bcf:citekey order="82">Tian:2011hx</bcf:citekey>
+    <bcf:citekey order="83">Ye:2011bo</bcf:citekey>
+    <bcf:citekey order="83">Tian:2011hx</bcf:citekey>
+    <bcf:citekey order="83">Parizotto:2013dg</bcf:citekey>
+    <bcf:citekey order="84">Stein:2006jj</bcf:citekey>
+    <bcf:citekey order="85">Li:2012kob</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="none/global/" type="entry" sortscheme="none" sortnamekeyscheme="global" labelprefix="">
   <bcf:sorting>

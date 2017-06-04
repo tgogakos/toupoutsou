@@ -598,6 +598,96 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{C3PO}{}%
+{%
+\gls@defglossaryentry{C3PO}%
+{%
+name={C3PO},%
+sort={C3PO},%
+type={acronym},%
+first={component 3 promoter of RISC\glsspace (C3PO)},%
+firstplural={component 3 promoter of RISCs\glsspace (C3POs)},%
+text={C3PO},%
+plural={C3POs},%
+description={component 3 promoter of RISC},%
+descriptionplural={component 3 promoter of RISC\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={component 3 promoter of RISC},%
+longplural={component 3 promoter of RISCs},%
+short={C3PO},%
+shortplural={C3POs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TSN}{}%
+{%
+\gls@defglossaryentry{TSN}%
+{%
+name={TSN},%
+sort={TSN},%
+type={acronym},%
+first={translin\glsspace (TSN)},%
+firstplural={translins\glsspace (TSNs)},%
+text={TSN},%
+plural={TSNs},%
+description={translin},%
+descriptionplural={translin\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={translin},%
+longplural={translins},%
+short={TSN},%
+shortplural={TSNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TSNAX}{}%
+{%
+\gls@defglossaryentry{TSNAX}%
+{%
+name={TSNAX},%
+sort={TSNAX},%
+type={acronym},%
+first={translin-associated protein X, also known as TRAX\glsspace (TSNAX)},%
+firstplural={translin-associated protein X, also known as TRAXs\glsspace (TSNAXs)},%
+text={TSNAX},%
+plural={TSNAXs},%
+description={translin-associated protein X, also known as TRAX},%
+descriptionplural={translin-associated protein X, also known as TRAX\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={translin-associated protein X, also known as TRAX},%
+longplural={translin-associated protein X, also known as TRAXs},%
+short={TSNAX},%
+shortplural={TSNAXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{isotype}{}%
 {%
 \gls@defglossaryentry{isotype}%

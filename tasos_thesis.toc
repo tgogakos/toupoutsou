@@ -66,7 +66,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.8}Comparison with other methods}{52}{section.3.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Discussion}{54}{section.3.9}
+\contentsline {section}{\numberline {3.9}Discussion}{53}{section.3.9}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.10}Summary}{57}{section.3.10}
 \defcounter {refsection}{0}\relax 
@@ -80,19 +80,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {4.4}Accession codes}{61}{section.4.4}
 \defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4.5}Code availability}{61}{section.4.5}
+\defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {5}C3PO}{62}{chapter.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.1}Introduction}{62}{section.5.1}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.2}From manny}{65}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}TSN binds tRNAs}{67}{section.5.3}
+\contentsline {section}{\numberline {5.3}TSN binds tRNAs}{68}{section.5.3}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.4}C3PO possesses a length- and structure-dependent endonucleolytic activity}{68}{section.5.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.5}Biochemical characterization of C3PO\IeC {\textquoteright }s tRNA processing activity}{68}{section.5.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.6}Functional validation of C3PO\IeC {\textquoteright }s targets}{68}{section.5.6}
+\contentsline {section}{\numberline {5.6}Functional validation of C3PO\IeC {\textquoteright }s targets}{69}{section.5.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.7}C3PO sumary report 2014}{69}{section.5.7}
 \defcounter {refsection}{0}\relax 
