@@ -1,26 +1,28 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Figures}{ix}{section*.4}
+\select@language {english}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Tables}{xii}{section*.6}
+\contentsline {chapter}{List of Figures}{x}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{List of Abbreviations}{xiv}{section*.9}
+\contentsline {chapter}{List of Tables}{xiii}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Glossary}{xvi}{section*.11}
+\contentsline {chapter}{List of Abbreviations}{xiv}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {chapter}{Glossary}{xvi}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.1}Overview}{1}{section.1.1}
+\contentsline {part}{I\hspace {1em}Characterizing human tRNAs}{1}{part.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.2}tRNA and disease}{3}{section.1.2}
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.3}tRNA biogenesis}{3}{section.1.3}
+\contentsline {section}{\numberline {1.1}Overview}{2}{section.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.4}tRNA sequencing}{5}{section.1.4}
+\contentsline {section}{\numberline {1.2}tRNA biogenesis}{3}{section.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.5}Previous efforts for genome-wide tRNA annotation}{7}{section.1.5}
+\contentsline {section}{\numberline {1.3}tRNA sequencing}{5}{section.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1.6}Small RNA sequencing protocol}{8}{section.1.6}
+\contentsline {section}{\numberline {1.4}Previous efforts for genome-wide tRNA annotation}{7}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}Small RNA sequencing protocol}{8}{section.1.5}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Hydro-tRNAseq}{11}{chapter.2}
 \defcounter {refsection}{0}\relax 
@@ -58,94 +60,66 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.5}Ribonucleotide modifications}{36}{section.3.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.6}Annotation of intron-containing tRNA genes}{44}{section.3.6}
+\contentsline {section}{\numberline {3.6}Annotation of intron-containing tRNA genes}{43}{section.3.6}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.7}Hydro-tRNAseq application in human disease}{47}{section.3.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.7.1}Plausible pathomechanisms of CLP1 mutations}{48}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.1}Plausible pathomechanisms of CLP1 mutations}{50}{subsection.3.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.8}Comparison with other methods}{52}{section.3.8}
+\contentsline {chapter}{\numberline {4}Comparison with other methods}{53}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.9}Discussion}{53}{section.3.9}
+\contentsline {chapter}{\numberline {5}Discussion}{56}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.10}Summary}{57}{section.3.10}
+\contentsline {section}{\numberline {5.1}Summary}{59}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Materials and methods}{58}{chapter.4}
+\contentsline {chapter}{\numberline {6}Materials and methods}{60}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}Hydro-tRNAseq}{58}{section.4.1}
+\contentsline {section}{\numberline {6.1}Hydro-tRNAseq}{60}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}SSB PAR-CLIP}{59}{section.4.2}
+\contentsline {section}{\numberline {6.2}SSB PAR-CLIP}{61}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Bioinformatic analysis}{60}{section.4.3}
+\contentsline {section}{\numberline {6.3}Bioinformatic analysis}{62}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Accession codes}{61}{section.4.4}
+\contentsline {section}{\numberline {6.4}Accession codes}{63}{section.6.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Code availability}{61}{section.4.5}
+\contentsline {section}{\numberline {6.5}Code availability}{63}{section.6.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{I\hspace {1em}C3PO}{62}{part.1}
+\contentsline {part}{II\hspace {1em}C3PO}{64}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Introduction}{63}{chapter.5}
+\contentsline {chapter}{\numberline {7}Introduction}{65}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}C3PO PAR-CLIP}{65}{section.5.1}
+\contentsline {chapter}{\numberline {8}C3PO PAR-CLIP}{67}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Biochemical characterization}{66}{section.5.2}
+\contentsline {chapter}{\numberline {9}Biochemical characterization}{71}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Cleavage activity}{66}{subsection.5.2.1}
+\contentsline {section}{\numberline {9.1}C3PO possesses a length- and structure-dependent endonucleolytic activity}{71}{section.9.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.2}EMSAs}{68}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {9.1.1}EMSAs}{72}{subsection.9.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.3}Structural studies}{68}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {9.1.2}Immunoprecipitations}{74}{subsection.9.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.4}Immuno-precipitations}{70}{subsection.5.2.4}
+\contentsline {chapter}{\numberline {10}Biological characterization}{76}{chapter.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.3}Biological characterization}{70}{section.5.3}
+\contentsline {section}{\numberline {10.1}Loss-of-function studies}{76}{section.10.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.1}Loss of function studies by siRNA knockdowns}{70}{subsection.5.3.1}
+\contentsline {section}{\numberline {10.2}Translational effects}{77}{section.10.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{hydro-tRNAseq}{70}{subsubsection*.56}
+\contentsline {chapter}{\numberline {11}Discussion}{80}{chapter.11}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{mRNA seq}{70}{subsubsection*.58}
+\contentsline {chapter}{\numberline {12}Materials and methods}{82}{chapter.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.2}Translational effects}{70}{subsection.5.3.2}
+\contentsline {section}{\numberline {12.1}PAR-CLIP}{82}{section.12.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.3}Loss of function studies by CRISPR knockouts}{70}{subsection.5.3.3}
+\contentsline {section}{\numberline {12.2}Cleavage assays}{82}{section.12.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{mRNAseq}{70}{subsubsection*.59}
+\contentsline {section}{\numberline {12.3}Immunoprecipitation}{82}{section.12.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{SILAC}{70}{subsubsection*.60}
+\contentsline {section}{\numberline {12.4}EMSAs, siRNA knockdowns, and SILAC}{83}{section.12.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{Polysome profiles}{70}{subsubsection*.61}
+\contentsline {section}{\numberline {12.5}CRISPR-Cas9 knockouts}{83}{section.12.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Discussion}{70}{section.5.4}
+\contentsline {section}{\numberline {12.6}mRNAseq and analysis}{83}{section.12.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Materials and methods}{71}{chapter.6}
+\contentsline {chapter}{References}{93}{chapter*.57}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}PAR-CLIP}{71}{section.6.1}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Cleavage assays}{71}{section.6.2}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Immunoprecipitation}{71}{section.6.3}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.4}siRNA knockdowns}{71}{section.6.4}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.5}CRISPR knockouts}{71}{section.6.5}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.6}SILAC}{71}{section.6.6}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.7}From manny}{73}{section.6.7}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.8}TSN binds tRNAs}{76}{section.6.8}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.9}C3PO possesses a length- and structure-dependent endonucleolytic activity}{76}{section.6.9}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.10}Biochemical characterization of C3PO\IeC {\textquoteright }s tRNA processing activity}{76}{section.6.10}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.11}Functional validation of C3PO\IeC {\textquoteright }s targets}{77}{section.6.11}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.12}C3PO sumary report 2014}{77}{section.6.12}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.13}C3PO summary from annual report 2015}{79}{section.6.13}
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.14}C3PO summary from annual report 2016}{80}{section.6.14}
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{References}{91}{chapter*.64}
+\contentsline {chapter}{\numberline {A}Expanded version of figure 3.1}{94}{appendix.A}

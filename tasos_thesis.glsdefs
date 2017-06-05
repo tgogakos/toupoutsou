@@ -268,36 +268,6 @@ parent={},%
 %
 }%
 }%
-\ifglsentryexists{miRNA}{}%
-{%
-\gls@defglossaryentry{miRNA}%
-{%
-name={miRNA},%
-sort={miRNA},%
-type={acronym},%
-first={micro RNA\glsspace (miRNA)},%
-firstplural={micro RNAs\glsspace (miRNAs)},%
-text={miRNA},%
-plural={miRNAs},%
-description={micro RNA},%
-descriptionplural={micro RNA\acrpluralsuffix },%
-symbol={\relax },%
-symbolplural={\relax },%
-user1={},%
-user2={},%
-user3={},%
-user4={},%
-user5={},%
-user6={},%
-long={micro RNA},%
-longplural={micro RNAs},%
-short={miRNA},%
-shortplural={miRNAs},%
-counter={page},%
-parent={},%
-%
-}%
-}%
 \ifglsentryexists{nt}{}%
 {%
 \gls@defglossaryentry{nt}%
@@ -683,6 +653,36 @@ long={translin-associated protein X, also known as TRAX},%
 longplural={translin-associated protein X, also known as TRAXs},%
 short={TSNAX},%
 shortplural={TSNAXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{EMSA}{}%
+{%
+\gls@defglossaryentry{EMSA}%
+{%
+name={EMSA},%
+sort={EMSA},%
+type={acronym},%
+first={electrophoretic mobility shift assay\glsspace (EMSA)},%
+firstplural={electrophoretic mobility shift assays\glsspace (EMSAs)},%
+text={EMSA},%
+plural={EMSAs},%
+description={electrophoretic mobility shift assay},%
+descriptionplural={electrophoretic mobility shift assay\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={electrophoretic mobility shift assay},%
+longplural={electrophoretic mobility shift assays},%
+short={EMSA},%
+shortplural={EMSAs},%
 counter={page},%
 parent={},%
 %
