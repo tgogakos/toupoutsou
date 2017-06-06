@@ -1,0 +1,63 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Doctoral thesis outline}}{4}{figure.1.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Infrastructure components and interactions}}{14}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fault injection in latches of RT-Level model}}{19}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Fault injection in wires of Gate-Level model (resources for 3 out of 10 fault injection sites shown)}}{21}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Infrastructure utilization flow-chart}}{21}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Example of classifying a low-level fault as a Type 3 ILE (incorrect register used)}}{28}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Percentage of stuck-at faults causing each ILE group for each of the seven benchmarks}}{34}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Average number of stuck-at faults causing each ILE Type and subsets causing stalled execution}}{37}{figure.2.7}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Average time-stamp of ILE identification and subsequent pipeline stalling (in clock cycles)}}{39}{figure.2.8}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Comparison between ILE Types caused by RT- vs. Gate-Level faults}}{39}{figure.2.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Scheduler}}}{39}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ROB}}}{39}{subfigure.9.2}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Comparison between ILE Types caused by stuck-at vs. transient faults in the Scheduler and the ROB}}{43}{figure.2.10}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Block diagram of IVM Scheduler}}{51}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Hardware additions to the IVM Scheduler to support the proposed CED scheme}}{54}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Invariance checking by proposed CED scheme}}{55}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Faults activated in $k$ benchmarks, $k \in [1, \dots ,6]$}}{60}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Coverage of proposed CED scheme}}{61}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces CED effectiveness in detecting a fault across all benchmarks wherein it is activated }}{62}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Faults violating $k$ invariances, $k \in [1, \dots ,4]$}}{63}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Total and detected faults causing each ILE group}}{64}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Effectiveness of invariances on ILE groups}}{65}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces T1 PCX - FPU - CPX interface \cite {Su06}}}{80}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces T1 FPU functional block diagram \cite {Su06}}}{81}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Block diagram of CED and signature calculation}}{85}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Simulation infrastructure}}{89}{figure.3.13}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces FPU Hierarchy and area breakdown}}{90}{figure.3.14}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Error classification in FPU modules}}{94}{figure.3.15}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Power overhead}}{97}{figure.3.16}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces P6 architecture \cite {GW95}}}{110}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Flow diagram of GSV-based ranking method}}{111}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Coverage comparison of AVF-based and GSV-based ranked lists in IVM}}{119}{figure.4.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {IVM Scheduler}}}{119}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {IVM ROB}}}{119}{subfigure.3.2}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Coverage comparison of AVF-based and GSV-based ranked lists in P6}}{120}{figure.4.4}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {P6 Scheduler}}}{120}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {P6 ROB}}}{120}{subfigure.4.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example of parity selection for protecting memory words}}{126}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Bitwise probability distribution in $j$-wide MBUs}}{131}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Typically observed fail bit patterns \cite {georgakos2007investigation}}}{138}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Compact mirror layout of arrays \cite {george2010transient}}}{138}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces MWVF reduction for different configuration of parity trees}}{150}{figure.5.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Alpha 21264 instruction queue}}}{150}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Intel P6 Reservation Station structure}}}{150}{subfigure.5.2}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces MVWF reduction of ILP solution compared to simple heuristic algorithm}}{151}{figure.5.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Alpha 21264 instruction queue}}}{151}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Intel P6 Reservation Station structure}}}{151}{subfigure.6.2}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Physical interleaving \cite {slayman2005cache}}}{152}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Example of Vulnerability-based Interleaving}}{153}{figure.5.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial order of bit lines}}}{153}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Order of bit lines after VBI}}}{153}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Post-VBI word line including parity bit}}}{153}{subfigure.8.3}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Pre- and Post-VBI order of bit-lines in the instruction queue (10\% parity-protected bit-lines)}}{154}{figure.5.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial order of bit-lines in the instruction queue}}}{154}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Order of bit-lines after VBI}}}{154}{subfigure.9.2}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Vulnerability reduction estimates for different parity schemes}}{155}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Alpha IBOX \cite {matson1998circuit,buyuktosunoglu2002oldest}}}{155}{figure.5.11}
+\addvspace {10\p@ }

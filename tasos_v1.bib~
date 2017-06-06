@@ -1,0 +1,582 @@
+%% Created using Papers on Mon, 22 May 2017.
+%% http://papersapp.com/papers/
+
+@article{Maraia:2010kx,
+author = {Maraia, Richard J and Lamichhane, Tek N},
+title = {{3{\textasciiacute} processing of eukaryotic precursor tRNAs}},
+journal = {Wiley Interdisciplinary Reviews: RNA},
+year = {2010},
+volume = {2},
+number = {3},
+pages = {362--375},
+month = nov
+}
+
+@article{Arimbasseri:2016ey,
+author = {Arimbasseri, Aneeshkumar G and Maraia, Richard J},
+title = {{RNA Polymerase III Advances: Structural and tRNA Functional Views}},
+journal = {Trends in Biochemical Sciences},
+year = {2016},
+pages = {1--14},
+month = apr
+}
+
+@article{Nielsen:2013be,
+author = {Nielsen, Soren and Yuzenkova, Yulia and Zenkin, Nikolay},
+title = {{Mechanism of eukaryotic RNA polymerase III transcription termination.}},
+journal = {Science},
+year = {2013},
+volume = {340},
+number = {6140},
+pages = {1577--1580},
+month = jun
+}
+
+@article{Arimbasseri:2014hj,
+author = {Arimbasseri, Aneeshkumar G and Kassavetis, George A and Maraia, Richard J},
+title = {{Transcription. Comment on "Mechanism of eukaryotic RNA polymerase III transcription termination".}},
+journal = {Science},
+year = {2014},
+volume = {345},
+number = {6196},
+pages = {524--524},
+month = aug
+}
+
+@article{Sarin:2015ht,
+author = {Sarin, L Peter and Leidel, Sebastian A},
+title = {{Modify or die? - RNA modification defects in metazoans}},
+journal = {RNA Biology},
+year = {2015},
+pages = {00--00},
+month = feb
+}
+
+@article{Gebetsberger:2014bg,
+author = {Gebetsberger, Jennifer and Polacek, Norbert},
+title = {{Slicing tRNAs to boost functional ncRNA diversity}},
+journal = {RNA Biology},
+year = {2014},
+volume = {10},
+number = {12},
+pages = {1798--1806},
+month = oct
+}
+
+@article{Iben:2012cy,
+author = {Iben, James R and Maraia, Richard J},
+title = {{tRNAomics: tRNA gene copy number variation and codon use provide bioinformatic evidence of a new anticodon:codon wobble pair in a eukaryote.}},
+journal = {RNA},
+year = {2012},
+volume = {18},
+number = {7},
+pages = {1358--1372},
+month = jul
+}
+
+@article{Saikia:2010eq,
+author = {Saikia, M and Fu, Y and Pavon-Eternod, M and He, C and Pan, T},
+title = {{Genome-wide analysis of N1-methyl-adenosine modification in human tRNAs}},
+journal = {RNA},
+year = {2010},
+volume = {16},
+number = {7},
+pages = {1317--1327},
+month = jun
+}
+
+@article{Phizicky:2015ci,
+author = {Phizicky, Eric M and Hopper, Anita K},
+title = {{tRNA processing, modification, and subcellular dynamics: past, present, and future}},
+journal = {RNA},
+year = {2015},
+volume = {21},
+number = {4},
+pages = {483--485},
+month = mar
+}
+
+@book{Hartmann:2009fr,
+author = {Hartmann, Roland K and {\ss}ringer, Markus Go and th, Bettina Spa and Fischer, Susan and Marchfelder, Anita},
+title = {{Chapter 8 - The Making of tRNAs and More - RNase P and tRNase Z}},
+publisher = {Elsevier Inc.},
+year = {2009},
+volume = {85},
+series = {Progress in Molecular Biology and Translational Science},
+edition = {1}
+}
+
+@article{Namavar:2011ew,
+author = {Namavar, Yasmin and Barth, Peter G and Poll-The, Bwee Tien and Baas, Frank},
+title = {{Classification, diagnosis and potential mechanisms in Pontocerebellar Hypoplasia}},
+journal = {Orphanet Journal of Rare Diseases},
+year = {2011},
+volume = {6},
+number = {1},
+pages = {50},
+month = jul
+}
+
+@article{Rijal:2012cd,
+author = {Rijal, K and Maraia, R J},
+title = {{RNA polymerase III mutants in TFIIF~-like C37 that cause terminator readthrough with no decrease in transcription output}},
+journal = {Nucleic Acids Research},
+year = {2012},
+volume = {41},
+number = {1},
+pages = {139--155},
+month = dec
+}
+
+@article{Anonymous:fEzK0GIJ,
+author = {Hani, J and Feldmann, H},
+title = {{tRNA genes and retroelements in the yeast genome.}},
+journal = {Nucleic Acids Research},
+year = {1998},
+volume = {26},
+number = {3},
+pages = {689--696},
+month = feb
+}
+
+@article{Orioli:2011hc,
+author = {Orioli, A and Pascali, C and Quartararo, J and Diebel, K W and Praz, V and Romascano, D and Percudani, R and van Dyk, L F and Hernandez, N and Teichmann, M and Dieci, G},
+title = {{Widespread occurrence of non-canonical transcription termination by human RNA polymerase III}},
+journal = {Nucleic Acids Research},
+year = {2011},
+volume = {39},
+number = {13},
+pages = {5499--5512},
+month = jul
+}
+
+@article{Juhling:2009ip,
+author = {Juhling, F and Morl, M and HARTMANN, R K and Sprinzl, M and Stadler, P F and Putz, J},
+title = {{tRNAdb 2009: compilation of tRNA sequences and tRNA genes}},
+journal = {Nucleic Acids Research},
+year = {2009},
+volume = {37},
+number = {Database},
+pages = {D159--D162},
+month = jan
+}
+
+@article{Lowe:1997uc,
+author = {Lowe, T M and Eddy, S R},
+title = {{tRNAscan-SE: a program for improved detection of transfer RNA genes in genomic sequence.}},
+journal = {Nucleic Acids Research},
+year = {1997},
+volume = {25},
+number = {5},
+pages = {955--964},
+month = mar
+}
+
+@article{Dubrovsky:2004dm,
+author = {Dubrovsky, E B},
+title = {{Drosophila RNase Z processes mitochondrial and nuclear pre-tRNA 3' ends in vivo}},
+journal = {Nucleic Acids Research},
+year = {2004},
+volume = {32},
+number = {1},
+pages = {255--262},
+month = jan
+}
+
+@article{Keller:2013ca,
+author = {Keller, Claudia and Kulasegaran-Shylini, Raghavendran and Shimada, Yukiko and Hotz, Hans-Rudolf and hler, Marc B uuml},
+title = {{Noncoding RNAs prevent spreading of a repressive histone mark}},
+journal = {Nature Structural {\&}amp; Molecular Biology},
+year = {2013},
+pages = {1--8},
+month = jul
+}
+
+@article{Oler:2010fb,
+author = {Oler, Andrew J and Alla, Ravi K and Roberts, Douglas N and Wong, Alexander and Hollenhorst, Peter C and Chandler, Katherine J and Cassiday, Patrick A and Nelson, Cassie A and Hagedorn, Curt H and Graves, Barbara J and Cairns, Bradley R},
+title = {{nsmb.1801}},
+journal = {Nature Structural {\&} Molecular Biology},
+year = {2010},
+volume = {17},
+number = {5},
+pages = {620--628},
+month = apr
+}
+
+@article{Bayfield:2009cx,
+author = {Bayfield, Mark A and Maraia, Richard J},
+title = {{Precursor-product discrimination by La protein during tRNA metabolism}},
+journal = {Nature Structural {\&} Molecular Biology},
+year = {2009},
+volume = {16},
+number = {4},
+pages = {430--437},
+month = mar
+}
+
+@article{Kirchner:2014bq,
+author = {Kirchner, Sebastian and Ignatova, Zoya},
+title = {{Emerging roles of tRNA in adaptive translation, signalling dynamics and disease}},
+journal = {Nature Publishing Group},
+year = {2014},
+volume = {16},
+number = {2},
+pages = {98--112},
+month = dec
+}
+
+@article{Redko:2007bt,
+author = {Redko, Yulia and Li de laSierra-Gallay, In{\'e}s and Condon, Ciar{\'a}n},
+title = {{When all's zed and done: the structure and function of RNase Z in prokaryotes}},
+journal = {Nature Reviews Microbiology},
+year = {2007},
+volume = {5},
+number = {4},
+pages = {278--286},
+month = apr
+}
+
+@article{Underwood:2010fr,
+author = {Underwood, Jason G and Uzilov, Andrew V and Katzman, Sol and Onodera, Courtney S and Mainzer, Jacob E and Mathews, David H and Lowe, Todd M and Salama, Sofie R and Haussler, David},
+title = {{FragSeq: transcriptome-wide RNA structure probing using high-throughput sequencing}},
+journal = {Nature Methods},
+year = {2010},
+volume = {7},
+number = {12},
+pages = {995--1001},
+month = nov
+}
+
+@article{Kutter:2011ff,
+author = {Kutter, Claudia and Brown, Gordon D and Gon{\c c}alves, {\^A}ngela and Wilson, Michael D and Watt, Stephen and Brazma, Alvis and White, Robert J and Odom, Duncan T},
+title = {{Pol III binding in six mammals shows conservation among amino acid isotypes despite divergence among tRNA genes}},
+journal = {Nature Genetics},
+year = {2011},
+volume = {43},
+number = {10},
+pages = {948--955},
+month = aug
+}
+
+@article{Maraia:2006in,
+author = {Maraia, Richard J and Bayfield, Mark A},
+title = {{The La Protein-RNA Complex Surfaces}},
+journal = {Molecular Cell},
+year = {2006},
+volume = {21},
+number = {2},
+pages = {149--152},
+month = jan
+}
+
+@article{Arimbasseri:2015jg,
+author = {Arimbasseri, Aneeshkumar G and Maraia, Richard J},
+title = {{Mechanism of Transcription Termination by RNA Polymerase III Utilizes a Non-template Strand Sequence-Specific Signal Element}},
+journal = {Molecular Cell},
+year = {2015},
+volume = {58},
+number = {6},
+pages = {1124--1132},
+month = jun
+}
+
+@article{Hasler:2016ce,
+author = {Hasler, Daniele and Lehmann, Gerhard and Murakawa, Yasuhiro and Klironomos, Filippos and Jakob, Leonhard and Gr{\"a}sser, Friedrich A and Rajewsky, Nikolaus and Landthaler, Markus and Meister, Gunter},
+title = {{The Lupus Autoantigen La Prevents Mis-channeling of tRNA Fragments into the Human MicroRNA Pathway.}},
+journal = {Molecular Cell},
+year = {2016},
+volume = {63},
+number = {1},
+pages = {110--124},
+month = jul
+}
+
+@article{Cherkasova:2012fz,
+author = {Cherkasova, Vera and Maury, Luis Lopez and Bacikova, Dagmar and Pridham, Kevin and B{\"a}hler, J{\"u}rg and Maraia, Richard J},
+title = {{Altered nuclear tRNA metabolism in La-deleted Schizosaccharomyces pombe is accompanied by a nutritional stress response involving Atf1p and Pcr1p that is suppressible by Xpo-t/Los1p.}},
+journal = {Molecular Biology of the Cell},
+year = {2012},
+volume = {23},
+number = {3},
+pages = {480--491},
+month = feb
+}
+
+@article{Whitney:2007dk,
+author = {Whitney, Michael L and Hurto, Rebecca L and Shaheen, Hussam H and Hopper, Anita K},
+title = {{Rapid and reversible nuclear accumulation of cytoplasmic tRNA in response to nutrient availability.}},
+journal = {Molecular Biology of the Cell},
+year = {2007},
+volume = {18},
+number = {7},
+pages = {2678--2686},
+month = jul
+}
+
+@article{Arimbasseri:2013by,
+author = {Arimbasseri, A G and Maraia, R J},
+title = {{Distinguishing Core and Holoenzyme Mechanisms of Transcription Termination by RNA Polymerase III}},
+journal = {Molecular and Cellular Biology},
+year = {2013},
+volume = {33},
+number = {8},
+pages = {1571--1581},
+month = mar
+}
+
+@article{Anonymous:SR4IwQeK,
+author = {Bolton, Eric C and Boeke, Jef D},
+title = {{Transcriptional interactions between yeast tRNA genes, flanking genes and Ty elements: a genomic point of view.}},
+journal = {Genome Research},
+year = {2003},
+volume = {13},
+number = {2},
+pages = {254--263},
+month = feb
+}
+
+@article{Artieri:2014kz,
+author = {Artieri, Carlo G and Fraser, Hunter B},
+title = {{Accounting for biases in riboprofiling data indicates a major role for proline in stalling translation.}},
+journal = {Genome Research},
+year = {2014},
+volume = {24},
+number = {12},
+pages = {2011--2021},
+month = dec
+}
+
+@article{Turowski:2016hj,
+author = {Turowski, Tomasz W and Le{\'{s}}niewska, Ewa and Delan-Forino, Clementine and Sayou, Camille and Boguta, Magdalena and Tollervey, David},
+title = {{Global analysis of transcriptionally engaged yeast RNA polymerase III reveals extended tRNA transcripts.}},
+journal = {Genome Research},
+year = {2016},
+pages = {gr.205492.116--13},
+month = may
+}
+
+@article{Anonymous:2013fv,
+author = {Kishore, Shivendra and Gruber, Andreas R and Jedlinski, Dominik J and Syed, Afzal P and Jorjani, Hadi and Zavolan, Mihaela},
+title = {{Insights into snoRNA biogenesis and processing from PAR-CLIP of snoRNA core proteins and small RNA sequencing.}},
+journal = {Genome Biology},
+year = {2013},
+volume = {14},
+number = {5},
+pages = {R45}
+}
+
+@article{Hopper:2013dl,
+author = {Hopper, Anita K},
+title = {{Transfer RNA post-transcriptional processing, turnover, and subcellular dynamics in the yeast Saccharomyces cerevisiae.}},
+journal = {Genetics},
+year = {2013},
+volume = {194},
+number = {1},
+pages = {43--67},
+month = may
+}
+
+@article{Phizicky:2010jf,
+author = {Phizicky, Eric M and Hopper, Anita K},
+title = {{tRNA biology charges to the front.}},
+journal = {Genes {\&} Development},
+year = {2010},
+volume = {24},
+number = {17},
+pages = {1832--1860},
+month = sep
+}
+
+@article{Haeusler:2008hz,
+author = {Haeusler, R A and Pratt-Hyatt, M and Good, P D and Gipson, T A and Engelke, D R},
+title = {{Clustering of yeast tRNA genes is mediated by specific association of condensin with tRNA gene transcription complexes}},
+journal = {Genes {\&} Development},
+year = {2008},
+volume = {22},
+number = {16},
+pages = {2204--2214},
+month = aug
+}
+
+@article{Dhungel:2012dc,
+author = {Dhungel, N and Hopper, A K},
+title = {{Beyond tRNA cleavage: novel essential function for yeast tRNA splicing endonuclease unrelated to tRNA processing}},
+journal = {Genes {\&} Development},
+year = {2012},
+volume = {26},
+number = {5},
+pages = {503--514},
+month = mar
+}
+
+@article{Wu:2014fb,
+author = {Wu, J and Hopper, A K},
+title = {{Healing for destruction: tRNA intron degradation in yeast is a two-step cytoplasmic process catalyzed by tRNA ligase Rlg1 and 5'-to-3' exonuclease Xrn1}},
+journal = {Genes {\&} Development},
+year = {2014},
+volume = {28},
+number = {14},
+pages = {1556--1561},
+month = jul
+}
+
+@article{Huang:2015gk,
+author = {Huang, Hsiao-Yun and Hopper, Anita K},
+title = {{In vivo biochemical analyses reveal distinct roles of $\beta$-importins and eEF1A in tRNA subcellular traffic}},
+journal = {Genes {\&} Development},
+year = {2015},
+volume = {29},
+number = {7},
+pages = {772--783},
+month = apr
+}
+
+@article{Gu:2003jj,
+author = {Gu, W},
+title = {{tRNAHis maturation: An essential yeast protein catalyzes addition of a guanine nucleotide to the 5' end of tRNAHis}},
+journal = {Genes {\&} Development},
+year = {2003},
+volume = {17},
+number = {23},
+pages = {2889--2901},
+month = dec
+}
+
+@article{Iben:2014dt,
+author = {Iben, James R and Maraia, Richard J},
+title = {{tRNA gene copy number variation in humans}},
+journal = {Gene},
+year = {2014},
+volume = {536},
+number = {2},
+pages = {376--384},
+month = feb
+}
+
+@article{Kolitz:2010hk,
+author = {Kolitz, Sarah E and Lorsch, Jon R},
+title = {{Eukaryotic initiator tRNA: Finely tuned and ready for action}},
+journal = {FEBS Letters},
+year = {2010},
+volume = {584},
+number = {2},
+pages = {396--404},
+month = jan
+}
+
+@article{Kolitz:2010hka,
+author = {Kolitz, Sarah E and Lorsch, Jon R},
+title = {{Eukaryotic initiator tRNA: Finely tuned and ready for action}},
+journal = {FEBS Letters},
+year = {2010},
+volume = {584},
+number = {2},
+pages = {396--404},
+month = jan
+}
+
+@article{Hopper:2010ho,
+author = {Hopper, Anita K and Pai, Dave A and Engelke, David R},
+title = {{Cellular dynamics of tRNAs and their genes}},
+journal = {FEBS Letters},
+year = {2010},
+volume = {584},
+number = {2},
+pages = {310--317},
+month = jan
+}
+
+@article{Spath:2007eo,
+author = {Spath, B and Canino, G and Marchfelder, A},
+title = {{tRNase Z: the end is not in sight.}},
+journal = {Cellular and Molecular Life Sciences},
+year = {2007},
+volume = {64},
+number = {18},
+pages = {2404--2412},
+month = sep
+}
+
+@article{Presnyak:2015jb,
+author = {Presnyak, Vladimir and Alhusaini, Najwa and Chen, Ying-Hsin and Martin, Sophie and Morris, Nathan and Kline, Nicholas and Olson, Sara and Weinberg, David and Baker, Kristian E and Graveley, Brenton R and Coller, Jeff},
+title = {{Codon Optimality Is a Major Determinant of mRNA Stability}},
+journal = {Cell},
+year = {2015},
+volume = {160},
+number = {6},
+pages = {1111--1124},
+month = mar
+}
+
+@article{Bayfield:2010cs,
+author = {Bayfield, Mark A and Yang, Ruiqing and Maraia, Richard J},
+title = {{Conserved and divergent features of the structure and function of La and La-related proteins (LARPs)}},
+journal = {BBA - Gene Regulatory Mechanisms},
+year = {2010},
+volume = {1799},
+number = {5-6},
+pages = {365--378},
+month = may
+}
+
+@article{Arimbasseri:2013dg,
+author = {Arimbasseri, Aneeshkumar G and Rijal, Keshab and Maraia, Richard J},
+title = {{Transcription termination by the eukaryotic RNA polymerase III}},
+journal = {BBA - Gene Regulatory Mechanisms},
+year = {2013},
+volume = {1829},
+number = {3-4},
+pages = {318--330},
+month = mar
+}
+
+@article{Rossmanith:2012bg,
+author = {Rossmanith, Walter},
+title = {{Of P and Z: Mitochondrial tRNA processing enzymes}},
+journal = {BBA - Gene Regulatory Mechanisms},
+year = {2012},
+volume = {1819},
+number = {9-10},
+pages = {1017--1026},
+month = sep
+}
+
+@article{GriffithsJones:2007ek,
+author = {Griffiths-Jones, Sam},
+title = {{Annotating Noncoding RNA Genes}},
+journal = {Annual Review of Genomics and Human Genetics},
+year = {2007},
+volume = {8},
+number = {1},
+pages = {279--298},
+month = sep
+}
+
+@article{Anonymous:_giDWEK1,
+title = {{Site-specific Mutagenesis on a Human Initiator Methionine tRNA Gene within}},
+year = {2001},
+pages = {1--8},
+month = jul
+}
+
+@article{Anonymous:hVHZyNFR,
+title = {{Saccharomyces}},
+year = {2005},
+pages = {1--9},
+month = feb
+}
+
+@article{Anonymous:o5hcwh_z,
+title = {{Attempted Expression of a Human Initiator tRNA Gene in}},
+year = {2001},
+pages = {1--7},
+month = jul
+}
+
+@article{Anonymous:bnteBJtp,
+title = {{Compilation of tRNA sequences and sequences of tRNA genes}},
+year = {1997},
+pages = {1--6},
+month = dec
+}
+

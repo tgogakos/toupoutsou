@@ -1,0 +1,61 @@
+\BOOKMARK [0][-]{section*.4}{List of Figures}{}% 1
+\BOOKMARK [0][-]{section*.6}{List of Tables}{}% 2
+\BOOKMARK [0][-]{section*.8}{List of Abbreviations}{}% 3
+\BOOKMARK [0][-]{section*.10}{Glossary}{}% 4
+\BOOKMARK [-1][-]{part.1}{I Characterizing human tRNAs}{}% 5
+\BOOKMARK [0][-]{chapter.1}{Introduction}{part.1}% 6
+\BOOKMARK [1][-]{section.1.1}{Overview}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{tRNA biogenesis}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{tRNA sequencing}{chapter.1}% 9
+\BOOKMARK [1][-]{section.1.4}{Previous efforts for genome-wide tRNA annotation}{chapter.1}% 10
+\BOOKMARK [1][-]{section.1.5}{Small RNA sequencing protocol}{chapter.1}% 11
+\BOOKMARK [0][-]{chapter.2}{Hydro-tRNAseq}{part.1}% 12
+\BOOKMARK [1][-]{section.2.1}{Experimental innovation}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.2}{Bioinformatics analysis pipeline}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.1}{Hierarchical sequence read mapping}{section.2.2}% 15
+\BOOKMARK [2][-]{subsection.2.2.2}{tRNA gene annotation}{section.2.2}% 16
+\BOOKMARK [1][-]{section.2.3}{Pipeline outputs}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{Mature tRNA alignment}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{Pre-tRNA alignment}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{Need for pre-tRNA enrichment}{chapter.2}% 20
+\BOOKMARK [1][-]{section.2.5}{PAR-CLIP methodology for the study or RNA-RBP interactions}{chapter.2}% 21
+\BOOKMARK [1][-]{section.2.6}{SSB PAR-CLIP}{chapter.2}% 22
+\BOOKMARK [1][-]{section.2.7}{tRNA gene annotation}{chapter.2}% 23
+\BOOKMARK [0][-]{chapter.3}{Applications and biological insights}{part.1}% 24
+\BOOKMARK [1][-]{section.3.1}{tRNA gene abundance does not correlate with tRNA gene count on the isotype level}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{tRNA gene abundance does not correlate with tRNA gene count on the isoacceptor level}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{Mature tRNA abundance does not correlate with pre-tRNA abundance}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.4}{tRNA transcription initiation and termination}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.5}{Ribonucleotide modifications}{chapter.3}% 29
+\BOOKMARK [1][-]{section.3.6}{Annotation of intron-containing tRNA genes}{chapter.3}% 30
+\BOOKMARK [1][-]{section.3.7}{Hydro-tRNAseq application in human disease}{chapter.3}% 31
+\BOOKMARK [2][-]{subsection.3.7.1}{Plausible pathomechanisms of CLP1 mutations}{section.3.7}% 32
+\BOOKMARK [0][-]{chapter.4}{Comparison with other methods}{part.1}% 33
+\BOOKMARK [0][-]{chapter.5}{Discussion}{part.1}% 34
+\BOOKMARK [1][-]{section.5.1}{Summary}{chapter.5}% 35
+\BOOKMARK [0][-]{chapter.6}{Materials and methods}{part.1}% 36
+\BOOKMARK [1][-]{section.6.1}{Hydro-tRNAseq}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.2}{SSB PAR-CLIP}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.3}{Bioinformatic analysis}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.4}{Accession codes}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.5}{Code availability}{chapter.6}% 41
+\BOOKMARK [-1][-]{part.2}{II C3PO}{}% 42
+\BOOKMARK [0][-]{chapter.7}{Introduction}{part.2}% 43
+\BOOKMARK [0][-]{chapter.8}{C3PO PAR-CLIP}{part.2}% 44
+\BOOKMARK [0][-]{chapter.9}{Biochemical characterization}{part.2}% 45
+\BOOKMARK [1][-]{section.9.1}{C3PO possesses a length- and structure-dependent endonucleolytic activity}{chapter.9}% 46
+\BOOKMARK [2][-]{subsection.9.1.1}{EMSAs}{section.9.1}% 47
+\BOOKMARK [2][-]{subsection.9.1.2}{Immunoprecipitations}{section.9.1}% 48
+\BOOKMARK [0][-]{chapter.10}{Biological characterization}{part.2}% 49
+\BOOKMARK [1][-]{section.10.1}{Loss-of-function studies}{chapter.10}% 50
+\BOOKMARK [1][-]{section.10.2}{Translational effects}{chapter.10}% 51
+\BOOKMARK [0][-]{chapter.11}{Discussion}{part.2}% 52
+\BOOKMARK [0][-]{chapter.12}{Materials and methods}{part.2}% 53
+\BOOKMARK [1][-]{section.12.1}{PAR-CLIP}{chapter.12}% 54
+\BOOKMARK [1][-]{section.12.2}{Cleavage assays}{chapter.12}% 55
+\BOOKMARK [1][-]{section.12.3}{Immunoprecipitation}{chapter.12}% 56
+\BOOKMARK [1][-]{section.12.4}{EMSAs, siRNA knockdowns, and SILAC}{chapter.12}% 57
+\BOOKMARK [1][-]{section.12.5}{CRISPR-Cas9 knockouts}{chapter.12}% 58
+\BOOKMARK [1][-]{section.12.6}{mRNAseq and analysis}{chapter.12}% 59
+\BOOKMARK [0][-]{chapter*.57}{References}{part.2}% 60
+\BOOKMARK [0][-]{appendix.A}{Expanded version of figure 3.1}{part.2}% 61

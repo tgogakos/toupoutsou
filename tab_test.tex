@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{supertabular}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\begin{document}
+
+
+\listoftables
+
+\begin{center}
+\tablefirsthead{%
+\hline
+\multicolumn{1}{|c}{Number} &
+\multicolumn{1}{c}{Number} &
+Number &
+\multicolumn{1}{c|}{Number!} \\
+\hline}
+\tablehead{%
+\hline
+\multicolumn{4}{|l|}{continued from previous page}\\
+\hline
+\multicolumn{1}{|c}{Number} &
+\multicolumn{1}{c}{Number} &
+Number &
+\multicolumn{1}{c|}{Number} \\
+\hline}
+\tabletail{%
+\hline
+\multicolumn{4}{|r|}{ ontinued on next page}\\
+\hline}
+\tablelasttail{\hline}
+\bottomcaption{This table is split across pages}
+\begin{supertabular}{rrrr}
+1 & 1 & 1 & 1 \\
+2 & 4 & 16 & 2 \\
+3 & 9 & 81 & 6 \\
+4 & 16 & 256 & 24 \\
+19 & 361 & 130321 & 1.21645100E+17\\
+20 & 400 & 160000 & 2.43290200E+18\\
+\end{supertabular}
+\end{center}
+
+\end{document}

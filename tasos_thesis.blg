@@ -1,0 +1,21 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'tasos_thesis.blg'
+[64] biber-darwin:290> INFO - === Mon Jun  5, 2017, 12:11:52
+[88] Biber.pm:351> INFO - Reading 'tasos_thesis.bcf'
+[210] Biber.pm:776> INFO - Found 84 citekeys in bib section 0
+[225] Biber.pm:3493> INFO - Processing section 0
+[255] Biber.pm:3657> INFO - Looking for bibtex format file './tasos_v2.bib' for section 0
+[264] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[271] bibtex.pm:1048> INFO - Found BibTeX data source './tasos_v2.bib'
+[278] Utils.pm:149> WARN - Duplicate entry key: 'Ivanov:2011iu' in file './tasos_v2.bib', skipping ...
+[279] Utils.pm:149> WARN - Duplicate entry key: 'Gu:2003jj' in file './tasos_v2.bib', skipping ...
+[280] Utils.pm:149> WARN - Duplicate entry key: 'Wu:2014fb' in file './tasos_v2.bib', skipping ...
+[280] Utils.pm:149> WARN - Duplicate entry key: 'Li:2012kob' in file './tasos_v2.bib', skipping ...
+[281] Utils.pm:149> WARN - Duplicate entry key: 'Popow:2014ita' in file './tasos_v2.bib', skipping ...
+[492] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[492] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[492] Biber.pm:3306> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en-US'
+[492] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[562] bbl.pm:526> INFO - Writing 'tasos_thesis.bbl' with encoding 'UTF-8'
+[578] bbl.pm:619> INFO - Output to tasos_thesis.bbl
+[579] Biber.pm:108> INFO - WARNINGS: 5

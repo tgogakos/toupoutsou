@@ -1,0 +1,780 @@
+\ifglsentryexists{trna}{}%
+{%
+\gls@defglossaryentry{trna}%
+{%
+name={tRNA},%
+sort={tRNA},%
+type={acronym},%
+first={transfer RNA\glsspace (tRNA)},%
+firstplural={transfer RNAs\glsspace (tRNAs)},%
+text={tRNA},%
+plural={tRNAs},%
+description={transfer RNA},%
+descriptionplural={transfer RNA\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={transfer RNA},%
+longplural={transfer RNAs},%
+short={tRNA},%
+shortplural={tRNAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{pretrna}{}%
+{%
+\gls@defglossaryentry{pretrna}%
+{%
+name={pre-tRNA},%
+sort={pre-tRNA},%
+type={acronym},%
+first={precursor tRNA\glsspace (pre-tRNA)},%
+firstplural={precursor tRNAs\glsspace (pre-tRNAs)},%
+text={pre-tRNA},%
+plural={pre-tRNAs},%
+description={precursor tRNA},%
+descriptionplural={precursor tRNA\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={precursor tRNA},%
+longplural={precursor tRNAs},%
+short={pre-tRNA},%
+shortplural={pre-tRNAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ncrna}{}%
+{%
+\gls@defglossaryentry{ncrna}%
+{%
+name={ncRNA},%
+sort={ncRNA},%
+type={acronym},%
+first={noncoding RNA\glsspace (ncRNA)},%
+firstplural={noncoding RNAs\glsspace (ncRNAs)},%
+text={ncRNA},%
+plural={ncRNAs},%
+description={noncoding RNA},%
+descriptionplural={noncoding RNA\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={noncoding RNA},%
+longplural={noncoding RNAs},%
+short={ncRNA},%
+shortplural={ncRNAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{polr3}{}%
+{%
+\gls@defglossaryentry{polr3}%
+{%
+name={POLR3},%
+sort={POLR3},%
+type={acronym},%
+first={human RNA polymerase III\glsspace (POLR3)},%
+firstplural={human RNA polymerase IIIs\glsspace (POLR3s)},%
+text={POLR3},%
+plural={POLR3s},%
+description={human RNA polymerase III},%
+descriptionplural={human RNA polymerase III\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={human RNA polymerase III},%
+longplural={human RNA polymerase IIIs},%
+short={POLR3},%
+shortplural={POLR3s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{chip}{}%
+{%
+\gls@defglossaryentry{chip}%
+{%
+name={ChIP-seq},%
+sort={ChIP-seq},%
+type={acronym},%
+first={chromatin immunoprecipitation sequencing\glsspace (ChIP-seq)},%
+firstplural={chromatin immunoprecipitation sequencings\glsspace (ChIP-seqs)},%
+text={ChIP-seq},%
+plural={ChIP-seqs},%
+description={chromatin immunoprecipitation sequencing},%
+descriptionplural={chromatin immunoprecipitation sequencing\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={chromatin immunoprecipitation sequencing},%
+longplural={chromatin immunoprecipitation sequencings},%
+short={ChIP-seq},%
+shortplural={ChIP-seqs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rnp}{}%
+{%
+\gls@defglossaryentry{rnp}%
+{%
+name={RNP},%
+sort={RNP},%
+type={acronym},%
+first={ribonucleoprotein\glsspace (RNP)},%
+firstplural={ribonucleoproteins\glsspace (RNPs)},%
+text={RNP},%
+plural={RNPs},%
+description={ribonucleoprotein},%
+descriptionplural={ribonucleoprotein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={ribonucleoprotein},%
+longplural={ribonucleoproteins},%
+short={RNP},%
+shortplural={RNPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hydroxyl}{}%
+{%
+\gls@defglossaryentry{hydroxyl}%
+{%
+name={OH},%
+sort={OH},%
+type={acronym},%
+first={hydroxyl\glsspace (OH)},%
+firstplural={hydroxyls\glsspace (OHs)},%
+text={OH},%
+plural={OHs},%
+description={hydroxyl},%
+descriptionplural={hydroxyl\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={hydroxyl},%
+longplural={hydroxyls},%
+short={OH},%
+shortplural={OHs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rnaseq}{}%
+{%
+\gls@defglossaryentry{rnaseq}%
+{%
+name={RNA-seq},%
+sort={RNA-seq},%
+type={acronym},%
+first={RNA sequencing\glsspace (RNA-seq)},%
+firstplural={RNA sequencings\glsspace (RNA-seqs)},%
+text={RNA-seq},%
+plural={RNA-seqs},%
+description={RNA sequencing},%
+descriptionplural={RNA sequencing\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={RNA sequencing},%
+longplural={RNA sequencings},%
+short={RNA-seq},%
+shortplural={RNA-seqs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rt}{}%
+{%
+\gls@defglossaryentry{rt}%
+{%
+name={RT},%
+sort={RT},%
+type={acronym},%
+first={reverse transcriptase\glsspace (RT)},%
+firstplural={reverse transcriptases\glsspace (RTs)},%
+text={RT},%
+plural={RTs},%
+description={reverse transcriptase},%
+descriptionplural={reverse transcriptase\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={reverse transcriptase},%
+longplural={reverse transcriptases},%
+short={RT},%
+shortplural={RTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nt}{}%
+{%
+\gls@defglossaryentry{nt}%
+{%
+name={nt},%
+sort={nt},%
+type={acronym},%
+first={nucleotide\glsspace (nt)},%
+firstplural={nucleotides\glsspace (nts)},%
+text={nt},%
+plural={nts},%
+description={nucleotide},%
+descriptionplural={nucleotide\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={nucleotide},%
+longplural={nucleotides},%
+short={nt},%
+shortplural={nts},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hek293}{}%
+{%
+\gls@defglossaryentry{hek293}%
+{%
+name={HEK293},%
+sort={HEK293},%
+type={acronym},%
+first={Human embryonic kidney cells 293\glsspace (HEK293)},%
+firstplural={Human embryonic kidney cells 293s\glsspace (HEK293s)},%
+text={HEK293},%
+plural={HEK293s},%
+description={Human embryonic kidney cells 293},%
+descriptionplural={Human embryonic kidney cells 293\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Human embryonic kidney cells 293},%
+longplural={Human embryonic kidney cells 293s},%
+short={HEK293},%
+shortplural={HEK293s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{parclip}{}%
+{%
+\gls@defglossaryentry{parclip}%
+{%
+name={PAR-CLIP},%
+sort={PAR-CLIP},%
+type={acronym},%
+first={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation\glsspace (PAR-CLIP)},%
+firstplural={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitations\glsspace (PAR-CLIPs)},%
+text={PAR-CLIP},%
+plural={PAR-CLIPs},%
+description={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation},%
+descriptionplural={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitation},%
+longplural={photoactivatable-ribonucleoside-enhanced crosslinking and immunoprecipitations},%
+short={PAR-CLIP},%
+shortplural={PAR-CLIPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rbp}{}%
+{%
+\gls@defglossaryentry{rbp}%
+{%
+name={RBP},%
+sort={RBP},%
+type={acronym},%
+first={RNA-binding protein\glsspace (RBP)},%
+firstplural={RNA-binding proteins\glsspace (RBPs)},%
+text={RBP},%
+plural={RBPs},%
+description={RNA-binding protein},%
+descriptionplural={RNA-binding protein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={RNA-binding protein},%
+longplural={RNA-binding proteins},%
+short={RBP},%
+shortplural={RBPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{4su}{}%
+{%
+\gls@defglossaryentry{4su}%
+{%
+name={4-SU},%
+sort={4-SU},%
+type={acronym},%
+first={4-thiouridine\glsspace (4-SU)},%
+firstplural={4-thiouridines\glsspace (4-SUs)},%
+text={4-SU},%
+plural={4-SUs},%
+description={4-thiouridine},%
+descriptionplural={4-thiouridine\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={4-thiouridine},%
+longplural={4-thiouridines},%
+short={4-SU},%
+shortplural={4-SUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{trbp}{}%
+{%
+\gls@defglossaryentry{trbp}%
+{%
+name={tRBP},%
+sort={tRBP},%
+type={acronym},%
+first={tRNA-binding protein\glsspace (tRBP)},%
+firstplural={tRNA-binding proteins\glsspace (tRBPs)},%
+text={tRBP},%
+plural={tRBPs},%
+description={tRNA-binding protein},%
+descriptionplural={tRNA-binding protein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={tRNA-binding protein},%
+longplural={tRNA-binding proteins},%
+short={tRBP},%
+shortplural={tRBPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SSB}{}%
+{%
+\gls@defglossaryentry{SSB}%
+{%
+name={SSB},%
+sort={SSB},%
+type={acronym},%
+first={Sj\IeC {\"o}gren syndrome type B antigen\glsspace (SSB)},%
+firstplural={Sj\IeC {\"o}gren syndrome type B antigens\glsspace (SSBs)},%
+text={SSB},%
+plural={SSBs},%
+description={Sjögren syndrome type B antigen},%
+descriptionplural={Sjögren syndrome type B antigen\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Sj\IeC {\"o}gren syndrome type B antigen},%
+longplural={Sj\IeC {\"o}gren syndrome type B antigens},%
+short={SSB},%
+shortplural={SSBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{La}{}%
+{%
+\gls@defglossaryentry{La}%
+{%
+name={La},%
+sort={La},%
+type={acronym},%
+first={Lupus La protein\glsspace (La)},%
+firstplural={Lupus La proteins\glsspace (Las)},%
+text={La},%
+plural={Las},%
+description={Lupus La protein},%
+descriptionplural={Lupus La protein\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Lupus La protein},%
+longplural={Lupus La proteins},%
+short={La},%
+shortplural={Las},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TSEN}{}%
+{%
+\gls@defglossaryentry{TSEN}%
+{%
+name={TSEN},%
+sort={TSEN},%
+type={acronym},%
+first={tRNA splicing and endonuclease complex\glsspace (TSEN)},%
+firstplural={tRNA splicing and endonuclease complexs\glsspace (TSENs)},%
+text={TSEN},%
+plural={TSENs},%
+description={tRNA splicing and endonuclease complex},%
+descriptionplural={tRNA splicing and endonuclease complex\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={tRNA splicing and endonuclease complex},%
+longplural={tRNA splicing and endonuclease complexs},%
+short={TSEN},%
+shortplural={TSENs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CLP1}{}%
+{%
+\gls@defglossaryentry{CLP1}%
+{%
+name={CLP1},%
+sort={CLP1},%
+type={acronym},%
+first={cleavage and polyadenylation factor I subunit 1\glsspace (CLP1)},%
+firstplural={cleavage and polyadenylation factor I subunit 1s\glsspace (CLP1s)},%
+text={CLP1},%
+plural={CLP1s},%
+description={cleavage and polyadenylation factor I subunit 1},%
+descriptionplural={cleavage and polyadenylation factor I subunit 1\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={cleavage and polyadenylation factor I subunit 1},%
+longplural={cleavage and polyadenylation factor I subunit 1s},%
+short={CLP1},%
+shortplural={CLP1s},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{C3PO}{}%
+{%
+\gls@defglossaryentry{C3PO}%
+{%
+name={C3PO},%
+sort={C3PO},%
+type={acronym},%
+first={component 3 promoter of RISC\glsspace (C3PO)},%
+firstplural={component 3 promoter of RISCs\glsspace (C3POs)},%
+text={C3PO},%
+plural={C3POs},%
+description={component 3 promoter of RISC},%
+descriptionplural={component 3 promoter of RISC\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={component 3 promoter of RISC},%
+longplural={component 3 promoter of RISCs},%
+short={C3PO},%
+shortplural={C3POs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TSN}{}%
+{%
+\gls@defglossaryentry{TSN}%
+{%
+name={TSN},%
+sort={TSN},%
+type={acronym},%
+first={translin\glsspace (TSN)},%
+firstplural={translins\glsspace (TSNs)},%
+text={TSN},%
+plural={TSNs},%
+description={translin},%
+descriptionplural={translin\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={translin},%
+longplural={translins},%
+short={TSN},%
+shortplural={TSNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{TSNAX}{}%
+{%
+\gls@defglossaryentry{TSNAX}%
+{%
+name={TSNAX},%
+sort={TSNAX},%
+type={acronym},%
+first={translin-associated protein X, also known as TRAX\glsspace (TSNAX)},%
+firstplural={translin-associated protein X, also known as TRAXs\glsspace (TSNAXs)},%
+text={TSNAX},%
+plural={TSNAXs},%
+description={translin-associated protein X, also known as TRAX},%
+descriptionplural={translin-associated protein X, also known as TRAX\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={translin-associated protein X, also known as TRAX},%
+longplural={translin-associated protein X, also known as TRAXs},%
+short={TSNAX},%
+shortplural={TSNAXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{EMSA}{}%
+{%
+\gls@defglossaryentry{EMSA}%
+{%
+name={EMSA},%
+sort={EMSA},%
+type={acronym},%
+first={electrophoretic mobility shift assay\glsspace (EMSA)},%
+firstplural={electrophoretic mobility shift assays\glsspace (EMSAs)},%
+text={EMSA},%
+plural={EMSAs},%
+description={electrophoretic mobility shift assay},%
+descriptionplural={electrophoretic mobility shift assay\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={electrophoretic mobility shift assay},%
+longplural={electrophoretic mobility shift assays},%
+short={EMSA},%
+shortplural={EMSAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{isotype}{}%
+{%
+\gls@defglossaryentry{isotype}%
+{%
+name={tRNA isotype},%
+sort={tRNA isotype},%
+type={main},%
+first={tRNA isotype},%
+firstplural={tRNA isotypes},%
+text={tRNA isotype},%
+plural={tRNA isotypes},%
+description={colection of tRNAs encoding the same amino acid},%
+descriptionplural={colection of tRNAs encoding the same amino acid},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{isoacceptors}{}%
+{%
+\gls@defglossaryentry{isoacceptors}%
+{%
+name={tRNA isoacceptors},%
+sort={tRNA isoacceptors},%
+type={main},%
+first={tRNA isoacceptors},%
+firstplural={tRNA isoacceptorss},%
+text={tRNA isoacceptors},%
+plural={tRNA isoacceptorss},%
+description={tRNA molecules that decode synonymous codons},%
+descriptionplural={tRNA molecules that decode synonymous codons},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{isodecoders}{}%
+{%
+\gls@defglossaryentry{isodecoders}%
+{%
+name={tRNA isodecoders},%
+sort={tRNA isodecoders},%
+type={main},%
+first={tRNA isodecoders},%
+firstplural={tRNA isodecoderss},%
+text={tRNA isodecoders},%
+plural={tRNA isodecoderss},%
+description={tRNA molecules that have the same anticodon, and thus decode the same amino acid},%
+descriptionplural={tRNA molecules that have the same anticodon, and thus decode the same amino acid},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
